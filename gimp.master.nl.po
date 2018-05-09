@@ -56,7 +56,7 @@ msgid ""
 "distributed program for such tasks as photo retouching, image composition "
 "and image authoring."
 msgstr ""
-"GIMP is en acroniem voor GNU Image Manipulation Program. Het is een "
+"GIMP is een acroniem voor GNU Image Manipulation Program. Het is een "
 "programma dat vrij wordt verspreid, en dat gebruikt wordt voor het bijwerken "
 "van foto's en het samenstellen en bewerken van afbeeldingen."
 
@@ -68,8 +68,7 @@ msgid ""
 msgstr ""
 "Het biedt vele mogelijkheden. Zo kan het worden gebruikt als eenvoudig "
 "tekenprogramma, professioneel fotobewerkingsprogramma, online systeem voor "
-"batch-verwerking, programma voor de massaproductie van afbeeldingen, "
-"programma voor het omzetten van afbeeldingsformaten, enz."
+"batch-verwerking, programma voor het omzetten van afbeeldingsformaten, enz."
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:5
 msgid ""
@@ -80,14 +79,14 @@ msgid ""
 "Microsoft Windows and OS X."
 msgstr ""
 "GIMP is uitbreidbaar. Het is ontworpen om te worden aangevuld met plug-ins "
-"en extensies, zodat het bijna alle taken aankan. Met de geavanceerd "
-"scripting interface kunt u voor alles, van de eenvoudigste taak tot de meest "
-"ingewikkelde beeldbewerkingsprocedures, gemakkelijk een script maken. GIMP "
+"en extensies, zodat het bijna alle taken aankan. Met de geavanceerde "
+"scripttaal kunt u voor alles, van de eenvoudigste taak tot de meest "
+"ingewikkelde beeldbewerkingsprocedures, makkelijk een script maken. GIMP "
 "is beschikbaar voor Linux, Microsoft Windows en OS X."
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:6
 msgid "Painting in GIMP"
-msgstr ""
+msgstr "Schilderen in GIMP"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:7
 msgid "Photo editing in GIMP"
