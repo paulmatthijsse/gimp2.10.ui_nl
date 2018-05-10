@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=Internationalisation\n"
 "POT-Creation-Date: 2018-05-08 15:19+0000\n"
-"PO-Revision-Date: 2018-05-10 11:05+0200\n"
+"PO-Revision-Date: 2018-05-10 11:38+0200\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -28688,7 +28688,7 @@ msgstr "GIMP XCF-afbeelding"
 
 #: ../app/xcf/xcf.c:272 ../app/xcf/xcf.c:360
 msgid "Memory Stream"
-msgstr ""
+msgstr "TESTO: Geheugenstroom"
 
 #: ../app/xcf/xcf.c:283
 #, c-format
