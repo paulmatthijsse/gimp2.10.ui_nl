@@ -24,21 +24,23 @@
 # Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2014, 2017.
 # André Schutten <andre_sch@zonnet.nl>, 2013, 2014.
 # Justin van Steijn <justin50@live.nl>, 2016.
+# Paul Matthijsse <paul.matthijsse@wanadoo.fr>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: gimp.gimp-2-0\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=Internationalisation\n"
 "POT-Creation-Date: 2018-05-08 15:19+0000\n"
-"PO-Revision-Date: 2018-05-11 10:34+0200\n"
+"PO-Revision-Date: 2018-05-10 20:55+0200\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
-"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Bookmarks: 18,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:1
 #: ../desktop/gimp.desktop.in.in.h:1 ../app/about.h:26
@@ -148,7 +150,7 @@ msgstr ""
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:19
 msgid "New themes for GIMP: Light, Gray, Dark, and System"
-msgstr ""
+msgstr "Nieuwe thema's voor GIMP: Licht, Grijs, Donker en Systeem"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:20
 msgid "And much, much more…"
@@ -28525,24 +28527,26 @@ msgid "%s (try %s, %s, %s)"
 msgstr "%s (probeer %s, %s, %s)"
 
 #: ../app/widgets/gimpwidgets-utils.c:1658
-#, c-format
+#, fuzzy, c-format
+#| msgid "Anti erase  (%s)"
 msgid "Built-in grayscale (%s)"
-msgstr "Ingebouwde grijswaarden (%s)"
+msgstr "Anti-gum (%s)"
 
 #: ../app/widgets/gimpwidgets-utils.c:1665
-#, c-format
+#, fuzzy, c-format
+#| msgid "Direction  (%s)"
 msgid "Built-in RGB (%s)"
-msgstr "Ingebouwd RGB (%s)"
+msgstr "Richting (%s)"
 
 #: ../app/widgets/gimpwidgets-utils.c:1682
 #, c-format
 msgid "Preferred grayscale (%s)"
-msgstr "Preferente grijswaarden (%s)"
+msgstr ""
 
 #: ../app/widgets/gimpwidgets-utils.c:1689
 #, c-format
 msgid "Preferred RGB (%s)"
-msgstr "Preferent RGB (%s)"
+msgstr ""
 
 #: ../app/widgets/widgets-enums.c:23
 msgctxt "active-color"
@@ -28557,7 +28561,7 @@ msgstr "Achtergrond"
 #: ../app/widgets/widgets-enums.c:52
 msgctxt "circle-background"
 msgid "Plain"
-msgstr "Vullen met egale kleur"
+msgstr ""
 
 #: ../app/widgets/widgets-enums.c:53
 #, fuzzy
@@ -28573,14 +28577,16 @@ msgid "Pixel"
 msgstr "Beeldpunt"
 
 #: ../app/widgets/widgets-enums.c:118
+#, fuzzy
+#| msgid "RGB (%d, %d, %d)"
 msgctxt "color-frame-mode"
 msgid "RGB (%)"
-msgstr "RGB (%)"
+msgstr "RGB (%d, %d, %d)"
 
 #: ../app/widgets/widgets-enums.c:119
 msgctxt "color-frame-mode"
 msgid "RGB (0..255)"
-msgstr "RGB (0..255)"
+msgstr ""
 
 #: ../app/widgets/widgets-enums.c:120
 msgctxt "color-frame-mode"
@@ -28590,12 +28596,12 @@ msgstr "HSV"
 #: ../app/widgets/widgets-enums.c:121
 msgctxt "color-frame-mode"
 msgid "CIE LCH"
-msgstr "CIE LCH"
+msgstr ""
 
 #: ../app/widgets/widgets-enums.c:122
 msgctxt "color-frame-mode"
 msgid "CIE LAB"
-msgstr "CIE LAB"
+msgstr ""
 
 #: ../app/widgets/widgets-enums.c:123
 msgctxt "color-frame-mode"
@@ -28683,7 +28689,7 @@ msgstr "GIMP XCF-afbeelding"
 
 #: ../app/xcf/xcf.c:272 ../app/xcf/xcf.c:360
 msgid "Memory Stream"
-msgstr "Geheugenstroom"
+msgstr "TESTO: Geheugenstroom"
 
 #: ../app/xcf/xcf.c:283
 #, c-format
@@ -28724,16 +28730,12 @@ msgid ""
 "Corrupt 'exif-data' parasite discovered.\n"
 "Exif data could not be migrated: %s"
 msgstr ""
-"Corrupte 'exif-data' ontdekt.\n"
-"Exif-gegevens konden niet worden gemigreerd: %s"
 
 #: ../app/xcf/xcf-load.c:379
 msgid ""
 "Corrupt 'gimp-metadata' parasite discovered.\n"
 "XMP data could not be migrated."
 msgstr ""
-"Corrupte 'gimp-metadata' ontdekt.\n"
-"XMP-gegevens konden niet worden gemigreerd."
 
 #: ../app/xcf/xcf-load.c:399
 #, c-format
@@ -28741,8 +28743,6 @@ msgid ""
 "Corrupt 'gimp-metadata' parasite discovered.\n"
 "XMP data could not be migrated: %s"
 msgstr ""
-"Corrupte 'gimp-metadata' ontdekt.\n"
-"XMP-gegevens konden niet worden gemigreerd: %s"
 
 #: ../app/xcf/xcf-load.c:586
 msgid ""
@@ -28757,8 +28757,8 @@ msgid ""
 "This XCF file is corrupt!  I could not even salvage any partial image data "
 "from it."
 msgstr ""
-"Dit XCF-bestand is beschadigd! Er zijn zelfs geen gedeeltelijke gegevens te "
-"redden."
+"Dit XCF-bestand is beschadigd! Ik kan zelfs geen gedeeltelijke "
+"afbeeldingsgegevens ervan redden."
 
 #: ../app/xcf/xcf-load.c:689
 msgid ""
@@ -28768,8 +28768,8 @@ msgid ""
 msgstr ""
 "XCF waarschuwing: versie 0 van het XCF-\n"
 "bestandsformaat sloeg geïndexeerde kleurenkaarten\n"
-"verkeerd op. Vervangen door\n"
-"grijswaardenkaart."
+"verkeerd op. Bezig met vervangen van\n"
+"de grijswaardenkaart."
 
 #: ../app/xcf/xcf-read.c:189
 msgid "Invalid UTF-8 string in XCF file"
@@ -28790,14 +28790,12 @@ msgstr "Fout bij schrijven XCF: %s"
 #: ../app/xcf/xcf-write.c:193
 #, c-format
 msgid "Error writing XCF: failed to allocate %d bytes of memory."
-msgstr "Fout tijdens schrijven XCF: kon geen %d bytes geheugen reserveren."
+msgstr "Fout bij schrijven XCF: kon geen %d geheugen reserveren."
 
 #: ../app/xcf/xcf-write.c:287
 #, c-format
 msgid "Error writing XCF: unsupported BPC when writing pixel: %d"
-msgstr ""
-"Fout tijdens schrijven XCF: niet-ondersteunde BPC tijdens schrijven van "
-"pixel: %d"
+msgstr "Fout bij schrijven XCF: niet ondersteund BPC bij schrijven pixel: %d "
 
 #: ../app-tools/gimp-debug-tool.c:78
 msgid "GIMP Crash Debug"
@@ -28809,6 +28807,7 @@ msgstr "rond"
 
 #. fuzzy as in a feathered, blurred, unfocused, soft brush
 #: ../data/tags/gimp-tags-default.xml.in.h:3
+#, fuzzy
 msgid "fuzzy"
 msgstr "vaag"
 
