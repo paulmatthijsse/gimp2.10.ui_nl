@@ -28504,7 +28504,7 @@ msgstr "Het dialoogvenster voor het selecteren van paletten openen"
 
 #: ../app/widgets/gimpviewablebox.c:567
 msgid "Open the font selection dialog"
-msgstr "Het dialoogvenster voor het selecteren van lettertypen openen"
+msgstr "Selecteer lettertypen"
 
 #: ../app/widgets/gimpwidgets-utils.c:648
 #, c-format
