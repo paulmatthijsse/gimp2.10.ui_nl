@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=Internationalisation\n"
 "POT-Creation-Date: 2018-05-08 15:19+0000\n"
-"PO-Revision-Date: 2018-05-10 20:55+0200\n"
+"PO-Revision-Date: 2018-05-11 15:24+0200\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -39,7 +39,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 2.0.6\n"
 "X-Poedit-Bookmarks: 18,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:1
@@ -28707,22 +28707,19 @@ msgid "Saving '%s'"
 msgstr "‘%s’ wordt opgeslagen"
 
 #: ../app/xcf/xcf.c:390
-#, fuzzy, c-format
-#| msgid "Close %s"
+#, c-format
 msgid "Closing '%s'"
-msgstr "%s sluiten"
+msgstr "Sluiten '%s'"
 
 #: ../app/xcf/xcf.c:397
-#, fuzzy, c-format
-#| msgid "Error writing '%s': %s"
+#, c-format
 msgid "Error writing '%s': "
-msgstr "Fout bij schrijven naar ‘%s’: %s"
+msgstr "Fout bij schrijven naar ‘%s’"
 
 #: ../app/xcf/xcf.c:491
-#, fuzzy, c-format
-#| msgid "Error reading '%s': %s"
+#, c-format
 msgid "Error creating '%s': "
-msgstr "Fout tijdens lezen van ‘%s’: %s"
+msgstr "Fout tijdens aanmaken ‘%s’"
 
 #: ../app/xcf/xcf-load.c:342
 #, c-format
@@ -28730,12 +28727,16 @@ msgid ""
 "Corrupt 'exif-data' parasite discovered.\n"
 "Exif data could not be migrated: %s"
 msgstr ""
+"Corrupte 'exif-data' ontdekt.\n"
+"Exif-gegevens konden niet worden gemigreerd: %s"
 
 #: ../app/xcf/xcf-load.c:379
 msgid ""
 "Corrupt 'gimp-metadata' parasite discovered.\n"
 "XMP data could not be migrated."
 msgstr ""
+"Corrupte 'gimp-metadata' gevonden.\n"
+"XMP-gegevens konden niet worden overgezet."
 
 #: ../app/xcf/xcf-load.c:399
 #, c-format
@@ -28743,22 +28744,22 @@ msgid ""
 "Corrupt 'gimp-metadata' parasite discovered.\n"
 "XMP data could not be migrated: %s"
 msgstr ""
+"Corrupte 'gimp-metadata' ontdekt.\n"
+"XMP-gegevens konden niet worden gemigreerd: %s"
 
 #: ../app/xcf/xcf-load.c:586
 msgid ""
 "This XCF file is corrupt!  I have loaded as much of it as I can, but it is "
 "incomplete."
-msgstr ""
-"Dit XCF-bestand is beschadigd! Ik heb er zoveel mogelijk van geladen als ik "
-"kan, maar het is onvolledig."
+msgstr "Dit XCF-bestand is beschadigd! Het is onvolledig geladen."
 
 #: ../app/xcf/xcf-load.c:597
 msgid ""
 "This XCF file is corrupt!  I could not even salvage any partial image data "
 "from it."
 msgstr ""
-"Dit XCF-bestand is beschadigd! Ik kan zelfs geen gedeeltelijke "
-"afbeeldingsgegevens ervan redden."
+"Dit XCF-bestand is beschadigd! Er zijn zelfs geen gedeeltelijke gegevens te "
+"redden."
 
 #: ../app/xcf/xcf-load.c:689
 msgid ""
@@ -28776,16 +28777,12 @@ msgid "Invalid UTF-8 string in XCF file"
 msgstr "Ongeldige UTF-8-tekenreeks in XCF-bestand"
 
 #: ../app/xcf/xcf-seek.c:45
-#, fuzzy
-#| msgid "Could not seek in XCF file: %s"
 msgid "Could not seek in XCF file: "
-msgstr "Kan niet zoeken in XCF-bestand: %s"
+msgstr "Kan niet zoeken in XCF-bestand: %s "
 
 #: ../app/xcf/xcf-write.c:45
-#, fuzzy
-#| msgid "Error writing XCF: %s"
 msgid "Error writing XCF: "
-msgstr "Fout bij schrijven XCF: %s"
+msgstr "Fout bij schrijven XCF: "
 
 #: ../app/xcf/xcf-write.c:193
 #, c-format
@@ -28795,7 +28792,7 @@ msgstr "Fout bij schrijven XCF: kon geen %d geheugen reserveren."
 #: ../app/xcf/xcf-write.c:287
 #, c-format
 msgid "Error writing XCF: unsupported BPC when writing pixel: %d"
-msgstr "Fout bij schrijven XCF: niet ondersteund BPC bij schrijven pixel: %d "
+msgstr "Fout bij schrijven XCF: niet ondersteund BPC bij schrijven pixel: %d"
 
 #: ../app-tools/gimp-debug-tool.c:78
 msgid "GIMP Crash Debug"
@@ -28807,7 +28804,6 @@ msgstr "rond"
 
 #. fuzzy as in a feathered, blurred, unfocused, soft brush
 #: ../data/tags/gimp-tags-default.xml.in.h:3
-#, fuzzy
 msgid "fuzzy"
 msgstr "vaag"
 
