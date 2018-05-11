@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=Internationalisation\n"
 "POT-Creation-Date: 2018-05-08 15:19+0000\n"
-"PO-Revision-Date: 2018-05-10 20:55+0200\n"
+"PO-Revision-Date: 2018-05-11 15:53+0200\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -40,7 +40,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.7.1\n"
-"X-Poedit-Bookmarks: 18,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 18,19,39,983,-1,-1,-1,-1,-1,-1\n"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:1
 #: ../desktop/gimp.desktop.in.in.h:1 ../app/about.h:26
@@ -154,7 +154,7 @@ msgstr "Nieuwe thema's voor GIMP: Licht, Grijs, Donker en Systeem"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:20
 msgid "And much, much more…"
-msgstr ""
+msgstr "En nog veel meer ..."
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:21
 msgid ""
@@ -263,7 +263,7 @@ msgstr "De editor voor kleurverlopen openen"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:40
 msgid "Notification when an image is over/underexposed"
-msgstr ""
+msgstr "Notificatie wanneer een foto is over- of onderbelicht"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:41
 #, fuzzy
@@ -5709,7 +5709,7 @@ msgstr ""
 #: ../app/actions/filters-actions.c:672
 msgctxt "filters-action"
 msgid "_Unsharp Mask..."
-msgstr ""
+msgstr "_Onscherp masker..."
 
 #: ../app/actions/filters-actions.c:677
 #, fuzzy
