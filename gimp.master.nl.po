@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=Internationalisation\n"
 "POT-Creation-Date: 2018-05-08 15:19+0000\n"
-"PO-Revision-Date: 2018-05-11 15:53+0200\n"
+"PO-Revision-Date: 2018-05-14 11:11+0200\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -39,10 +39,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:1
 #: ../desktop/gimp.desktop.in.in.h:1 ../app/about.h:26
 msgid "GNU Image Manipulation Program"
 msgstr "GNU Image Manipulation Program"
+
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:2
 #: ../desktop/gimp.desktop.in.in.h:3
 msgid "Create images and edit photographs"
@@ -57,6 +60,7 @@ msgstr ""
 "GIMP is en acroniem voor GNU Image Manipulation Program. Het is een "
 "programma dat vrij wordt verspreid, en dat gebruikt wordt voor het bijwerken "
 "van foto's en het samenstellen en bewerken van afbeeldingen."
+
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:4
 msgid ""
 "It has many capabilities. It can be used as a simple paint program, an "
@@ -28133,7 +28137,7 @@ msgstr "Lijnbreedte:"
 
 #: ../app/widgets/gimpstrokeeditor.c:141
 msgid "_Line Style"
-msgstr "L_ijnstijl"
+msgstr "_Lijnstijl"
 
 #: ../app/widgets/gimpstrokeeditor.c:160
 msgid "_Cap style:"
@@ -28145,13 +28149,15 @@ msgstr "_Verbindingsstijl:"
 
 #: ../app/widgets/gimpstrokeeditor.c:171
 msgid "_Miter limit:"
-msgstr "Verste_klimiet:"
+msgstr "Verste li_miet:"
 
 #: ../app/widgets/gimpstrokeeditor.c:178
 msgid "Dash pattern:"
 msgstr "Streepjespatroon:"
 
+# Stippellijn? 
 #: ../app/widgets/gimpstrokeeditor.c:241
+#, fuzzy
 msgid "Dash _preset:"
 msgstr "_Streepopties:"
 
@@ -28178,7 +28184,7 @@ msgstr "%p"
 
 #: ../app/widgets/gimptemplateeditor.c:294
 msgid "_Advanced Options"
-msgstr "_Geavanceerde opties"
+msgstr "Ge_avanceerde opties"
 
 #: ../app/widgets/gimptemplateeditor.c:407
 msgid "Color _space:"
@@ -28189,33 +28195,24 @@ msgid "_Precision:"
 msgstr "_Precisie:"
 
 #: ../app/widgets/gimptemplateeditor.c:427
-#, fuzzy
-#| msgid "Gamma"
 msgid "_Gamma:"
-msgstr "Gamma"
+msgstr "_Gamma:"
 
 #: ../app/widgets/gimptemplateeditor.c:432
-#, fuzzy
-#| msgctxt "file-action"
-#| msgid "Save this image"
 msgid "Color _manage this image"
-msgstr "Deze afbeelding opslaan"
+msgstr "Schakel kleurbeheer voor deze afbeelding in"
 
 #: ../app/widgets/gimptemplateeditor.c:441
-#, fuzzy
-#| msgid "Color Profile"
 msgid "Choose A Color Profile"
-msgstr "Kleurprofiel"
+msgstr "Kies kleurprofiel"
 
 #: ../app/widgets/gimptemplateeditor.c:445
-#, fuzzy
-#| msgid "Color _profile:"
 msgid "Co_lor profile:"
-msgstr "Kleur_profiel:"
+msgstr "K_leurprofiel:"
 
 #: ../app/widgets/gimptemplateeditor.c:462
 msgid "Comme_nt:"
-msgstr "Op_merking:"
+msgstr "Opmerki_ng:"
 
 #: ../app/widgets/gimptemplateeditor.c:577
 msgid "_Name:"
@@ -28223,7 +28220,7 @@ msgstr "_Naam:"
 
 #: ../app/widgets/gimptemplateeditor.c:583
 msgid "_Icon:"
-msgstr "_Pictogram:"
+msgstr "P_ictogram:"
 
 #: ../app/widgets/gimptemplateeditor.c:802
 #, c-format
@@ -28238,19 +28235,18 @@ msgstr "%d ppi, %s"
 #: ../app/widgets/gimptextbuffer-serialize.c:276
 #, c-format
 msgid "Attribute \"%s\" is invalid on <%s> element in this context"
-msgstr "Attribuut \"%s\" is in deze context ongeldig voor element <%s>"
+msgstr "Attribute \"%s\" is invalid on <%s> element in this context"
 
 #: ../app/widgets/gimptextbuffer-serialize.c:348
 #, c-format
 msgid "Outermost element in text must be <markup> not <%s>"
-msgstr " Het buitenste element in de tekst moet <markup> zijn en niet <%s>"
+msgstr "Het buitenste element in de tekst moet <markup> zijn en niet <%s>"
 
+# Afgebroken? Hmm...
 #: ../app/widgets/gimptextbuffer.c:1711
-#, fuzzy, c-format
-#| msgid "Fatal parse error in pattern file '%s': File appears truncated."
+#, c-format
 msgid "Input file '%s' appears truncated: %s"
-msgstr ""
-"Fatale leesfout in penseelbestand '%s': bestand lijkt te zijn ingekort."
+msgstr "Bestand '%s' lijkt afgebroken: %s"
 
 #: ../app/widgets/gimptextbuffer.c:1729
 #, c-format
@@ -28258,20 +28254,13 @@ msgid "Invalid UTF-8 data in file '%s'."
 msgstr "Ongeldige UTF-8-gegevens in bestand ‘%s’."
 
 #: ../app/widgets/gimptextbuffer.c:1778
-#, fuzzy, c-format
-#| msgid ""
-#| "Reverting to '%s' failed:\n"
-#| "\n"
-#| "%s"
+#, c-format
 msgid "Writing text file '%s' failed: %s"
-msgstr ""
-"Terughalen uit '%s' mislukte.\n"
-"\n"
-"%s"
+msgstr "Wegschrijven tekstbestand '%s' mislukt: %s"
 
 #: ../app/widgets/gimptexteditor.c:220
 msgid "_Use selected font"
-msgstr "_Geselecteerde lettertype gebruiken"
+msgstr "Gebr_uik geselecteerd lettertype"
 
 #: ../app/widgets/gimptextstyleeditor.c:207
 #: ../app/widgets/gimptextstyleeditor.c:1298
@@ -28280,7 +28269,7 @@ msgstr "Lettertype van geselecteerde tekst wijzigen"
 
 #: ../app/widgets/gimptextstyleeditor.c:218
 msgid "Change size of selected text"
-msgstr "De grootte van de geselecteerde tekst wijzigen"
+msgstr "Grootte van geselecteerde tekst wijzigen"
 
 #: ../app/widgets/gimptextstyleeditor.c:237
 msgid "Clear style of selected text"
@@ -28289,7 +28278,7 @@ msgstr "Stijl van geselecteerde tekst wissen"
 #: ../app/widgets/gimptextstyleeditor.c:248
 #: ../app/widgets/gimptextstyleeditor.c:258
 msgid "Change color of selected text"
-msgstr " Kleur van de geselecteerde tekst wijzigen"
+msgstr "Kleur van geselecteerde tekst wijzigen"
 
 #: ../app/widgets/gimptextstyleeditor.c:274
 msgid "Change kerning of selected text"
@@ -28318,7 +28307,7 @@ msgstr "Doorhalen"
 #: ../app/widgets/gimptextstyleeditor.c:1290
 #, c-format
 msgid "Font \"%s\" unavailable on this system"
-msgstr ""
+msgstr "Lettertype \"%s\" niet beschikbaar"
 
 #: ../app/widgets/gimpthumbbox.c:324
 #, c-format
@@ -28331,7 +28320,7 @@ msgstr ""
 
 #: ../app/widgets/gimpthumbbox.c:341
 msgid "Pr_eview"
-msgstr "_Voorbeeld"
+msgstr "Voorb_eeld"
 
 #: ../app/widgets/gimpthumbbox.c:398 ../app/widgets/gimpthumbbox.c:461
 msgid "No selection"
@@ -28357,7 +28346,7 @@ msgstr ""
 "Voorgrond- en achtergrondkleuren.\n"
 "Met de zwarte en witte vierkanten stelt u de kleuren opnieuw in.\n"
 "Met de pijlen verwisselt u de kleuren.\n"
-"Klik om een kleur uit te kiezen."
+"Klik om een kleur te kiezen."
 
 #: ../app/widgets/gimptoolbox-color-area.c:211
 msgid "Change Foreground Color"
@@ -28374,12 +28363,14 @@ msgid ""
 "Click to open the Image Dialog."
 msgstr ""
 "De actieve afbeelding.\n"
-"Klik om het dialoogvenster Afbeelding te openen."
+"Klik om het Afbeeldingenmenu te openen."
 
 # wat is XDS (moet de gebruiker dit wel weten?)
 #: ../app/widgets/gimptoolbox-image-area.c:121
 msgid "Drag to an XDS enabled file-manager to save the image."
-msgstr "Sleep naar een bestandsbeerder met XDS om de afbeelding op te slaan."
+msgstr ""
+"Sleep naar een bestandsbeheerder met XDS-functionaliteit om de afbeelding op "
+"te slaan."
 
 #: ../app/widgets/gimptoolbox-indicator-area.c:167
 msgid ""
@@ -28387,7 +28378,7 @@ msgid ""
 "Click to open the Brush Dialog."
 msgstr ""
 "Het actieve penseel.\n"
-"Klik om het dialoogvenster Penselen te openen."
+"Klik om het Penseelmenu te openen."
 
 #: ../app/widgets/gimptoolbox-indicator-area.c:199
 msgid ""
@@ -28395,7 +28386,7 @@ msgid ""
 "Click to open the Pattern Dialog."
 msgstr ""
 "Het actieve patroon.\n"
-"Klik om het dialoogvenster Patronen te openen."
+"Klik om het Patroonmenu te openen."
 
 #: ../app/widgets/gimptoolbox-indicator-area.c:231
 msgid ""
@@ -28403,7 +28394,7 @@ msgid ""
 "Click to open the Gradient Dialog."
 msgstr ""
 "Het actieve kleurverloop.\n"
-"Klik om het dialoogvenster Verlopen te openen."
+"Klik om het Verloopmenu te openen."
 
 #: ../app/widgets/gimptooleditor.c:295
 msgid "Raise this tool"
@@ -28423,7 +28414,7 @@ msgstr "Gereedschap onderaan zetten"
 
 #: ../app/widgets/gimptooleditor.c:311
 msgid "Reset tool order and visibility"
-msgstr "Volgorde en zichtbaarheid van het gereedschap resetten"
+msgstr "Volgorde en zichtbaarheid van het gereedschap herstellen"
 
 #: ../app/widgets/gimptooloptionseditor.c:203
 msgid "Save Tool Preset..."
@@ -28435,21 +28426,20 @@ msgstr "Gereedschapsopties herstellen…"
 
 #: ../app/widgets/gimptooloptionseditor.c:221
 msgid "Delete Tool Preset..."
-msgstr "Gereedschapsopties verwijderen…"
+msgstr "Verwijder voorinstellingen gereedschap…"
 
 #: ../app/widgets/gimptoolpreseteditor.c:295
 #, c-format
 msgid "%s Preset"
-msgstr "Opties %s"
+msgstr "%s Voorinstellingen"
 
 #: ../app/widgets/gimpuimanager.c:760
 msgid "Your GIMP installation is incomplete:"
-msgstr "Uw installatie van GIMP is incompleet:"
+msgstr "Uw GIMP-installatie is onvolledig:"
 
 #: ../app/widgets/gimpuimanager.c:762
 msgid "Please make sure the menu XML files are correctly installed."
-msgstr ""
-"Zorg ervoor dat de XML-bestanden met menu's correct zijn geïnstalleerd."
+msgstr "Zorg ervoor dat de XML menubestanden correct zijn geïnstalleerd."
 
 # de verwerking/het verwerken
 #: ../app/widgets/gimpuimanager.c:768
@@ -28461,41 +28451,39 @@ msgstr "Er was een fout bij het verwerken van de menudefinitie van %s: %s"
 msgid "[ Base Image ]"
 msgstr "[ Basisafbeelding ]"
 
+# OK?
+# Adobe vertaalt (brush) strokes met (penseel)streken
 #: ../app/widgets/gimpvectorstreeview.c:111
 msgid "Lock path strokes"
 msgstr "Padlijnen vergrendelen"
 
 #: ../app/widgets/gimpvectorstreeview.c:114
-#, fuzzy
-#| msgid "Lock path strokes"
 msgid "Lock path position"
-msgstr "Padlijnen vergrendelen"
+msgstr "Vergrendel padpositie"
 
 #: ../app/widgets/gimpviewablebox.c:94
 msgid "Open the brush selection dialog"
-msgstr "Het dialoogvenster voor het selecteren van penselen openen"
+msgstr "Selecteer penselen"
 
 #: ../app/widgets/gimpviewablebox.c:162
 msgid "Open the dynamics selection dialog"
-msgstr "Het dialoogvenster voor het selecteren van gedragingen openen"
+msgstr "Selecteer dynamisch gedrag"
 
 #: ../app/widgets/gimpviewablebox.c:229
-#, fuzzy
-#| msgid "Open the brush selection dialog"
 msgid "Open the MyPaint brush selection dialog"
-msgstr "Het dialoogvenster voor het selecteren van penselen openen"
+msgstr "Selecteer MyPaint-penselen"
 
 #: ../app/widgets/gimpviewablebox.c:292
 msgid "Open the pattern selection dialog"
-msgstr "Het dialoogvenster voor het selecteren van patronen openen"
+msgstr "Selecteer patronen"
 
 #: ../app/widgets/gimpviewablebox.c:362
 msgid "Open the gradient selection dialog"
-msgstr "Het dialoogvenster voor het selecteren van kleurverlopen openen"
+msgstr "Selecteer kleurverlopen "
 
 #: ../app/widgets/gimpviewablebox.c:501
 msgid "Open the palette selection dialog"
-msgstr "Het dialoogvenster voor het selecteren van paletten openen"
+msgstr "Selecteer paletten"
 
 #: ../app/widgets/gimpviewablebox.c:567
 msgid "Open the font selection dialog"
@@ -28522,26 +28510,24 @@ msgid "%s (try %s, %s, %s)"
 msgstr "%s (probeer %s, %s, %s)"
 
 #: ../app/widgets/gimpwidgets-utils.c:1658
-#, fuzzy, c-format
-#| msgid "Anti erase  (%s)"
+#, c-format
 msgid "Built-in grayscale (%s)"
-msgstr "Anti-gum (%s)"
+msgstr "Ingebouwde grijswaarden (%s)"
 
 #: ../app/widgets/gimpwidgets-utils.c:1665
-#, fuzzy, c-format
-#| msgid "Direction  (%s)"
+#, c-format
 msgid "Built-in RGB (%s)"
-msgstr "Richting (%s)"
+msgstr "Ingebouwd RGB (%s)"
 
 #: ../app/widgets/gimpwidgets-utils.c:1682
 #, c-format
 msgid "Preferred grayscale (%s)"
-msgstr ""
+msgstr "Preferente grijswaarden (%s)"
 
 #: ../app/widgets/gimpwidgets-utils.c:1689
 #, c-format
 msgid "Preferred RGB (%s)"
-msgstr ""
+msgstr "Preferent RGB (%s)"
 
 #: ../app/widgets/widgets-enums.c:23
 msgctxt "active-color"
@@ -28556,7 +28542,7 @@ msgstr "Achtergrond"
 #: ../app/widgets/widgets-enums.c:52
 msgctxt "circle-background"
 msgid "Plain"
-msgstr ""
+msgstr "Vullen met egale kleur"
 
 #: ../app/widgets/widgets-enums.c:53
 #, fuzzy
@@ -28572,16 +28558,14 @@ msgid "Pixel"
 msgstr "Beeldpunt"
 
 #: ../app/widgets/widgets-enums.c:118
-#, fuzzy
-#| msgid "RGB (%d, %d, %d)"
 msgctxt "color-frame-mode"
 msgid "RGB (%)"
-msgstr "RGB (%d, %d, %d)"
+msgstr "RGB (%)"
 
 #: ../app/widgets/widgets-enums.c:119
 msgctxt "color-frame-mode"
 msgid "RGB (0..255)"
-msgstr ""
+msgstr "RGB (0..255)"
 
 #: ../app/widgets/widgets-enums.c:120
 msgctxt "color-frame-mode"
@@ -28591,12 +28575,12 @@ msgstr "HSV"
 #: ../app/widgets/widgets-enums.c:121
 msgctxt "color-frame-mode"
 msgid "CIE LCH"
-msgstr ""
+msgstr "CIE LCH"
 
 #: ../app/widgets/widgets-enums.c:122
 msgctxt "color-frame-mode"
 msgid "CIE LAB"
-msgstr ""
+msgstr "CIE LAB"
 
 #: ../app/widgets/widgets-enums.c:123
 msgctxt "color-frame-mode"
@@ -28684,7 +28668,7 @@ msgstr "GIMP XCF-afbeelding"
 
 #: ../app/xcf/xcf.c:272 ../app/xcf/xcf.c:360
 msgid "Memory Stream"
-msgstr "TESTO: Geheugenstroom"
+msgstr "Geheugenstroom"
 
 #: ../app/xcf/xcf.c:283
 #, c-format
