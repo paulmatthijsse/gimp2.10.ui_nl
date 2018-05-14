@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=Internationalisation\n"
 "POT-Creation-Date: 2018-05-08 15:19+0000\n"
-"PO-Revision-Date: 2018-05-14 14:40+0200\n"
+"PO-Revision-Date: 2018-05-14 15:24+0200\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -26443,7 +26443,7 @@ msgstr "n.v.t."
 #: ../app/widgets/gimpcolorframe.c:749
 msgctxt "Grayscale"
 msgid "V:"
-msgstr ""
+msgstr "V:"
 
 #. TRANSLATORS: A for Alpha (color transparency)
 #: ../app/widgets/gimpcolorframe.c:753 ../app/widgets/gimpcolorframe.c:766
@@ -26452,29 +26452,25 @@ msgstr ""
 #: ../app/widgets/gimpcolorframe.c:938
 msgctxt "Alpha channel"
 msgid "A:"
-msgstr ""
+msgstr "A:"
 
 #. TRANSLATORS: R for Red (RGB)
 #: ../app/widgets/gimpcolorframe.c:758 ../app/widgets/gimpcolorframe.c:794
-#, fuzzy
-#| msgid "Red:"
 msgctxt "RGB"
 msgid "R:"
-msgstr "Rood:"
+msgstr "R:"
 
 #. TRANSLATORS: G for Green (RGB)
 #: ../app/widgets/gimpcolorframe.c:760 ../app/widgets/gimpcolorframe.c:796
 msgctxt "RGB"
 msgid "G:"
-msgstr ""
+msgstr "G:"
 
 #. TRANSLATORS: B for Blue (RGB)
 #: ../app/widgets/gimpcolorframe.c:762 ../app/widgets/gimpcolorframe.c:798
-#, fuzzy
-#| msgid "Box:"
 msgctxt "RGB"
 msgid "B:"
-msgstr "Vak:"
+msgstr "B:"
 
 #. TRANSLATORS: Index of the color in the palette.
 #: ../app/widgets/gimpcolorframe.c:771
@@ -26494,85 +26490,81 @@ msgstr "Hex:"
 
 #. TRANSLATORS: H for Hue (HSV color space)
 #: ../app/widgets/gimpcolorframe.c:836
-#, fuzzy
-#| msgid "H"
 msgctxt "HSV color space"
 msgid "H:"
-msgstr "H"
+msgstr "H:"
 
 #. TRANSLATORS: S for Saturation (HSV color space)
 #: ../app/widgets/gimpcolorframe.c:838
 msgctxt "HSV color space"
 msgid "S:"
-msgstr ""
+msgstr "S:"
 
 #. TRANSLATORS: V for Value (HSV color space)
 #: ../app/widgets/gimpcolorframe.c:840
 msgctxt "HSV color space"
 msgid "V:"
-msgstr ""
+msgstr "V:"
 
 #. TRANSLATORS: L for Lightness (LCH color space)
 #: ../app/widgets/gimpcolorframe.c:864
 msgctxt "LCH color space"
 msgid "L*:"
-msgstr ""
+msgstr "L*:"
 
 #. TRANSLATORS: C for Chroma (LCH color space)
 #: ../app/widgets/gimpcolorframe.c:866
 msgctxt "LCH color space"
 msgid "C*:"
-msgstr ""
+msgstr "C*:"
 
 #. TRANSLATORS: H for Hue angle (LCH color space)
 #: ../app/widgets/gimpcolorframe.c:868
 msgctxt "LCH color space"
 msgid "h°:"
-msgstr ""
+msgstr "h*:"
 
 #. TRANSLATORS: L* for Lightness (Lab color space)
 #: ../app/widgets/gimpcolorframe.c:896
 msgctxt "Lab color space"
 msgid "L*:"
-msgstr ""
+msgstr "L*:"
 
 #. TRANSLATORS: a* color channel in Lab color space
 #: ../app/widgets/gimpcolorframe.c:898
 msgctxt "Lab color space"
 msgid "a*:"
-msgstr ""
+msgstr "a*:"
 
 #. TRANSLATORS: b* color channel in Lab color space
 #: ../app/widgets/gimpcolorframe.c:900
 msgctxt "Lab color space"
 msgid "b*:"
-msgstr ""
+msgstr "b*:"
 
 #. TRANSLATORS: C for Cyan (CMYK)
 #: ../app/widgets/gimpcolorframe.c:928
 msgctxt "CMYK"
 msgid "C:"
-msgstr ""
+msgstr "C:"
 
 #. TRANSLATORS: M for Magenta (CMYK)
 #: ../app/widgets/gimpcolorframe.c:930
 msgctxt "CMYK"
 msgid "M:"
-msgstr ""
+msgstr "M:"
 
 #. TRANSLATORS: Y for Yellow (CMYK)
 #: ../app/widgets/gimpcolorframe.c:932
-#, fuzzy
-#| msgid "_Y:"
 msgctxt "CMYK"
 msgid "Y:"
-msgstr "_Y:"
+msgstr "Y:"
 
 #. TRANSLATORS: K for Key/black (CMYK)
 #: ../app/widgets/gimpcolorframe.c:934
 msgctxt "CMYK"
 msgid "K:"
-msgstr ""
+msgstr "K:"
 
 #: ../app/widgets/gimpcolorframe.c:996
 #, fuzzy
@@ -26603,11 +26595,11 @@ msgstr "Grotere voorbeelden"
 
 #: ../app/widgets/gimpcontrollereditor.c:199
 msgid "_Dump events from this controller"
-msgstr "_Acties van deze controller dumpen"
+msgstr "Acties van _deze controller vastleggen"
 
 #: ../app/widgets/gimpcontrollereditor.c:204
 msgid "_Enable this controller"
-msgstr "_Deze controller inschakelen"
+msgstr "D_eze controller inschakelen"
 
 #: ../app/widgets/gimpcontrollereditor.c:225
 msgid "Name:"
@@ -26615,49 +26607,44 @@ msgstr "Naam:"
 
 #: ../app/widgets/gimpcontrollereditor.c:231
 msgid "State:"
-msgstr "Staat:"
+msgstr "Toestand:"
 
 # gebeurtenis/actie
 #: ../app/widgets/gimpcontrollereditor.c:336
 msgid "Event"
-msgstr "Actie"
+msgstr "Gebeurtenis"
 
 #: ../app/widgets/gimpcontrollereditor.c:361
 msgid "_Grab event"
-msgstr "_Grijpactie"
+msgstr "_Grijp gebeurtenis"
 
 #: ../app/widgets/gimpcontrollereditor.c:370
 msgid "Select the next event arriving from the controller"
-msgstr "De volgende actie selecteren die van deze controller binnenkomt"
+msgstr "Kies de volgende gebeurtenis die van deze controller binnenkomt"
 
 #: ../app/widgets/gimpcontrollereditor.c:374
-#, fuzzy
-#| msgctxt "gradients-action"
-#| msgid "Edit gradient"
 msgid "_Edit event"
-msgstr "Kleurverloop bewerken"
+msgstr "B_ewerk actie"
 
 #: ../app/widgets/gimpcontrollereditor.c:382
-#, fuzzy
-#| msgid "_Grab event"
 msgid "_Clear event"
-msgstr "_Grijpactie"
+msgstr "Wis a_ctie"
 
 #: ../app/widgets/gimpcontrollereditor.c:521
 #, c-format
 msgid "Remove the action assigned to '%s'"
-msgstr "Opdracht toegewezen aan ‘%s’ verwijderen"
+msgstr "Opdracht toegewezen aan '%s' verwijderen"
 
 # action=opdracht event=actie
 #: ../app/widgets/gimpcontrollereditor.c:526
 #, c-format
 msgid "Assign an action to '%s'"
-msgstr "Opdracht toewijzen aan %s"
+msgstr "Opdracht toewijzen aan '%s'"
 
 #: ../app/widgets/gimpcontrollereditor.c:647
 #, c-format
 msgid "Select Action for Event '%s'"
-msgstr "Selecteer opdracht voor actie ‘%s’"
+msgstr "Selecteer actie voor gebeurtenis '%s'"
 
 #: ../app/widgets/gimpcontrollereditor.c:652
 msgid "Select Controller Event Action"
@@ -26665,13 +26652,11 @@ msgstr "Selecteer actie bij controllergebeurtenis"
 
 #: ../app/widgets/gimpcontrollerinfo.c:112
 msgid "Enabled"
-msgstr ""
+msgstr "Ingeschakeld"
 
 #: ../app/widgets/gimpcontrollerinfo.c:119
-#, fuzzy
-#| msgid "_Grab event"
 msgid "Debug events"
-msgstr "_Grijpactie"
+msgstr "Debug-acties"
 
 #: ../app/widgets/gimpcontrollerkeyboard.c:70
 #: ../app/widgets/gimpcontrollerkeyboard.c:73
@@ -26754,12 +26739,12 @@ msgstr "Geselecteerde controller naar beneden verplaatsen"
 #: ../app/widgets/gimpcontrollerlist.c:425
 #, c-format
 msgid "Add '%s' to the list of active controllers"
-msgstr "‘%s’ toevoegen aan de lijst van actieve controllers"
+msgstr "Voeg '%s' toe aan de lijst van actieve controllers"
 
 #: ../app/widgets/gimpcontrollerlist.c:476
 #, c-format
 msgid "Remove '%s' from the list of active controllers"
-msgstr "‘%s’ verwijderen van de lijst van actieve controllers"
+msgstr "Verwijder '%s'  van de lijst van actieve controllers"
 
 #: ../app/widgets/gimpcontrollerlist.c:510
 msgid ""
@@ -26811,7 +26796,7 @@ msgstr "Controller verwijderen"
 #: ../app/widgets/gimpcontrollerlist.c:577
 #, c-format
 msgid "Remove Controller '%s'?"
-msgstr "Controller ‘%s’ verwijderen?"
+msgstr "Controller '%s' verwijderen?"
 
 #: ../app/widgets/gimpcontrollerlist.c:581
 msgid ""
@@ -26952,46 +26937,40 @@ msgid "Mouse Wheel Events"
 msgstr "Muiswielacties"
 
 #: ../app/widgets/gimpcriticaldialog.c:54
-#, fuzzy
-#| msgctxt "brushes-action"
-#| msgid "Copy Brush _Location"
 msgid "Copy Bug Information"
-msgstr "Penseellocatie _kopiëren"
+msgstr "Kopieer de bug-informatie"
 
 #: ../app/widgets/gimpcriticaldialog.c:55
 msgid "Open Bug Tracker"
-msgstr ""
+msgstr "Open de bug-tracker"
 
 #: ../app/widgets/gimpcriticaldialog.c:132
 #: ../app/widgets/gimpcriticaldialog.c:443
 msgid ""
 "To help us improve GIMP, you can report the bug with these simple steps:"
 msgstr ""
+"Om ons te helpen GIMP te verbeteren, kunt u de bug rapporteren met deze "
+"eenvoudige stappen:"
 
 #: ../app/widgets/gimpcriticaldialog.c:134
 #: ../app/widgets/gimpcriticaldialog.c:445
-#, fuzzy
-#| msgid "Copy the selected region to the clipboard"
 msgid "Copy the bug information to the clipboard by clicking: "
-msgstr "Geselecteerd gebied naar het klembord kopiëren"
+msgstr "Kopieer de bug-informatie naar het klembord door hier te klikken:"
 
 #: ../app/widgets/gimpcriticaldialog.c:136
 #: ../app/widgets/gimpcriticaldialog.c:447
 msgid "Open our bug tracker in the browser by clicking: "
-msgstr ""
+msgstr "Open onze bug-tracker in de browser door hier te klikken: "
 
 #: ../app/widgets/gimpcriticaldialog.c:138
 #: ../app/widgets/gimpcriticaldialog.c:449
 msgid "Create a login if you don't have one yet."
-msgstr ""
+msgstr "Creëer een login als u er nog geen heeft."
 
 #: ../app/widgets/gimpcriticaldialog.c:139
 #: ../app/widgets/gimpcriticaldialog.c:450
-#, fuzzy
-#| msgctxt "edit-action"
-#| msgid "Paste the content of a named buffer"
 msgid "Paste the clipboard text in a new bug report."
-msgstr "De inhoud van een benoemde buffer plakken"
+msgstr "Plak de inhoud van het klembord in een nieuw bug-rapport. "
 
 #: ../app/widgets/gimpcriticaldialog.c:140
 #: ../app/widgets/gimpcriticaldialog.c:451
@@ -26999,75 +26978,79 @@ msgid ""
 "Add relevant information in English in the bug report explaining what you "
 "were doing when this error occurred."
 msgstr ""
+"Geef relevante informatie (in het Engels) in het bug-rapport wat u aan het "
+"doen was toen deze fout optrad. "
 
 #: ../app/widgets/gimpcriticaldialog.c:142
 msgid ""
 "This error may have left GIMP in an inconsistent state. It is advised to "
 "save your work and restart GIMP."
 msgstr ""
+"Deze fout kan de interne staat van GIMP overhoop hebben gehaald. U wordt "
+"aangeraden uw werk te bewaren en GIMP opnieuw te starten. "
 
 #: ../app/widgets/gimpcriticaldialog.c:153
 msgid ""
 "You can also close the dialog directly but reporting bugs is the best way to "
 "make your software awesome."
 msgstr ""
+"U kunt het dialoogvenster direct sluiten, maar door bugs te rapporteren "
+"helpt u mee deze software te verbeteren.  "
 
 #: ../app/widgets/gimpcriticaldialog.c:226
 msgid "The operating system is out of memory or resources."
-msgstr ""
+msgstr "Het besturingssysteemnheeft onvoldoende geheugen of bronnen."
 
 #: ../app/widgets/gimpcriticaldialog.c:229
 msgid "The specified file was not found."
-msgstr ""
+msgstr "Het opgegeven bestand is niet gevonden. "
 
 #: ../app/widgets/gimpcriticaldialog.c:232
-#, fuzzy
-#| msgid "The active path is locked."
 msgid "The specified path was not found."
-msgstr "Het actieve pad is vergrendeld"
+msgstr "Het opgegeven pad werd niet gevonden."
 
 #: ../app/widgets/gimpcriticaldialog.c:235
 msgid ""
 "The .exe file is invalid (non-Microsoft Win32 .exe or error in .exe image)."
 msgstr ""
+"Het .exe-bestand is ongeldig (non-Microsoft Win32 .exe of fout in .exe-"
+"bestand)."
 
 #: ../app/widgets/gimpcriticaldialog.c:238
 msgid "The operating system denied access to the specified file."
-msgstr ""
+msgstr "Het besturingssysteem weigerde toegang tot gevraagd bestand."
 
 #: ../app/widgets/gimpcriticaldialog.c:241
 msgid "The file name association is incomplete or invalid."
-msgstr ""
+msgstr "Bestandsnaamassociatie is onvolledig of ongeldig"
 
 #: ../app/widgets/gimpcriticaldialog.c:244
 msgid "DDE transaction busy"
-msgstr ""
+msgstr "DDE-transactie bezig"
 
 #: ../app/widgets/gimpcriticaldialog.c:247
-#, fuzzy
-#| msgid "User installation failed!"
 msgid "The DDE transaction failed."
-msgstr "Gebruikersinstallatie mislukt!"
+msgstr "DDE-transactie mislukt."
 
 #: ../app/widgets/gimpcriticaldialog.c:250
 msgid "The DDE transaction timed out."
-msgstr ""
+msgstr "Time-out DDE-transactie."
 
 #: ../app/widgets/gimpcriticaldialog.c:253
 msgid "The specified DLL was not found."
-msgstr ""
+msgstr "De opgegeven DDL is niet gevonden. "
 
 #: ../app/widgets/gimpcriticaldialog.c:256
 msgid "There is no application associated with the given file name extension."
-msgstr ""
+msgstr "Er is geen applicatie aan deze bestandsextensie gekoppeld."
 
 #: ../app/widgets/gimpcriticaldialog.c:259
 msgid "There was not enough memory to complete the operation."
-msgstr ""
+msgstr "Onvoldoende geheugen om de bewerking te voltooien."
 
 #: ../app/widgets/gimpcriticaldialog.c:262
 msgid "A sharing violation occurred."
-msgstr ""
+msgstr "Fout tijdens het delen"
 
 #: ../app/widgets/gimpcriticaldialog.c:265
 msgid "Unknown Microsoft Windows error."
