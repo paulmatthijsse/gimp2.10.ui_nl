@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=Internationalisation\n"
 "POT-Creation-Date: 2018-05-08 15:19+0000\n"
-"PO-Revision-Date: 2018-05-14 15:24+0200\n"
+"PO-Revision-Date: 2018-05-15 11:38+0200\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -25401,50 +25401,43 @@ msgstr "Klik om te smeren"
 
 #: ../app/tools/gimpsmudgetool.c:80
 msgid "Click to smudge the line"
-msgstr "Klik om de lijn te smeren"
+msgstr "Klik om de lijn uit te smeren"
 
 #: ../app/tools/gimptextoptions.c:122
 msgid "Font size unit"
-msgstr "Eenheid lettergrootte"
+msgstr "Lettergrootte in:"
 
 #: ../app/tools/gimptextoptions.c:127 ../app/tools/gimptextoptions.c:128
 msgid "Font size"
 msgstr "Lettergrootte"
 
 #: ../app/tools/gimptextoptions.c:141
-#, fuzzy
-#| msgid "Hinting:"
 msgid "Hinting"
-msgstr "Hinting:"
+msgstr "Hinten"
 
 #: ../app/tools/gimptextoptions.c:142
 msgid ""
 "Hinting alters the font outline to produce a crisp bitmap at small sizes"
 msgstr ""
-"Hinten verandert de tekenvorm om ook bij kleine tekstgroottes een scherpe "
-"bitmap te maken"
+"Hinten wijzigt de letteromtrek om ook bij kleine afmetingen een scherpe "
+"bitmap te produceren"
 
 #: ../app/tools/gimptextoptions.c:152
 msgid "The text language may have an effect on the way the text is rendered."
 msgstr ""
-"De taal van de tekst kan invloed hebben op de manier waarop deze wordt "
-"gerenderd"
+"De teksttaal kan invloed hebben op de manier waarop tekst wordt gerenderd"
 
 #: ../app/tools/gimptextoptions.c:166
-#, fuzzy
-#| msgid "Justify:"
 msgid "Justify"
-msgstr "Uitlijnen:"
+msgstr "Uitlijnen"
 
 #: ../app/tools/gimptextoptions.c:167
 msgid "Text alignment"
-msgstr "Tekstuitlijning:"
+msgstr "Tekstuitlijning"
 
 #: ../app/tools/gimptextoptions.c:174
-#, fuzzy
-#| msgid "Initialization"
 msgid "Indentation"
-msgstr "Initialisatie"
+msgstr "Inspringen"
 
 #: ../app/tools/gimptextoptions.c:175
 msgid "Indentation of the first line"
@@ -25464,37 +25457,34 @@ msgstr "Regelafstand aanpassen"
 
 # rasterlijnafstand/spatiering
 #: ../app/tools/gimptextoptions.c:190
-#, fuzzy
-#| msgctxt "guides-type"
-#| msgid "Line spacing"
 msgid "Letter spacing"
-msgstr "Lijnafstand"
+msgstr "Letterafstand"
 
 #: ../app/tools/gimptextoptions.c:191
 msgid "Adjust letter spacing"
 msgstr "Letterafstand aanpassen"
 
 #: ../app/tools/gimptextoptions.c:198
-#, fuzzy
-#| msgid "Box:"
 msgid "Box"
-msgstr "Vak:"
+msgstr "Vak"
 
+# Volgens mij werkt hier niets van...
+# pm
 #: ../app/tools/gimptextoptions.c:199
 msgid ""
 "Whether text flows into rectangular shape or moves into a new line when you "
 "press Enter"
 msgstr ""
-"Vloeit tekst rond een rechthoekige vorm, of gaat het naar een nieuwe regel "
-"als u op Enter drukt"
+"Tekst verschijnt in rechthoekige vorm, of springt naar nieuwe regel als u op "
+"Enter drukt"
 
 #: ../app/tools/gimptextoptions.c:207
 msgid "Use editor"
-msgstr "Tekstbewerker gebruiken"
+msgstr "Tekstverwerker gebruiken"
 
 #: ../app/tools/gimptextoptions.c:208
 msgid "Use an external editor window for text entry"
-msgstr "Een externe editor gebruiken voor tekstinvoer"
+msgstr "Een externe tekstverwerker gebruiken"
 
 #: ../app/tools/gimptextoptions.c:574
 msgid "Hinting:"
@@ -25522,7 +25512,7 @@ msgstr "Tekst"
 
 #: ../app/tools/gimptexttool.c:204
 msgid "Text Tool: Create or edit text layers"
-msgstr "Tekst: tekstlagen aanmaken of bewerken"
+msgstr "Tekstgereedschap: tekstlagen aanmaken of bewerken"
 
 #: ../app/tools/gimptexttool.c:205
 msgid "Te_xt"
@@ -25530,10 +25520,8 @@ msgstr "T_ekst"
 
 # Tool niet meevertaald
 #: ../app/tools/gimptexttool.c:959
-#, fuzzy
-#| msgid "Text Tool"
 msgid "Text box: "
-msgstr "Tekst"
+msgstr "Tekstvak: "
 
 #: ../app/tools/gimptexttool.c:1090
 msgid "Reshape Text Layer"
@@ -25541,7 +25529,7 @@ msgstr "Tekstlaag hervormen"
 
 #: ../app/tools/gimptexttool.c:1599 ../app/tools/gimptexttool.c:1602
 msgid "Confirm Text Editing"
-msgstr "Tekstbewerken bevestigen"
+msgstr "Tekstverwerken bevestigen"
 
 #: ../app/tools/gimptexttool.c:1606
 msgid "Create _New Layer"
@@ -25549,11 +25537,8 @@ msgstr "_Nieuwe laag aanmaken"
 
 #  <Image>/Edit
 #: ../app/tools/gimptexttool.c:1608
-#, fuzzy
-#| msgctxt "edit-action"
-#| msgid "_Edit"
 msgid "_Edit"
-msgstr "Bewe_rken"
+msgstr "B_ewerken"
 
 #: ../app/tools/gimptexttool.c:1630
 msgid ""
@@ -25567,12 +25552,12 @@ msgstr ""
 "gereedschappen gewijzigd. Als u deze laag met het tekstgereedschap bewerkt, "
 "zullen deze wijzigingen ongedaan worden gemaakt.\n"
 "\n"
-"U kunt de laag bewerken of een nieuwe tekstlaag maken uit zijn "
+"U kunt de laag bewerken of een nieuwe tekstlaag maken op basis van zijn "
 "tekstattributen."
 
 #: ../app/tools/gimptexttool-editor.c:1292
 msgid "GIMP Text Editor"
-msgstr "GIMP Editor Tekst"
+msgstr "GIMP tekstverwerker"
 
 #: ../app/tools/gimpthresholdtool.c:89
 msgid "_Threshold..."
@@ -25584,16 +25569,15 @@ msgstr "Drempelwaarde toepassen"
 
 #: ../app/tools/gimpthresholdtool.c:257
 msgid "_Auto"
-msgstr "Auto_matisch"
+msgstr "_Automatisch"
 
 #: ../app/tools/gimpthresholdtool.c:259
 msgid "Automatically adjust to optimal binarization threshold"
-msgstr "Automatisch aanpassen naar optimale binarisatiedrempel"
+msgstr "Automatisch aanpassen naar optimale drempelwaarde"
 
 #: ../app/tools/gimptool.c:1193
 msgid "Can't work on an empty image, add a layer first"
-msgstr ""
-"Werken aan een lege afbeelding is niet mogelijk. Voeg eerst een laag toe."
+msgstr "Werken aan  lege afbeelding niet mogelijk. Voeg eerst laag toe"
 
 #: ../app/tools/gimptransformoptions.c:117
 msgid "Direction of transformation"
@@ -25605,11 +25589,11 @@ msgstr "Interpolatiemethode"
 
 #: ../app/tools/gimptransformoptions.c:133
 msgid "How to clip"
-msgstr "Hoe snijden"
+msgstr "Hoe te snijden"
 
 #: ../app/tools/gimptransformoptions.c:140
 msgid "Show image preview"
-msgstr "Afbeeldingsvoorbeeld tonen"
+msgstr "Voorbeeld tonen"
 
 #: ../app/tools/gimptransformoptions.c:141
 msgid "Show a preview of the transformed image"
@@ -25617,11 +25601,11 @@ msgstr "Een voorbeeld tonen van de getransformeerde afbeelding"
 
 #: ../app/tools/gimptransformoptions.c:147
 msgid "Image opacity"
-msgstr "Afbeeldingsdekking"
+msgstr "Beelddekking"
 
 #: ../app/tools/gimptransformoptions.c:148
 msgid "Opacity of the preview image"
-msgstr "Dekking van de voorbeeldafbeelding"
+msgstr "Dekking van het voorbeeld"
 
 #: ../app/tools/gimptransformoptions.c:154
 #: ../app/tools/gimptransformoptions.c:476
@@ -25630,7 +25614,7 @@ msgstr "Hulplijnen"
 
 #: ../app/tools/gimptransformoptions.c:163
 msgid "Size of a grid cell for variable number of composition guides"
-msgstr "Grootte van een rastercel voor variabel aantal compositiehulplijnen"
+msgstr "Grootte van rastercel voor variabel aantal compositiehulplijnen"
 
 #: ../app/tools/gimptransformoptions.c:499
 #, fuzzy, c-format
@@ -25640,7 +25624,7 @@ msgstr "15 graden (%s)"
 
 #: ../app/tools/gimptransformoptions.c:506
 msgid "Limit rotation steps to 15 degrees"
-msgstr "Draaiing beperken tot stappen van 15 graden"
+msgstr "Roteer in stappen van 15 graden"
 
 #: ../app/tools/gimptransformoptions.c:516
 #, fuzzy, c-format
@@ -25650,23 +25634,21 @@ msgstr "Verhouding behouden (%s)"
 
 #: ../app/tools/gimptransformoptions.c:523
 msgid "Keep the original aspect ratio"
-msgstr "De oorspronkelijke hoogte-breedteverhouding behouden"
+msgstr "De oorspronkelijke verhouding behouden"
 
 #: ../app/tools/gimptransformoptions.c:528
-#, fuzzy, c-format
-#| msgid "Rounded corners"
+#, c-format
 msgid "Around center (%s)"
-msgstr "Afgeronde hoeken"
+msgstr "Rondom centrum (%s)"
 
 #: ../app/tools/gimptransformoptions.c:535
 msgid "Scale around the center point"
-msgstr ""
+msgstr "Schaal rondom centrumpunt"
 
 #: ../app/tools/gimptransformoptions.c:551
-#, fuzzy, c-format
-#| msgid "Anti erase  (%s)"
+#, c-format
 msgid "Constrain (%s)"
-msgstr "Anti-gum (%s)"
+msgstr "Beperk (%s)"
 
 #: ../app/tools/gimptransformoptions.c:552
 #, fuzzy
@@ -25678,73 +25660,70 @@ msgstr "Verplaatsen"
 #: ../app/tools/gimptransformoptions.c:553
 #, c-format
 msgid "Constrain movement to 45 degree angles from center (%s)"
-msgstr ""
+msgstr "Beperk beweging tot hoeken van 45 graden vanuit centrum (%s)"
 
 #: ../app/tools/gimptransformoptions.c:555
 #, c-format
 msgid "Maintain aspect ratio when scaling (%s)"
-msgstr ""
+msgstr "Behoud oorspronkelijke verhouding tijdens schalen (%s)"
 
 #: ../app/tools/gimptransformoptions.c:557
 #, c-format
 msgid "Constrain rotation to 15 degree increments (%s)"
-msgstr ""
+msgstr "Roteer in stappen van 15 graden (%s)"
 
 #: ../app/tools/gimptransformoptions.c:559
 #, c-format
 msgid "Shear along edge direction only (%s)"
-msgstr ""
+msgstr "Alleen langs rand hellen (%s)"
 
 #: ../app/tools/gimptransformoptions.c:561
 #, c-format
 msgid "Constrain perspective handles to move along edges and diagonal (%s)"
-msgstr ""
+msgstr "Beperk verplaatsing perspectiefhandvatten tot randen en diagonaal (%s)"
 
 #: ../app/tools/gimptransformoptions.c:564
 #, c-format
 msgid "From pivot  (%s)"
-msgstr ""
+msgstr "Van middelpunt (%s)"
 
 #: ../app/tools/gimptransformoptions.c:566
 #, c-format
 msgid "Scale from pivot point (%s)"
-msgstr ""
+msgstr "Schaal vanuit middelpunt (%s)"
 
 #: ../app/tools/gimptransformoptions.c:568
 #, c-format
 msgid "Shear opposite edge by same amount (%s)"
-msgstr ""
+msgstr "Hel tegenoverliggende rand met zelfde hoeveelheid (%s)"
 
 #: ../app/tools/gimptransformoptions.c:570
 #, c-format
 msgid "Maintain position of pivot while changing perspective (%s)"
-msgstr ""
+msgstr "Behoud positie middelpunt tijdens wijzigen perspectief (%s)"
 
 #: ../app/tools/gimptransformoptions.c:573
 msgid "Pivot"
-msgstr ""
+msgstr "Middelpunt"
 
 #: ../app/tools/gimptransformoptions.c:574
-#, fuzzy, c-format
-#| msgid "Type  (%s)"
+#, c-format
 msgid "Snap (%s)"
-msgstr "Type (%s)"
+msgstr "Koppel (%s)"
 
 #: ../app/tools/gimptransformoptions.c:575
 #, c-format
 msgid "Snap pivot to corners and center (%s)"
-msgstr ""
+msgstr "Plak middelpunt aan hoeken en centrum (%s)"
 
 # Dokbaar/aanlegbaar/aankoppelbaar
 #: ../app/tools/gimptransformoptions.c:576
-#, fuzzy
-#| msgid "Lock:"
 msgid "Lock"
-msgstr "Koppelen:"
+msgstr "Vergrendel"
 
 #: ../app/tools/gimptransformoptions.c:577
 msgid "Lock pivot position to canvas"
-msgstr ""
+msgstr "Vergrendel middelpunt aan canvas"
 
 #: ../app/tools/gimptransformtool.c:195
 #, fuzzy
@@ -25759,38 +25738,29 @@ msgid "Transforming"
 msgstr "Transformatie is bezig"
 
 #: ../app/tools/gimptransformtool.c:259
-#, fuzzy, c-format
-#| msgid "The given file extension does not match the chosen file type."
+#, c-format
 msgid "The selection does not intersect with the layer."
-msgstr ""
-"De opgegeven bestandsextensie komt niet overeen met het gekozen bestandstype."
+msgstr "De selectie overlapt niet met de laag. "
 
 #: ../app/tools/gimptransformtool.c:514 ../app/tools/gimptransformtool.c:526
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Transform Items"
 msgid "Transform Step"
-msgstr "Objecten transformeren"
+msgstr "Transformeerstappen"
 
 #: ../app/tools/gimptransformtool.c:996
 msgid "The current transform is invalid"
-msgstr ""
+msgstr "Deze vervorming is ongeldig"
 
 #: ../app/tools/gimptransformtool.c:1444
 msgid "There is no layer to transform."
 msgstr "Er is geen laag om te transformeren."
 
 #: ../app/tools/gimptransformtool.c:1451
-#, fuzzy
-#| msgid "The active layer's pixels are locked."
 msgid "The active layer's position and size are locked."
-msgstr "De beeldpunten van de actieve laag zijn vergrendeld."
+msgstr "De positie en grootte van de actieve laag zijn vergrendeld."
 
 #: ../app/tools/gimptransformtool.c:1464
-#, fuzzy
-#| msgid "There is no selection to stroke."
 msgid "There is no selection to transform."
-msgstr "Er is geen selectie om te belijnen."
+msgstr "Er is geen selectie om te transformeren."
 
 #: ../app/tools/gimptransformtool.c:1477
 msgid "There is no path to transform."
@@ -25798,13 +25768,11 @@ msgstr "Er is geen pad om te transformeren."
 
 #: ../app/tools/gimptransformtool.c:1482
 msgid "The active path's strokes are locked."
-msgstr "De lijnen van het actieve pad zijn vergrendeld"
+msgstr "De lijnen van het actieve pad zijn vergrendeld."
 
 #: ../app/tools/gimptransformtool.c:1486
-#, fuzzy
-#| msgid "The active path is locked."
 msgid "The active path has no strokes."
-msgstr "Het actieve pad is vergrendeld"
+msgstr "Het actieve pad heeft geen lijnen."
 
 #: ../app/tools/gimpunifiedtransformtool.c:87
 #, fuzzy
@@ -25813,10 +25781,8 @@ msgid "Unified Transform"
 msgstr "Transformeren"
 
 #: ../app/tools/gimpunifiedtransformtool.c:88
-#, fuzzy
-#| msgid "Shear Tool: Shear the layer, selection or path"
 msgid "Unified Transform Tool: Transform the layer, selection or path"
-msgstr "Hellen: een laag, selectie of pad hellen"
+msgstr "Transformeergereedschap: een laag, selectie of pad vervormen"
 
 #: ../app/tools/gimpunifiedtransformtool.c:90
 #, fuzzy
@@ -25830,12 +25796,11 @@ msgstr "_Transformeren"
 msgid "Unified transform"
 msgstr "Transformeren"
 
+# Unified weggelaten, is zo ook duidelijk
 #: ../app/tools/gimpunifiedtransformtool.c:190
-#, fuzzy
-#| msgid "Cage Transform"
 msgctxt "undo-type"
 msgid "Unified Transform"
-msgstr "Transformeren"
+msgstr "Transformeergereedschap"
 
 #: ../app/tools/gimpvectoroptions.c:181
 #, c-format
@@ -25857,89 +25822,75 @@ msgstr "Selectie uit pad"
 
 #: ../app/tools/gimpvectortool.c:164
 msgid "Paths Tool: Create and edit paths"
-msgstr "Pen: paden aanmaken en bewerken"
+msgstr "Pengereedschap: paden aanmaken en bewerken"
 
 #: ../app/tools/gimpvectortool.c:165
 msgid "Pat_hs"
 msgstr "_Paden"
 
 #: ../app/tools/gimpvectortool.c:733
-#, fuzzy
-#| msgid "There is no active layer or channel to cut from."
 msgid "There is no active layer or channel to fill"
-msgstr "Er is geen actieve laag of kanaal om van te knippen."
+msgstr "Er is geen actieve laag of actief kanaal om te vullen"
 
 #: ../app/tools/gimpvectortool.c:805
 msgid "There is no active layer or channel to stroke to"
-msgstr "Er is geen actieve laag of kanaal om te belijnen"
+msgstr "Er is geen actieve laag of actief kanaal om te belijnen"
 
 #: ../app/tools/gimpwarpoptions.c:83 ../app/tools/gimpwarpoptions.c:84
-#, fuzzy
-#| msgid "Edge Behavior"
 msgid "Behavior"
-msgstr "Randgedrag"
+msgstr "Gedrag"
 
 #: ../app/tools/gimpwarpoptions.c:92
 msgid "Effect Size"
-msgstr ""
+msgstr "Grootte effect"
 
 #: ../app/tools/gimpwarpoptions.c:99
-#, fuzzy
-#| msgid "Hardness"
 msgid "Effect Hardness"
-msgstr "Hardheid"
+msgstr "Hardheid effect"
 
 #: ../app/tools/gimpwarpoptions.c:105
-#, fuzzy
-#| msgid "Length:"
 msgid "Strength"
-msgstr "Lengte:"
+msgstr "Sterkte"
 
 #: ../app/tools/gimpwarpoptions.c:106
 msgid "Effect Strength"
-msgstr ""
+msgstr "Sterkte effect"
 
 #: ../app/tools/gimpwarpoptions.c:113
-#, fuzzy
-#| msgid "Stroke Selection"
 msgid "Stroke Spacing"
-msgstr "Selectie belijnen"
+msgstr "Tussenruimte penseel"
 
 #: ../app/tools/gimpwarpoptions.c:127 ../app/tools/gimpwarpoptions.c:329
 msgid "Abyss policy"
-msgstr ""
+msgstr "Randgedrag"
 
 #: ../app/tools/gimpwarpoptions.c:128
 msgid "Out-of-bounds sampling behavior"
-msgstr ""
+msgstr "Randoverschrijdend gedrag"
 
 #: ../app/tools/gimpwarpoptions.c:135
 msgid "High quality preview"
-msgstr ""
+msgstr "Voorbeeld in hoge kwaliteit"
 
 #: ../app/tools/gimpwarpoptions.c:136
-#, fuzzy
-#| msgid "Use an alternate user gimprc file"
 msgid "Use an accurate but slower preview"
-msgstr "Een alternatief gebruikers-gimprc-bestand gebruiken"
+msgstr "Gebruik een accurater maar langzamer voorbeeld"
 
 #: ../app/tools/gimpwarpoptions.c:142
 msgid "During motion"
-msgstr ""
+msgstr "Tijdens beweging"
 
 #: ../app/tools/gimpwarpoptions.c:143
 msgid "Apply effect during motion"
-msgstr ""
+msgstr "Effect toepassen tijdens beweging"
 
 #: ../app/tools/gimpwarpoptions.c:149
-#, fuzzy
-#| msgid "Vertical"
 msgid "Periodically"
-msgstr "Verticaal"
+msgstr "Periodiek"
 
 #: ../app/tools/gimpwarpoptions.c:150
 msgid "Apply effect periodically"
-msgstr ""
+msgstr "Effect periodiek toepassen"
 
 #: ../app/tools/gimpwarpoptions.c:156
 #, fuzzy
@@ -25950,96 +25901,76 @@ msgstr "Ratio"
 
 #: ../app/tools/gimpwarpoptions.c:157
 msgid "Periodic stroke rate"
-msgstr ""
+msgstr "Periodieke streekratio"
 
 #: ../app/tools/gimpwarpoptions.c:163
 msgid "Frames"
-msgstr ""
+msgstr "Frames"
 
 #: ../app/tools/gimpwarpoptions.c:164
-#, fuzzy
-#| msgctxt "guides-type"
-#| msgid "Number of lines"
 msgid "Number of animation frames"
-msgstr "Aantal lijnen"
+msgstr "Aantal animatieframes"
 
 #. the stroke frame
 #: ../app/tools/gimpwarpoptions.c:339
-#, fuzzy
-#| msgid "Add Stroke"
 msgid "Stroke"
-msgstr "Lijn toevoegen"
+msgstr "Streek"
 
 #. the animation frame
 #: ../app/tools/gimpwarpoptions.c:361
-#, fuzzy
-#| msgctxt "plug-in-action"
-#| msgid "An_imation"
 msgid "Animate"
-msgstr "Ani_matie"
+msgstr "Animatie"
 
 #: ../app/tools/gimpwarpoptions.c:375
-#, fuzzy
-#| msgctxt "plug-in-action"
-#| msgid "An_imation"
 msgid "Create Animation"
-msgstr "Ani_matie"
+msgstr "Maak animatie"
 
 #: ../app/tools/gimpwarptool.c:155
-#, fuzzy
-#| msgid "Cage Transform"
 msgid "Warp Transform"
-msgstr "Transformeren"
+msgstr "Vervorming"
 
 #: ../app/tools/gimpwarptool.c:156
 msgid "Warp Transform: Deform with different tools"
-msgstr ""
+msgstr "Vervorm met diverse gereedschappen"
 
 #: ../app/tools/gimpwarptool.c:157
-#, fuzzy
-#| msgid "_Cage Transform"
 msgid "_Warp Transform"
-msgstr "_Transformeren"
+msgstr "Vervorming"
 
 #: ../app/tools/gimpwarptool.c:484 ../app/tools/gimpwarptool.c:496
 msgid "Warp Tool Stroke"
-msgstr ""
+msgstr "Vervormgereedschap - streek"
 
 #: ../app/tools/gimpwarptool.c:618
-#, fuzzy
-#| msgid "Cannot paint on layer groups."
 msgid "Cannot warp layer groups."
-msgstr "Kan niet tekenen op laaggroepen"
+msgstr "Kan laaggroepen niet vervormen."
 
 #: ../app/tools/gimpwarptool.c:652
-#, fuzzy
-#| msgid "No filter selected"
 msgid "No stroke events selected."
-msgstr "Geen filter geselecteerd"
+msgstr "Geen streken geselecteerd."
 
+# Warp transform vertaald als vervorming
 #: ../app/tools/gimpwarptool.c:863
-#, fuzzy
-#| msgid "Cage transform"
 msgid "Warp transform"
-msgstr "Transformeren"
+msgstr "Vervorming"
 
 #: ../app/tools/gimpwarptool.c:1076
 msgid "Please add some warp strokes first."
-msgstr ""
+msgstr "Voeg eerst enkele vervormingen toe."
 
 #: ../app/tools/gimpwarptool.c:1090 ../app/tools/gimpwarptool.c:1127
 #, c-format
 msgid "Rendering Frame %d"
-msgstr ""
+msgstr "Aanmaken frame %d"
 
 #: ../app/tools/gimpwarptool.c:1105 ../app/tools/gimpwarptool.c:1135
 #, c-format
 msgid "Frame %d"
-msgstr ""
+msgstr "Frame %d"
 
 #: ../app/tools/gimpwarptool.c:1144
 msgid "Frame"
-msgstr ""
+msgstr "Frame"
 
 #: ../app/tools/tools-enums.c:25
 msgctxt "rect-select-mode"
@@ -26072,85 +26003,61 @@ msgid "Path"
 msgstr "Pad"
 
 #: ../app/tools/tools-enums.c:151
-#, fuzzy
-#| msgid "Mark foreground"
 msgctxt "matting-draw-mode"
 msgid "Draw foreground"
-msgstr "Voorgrond markeren"
+msgstr "Voorgrond tekenen"
 
 # aanmerken/selecteren/markeren
 #: ../app/tools/tools-enums.c:152
-#, fuzzy
-#| msgid "Mark background"
 msgctxt "matting-draw-mode"
 msgid "Draw background"
-msgstr "Achtergrond markeren"
+msgstr "Achtergrond tekenen"
 
+# Waar komen deze drie matting-draw-mode strings voor? -pm
 #: ../app/tools/tools-enums.c:153
-#, fuzzy
-#| msgctxt "orientation-type"
-#| msgid "Unknown"
 msgctxt "matting-draw-mode"
 msgid "Draw unknown"
 msgstr "Onbekend"
 
 #: ../app/tools/tools-enums.c:186
-#, fuzzy
-#| msgid "Lock pixels"
 msgctxt "warp-behavior"
 msgid "Move pixels"
-msgstr "Beeldpunten vergrendelen"
+msgstr "Beeldpunten verplaatsen"
 
 #: ../app/tools/tools-enums.c:187
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Grow Channel"
 msgctxt "warp-behavior"
 msgid "Grow area"
-msgstr "Kanaal vergroten"
+msgstr "Vergroot gebied"
 
 # Shrink wrap is the phenomenon of fitting the image window to the image dimensions
 # 01/03/08: "venster" toegevoegd voor alle duidelijkheid
 #: ../app/tools/tools-enums.c:188
-#, fuzzy
-#| msgctxt "view-action"
-#| msgid "Shrink _Wrap"
 msgctxt "warp-behavior"
 msgid "Shrink area"
-msgstr "Venster naar afbeeldings_grootte"
+msgstr "Verklein gebied"
 
 #: ../app/tools/tools-enums.c:189
-#, fuzzy
-#| msgctxt "gradient-editor-coloring"
-#| msgid "HSV (clockwise _hue)"
 msgctxt "warp-behavior"
 msgid "Swirl clockwise"
-msgstr "HSV (t_int met de klok mee)"
+msgstr "Draai met de klok mee"
 
 #: ../app/tools/tools-enums.c:190
-#, fuzzy
-#| msgctxt "gradient-editor-coloring"
-#| msgid "HSV (_counter-clockwise hue)"
 msgctxt "warp-behavior"
 msgid "Swirl counter-clockwise"
-msgstr "HSV (_tint tegen de klok in)"
+msgstr "Draai tint tegen de klok in"
 
 #: ../app/tools/tools-enums.c:191
-#, fuzzy
-#| msgid "Eraser"
 msgctxt "warp-behavior"
 msgid "Erase warping"
-msgstr "Gum"
+msgstr "Wis verdraaiing"
 
 # toont een shuifknop waarmee de zachtheid van de
 # selectie kan worden ingesteld.
 # glad
 #: ../app/tools/tools-enums.c:192
-#, fuzzy
-#| msgid "Smoothing:"
 msgctxt "warp-behavior"
 msgid "Smooth warping"
-msgstr "Vloeiendheid:"
+msgstr "Vloeiend verdraaien"
 
 #: ../app/vectors/gimpvectors.c:224
 msgctxt "undo-type"
@@ -26188,12 +26095,9 @@ msgid "Transform Path"
 msgstr "Pad transformeren"
 
 #: ../app/vectors/gimpvectors.c:231
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Flip Path"
 msgctxt "undo-type"
 msgid "Fill Path"
-msgstr "Pad spiegelen"
+msgstr "Pad vullen"
 
 #: ../app/vectors/gimpvectors.c:232
 msgctxt "undo-type"
@@ -26219,7 +26123,7 @@ msgstr "Pad omhoog"
 #: ../app/vectors/gimpvectors.c:236
 msgctxt "undo-type"
 msgid "Raise Path to Top"
-msgstr "Pad bovenaan"
+msgstr "Plaatst pad bovenaan"
 
 #: ../app/vectors/gimpvectors.c:237
 msgctxt "undo-type"
@@ -26229,15 +26133,15 @@ msgstr "Pad omlaag"
 #: ../app/vectors/gimpvectors.c:238
 msgctxt "undo-type"
 msgid "Lower Path to Bottom"
-msgstr "Pad onderaan"
+msgstr "Plaats pad onderaan"
 
 #: ../app/vectors/gimpvectors.c:239
 msgid "Path cannot be raised higher."
-msgstr "Pad kan niet verder naar boven"
+msgstr "Pad kan niet verder naar boven."
 
 #: ../app/vectors/gimpvectors.c:240
 msgid "Path cannot be lowered more."
-msgstr "Pad kan niet verder naar beneden"
+msgstr "Pad kan niet verder naar beneden."
 
 #: ../app/vectors/gimpvectors.c:455
 msgid "Move Path"
@@ -26256,10 +26160,9 @@ msgid "Transform Path"
 msgstr "Pad transformeren"
 
 #: ../app/vectors/gimpvectors-export.c:87
-#, fuzzy, c-format
-#| msgid "Opening '%s' failed: %s"
+#, c-format
 msgid "Writing SVG file '%s' failed: %s"
-msgstr "Openen van ‘%s’ mislukte: %s"
+msgstr "Wegschrijven SVG-bestand '%s' mislukte: %s"
 
 #: ../app/vectors/gimpvectors-import.c:331
 msgid "Import Paths"
@@ -26272,16 +26175,16 @@ msgstr "Geïmporteerd pad"
 #: ../app/vectors/gimpvectors-import.c:373
 #, c-format
 msgid "No paths found in '%s'"
-msgstr "Geen paden gevonden in ‘%s’"
+msgstr "Geen paden gevonden in '%s'"
 
 #: ../app/vectors/gimpvectors-import.c:377
 msgid "No paths found in the buffer"
-msgstr "Geen paden gevonden in de buffer"
+msgstr "Geen paden gevonden in buffer"
 
 #: ../app/vectors/gimpvectors-import.c:387
 #, c-format
 msgid "Failed to import paths from '%s': %s"
-msgstr "Kon paden niet importeren uit ‘%s’: %s"
+msgstr "Kon paden niet importeren uit '%s': %s"
 
 #: ../app/widgets/gimpactioneditor.c:70
 msgid "_Search:"
@@ -26307,17 +26210,15 @@ msgstr "Naam"
 
 #: ../app/widgets/gimpactionview.c:627 ../app/widgets/gimpactionview.c:868
 msgid "Changing shortcut failed."
-msgstr "Wijzigen sneltoets is mislukt."
+msgstr "Wijzigen sneltoets mislukt."
 
 #: ../app/widgets/gimpactionview.c:664
 msgid "Conflicting Shortcuts"
 msgstr "Conflicterende sneltoetsen"
 
 #: ../app/widgets/gimpactionview.c:670
-#, fuzzy
-#| msgid "_Reassign shortcut"
 msgid "_Reassign Shortcut"
-msgstr "_Sneltoetsen opnieuw toewijzen"
+msgstr "_Sneltoets opnieuw toewijzen"
 
 #: ../app/widgets/gimpactionview.c:686
 #, c-format
@@ -26328,27 +26229,26 @@ msgstr "Sneltoets \"%s\" is al in gebruik bij \"%s\" in de groep \"%s\"."
 #: ../app/widgets/gimpactionview.c:690
 #, c-format
 msgid "Reassigning the shortcut will cause it to be removed from \"%s\"."
-msgstr ""
-"Door het instellen van de sneltoets wordt deze losgekoppeld van \"%s\"."
+msgstr "Door sneltoets opnieuw toe te wijzen wordt deze verwijderd van \"%s\"."
 
 #: ../app/widgets/gimpactionview.c:785
 msgid "Invalid shortcut."
 msgstr "Ongeldige sneltoets."
 
 #: ../app/widgets/gimpactionview.c:792 ../app/widgets/gimpactionview.c:896
-#, fuzzy
-#| msgid "Path cannot be lowered more."
 msgid "F1 cannot be remapped."
-msgstr "Pad kan niet verder naar beneden"
+msgstr "F1 kan niet aan iets anders worden toegewezen."
 
 #: ../app/widgets/gimpactionview.c:800
 #, c-format
 msgid "Alt+%d is used to switch to display %d and cannot be remapped."
 msgstr ""
+"Alt+%d wordt gebruikt om te schakelen naar beeldscherm %d en kan niet aan "
+"iets anders worden toegewezen. "
 
 #: ../app/widgets/gimpactionview.c:904
 msgid "Removing shortcut failed."
-msgstr "Verwijderen sneltoets is mislukt."
+msgstr "Verwijderen sneltoets mislukt."
 
 #: ../app/widgets/gimpbrusheditor.c:140
 msgid "Shape:"
@@ -26362,7 +26262,7 @@ msgstr "Spaken"
 #: ../app/widgets/gimpbrusheditor.c:216
 #: ../app/widgets/gimpbrushfactoryview.c:85
 msgid "Percentage of width of brush"
-msgstr "Percentage van breedte van penseel"
+msgstr "Penseelbreedte in procenten"
 
 #: ../app/widgets/gimpbufferview.c:189 ../app/widgets/gimpbufferview.c:290
 #: ../app/widgets/gimpeditor.c:759
@@ -26383,11 +26283,11 @@ msgstr "Beschikbare filters"
 
 #: ../app/widgets/gimpcolordisplayeditor.c:229
 msgid "Move the selected filter up"
-msgstr "Geselecteerd filter omhoog"
+msgstr "Verplaats geselecteerd filter omhoog"
 
 #: ../app/widgets/gimpcolordisplayeditor.c:238
 msgid "Move the selected filter down"
-msgstr "Geselecteerd filter omlaag"
+msgstr "Verplaats geselecteerd filter omlaag"
 
 #: ../app/widgets/gimpcolordisplayeditor.c:336
 msgid "Reset the selected filter to default values"
@@ -26396,12 +26296,12 @@ msgstr "Geselecteerd filter terugzetten op standaardwaarden"
 #: ../app/widgets/gimpcolordisplayeditor.c:527
 #, c-format
 msgid "Add '%s' to the list of active filters"
-msgstr "‘%s’ toevoegen aan de lijst van actieve filters"
+msgstr "Voeg '%s' toe aan de lijst van actieve filters"
 
 #: ../app/widgets/gimpcolordisplayeditor.c:564
 #, c-format
 msgid "Remove '%s' from the list of active filters"
-msgstr "‘%s’ verwijderen uit de lijst van actieve filters"
+msgstr "Verwijder '%s' uit de lijst van actieve filters"
 
 #: ../app/widgets/gimpcolordisplayeditor.c:605
 msgid "No filter selected"
@@ -26412,24 +26312,20 @@ msgid ""
 "Hexadecimal color notation as used in HTML and CSS.  This entry also accepts "
 "CSS color names."
 msgstr ""
-"Hexadecimale kleurnotatie zoals bij HTML en CSS. CSS kleurennamen worden ook "
+"Hexadecimale kleurnotatie zoals bij HTML en CSS. CSS kleurnamen worden ook "
 "aanvaard."
 
 #. TRANSLATORS: X for the X coordinate.
 #: ../app/widgets/gimpcolorframe.c:201
-#, fuzzy
-#| msgid "_X:"
 msgctxt "Coordinates"
 msgid "X:"
-msgstr "_X:"
+msgstr "X:"
 
 #. TRANSLATORS: Y for the Y coordinate.
 #: ../app/widgets/gimpcolorframe.c:215
-#, fuzzy
-#| msgid "_Y:"
 msgctxt "Coordinates"
 msgid "Y:"
-msgstr "_Y:"
+msgstr "Y:"
 
 #. TRANSLATORS: n/a for Not Available.
 #: ../app/widgets/gimpcolorframe.c:674 ../app/widgets/gimpcolorframe.c:676
