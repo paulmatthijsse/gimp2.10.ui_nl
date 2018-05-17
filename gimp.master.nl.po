@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=Internationalisation\n"
 "POT-Creation-Date: 2018-05-08 15:19+0000\n"
-"PO-Revision-Date: 2018-05-16 17:10+0200\n"
+"PO-Revision-Date: 2018-05-17 15:34+0200\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -4585,7 +4585,7 @@ msgstr "Een afbeelding openen als lagen"
 #: ../app/actions/file-actions.c:88
 msgctxt "file-action"
 msgid "Open _Location..."
-msgstr "_Locatie openen…"
+msgstr "_Locatie openen..."
 
 #: ../app/actions/file-actions.c:89
 msgctxt "file-action"
@@ -4595,7 +4595,7 @@ msgstr "Een afbeeldingsbestand van een bepaalde locatie openen"
 #: ../app/actions/file-actions.c:94
 msgctxt "file-action"
 msgid "Create Template..."
-msgstr "Nieuwe sjabloon aanmaken…"
+msgstr "Nieuw sjabloon aanmaken..."
 
 #: ../app/actions/file-actions.c:95
 msgctxt "file-action"
@@ -4610,7 +4610,7 @@ msgstr "_Terughalen"
 #: ../app/actions/file-actions.c:101
 msgctxt "file-action"
 msgid "Reload the image file from disk"
-msgstr "Het afbeeldingsbestand opnieuw van schijf laden"
+msgstr "De afbeelding opnieuw van schijf laden"
 
 #: ../app/actions/file-actions.c:106
 msgctxt "file-action"
@@ -4673,7 +4673,7 @@ msgstr "Deze afbeelding opslaan"
 #: ../app/actions/file-actions.c:139
 msgctxt "file-action"
 msgid "Save _As..."
-msgstr "Opslaan _als…"
+msgstr "Opslaan _als..."
 
 #: ../app/actions/file-actions.c:140
 msgctxt "file-action"
@@ -4683,7 +4683,7 @@ msgstr "Deze afbeelding opslaan onder een andere naam"
 #: ../app/actions/file-actions.c:145
 msgctxt "file-action"
 msgid "Save a Cop_y..."
-msgstr "_Kopie opslaan…"
+msgstr "_Kopie opslaan..."
 
 #: ../app/actions/file-actions.c:147
 msgctxt "file-action"
@@ -4697,7 +4697,7 @@ msgstr ""
 #: ../app/actions/file-actions.c:153
 msgctxt "file-action"
 msgid "Save and Close..."
-msgstr "Opslaan en sluiten…"
+msgstr "Opslaan en sluiten..."
 
 #: ../app/actions/file-actions.c:154
 msgctxt "file-action"
@@ -4705,12 +4705,9 @@ msgid "Save this image and close its window"
 msgstr "Deze afbeelding opslaan en het venster sluiten"
 
 #: ../app/actions/file-actions.c:159 ../app/actions/file-actions.c:333
-#, fuzzy
-#| msgctxt "file-action"
-#| msgid "Export As..."
 msgctxt "file-action"
 msgid "Export..."
-msgstr "Exporteren als…"
+msgstr "Exporteer..."
 
 #: ../app/actions/file-actions.c:160
 #, fuzzy
@@ -4735,7 +4732,7 @@ msgstr ""
 #: ../app/actions/file-actions.c:171
 msgctxt "file-action"
 msgid "Export As..."
-msgstr "Exporteren als…"
+msgstr "Exporteren als..."
 
 #: ../app/actions/file-actions.c:172
 msgctxt "file-action"
@@ -4743,12 +4740,9 @@ msgid "Export the image to various file formats such as PNG or JPEG"
 msgstr "De afbeelding naar verschillende formaten zoals PNG of JPEG exporteren"
 
 #: ../app/actions/file-actions.c:314
-#, fuzzy
-#| msgctxt "file-action"
-#| msgid "_Save"
 msgctxt "file-action"
 msgid "_Save..."
-msgstr "Op_slaan"
+msgstr "Op_slaan..."
 
 #: ../app/actions/file-actions.c:319
 #, c-format
@@ -4801,8 +4795,6 @@ msgid "Revert Image"
 msgstr "Afbeelding terughalen"
 
 #: ../app/actions/file-commands.c:417
-#, fuzzy
-#| msgid "Revert"
 msgid "_Revert"
 msgstr "Terughalen"
 
@@ -4838,28 +4830,19 @@ msgstr ""
 
 # de F was nog ongebruikt
 #: ../app/actions/filters-actions.c:58
-#, fuzzy
-#| msgctxt "plug-in-action"
-#| msgid "Filte_rs"
 msgctxt "filters-action"
 msgid "Filte_rs"
-msgstr "_Filters"
+msgstr "Filte_rs"
 
 #: ../app/actions/filters-actions.c:60
-#, fuzzy
-#| msgctxt "plug-in-action"
-#| msgid "Recently Used"
 msgctxt "filters-action"
 msgid "Recently Used"
 msgstr "Onlangs gebruikt"
 
 #: ../app/actions/filters-actions.c:62
-#, fuzzy
-#| msgctxt "plug-in-action"
-#| msgid "_Blur"
 msgctxt "filters-action"
 msgid "_Blur"
-msgstr "Verva_gen"
+msgstr "Vervagen"
 
 #: ../app/actions/filters-actions.c:64
 #, fuzzy
@@ -4870,86 +4853,56 @@ msgid "_Noise"
 msgstr "R_uis"
 
 #: ../app/actions/filters-actions.c:66
-#, fuzzy
-#| msgctxt "plug-in-action"
-#| msgid "Edge-De_tect"
 msgctxt "filters-action"
 msgid "Edge-De_tect"
-msgstr "Ra_nden"
+msgstr "Randde_tectie"
 
 # verbeteren/versterken/verscherpen
 #: ../app/actions/filters-actions.c:68
-#, fuzzy
-#| msgctxt "plug-in-action"
-#| msgid "En_hance"
 msgctxt "filters-action"
 msgid "En_hance"
-msgstr "Ver_sterken"
+msgstr "Verbeteren"
 
 #: ../app/actions/filters-actions.c:70
-#, fuzzy
-#| msgctxt "plug-in-action"
-#| msgid "C_ombine"
 msgctxt "filters-action"
 msgid "C_ombine"
-msgstr "_Combineren"
+msgstr "C_ombineer"
 
 #: ../app/actions/filters-actions.c:72
-#, fuzzy
-#| msgctxt "plug-in-action"
-#| msgid "_Generic"
 msgctxt "filters-action"
 msgid "_Generic"
-msgstr "_Algemeen"
+msgstr "Al_gemeen"
 
 #: ../app/actions/filters-actions.c:74
-#, fuzzy
-#| msgctxt "plug-in-action"
-#| msgid "_Light and Shadow"
 msgctxt "filters-action"
 msgid "_Light and Shadow"
 msgstr "_Licht en schaduw"
 
 #: ../app/actions/filters-actions.c:76
-#, fuzzy
-#| msgctxt "plug-in-action"
-#| msgid "_Distorts"
 msgctxt "filters-action"
 msgid "_Distorts"
-msgstr "_Vervormingen"
+msgstr "Vervormingen"
 
 #: ../app/actions/filters-actions.c:78
-#, fuzzy
-#| msgctxt "plug-in-action"
-#| msgid "_Artistic"
 msgctxt "filters-action"
 msgid "_Artistic"
-msgstr "Ar_tistiek"
+msgstr "_Artistiek"
 
 #: ../app/actions/filters-actions.c:80
-#, fuzzy
-#| msgctxt "plug-in-action"
-#| msgid "_Decor"
 msgctxt "filters-action"
 msgid "_Decor"
 msgstr "_Decor"
 
 #: ../app/actions/filters-actions.c:82
-#, fuzzy
-#| msgctxt "image-action"
-#| msgid "_Map"
 msgctxt "filters-action"
 msgid "_Map"
-msgstr "In _kaart brengen"
+msgstr "Projecteren"
 
 # betere vertaling?
 #: ../app/actions/filters-actions.c:84
-#, fuzzy
-#| msgctxt "plug-in-action"
-#| msgid "_Render"
 msgctxt "filters-action"
 msgid "_Render"
-msgstr "_Renderen"
+msgstr "Gene_reren"
 
 #: ../app/actions/filters-actions.c:86
 #, fuzzy
@@ -4962,7 +4915,7 @@ msgstr "W_olken"
 #: ../app/actions/filters-actions.c:88
 msgctxt "filters-action"
 msgid "_Fractals"
-msgstr ""
+msgstr "_Fractalen"
 
 #: ../app/actions/filters-actions.c:90
 #, fuzzy
@@ -4988,12 +4941,9 @@ msgid "_Pattern"
 msgstr "_Patroon"
 
 #: ../app/actions/filters-actions.c:96
-#, fuzzy
-#| msgctxt "plug-in-action"
-#| msgid "_Web"
 msgctxt "filters-action"
 msgid "_Web"
-msgstr "We_b"
+msgstr "_Web"
 
 #: ../app/actions/filters-actions.c:98
 #, fuzzy
@@ -5011,19 +4961,14 @@ msgid "_Antialias"
 msgstr "Anti-aliasing"
 
 #: ../app/actions/filters-actions.c:109
-#, fuzzy
-#| msgid "Color _Balance..."
 msgctxt "filters-action"
 msgid "_Color Enhance"
-msgstr "_Kleurbalans…"
+msgstr "Kleurversterking"
 
 #: ../app/actions/filters-actions.c:114
-#, fuzzy
-#| msgctxt "drawable-action"
-#| msgid "_Value Invert"
 msgctxt "filters-action"
 msgid "_Linear Invert"
-msgstr "_Inverteren"
+msgstr "_Lineair inverteren"
 
 #: ../app/actions/filters-actions.c:119
 #, fuzzy
@@ -5034,42 +4979,34 @@ msgid "In_vert"
 msgstr "In_verteren"
 
 #: ../app/actions/filters-actions.c:124
-#, fuzzy
-#| msgctxt "drawable-action"
-#| msgid "_Value Invert"
 msgctxt "filters-action"
 msgid "_Value Invert"
-msgstr "_Inverteren"
+msgstr "Waarde inverteren"
 
 #: ../app/actions/filters-actions.c:129
-#, fuzzy
-#| msgid "Con_trast:"
 msgctxt "filters-action"
 msgid "_Stretch Contrast HSV"
-msgstr "_Contrast:"
+msgstr "Contra_st uitrekken HSV"
 
 #: ../app/actions/filters-actions.c:137
 msgctxt "filters-action"
 msgid "_Dilate"
-msgstr ""
+msgstr "Lichtere _delen lichter maken"
 
 #: ../app/actions/filters-actions.c:138
-#, fuzzy
-#| msgctxt "cage-mode"
-#| msgid "Deform the cage to deform the image"
 msgctxt "drawable-action"
 msgid "Grow lighter areas of the image"
-msgstr "Het transformatiegebied vervormen om de afbeelding te vervormen"
+msgstr "Lichtere delen van het beeld groter maken"
 
 #: ../app/actions/filters-actions.c:153
 msgctxt "filters-action"
 msgid "_Erode"
-msgstr ""
+msgstr "Donkere delen donkerder maken"
 
 #: ../app/actions/filters-actions.c:154
 msgctxt "drawable-action"
 msgid "Grow darker areas of the image"
-msgstr ""
+msgstr "Donkere delen van het beeld groter maken"
 
 #: ../app/actions/filters-actions.c:172
 msgctxt "filters-action"
@@ -5307,15 +5244,12 @@ msgstr "Afbeelding _schalen…"
 #: ../app/actions/filters-actions.c:352
 msgctxt "filters-action"
 msgid "_Gaussian Blur..."
-msgstr "_Gaussische vervaging…"
+msgstr "_Gaussiaanse vervaging..."
 
 #: ../app/actions/filters-actions.c:357
-#, fuzzy
-#| msgctxt "filters-action"
-#| msgid "_Gaussian Blur..."
 msgctxt "filters-action"
 msgid "_Selective Gaussian Blur..."
-msgstr "_Gaussische vervaging…"
+msgstr "_Selectieve Gaussiaanse vervaging..."
 
 #: ../app/actions/filters-actions.c:362
 #, fuzzy
@@ -5398,12 +5332,9 @@ msgid "_Maze..."
 msgstr "_Uitvloeien…"
 
 #: ../app/actions/filters-actions.c:427
-#, fuzzy
-#| msgctxt "filters-action"
-#| msgid "_Gaussian Blur..."
 msgctxt "filters-action"
 msgid "_Median Blur..."
-msgstr "_Gaussische vervaging…"
+msgstr "Gemiddelde vervaging..."
 
 #: ../app/actions/filters-actions.c:432
 msgctxt "filters-action"
@@ -5416,25 +5347,19 @@ msgid "_Mosaic..."
 msgstr ""
 
 #: ../app/actions/filters-actions.c:442
-#, fuzzy
-#| msgctxt "tools-action"
-#| msgid "_Arbitrary Rotation..."
 msgctxt "filters-action"
 msgid "_Circular Motion Blur..."
-msgstr "_Willekeurige draaiing…"
+msgstr "_Circulaire bewegingsvervaging..."
 
 #: ../app/actions/filters-actions.c:447
-#, fuzzy
-#| msgctxt "filters-action"
-#| msgid "_Gaussian Blur..."
 msgctxt "filters-action"
 msgid "_Linear Motion Blur..."
-msgstr "_Gaussische vervaging…"
+msgstr "_Lineaire bewegingsvervaging..."
 
 #: ../app/actions/filters-actions.c:452
 msgctxt "filters-action"
 msgid "_Zoom Motion Blur..."
-msgstr ""
+msgstr "_Zoomvervaging"
 
 #: ../app/actions/filters-actions.c:457
 #, fuzzy
@@ -18326,34 +18251,32 @@ msgstr "Invoerapparaten"
 #. Extended Input Devices
 #: ../app/dialogs/preferences-dialog.c:2981
 msgid "Extended Input Devices"
-msgstr "Uitgebreide invoerapparaten"
+msgstr "Extra invoerapparaten"
 
 #: ../app/dialogs/preferences-dialog.c:2985
-#, fuzzy
-#| msgid "Save the tool options when GIMP exits."
 msgid "S_hare tool and tool options between input devices"
-msgstr "De gereedschapsopties opslaan wanneer GIMP wordt afgesloten."
+msgstr "Gereedsc_happen en -opties delen tussen invoerapparaten"
 
 #: ../app/dialogs/preferences-dialog.c:2989
 msgid "Configure E_xtended Input Devices..."
-msgstr "_Uitgebreide invoerapparaten configureren…"
+msgstr "E_xtra invoerapparaten configureren…"
 
 #: ../app/dialogs/preferences-dialog.c:2996
 msgid "_Save input device settings on exit"
-msgstr "Apparaat_instellingen opslaan bij afsluiten"
+msgstr "Invoerapparaatin_stellingen opslaan bij afsluiten"
 
 #: ../app/dialogs/preferences-dialog.c:3000
 msgid "Save Input Device Settings _Now"
-msgstr "Apparaatinstellingen _nu opslaan"
+msgstr "Invoerapparaatinstellingen _nu opslaan"
 
 #: ../app/dialogs/preferences-dialog.c:3007
 msgid "_Reset Saved Input Device Settings to Default Values"
 msgstr ""
-"Opgeslagen instellingen invoerapparaat _terugzetten op standaardwaarden"
+"Opgeslagen instellingen invoerapparaat te_rugzetten op standaardwaarden"
 
 #: ../app/dialogs/preferences-dialog.c:3022
 msgid "Additional Input Controllers"
-msgstr "Aanvullende invoercontrollers"
+msgstr "Extra invoercontrollers"
 
 #: ../app/dialogs/preferences-dialog.c:3023
 msgid "Input Controllers"
@@ -18437,16 +18360,12 @@ msgid "Select Tool Preset Folders"
 msgstr "Mappen voor gereedschapsopties selecteren"
 
 #: ../app/dialogs/preferences-dialog.c:3121
-#, fuzzy
-#| msgid "Brush Folders"
 msgid "MyPaint Brush Folders"
-msgstr "Penseelmappen"
+msgstr "MyPaint penseelmappen"
 
 #: ../app/dialogs/preferences-dialog.c:3123
-#, fuzzy
-#| msgid "Select Brush Folders"
 msgid "Select MyPaint Brush Folders"
-msgstr "Penseelmappen selecteren"
+msgstr "Selecteer MyPaint-penseelmappen"
 
 #: ../app/dialogs/preferences-dialog.c:3125
 #, fuzzy
@@ -18517,22 +18436,16 @@ msgid "Select Theme Folders"
 msgstr "Themamappen selecteren"
 
 #: ../app/dialogs/preferences-dialog.c:3149
-#, fuzzy
-#| msgid "Themes"
 msgid "Icon Themes"
-msgstr "Thema's"
+msgstr "Pictogramthema's"
 
 #: ../app/dialogs/preferences-dialog.c:3149
-#, fuzzy
-#| msgid "Theme Folders"
 msgid "Icon Theme Folders"
-msgstr "Themamappen"
+msgstr "Mappen met pictogramthema's"
 
 #: ../app/dialogs/preferences-dialog.c:3151
-#, fuzzy
-#| msgid "Select Theme Folders"
 msgid "Select Icon Theme Folders"
-msgstr "Themamappen selecteren"
+msgstr "Selecteer mappen met pictogramthema's"
 
 #: ../app/dialogs/print-size-dialog.c:144
 msgid "Print Size"
@@ -18548,7 +18461,7 @@ msgstr "_Breedte:"
 #: ../app/dialogs/print-size-dialog.c:182 ../app/widgets/gimpsizebox.c:197
 #: ../app/widgets/gimptemplateeditor.c:205
 msgid "H_eight:"
-msgstr "Hoogt_e: "
+msgstr "Hoogt_e:"
 
 #. the resolution labels
 #: ../app/dialogs/print-size-dialog.c:236 ../app/widgets/gimpsizebox.c:260
@@ -18564,7 +18477,7 @@ msgstr "Resolutie _Y:"
 #: ../app/dialogs/print-size-dialog.c:254 ../app/widgets/gimpsizebox.c:256
 #, c-format
 msgid "pixels/%a"
-msgstr "beeldpunten/%a"
+msgstr "pixels/%a"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Quit GIMP"
@@ -18576,11 +18489,11 @@ msgstr "Alle afbeeldingen sluiten"
 
 #: ../app/dialogs/quit-dialog.c:256
 msgid "If you quit GIMP now, these changes will be lost."
-msgstr "Niet-opgeslagen wijzigingen zullen verloren gaan."
+msgstr "Als u GIMP nu afsluit gaan de wijzigingen verloren. "
 
 #: ../app/dialogs/quit-dialog.c:259
 msgid "If you close these images now, changes will be lost."
-msgstr "Als u deze afbeeldingen nu sluit, zullen er wijzigingen verloren gaan."
+msgstr "Als u deze afbeeldingen nu sluit, zullen de wijzigingen verloren gaan."
 
 #. TRANSLATORS: unless your language
 #. msgstr[0] applies to 1 only (as
@@ -18595,7 +18508,7 @@ msgstr[1] "Er zijn %d bestanden met niet-opgeslagen wijzigingen:"
 #: ../app/dialogs/quit-dialog.c:357
 #, c-format
 msgid "Press %s to quit."
-msgstr "Druk op %s om af te sluiten."
+msgstr "Druk op %s om te stoppen."
 
 #: ../app/dialogs/quit-dialog.c:360
 #, c-format
@@ -18611,7 +18524,7 @@ msgstr "A_fsluiten"
 
 #: ../app/dialogs/quit-dialog.c:364
 msgid "Cl_ose"
-msgstr ""
+msgstr "Sluiten"
 
 #: ../app/dialogs/quit-dialog.c:388
 #, c-format
@@ -18626,7 +18539,7 @@ msgstr ""
 
 #: ../app/dialogs/quit-dialog.c:399 ../app/display/gimpdisplayshell-close.c:180
 msgid "_Discard Changes"
-msgstr "_Wijzigingen verwerpen"
+msgstr "Wijzigingen verwerpen"
 
 #: ../app/dialogs/quit-dialog.c:486
 #, c-format
@@ -18641,10 +18554,8 @@ msgid "Save this image"
 msgstr "Deze afbeelding opslaan"
 
 #: ../app/dialogs/quit-dialog.c:591
-#, fuzzy
-#| msgid "Save"
 msgid "Save as"
-msgstr "Opslaan"
+msgstr "Opslaan als"
 
 #: ../app/dialogs/resize-dialog.c:143
 msgid "Canvas Size"
@@ -18657,42 +18568,32 @@ msgstr "Laaggrootte"
 
 # opvullen
 #: ../app/dialogs/resize-dialog.c:156
-#, fuzzy
-#| msgid "_Fill with:"
 msgid "Fill With"
-msgstr "_Vullen met:"
+msgstr "Vullen met"
 
 #: ../app/dialogs/resize-dialog.c:185
-#, fuzzy
-#| msgid "Pre_sets:"
 msgid "Re_set"
-msgstr "Optie_s:"
+msgstr "Terugzetten"
 
 #: ../app/dialogs/resize-dialog.c:187
-#, fuzzy
-#| msgid "Resizing"
 msgid "_Resize"
-msgstr "Grootte wijzigen"
+msgstr "G_rootte wijzigen"
 
 #: ../app/dialogs/resize-dialog.c:277
-#, fuzzy
-#| msgid "Center _X:"
 msgid "C_enter"
-msgstr "Midden _X:"
+msgstr "Midd_en"
 
 #: ../app/dialogs/resize-dialog.c:331
 msgid "Resize _layers:"
 msgstr "Grootte _lagen wijzigen:"
 
 #: ../app/dialogs/resize-dialog.c:379
-#, fuzzy
-#| msgid "Resize Text Layer"
 msgid "Resize _text layers"
-msgstr "Grootte tekstlaag wijzigen"
+msgstr "Grootte _tekstlaag wijzigen"
 
 #: ../app/dialogs/resize-dialog.c:390
 msgid "Resizing text layers will make them uneditable"
-msgstr ""
+msgstr "Het wijzigen van de grootte van tekstlagen maakt ze onbewerkbaar"
 
 #: ../app/dialogs/resolution-calibrate-dialog.c:70
 msgid "Calibrate Monitor Resolution"
@@ -18704,7 +18605,7 @@ msgstr "Meet de lengte van de linialen en voer de getallen in:"
 
 #: ../app/dialogs/resolution-calibrate-dialog.c:154
 msgid "_Horizontal:"
-msgstr "Hori_zontaal:"
+msgstr "_Horizontaal:"
 
 #: ../app/dialogs/resolution-calibrate-dialog.c:159
 msgid "_Vertical:"
@@ -18725,7 +18626,7 @@ msgstr "I_nterpolatie:"
 
 #: ../app/dialogs/stroke-dialog.c:122
 msgid "Choose Stroke Style"
-msgstr "Kies stijl van belijning."
+msgstr "Kies stijl van belijning"
 
 #: ../app/dialogs/stroke-dialog.c:129
 #, fuzzy
@@ -18735,11 +18636,11 @@ msgstr "Lijn toevoegen"
 
 #: ../app/dialogs/stroke-dialog.c:238
 msgid "Paint tool:"
-msgstr "Tekengereedschap:"
+msgstr "Penseelgereedschap:"
 
 #: ../app/dialogs/stroke-dialog.c:252
 msgid "_Emulate brush dynamics"
-msgstr "Penseelgedragingen _nabootsen"
+msgstr "P_enseelgedragingen nabootsen"
 
 #: ../app/dialogs/tips-dialog.c:99
 msgid "The GIMP tips file is empty!"
@@ -18753,7 +18654,8 @@ msgstr "Het GIMP-tipsbestand lijkt te ontbreken!"
 #, c-format
 msgid "There should be a file called '%s'. Please check your installation."
 msgstr ""
-"Er hoort een bestand genaamd '%s' te zijn. Controleer a.u.b. uw installatie."
+"Er hoort een bestand genaamd '%s' te zijn. Controleer uw installatie "
+"alstublieft."
 
 #: ../app/dialogs/tips-dialog.c:111
 msgid "The GIMP tips file could not be parsed!"
@@ -18761,20 +18663,20 @@ msgstr "Het GIMP-tipsbestand kon niet correct worden ingelezen!"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "GIMP Tip of the Day"
-msgstr "GIMP Tip van de dag"
+msgstr "GIMP-tip van de dag"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
-msgstr "Vo_rige tip"
+msgstr "Vorige ti_p"
 
 #: ../app/dialogs/tips-dialog.c:151
 msgid "_Next Tip"
-msgstr "V_olgende tip"
+msgstr "Volge_nde tip"
 
 #. a link to the related section in the user manual
 #: ../app/dialogs/tips-dialog.c:205
 msgid "Learn more"
-msgstr "Meer leren"
+msgstr "Lees meer"
 
 #. This is a special string to specify the language identifier to
 #. look for in the gimp-tips.xml file. Please translate the C in it
@@ -18787,15 +18689,15 @@ msgstr "tips-locale:nl"
 
 #: ../app/dialogs/user-install-dialog.c:85
 msgid "GIMP User Installation"
-msgstr "GIMP-gebruikersinstallatie"
+msgstr "GIMP-installatie"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
-msgstr "Gebruikersinstallatie mislukt!"
+msgstr "Installatie mislukt!"
 
 #: ../app/dialogs/user-install-dialog.c:96
 msgid "The GIMP user installation failed; see the log for details."
-msgstr "De GIMP gebruikersinstallatie is mislukt; zie het log voor details."
+msgstr "De GIMP-installatie is mislukt; zie het log voor details."
 
 #: ../app/dialogs/user-install-dialog.c:99
 msgid "Installation Log"
@@ -18835,10 +18737,8 @@ msgstr "Geïmporteerde paden _schalen naar afbeelding"
 
 #  The name entry hbox, label and entry
 #: ../app/dialogs/vectors-options-dialog.c:106
-#, fuzzy
-#| msgid "Path name:"
 msgid "Path _name:"
-msgstr "Padnaam:"
+msgstr "Pad_naam:"
 
 #: ../app/dialogs/vectors-options-dialog.c:108
 #, fuzzy
@@ -18847,10 +18747,8 @@ msgid "Lock path _strokes"
 msgstr "Padlijnen vergrendelen"
 
 #: ../app/dialogs/vectors-options-dialog.c:109
-#, fuzzy
-#| msgid "Lock path strokes"
 msgid "Lock path _position"
-msgstr "Padlijnen vergrendelen"
+msgstr "Padpositie vergrendelen"
 
 #: ../app/display/display-enums.c:124
 msgctxt "guides-type"
@@ -18922,12 +18820,9 @@ msgid "Size"
 msgstr "Grootte"
 
 #: ../app/display/display-enums.c:409
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Transform"
 msgctxt "transform-handle-mode"
 msgid "Add / Transform"
-msgstr "Transformeren"
+msgstr "Toevoegen/transformeren"
 
 #: ../app/display/display-enums.c:410
 #, fuzzy
@@ -18938,12 +18833,9 @@ msgid "Move"
 msgstr "Verplaatsen"
 
 #: ../app/display/display-enums.c:411
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Remove item"
 msgctxt "transform-handle-mode"
 msgid "Remove"
-msgstr "Item verwijderen"
+msgstr "Verwijderen"
 
 #: ../app/display/display-enums.c:440
 msgctxt "vector-mode"
@@ -18969,7 +18861,7 @@ msgstr "Verplaatsen"
 #: ../app/display/gimpcursorview.c:793 ../app/display/gimpcursorview.c:794
 #: ../app/display/gimpcursorview.c:795 ../app/display/gimpcursorview.c:796
 msgid "n/a"
-msgstr "n.v.t."
+msgstr "nvt."
 
 #: ../app/display/gimpcursorview.c:228 ../app/display/gimpcursorview.c:253
 #: ../app/display/gimpcursorview.c:278
@@ -18991,7 +18883,7 @@ msgstr "Eenheden"
 #. Selection Bounding Box
 #: ../app/display/gimpcursorview.c:265
 msgid "Selection Bounding Box"
-msgstr "Omvattende box van selectie"
+msgstr "Selectieomtrek"
 
 #. Width
 #: ../app/display/gimpcursorview.c:301
@@ -19009,7 +18901,7 @@ msgstr "_Samengevoegd monsteren"
 
 #: ../app/display/gimpdisplayshell.c:552
 msgid "Access the image menu"
-msgstr "Het afbeeldingsmenu betreden"
+msgstr "Het afbeeldingsmenu openen"
 
 #: ../app/display/gimpdisplayshell.c:670
 msgid "Zoom image when window size changes"
@@ -19026,8 +18918,10 @@ msgstr "Navigeren in de afbeeldingsweergave"
 #: ../app/display/gimpdisplayshell.c:792 ../app/display/gimpdisplayshell.c:1448
 #: ../app/widgets/gimptoolbox.c:251
 msgid "Drop image files here to open them"
-msgstr "Sleep hier afbeeldingsbestanden om ze te openen"
+msgstr "Sleep afbeeldingen hier naartoe om ze te openen"
 
+# 2.10 is stabiel dus weglaten dit
+# pm
 #: ../app/display/gimpdisplayshell-callbacks.c:565
 #, c-format
 msgid ""
@@ -19043,14 +18937,11 @@ msgstr ""
 #: ../app/display/gimpdisplayshell-close.c:266
 #, c-format
 msgid "Close %s"
-msgstr "%s sluiten"
+msgstr "Sluit %s"
 
 #: ../app/display/gimpdisplayshell-close.c:178
-#, fuzzy
-#| msgctxt "file-action"
-#| msgid "Save _As..."
 msgid "Save _As"
-msgstr "Opslaan _als…"
+msgstr "Opslaan _als"
 
 #: ../app/display/gimpdisplayshell-close.c:214
 #, c-format
@@ -19061,7 +18952,7 @@ msgstr ""
 #: ../app/display/gimpdisplayshell-close.c:274
 #, c-format
 msgid "Save the changes to image '%s' before closing?"
-msgstr "Wijzigingen aan afbeelding ‘%s’ opslaan voor afsluiten?"
+msgstr "Gewijzigde afbeelding '%s' opslaan voor afsluiten?"
 
 #: ../app/display/gimpdisplayshell-close.c:307
 #, c-format
@@ -19072,8 +18963,8 @@ msgstr[0] ""
 "Als u de afbeelding niet opslaat, zullen alle wijzigingen van het laatste "
 "uur verloren gaan."
 msgstr[1] ""
-"Als u de afbeelding niet opslaat, zullen alle wijzigingen van de laatste %d "
-"uren verloren gaan."
+"Als u de afbeeldingen niet opslaat, zullen alle wijzigingen van de laatste "
+"%d uur verloren gaan."
 
 #: ../app/display/gimpdisplayshell-close.c:318
 #, c-format
@@ -19085,9 +18976,9 @@ msgid_plural ""
 "be lost."
 msgstr[0] ""
 "Als u de afbeelding niet opslaat, zullen alle wijzigingen van het laatste "
-"uur en %d minuut verloren gaan."
+"uur en %d minuten verloren gaan."
 msgstr[1] ""
-"Als u de afbeelding niet opslaat, zullen alle wijzigingen van het laatste "
+"Als u de afbeeldingen niet opslaat, zullen alle wijzigingen van het laatste "
 "uur en %d minuten verloren gaan."
 
 #: ../app/display/gimpdisplayshell-close.c:330
@@ -19096,28 +18987,28 @@ msgid "If you don't save the image, changes from the last minute will be lost."
 msgid_plural ""
 "If you don't save the image, changes from the last %d minutes will be lost."
 msgstr[0] ""
-"Als u de afbeelding niet opslaat, zullen alle wijzigingen van de laatste "
+"Als u de afbeelding niet opslaat, zullen de wijzigingen van de laatste "
 "minuut verloren gaan."
 msgstr[1] ""
-"Als u de afbeelding niet opslaat, zullen alle wijzigingen van de laatste %d "
+"Als u de afbeeldingen niet opslaat, zullen de wijzigingen van de laatste %d "
 "minuten verloren gaan."
 
 #: ../app/display/gimpdisplayshell-close.c:348
 #, c-format
 msgid "The image has been exported to '%s'."
-msgstr "De afbeelding is geëxporteerd naar ‘%s’."
+msgstr "De afbeelding is geëxporteerd naar '%s'."
 
 # Drag and drop
 #: ../app/display/gimpdisplayshell-dnd.c:247
 #: ../app/display/gimpdisplayshell-dnd.c:674
 #: ../app/display/gimpdisplayshell-dnd.c:734
 msgid "Drop New Layer"
-msgstr "Nieuwe laag slepen"
+msgstr "Verwijder nieuwe laag"
 
 # drag and drop
 #: ../app/display/gimpdisplayshell-dnd.c:290
 msgid "Drop New Path"
-msgstr "Nieuw pad slepen"
+msgstr "Verwijder nieuw pad"
 
 #: ../app/display/gimpdisplayshell-dnd.c:361
 #: ../app/tools/gimpbucketfilltool.c:137 ../app/tools/gimpcagetool.c:220
@@ -19140,29 +19031,27 @@ msgstr "De beeldpunten van de actieve laag zijn vergrendeld."
 #: ../app/display/gimpdisplayshell-dnd.c:412
 #: ../app/widgets/gimpdrawabletreeview.c:247
 #: ../app/widgets/gimpdrawabletreeview.c:358
-#, fuzzy
 msgctxt "undo-type"
 msgid "Drop pattern to layer"
-msgstr "Nieuwe laag slepen"
+msgstr "Patroon naar laag"
 
 #: ../app/display/gimpdisplayshell-dnd.c:434
 #: ../app/widgets/gimpdrawabletreeview.c:277
 #: ../app/widgets/gimpdrawabletreeview.c:378
-#, fuzzy
 msgctxt "undo-type"
 msgid "Drop color to layer"
-msgstr "Lagen laten vallen"
+msgstr "Kleur naar laag "
 
 #: ../app/display/gimpdisplayshell-dnd.c:570
 #: ../app/widgets/gimplayertreeview.c:756
 msgid "Drop layers"
-msgstr "Lagen slepen"
+msgstr "Verwijder lagen"
 
 #: ../app/display/gimpdisplayshell-dnd.c:707
 #: ../app/display/gimpdisplayshell-dnd.c:725
 #: ../app/widgets/gimplayertreeview.c:831 ../app/widgets/gimptoolbox-dnd.c:272
 msgid "Dropped Buffer"
-msgstr "Weggegooide buffer"
+msgstr "Verwijderde buffer"
 
 #: ../app/display/gimpdisplayshell-filter-dialog.c:79
 msgid "Color Display Filters"
@@ -19175,16 +19064,16 @@ msgstr "Kleurweergavefilters instellen"
 #: ../app/display/gimpdisplayshell-handlers.c:871
 #, c-format
 msgid "Image saved to '%s'"
-msgstr "Afbeelding opgeslagen als ‘%s’."
+msgstr "Afbeelding opgeslagen als '%s'"
 
 #: ../app/display/gimpdisplayshell-handlers.c:884
 #, c-format
 msgid "Image exported to '%s'"
-msgstr "Afbeelding geëxporteerd naar ‘%s’."
+msgstr "Afbeelding geëxporteerd naar '%s'"
 
 #: ../app/display/gimpdisplayshell-layer-select.c:128
 msgid "Layer Select"
-msgstr "Laagselectie"
+msgstr "Selecteer laag"
 
 #: ../app/display/gimpdisplayshell-rotate-dialog.c:114
 #, fuzzy
@@ -19194,11 +19083,8 @@ msgid "Rotate View"
 msgstr "Afbeelding draaien"
 
 #: ../app/display/gimpdisplayshell-rotate-dialog.c:116
-#, fuzzy
-#| msgctxt "layers-action"
-#| msgid "Select _Bottom Layer"
 msgid "Select Rotation Angle"
-msgstr "O_nderste laag selecteren"
+msgstr "Selecteer rotatiehoek"
 
 #: ../app/display/gimpdisplayshell-rotate-dialog.c:154
 #: ../app/tools/gimpmeasuretool.c:698
@@ -19206,23 +19092,21 @@ msgid "Angle:"
 msgstr "Hoek:"
 
 #: ../app/display/gimpdisplayshell-rotate-dialog.c:167
-#, fuzzy
-#| msgid "15 degrees  (%s)"
 msgid "degrees"
-msgstr "15 graden (%s)"
+msgstr "graden"
 
 # zoomniveau/zoomverhouding
 #: ../app/display/gimpdisplayshell-scale-dialog.c:115
 msgid "Zoom Ratio"
-msgstr "Zoomverhouding"
+msgstr "Zoom-waarde"
 
 #: ../app/display/gimpdisplayshell-scale-dialog.c:117
 msgid "Select Zoom Ratio"
-msgstr "Zoomverhouding selecteren"
+msgstr "Kies zoom-waarde"
 
 #: ../app/display/gimpdisplayshell-scale-dialog.c:162
 msgid "Zoom ratio:"
-msgstr "Zoomverhouding:"
+msgstr "Zoom-waarde:"
 
 # zoomen
 #: ../app/display/gimpdisplayshell-scale-dialog.c:189
@@ -19247,21 +19131,19 @@ msgid "(none)"
 msgstr "(geen)"
 
 #: ../app/display/gimpdisplayshell-title.c:473
-#, fuzzy
-#| msgid "Color Management"
 msgid "not color managed"
-msgstr "Kleurbeheer"
+msgstr "niet kleurbeheerd"
 
 #: ../app/display/gimpdisplayshell-utils.c:149
 #: ../app/tools/gimpmeasuretool.c:528 ../app/tools/gimpmeasuretool.c:681
 #: ../app/tools/gimpmeasuretool.c:737 ../app/tools/gimpmeasuretool.c:765
 msgid "pixels"
-msgstr "beeldpunten"
+msgstr "pixels"
 
 #: ../app/display/gimpstatusbar.c:460
 #, c-format
 msgid "Cancel <i>%s</i>"
-msgstr "<i>%s</i> annuleren"
+msgstr "Annuleer <i>%s</i> "
 
 #: ../app/display/gimptoolcompass.c:811
 msgid "Click to place vertical and horizontal guides"
@@ -19288,169 +19170,124 @@ msgid "Click-Drag to move all points"
 msgstr "Klik en sleep om alle punten te verplaatsen"
 
 #: ../app/display/gimptoolgyroscope.c:702
-#, fuzzy
-#| msgid "Click-Drag to move this point"
 msgid "Click-Drag to zoom"
-msgstr "Klik en sleep om dit punt te verplaatsen"
+msgstr "Klik en sleep om te zoomen"
 
 #: ../app/display/gimptoolgyroscope.c:706
-#, fuzzy, c-format
-#| msgid "%s for constrained angles"
+#, c-format
 msgid "%s for constrained steps"
-msgstr "%s om hoeken te beperken"
+msgstr "%s om stappen te beperken"
 
 #: ../app/display/gimptoolgyroscope.c:713
 #: ../app/display/gimptooltransformgrid.c:1782
-#, fuzzy
-#| msgid "Click to erase"
 msgid "Click-Drag to rotate"
-msgstr "Klik om te gummen"
+msgstr "Klik en sleep om te roteren"
 
 #: ../app/display/gimptoolgyroscope.c:717 ../app/display/gimptoolline.c:1490
 #: ../app/tools/gimppainttool.c:582
 #, c-format
 msgid "%s for constrained angles"
-msgstr "%s om hoeken te beperken"
+msgstr "%s voor begrensde hoeken"
 
 #: ../app/display/gimptoolgyroscope.c:722
-#, fuzzy
-#| msgid "Click to paint"
 msgid "Click-Drag to pan"
-msgstr "Klik om te tekenen"
+msgstr "Klik en sleep om de rest van de afbeelding te zien"
 
 #: ../app/display/gimptoolgyroscope.c:728
-#, fuzzy, c-format
-#| msgid "%s to dodge"
+#, c-format
 msgid "%s to rotate"
-msgstr "%s om lichter te maken"
+msgstr "%s om te roteren"
 
 #: ../app/display/gimptoolgyroscope.c:729
-#, fuzzy, c-format
-#| msgid "%s for constrained angles"
+#, c-format
 msgid "%s for a constrained axis"
-msgstr "%s om hoeken te beperken"
+msgstr "%s voor een begrensde as"
 
 #: ../app/display/gimptoolgyroscope.c:730
-#, fuzzy, c-format
-#| msgid "%s to dodge"
+#, c-format
 msgid "%s to zoom"
-msgstr "%s om lichter te maken"
+msgstr "%s om te zoomen"
 
 #: ../app/display/gimptoolhandlegrid.c:837
 #: ../app/display/gimptooltransformgrid.c:1773
-#, fuzzy
-#| msgid "Click-Drag to move this point"
 msgid "Click-Drag to move"
-msgstr "Klik en sleep om dit punt te verplaatsen"
+msgstr "Klik en sleep om te verplaatsen"
 
 #: ../app/display/gimptoolhandlegrid.c:840
-#, fuzzy
-#| msgid "Click-Drag to create a new selection"
 msgid "Click-Drag to rotate and scale"
-msgstr "Klik en sleep om een nieuwe selectie aan te maken"
+msgstr "Klik en sleep om te roteren en te schalen"
 
 #: ../app/display/gimptoolhandlegrid.c:843
-#, fuzzy
-#| msgid "Click-Drag to create a new selection"
 msgid "Click-Drag to shear and scale"
-msgstr "Klik en sleep om een nieuwe selectie aan te maken"
+msgstr "Klik en sleep om te hellen en te schalen"
 
 #: ../app/display/gimptoolhandlegrid.c:846
 #: ../app/display/gimptooltransformgrid.c:1761
-#, fuzzy
-#| msgid "Click-Drag to change the shape of the curve"
 msgid "Click-Drag to change perspective"
-msgstr "Klik en sleep om de vorm van de curve te wijzigen"
+msgstr "Klik en sleep om het perspectief te wijzigen"
 
 #: ../app/display/gimptoolhandlegrid.c:857
-#, fuzzy
-#| msgid "Click to heal"
 msgid "Click to add a handle"
-msgstr "Klik om te repareren"
+msgstr "Klik om een handvat toe te voegen"
 
 #: ../app/display/gimptoolhandlegrid.c:863
-#, fuzzy
-#| msgid "Click-Drag to move the handle around"
 msgid "Click-Drag to move this handle"
-msgstr "Klik en sleep om het handvat te verplaatsen"
+msgstr "Klik en sleep om dit handvat te verplaatsen"
 
 #: ../app/display/gimptoolhandlegrid.c:868
-#, fuzzy
-#| msgid "Click-Drag to move the handle around"
 msgid "Click-Drag to remove this handle"
-msgstr "Klik en sleep om het handvat te verplaatsen"
+msgstr "Klik en sleep om dit handvat te verwijderen"
 
 #: ../app/display/gimptoolline.c:335 ../app/display/gimptoolline.c:498
-#, fuzzy
-#| msgctxt "dash-preset"
-#| msgid "Line"
 msgid "Line: "
-msgstr "Lijn"
+msgstr "Lijn:"
 
 #: ../app/display/gimptoolline.c:1484
-#, fuzzy
-#| msgid "Click-Drag to move this point"
 msgid "Click-Drag to move the endpoint"
-msgstr "Klik en sleep om dit punt te verplaatsen"
+msgstr "Klik en sleep om het eindpunt te verplaatsen"
 
 #: ../app/display/gimptoolline.c:1497
-#, fuzzy
-#| msgid "Click to dodge the line"
 msgid "Release to remove the slider"
-msgstr "Klik om de lijn lichter te maken"
+msgstr "Loslaten om schuif te verwijderen"
 
 #: ../app/display/gimptoolline.c:1501
-#, fuzzy, c-format
-#| msgid "%s for constrained angles"
+#, c-format
 msgid "%s for constrained values"
-msgstr "%s om hoeken te beperken"
+msgstr "%s om waarden te begrenzen"
 
 #: ../app/display/gimptoolline.c:1511
-#, fuzzy
-#| msgid "Click-Drag to move the selection mask"
 msgid "Click-Drag to move the slider; drag away to remove the slider"
-msgstr "Klik en sleep om het selectiekader te verplaatsen"
+msgstr ""
+"Klik en sleep om de schuif te verplaatsen; verwijder door 'm weg te slepen"
 
 #: ../app/display/gimptoolline.c:1516
-#, fuzzy
-#| msgid "Click-Drag to move segment vertex"
 msgid "Click-Drag to move or remove the slider"
-msgstr "Klik en sleep om het hoekpunt van het segment te verplaatsen"
+msgstr "Klik en sleep om de schuif te verplaatsen of te verwijderen"
 
 #: ../app/display/gimptoolline.c:1521
-#, fuzzy
-#| msgid "Click-Drag to move the selected pixels"
 msgid "Click-Drag to move the slider"
-msgstr "Klik en sleep om de geselecteerde beeldpunten te verplaatsen"
+msgstr "Klik en sleep om de schuif te verplaatsen"
 
 #: ../app/display/gimptoolline.c:1532
-#, fuzzy
-#| msgid "Click-Drag to move the selected pixels"
 msgid "Click-Drag away to remove the slider"
-msgstr "Klik en sleep om de geselecteerde beeldpunten te verplaatsen"
+msgstr "Klik en sleep om de schuif te verwijderen"
 
 #: ../app/display/gimptoolline.c:1536
-#, fuzzy
-#| msgid "Click-Drag to move the selected pixels"
 msgid "Click-Drag to remove the slider"
-msgstr "Klik en sleep om de geselecteerde beeldpunten te verplaatsen"
+msgstr "Klik en sleep om de schuif te verwijderen"
 
 #: ../app/display/gimptoolline.c:1547
-#, fuzzy
-#| msgid "Click or Click-Drag to add a point"
 msgid "Click or Click-Drag to add a new slider"
-msgstr "Klik of klik en sleep om een punt toe te voegen"
+msgstr "Klik of klik en sleep om een nieuwe schuif toe te voegen"
 
 #: ../app/display/gimptoolline.c:1553
-#, fuzzy
-#| msgid "Click-Drag to move this point"
 msgid "Click-Drag to move the line"
-msgstr "Klik en sleep om dit punt te verplaatsen"
+msgstr "Klik en sleep om de lijn te verplaatsen"
 
 #: ../app/display/gimptoolline.c:1565
 #, c-format
 msgid "%s to move the whole line"
-msgstr "%s om de hele lijn te bewegen"
+msgstr "%s om de hele lijn te verplaatsen"
 
 #: ../app/display/gimptoolpath.c:256 ../app/tools/gimpvectoroptions.c:71
 msgid "Edit Mode"
@@ -19459,16 +19296,16 @@ msgstr "Bewerkingsmodus"
 # veelhoek / polygon
 #: ../app/display/gimptoolpath.c:265 ../app/tools/gimpvectoroptions.c:79
 msgid "Polygonal"
-msgstr "Veelhoek"
+msgstr "Veelhoekig"
 
 # veelhoeken/polygonen/polygonalen
 #: ../app/display/gimptoolpath.c:266 ../app/tools/gimpvectoroptions.c:80
 msgid "Restrict editing to polygons"
-msgstr "Bewerken beperken tot veelhoeken"
+msgstr "Beperk bewerkingen tot veelhoeken"
 
 #: ../app/display/gimptoolpath.c:492
 msgid "The active path is locked."
-msgstr "Het actieve pad is vergrendeld"
+msgstr "Het actieve pad is vergrendeld."
 
 #: ../app/display/gimptoolpath.c:576
 msgid "Add Stroke"
@@ -19484,19 +19321,19 @@ msgstr "Anker invoegen"
 
 #: ../app/display/gimptoolpath.c:653
 msgid "Drag Handle"
-msgstr "Handvat slepen"
+msgstr "Versleep handvat"
 
 #: ../app/display/gimptoolpath.c:684
 msgid "Drag Anchor"
-msgstr "Anker slepen"
+msgstr "Versleep anker"
 
 #: ../app/display/gimptoolpath.c:702
 msgid "Drag Anchors"
-msgstr "Ankers slepen"
+msgstr "Versleep ankers"
 
 #: ../app/display/gimptoolpath.c:724
 msgid "Drag Curve"
-msgstr "Curve slepen"
+msgstr "Versleep curve"
 
 #: ../app/display/gimptoolpath.c:753
 msgid "Connect Strokes"
@@ -19528,15 +19365,15 @@ msgstr "Klik om het te bewerken pad te kiezen"
 
 #: ../app/display/gimptoolpath.c:1444
 msgid "Click to create a new path"
-msgstr "Klik om een nieuw pad aan te maken"
+msgstr "Klik om een nieuw pad te maken"
 
 #: ../app/display/gimptoolpath.c:1448
 msgid "Click to create a new component of the path"
-msgstr "Klik om nieuwe padcomponent aan te maken"
+msgstr "Klik om nieuw padcomponent te maken"
 
 #: ../app/display/gimptoolpath.c:1452
 msgid "Click or Click-Drag to create a new anchor"
-msgstr "Klik of klik en sleep om een nieuw anker aan te maken"
+msgstr "Klik of klik en sleep om een nieuw anker te maken"
 
 #: ../app/display/gimptoolpath.c:1462 ../app/display/gimptoolpath.c:1469
 msgid "Click-Drag to move the anchor around"
@@ -19585,7 +19422,7 @@ msgstr "Klik om dit anker met het geselecteerde eindpunt te verbinden"
 
 #: ../app/display/gimptoolpath.c:1538
 msgid "Click to open up the path"
-msgstr "Klik om het pad te splitsen"
+msgstr "Klik om het pad te openen"
 
 #: ../app/display/gimptoolpath.c:1542
 msgid "Click to make this node angular"
@@ -19593,33 +19430,28 @@ msgstr "Klik om dit knooppunt hoekig te maken"
 
 #: ../app/display/gimptoolpath.c:1546
 msgid "Clicking here does nothing, try clicking on path elements."
-msgstr ""
+msgstr "Hier klikken doet niets, probeer op padelementen te klikken."
 
 #: ../app/display/gimptoolpath.c:1754
 msgid "Delete Anchors"
-msgstr "Ankers verwijderen"
+msgstr "Verwijder ankers"
 
 #: ../app/display/gimptoolpolygon.c:866
-#, fuzzy
-#| msgid "Click to sharpen"
 msgid "Click to close shape"
-msgstr "Klik om te verscherpen"
+msgstr "Klik om vorm te sluiten"
 
 #: ../app/display/gimptoolpolygon.c:870
 msgid "Click-Drag to move segment vertex"
 msgstr "Klik en sleep om het hoekpunt van het segment te verplaatsen"
 
 #: ../app/display/gimptoolpolygon.c:875
-#, fuzzy
-#| msgid "Return commits, Escape cancels, Backspace removes last segment"
 msgid "Return commits, Escape cancels, Backspace re-opens shape"
-msgstr ""
-"Return past toe, escape annuleert, backspace verwijdert het laatste segment"
+msgstr "Return past toe, escape annuleert, backspace heropent vorm"
 
 #: ../app/display/gimptoolpolygon.c:879
 msgid "Return commits, Escape cancels, Backspace removes last segment"
 msgstr ""
-"Return past toe, escape annuleert, backspace verwijdert het laatste segment"
+"Return past toe, escape annuleert, backspace verwijdert laatste segment"
 
 #: ../app/display/gimptoolpolygon.c:883
 msgid "Click-Drag adds a free segment, Click adds a polygonal segment"
@@ -19634,42 +19466,34 @@ msgid "Rectangle: "
 msgstr "Rechthoek: "
 
 #: ../app/display/gimptoolrectangle.c:2151
-#, fuzzy
-#| msgid "Position:"
 msgid "Position: "
 msgstr "Positie:"
 
 #: ../app/display/gimptooltransformgrid.c:1766
 #: ../app/display/gimptooltransformgrid.c:1771
-#, fuzzy
-#| msgid "Click to clone"
 msgid "Click-Drag to scale"
-msgstr "Klik om te klonen"
+msgstr "Klik en sleep om afbeelding te schalen"
 
 #: ../app/display/gimptooltransformgrid.c:1775
-#, fuzzy
-#| msgid "Click-Drag to move this point"
 msgid "Click-Drag to move the pivot point"
-msgstr "Klik en sleep om dit punt te verplaatsen"
+msgstr "Klik en sleep om het middelpunt te verplaatsen"
 
 #: ../app/display/gimptooltransformgrid.c:1780
-#, fuzzy
-#| msgid "Click to heal"
 msgid "Click-Drag to shear"
-msgstr "Klik om te repareren"
+msgstr "Klik en sleep om te hellen"
 
 #: ../app/file/file-open.c:116 ../app/file/file-save.c:114
 msgid "Not a regular file"
-msgstr "Niet een standaard bestand"
+msgstr "Geen regulier bestand"
 
 #: ../app/file/file-open.c:125 ../app/file/file-save.c:123
 msgid "Permission denied"
-msgstr ""
+msgstr "Toestemming geweigerd"
 
 #: ../app/file/file-open.c:257
 #, c-format
 msgid "%s plug-in returned SUCCESS but did not return an image"
-msgstr "Plug-in %s gaf SUCCES, maar produceerde geen afbeelding"
+msgstr "Plug-in %s meldde 'succes' maar leverde geen afbeelding"
 
 #: ../app/file/file-open.c:268
 #, c-format
@@ -19683,48 +19507,45 @@ msgstr "Afbeelding bevat geen lagen"
 #: ../app/file/file-open.c:717
 #, c-format
 msgid "Opening '%s' failed: %s"
-msgstr "Openen van ‘%s’ mislukte: %s"
+msgstr "Openen van '%s' mislukte: %s"
 
 #: ../app/file/file-remote.c:113
 msgid "Mounting remote volume"
-msgstr ""
+msgstr "Aankoppelen volume op afstand"
 
 #: ../app/file/file-remote.c:289
-#, fuzzy
-#| msgctxt "file-action"
-#| msgid "Open an image file"
 msgid "Opening remote file"
-msgstr "Een afbeelding openen"
+msgstr "Afbeelding op afstand openen"
 
 #: ../app/file/file-remote.c:357
 #, c-format
 msgid "Downloading image (%s of %s)"
-msgstr ""
+msgstr "Downloaden afbeelding (%s van %s)"
 
 #: ../app/file/file-remote.c:361
 #, c-format
 msgid "Uploading image (%s of %s)"
-msgstr ""
+msgstr "Uploaden afbeelding (%s van %s)"
 
 #: ../app/file/file-remote.c:384
 #, c-format
 msgid "Downloaded %s of image data"
-msgstr ""
+msgstr "%s beelddata gedownload"
 
 #: ../app/file/file-remote.c:388
 #, c-format
 msgid "Uploaded %s of image data"
-msgstr ""
+msgstr "%s beelddata geüpload"
 
 #: ../app/file/file-save.c:278
 #, c-format
 msgid "%s plug-in could not save image"
-msgstr "Plug-in %s kon afbeeldingen niet opslaan"
+msgstr "Plug-in %s kon afbeelding niet opslaan"
 
 #: ../app/file/file-utils.c:65
 #, c-format
 msgid "'%s:' is not a valid URI scheme"
-msgstr "‘%s:’ is geen geldig URI-schema"
+msgstr "'%s:' is geen geldig URI-schema"
 
 #: ../app/file/file-utils.c:81 ../app/file/file-utils.c:120
 msgid "Invalid character sequence in URI"
@@ -19747,7 +19568,7 @@ msgstr "RGB"
 #: ../app/gegl/gimp-babl.c:337 ../app/gegl/gimp-babl.c:338
 #: ../app/gegl/gimp-babl.c:339 ../app/gegl/gimp-babl.c:340
 msgid "RGB-alpha"
-msgstr ""
+msgstr "RGB-alfa"
 
 #: ../app/gegl/gimp-babl.c:342 ../app/gegl/gimp-babl.c:343
 #: ../app/gegl/gimp-babl.c:344 ../app/gegl/gimp-babl.c:345
@@ -19755,9 +19576,8 @@ msgstr ""
 #: ../app/gegl/gimp-babl.c:348 ../app/gegl/gimp-babl.c:349
 #: ../app/gegl/gimp-babl.c:350 ../app/gegl/gimp-babl.c:351
 #: ../app/gegl/gimp-babl.c:352 ../app/gegl/gimp-babl.c:353
-#, fuzzy
 msgid "Grayscale"
-msgstr "_Grijswaarden"
+msgstr "Grijswaarden"
 
 #: ../app/gegl/gimp-babl.c:355 ../app/gegl/gimp-babl.c:356
 #: ../app/gegl/gimp-babl.c:357 ../app/gegl/gimp-babl.c:358
@@ -19765,9 +19585,8 @@ msgstr "_Grijswaarden"
 #: ../app/gegl/gimp-babl.c:361 ../app/gegl/gimp-babl.c:362
 #: ../app/gegl/gimp-babl.c:363 ../app/gegl/gimp-babl.c:364
 #: ../app/gegl/gimp-babl.c:365 ../app/gegl/gimp-babl.c:366
-#, fuzzy
 msgid "Grayscale-alpha"
-msgstr "_Grijswaarden"
+msgstr "Grijswaarden-alfa"
 
 # frame for Comment
 #: ../app/gegl/gimp-babl.c:368 ../app/gegl/gimp-babl.c:369
@@ -19776,9 +19595,8 @@ msgstr "_Grijswaarden"
 #: ../app/gegl/gimp-babl.c:374 ../app/gegl/gimp-babl.c:375
 #: ../app/gegl/gimp-babl.c:376 ../app/gegl/gimp-babl.c:377
 #: ../app/gegl/gimp-babl.c:378 ../app/gegl/gimp-babl.c:379
-#, fuzzy
 msgid "Red component"
-msgstr "_Componenten"
+msgstr "Roodcomponent"
 
 # frame for Comment
 #: ../app/gegl/gimp-babl.c:381 ../app/gegl/gimp-babl.c:382
@@ -19787,9 +19605,8 @@ msgstr "_Componenten"
 #: ../app/gegl/gimp-babl.c:387 ../app/gegl/gimp-babl.c:388
 #: ../app/gegl/gimp-babl.c:389 ../app/gegl/gimp-babl.c:390
 #: ../app/gegl/gimp-babl.c:391 ../app/gegl/gimp-babl.c:392
-#, fuzzy
 msgid "Green component"
-msgstr "_Componenten"
+msgstr "Groencomponent"
 
 # frame for Comment
 #: ../app/gegl/gimp-babl.c:394 ../app/gegl/gimp-babl.c:395
@@ -19798,46 +19615,39 @@ msgstr "_Componenten"
 #: ../app/gegl/gimp-babl.c:400 ../app/gegl/gimp-babl.c:401
 #: ../app/gegl/gimp-babl.c:402 ../app/gegl/gimp-babl.c:403
 #: ../app/gegl/gimp-babl.c:404 ../app/gegl/gimp-babl.c:405
-#, fuzzy
 msgid "Blue component"
-msgstr "_Componenten"
+msgstr "Blauwcomponent"
 
 # frame for Comment
 #: ../app/gegl/gimp-babl.c:407 ../app/gegl/gimp-babl.c:408
 #: ../app/gegl/gimp-babl.c:409 ../app/gegl/gimp-babl.c:410
 #: ../app/gegl/gimp-babl.c:411 ../app/gegl/gimp-babl.c:412
-#, fuzzy
 msgid "Alpha component"
-msgstr "_Componenten"
+msgstr "Alfacomponent"
 
 #: ../app/gegl/gimp-babl.c:440
-#, fuzzy
 msgid "Indexed-alpha"
-msgstr "geïndexeerd-leeg"
+msgstr "Geïndexeerd-alfa"
 
 #: ../app/gegl/gimp-babl.c:442
-#, fuzzy
 msgid "Indexed"
-msgstr "geïndexeerd"
+msgstr "Geïndexeerd"
 
 #: ../app/gegl/gimp-gegl-enums.c:24
 msgctxt "cage-mode"
 msgid "Create or adjust the cage"
-msgstr "Transformatiegebied maken of aanpassen"
+msgstr "Kooitransformatiegebied maken of aanpassen"
 
 #: ../app/gegl/gimp-gegl-enums.c:25
-#, fuzzy
-#| msgctxt "cage-mode"
-#| msgid "Deform the cage to deform the image"
 msgctxt "cage-mode"
 msgid ""
 "Deform the cage\n"
 "to deform the image"
-msgstr "Het transformatiegebied vervormen om de afbeelding te vervormen"
+msgstr ""
+"Vervorm de kooi\n"
+"om de afbeelding te vervormen"
 
 #: ../app/operations/operations-enums.c:25
-#, fuzzy
-#| msgid "Auto"
 msgctxt "layer-color-space"
 msgid "Auto"
 msgstr "Automatisch"
@@ -19845,23 +19655,19 @@ msgstr "Automatisch"
 #: ../app/operations/operations-enums.c:26
 msgctxt "layer-color-space"
 msgid "RGB (linear)"
-msgstr ""
+msgstr "RGB (lineair)"
 
 #: ../app/operations/operations-enums.c:27
-#, fuzzy
-#| msgid "Percentile:"
 msgctxt "layer-color-space"
 msgid "RGB (perceptual)"
-msgstr "Percentiel:"
+msgstr "RGB (perceptueel)"
 
 #: ../app/operations/operations-enums.c:28
 msgctxt "layer-color-space"
 msgid "LAB"
-msgstr ""
+msgstr "LAB"
 
 #: ../app/operations/operations-enums.c:59
-#, fuzzy
-#| msgid "Auto"
 msgctxt "layer-composite-mode"
 msgid "Auto"
 msgstr "Automatisch"
@@ -19869,25 +19675,19 @@ msgstr "Automatisch"
 #: ../app/operations/operations-enums.c:60
 msgctxt "layer-composite-mode"
 msgid "Union"
-msgstr ""
+msgstr "Unie"
 
 #: ../app/operations/operations-enums.c:61
-#, fuzzy
-#| msgid "Click to sharpen"
 msgctxt "layer-composite-mode"
 msgid "Clip to backdrop"
-msgstr "Klik om te verscherpen"
+msgstr "Aan achterzijde vastmaken"
 
 #: ../app/operations/operations-enums.c:62
-#, fuzzy
-#| msgid "Clipped to bottom layer"
 msgctxt "layer-composite-mode"
 msgid "Clip to layer"
-msgstr "Op onderste laag gesneden"
+msgstr "Aan laag vastmaken"
 
 #: ../app/operations/operations-enums.c:63
-#, fuzzy
-#| msgid "Intersect"
 msgctxt "layer-composite-mode"
 msgid "Intersection"
 msgstr "Doorsnede"
@@ -19895,17 +19695,14 @@ msgstr "Doorsnede"
 #: ../app/operations/operations-enums.c:153
 msgctxt "layer-mode"
 msgid "Normal (legacy)"
-msgstr ""
+msgstr "Normaal (verouderd)"
 
 #. Translators: this is an abbreviated version of "Normal (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:156
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Normal"
 msgctxt "layer-mode"
 msgid "Normal (l)"
-msgstr "Normaal"
+msgstr "Normaal (v)"
 
 #: ../app/operations/operations-enums.c:157
 #, fuzzy
@@ -19918,368 +19715,262 @@ msgstr "Oplossen"
 #: ../app/operations/operations-enums.c:158
 msgctxt "layer-mode"
 msgid "Behind (legacy)"
-msgstr ""
+msgstr "Achter (verouderd)"
 
 #. Translators: this is an abbreviated version of "Behind (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:161
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Behind"
 msgctxt "layer-mode"
 msgid "Behind (l)"
-msgstr "Achter"
+msgstr "Achter (v)"
 
 #: ../app/operations/operations-enums.c:162
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Multiply"
 msgctxt "layer-mode"
 msgid "Multiply (legacy)"
-msgstr "Vermenigvuldigen"
+msgstr "Vermenigvuldigen (verouderd)"
 
 #. Translators: this is an abbreviated version of "Multiply (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:165
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Multiply"
 msgctxt "layer-mode"
 msgid "Multiply (l)"
-msgstr "Vermenigvuldigen"
+msgstr "Vermenigvuldigen (v)"
 
 #: ../app/operations/operations-enums.c:166
 msgctxt "layer-mode"
 msgid "Screen (legacy)"
-msgstr ""
+msgstr "Scherm (verouderd)"
 
 #. Translators: this is an abbreviated version of "Screen (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:169
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Screen"
 msgctxt "layer-mode"
 msgid "Screen (l)"
-msgstr "Scherm"
+msgstr "Scherm (v)"
 
 #: ../app/operations/operations-enums.c:170
 msgctxt "layer-mode"
 msgid "Old broken Overlay"
 msgstr ""
 
+# Vind deze laagmodus niet terug...
+# pm
 #. Translators: this is an abbreviated version of "Old broken Overlay".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:173
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Overlay"
 msgctxt "layer-mode"
 msgid "Old Overlay"
-msgstr "Overheen leggen"
+msgstr ""
 
 #: ../app/operations/operations-enums.c:174
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Difference"
 msgctxt "layer-mode"
 msgid "Difference (legacy)"
-msgstr "Verschil"
+msgstr "Verschil (verouderd)"
 
 #. Translators: this is an abbreviated version of "Difference (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:177
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Difference"
 msgctxt "layer-mode"
 msgid "Difference (l)"
-msgstr "Verschil"
+msgstr "Verschil (v)"
 
 #: ../app/operations/operations-enums.c:178
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Addition"
 msgctxt "layer-mode"
 msgid "Addition (legacy)"
-msgstr "Optellen"
+msgstr "Optellen (verouderd)"
 
 #. Translators: this is an abbreviated version of "Addition (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:181
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Addition"
 msgctxt "layer-mode"
 msgid "Addition (l)"
-msgstr "Optellen"
+msgstr "Optellen (v)"
 
 #: ../app/operations/operations-enums.c:182
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Subtract"
 msgctxt "layer-mode"
 msgid "Subtract (legacy)"
-msgstr "Aftrekken"
+msgstr "Aftrekken (verouderd)"
 
 #. Translators: this is an abbreviated version of "Subtract (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:185
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Subtract"
 msgctxt "layer-mode"
 msgid "Subtract (l)"
-msgstr "Aftrekken"
+msgstr "Aftrekken (v)"
 
 #: ../app/operations/operations-enums.c:186
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Darken only"
 msgctxt "layer-mode"
 msgid "Darken only (legacy)"
-msgstr "Enkel donkerder maken"
+msgstr "Enkel donkerder maken (verouderd)"
 
 #. Translators: this is an abbreviated version of "Darken only (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:189
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Darken only"
 msgctxt "layer-mode"
 msgid "Darken only (l)"
-msgstr "Enkel donkerder maken"
+msgstr "Enkel donkerder maken (v)"
 
 #: ../app/operations/operations-enums.c:190
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Lighten only"
 msgctxt "layer-mode"
 msgid "Lighten only (legacy)"
-msgstr "Enkel lichter maken"
+msgstr "Enkel lichter maken (verouderd)"
 
 #. Translators: this is an abbreviated version of "Lighten only (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:193
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Lighten only"
 msgctxt "layer-mode"
 msgid "Lighten only (l)"
-msgstr "Enkel lichter maken"
+msgstr "Enkel lichter maken (v)"
 
 #: ../app/operations/operations-enums.c:194
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Hue (HSV)"
 msgctxt "layer-mode"
 msgid "Hue (HSV) (legacy)"
-msgstr "Tint (HSV)"
+msgstr "Tint (HSV) (verouderd)"
 
 #. Translators: this is an abbreviated version of "Hue (HSV) (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:197
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Hue (HSV)"
 msgctxt "layer-mode"
 msgid "Hue (HSV) (l)"
-msgstr "Tint (HSV)"
+msgstr "Tint (HSV) (v)"
 
 #: ../app/operations/operations-enums.c:198
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Saturation (HSV)"
 msgctxt "layer-mode"
 msgid "Saturation (HSV) (legacy)"
-msgstr "Verzadiging (HSV)"
+msgstr "Verzadiging (HSV) (verouderd)"
 
 #. Translators: this is an abbreviated version of "Saturation (HSV) (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:201
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Saturation (HSV)"
 msgctxt "layer-mode"
 msgid "Saturation (HSV) (l)"
-msgstr "Verzadiging (HSV)"
+msgstr "Verzadiging (HSV) (v)"
 
 #: ../app/operations/operations-enums.c:202
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Color (HSV)"
 msgctxt "layer-mode"
 msgid "Color (HSL) (legacy)"
-msgstr "Kleur (HSV)"
+msgstr "Kleur (HSV) (verouderd)"
 
 #. Translators: this is an abbreviated version of "Color (HSL) (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:205
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Color (HSV)"
 msgctxt "layer-mode"
 msgid "Color (HSL) (l)"
-msgstr "Kleur (HSV)"
+msgstr "Kleur (HSL) (v)"
 
 #: ../app/operations/operations-enums.c:206
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Value (HSV)"
 msgctxt "layer-mode"
 msgid "Value (HSV) (legacy)"
-msgstr "Waarde (HSV)"
+msgstr "Waarde (HSV) (verouderd)"
 
 #. Translators: this is an abbreviated version of "Value (HSV) (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:209
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Value (HSV)"
 msgctxt "layer-mode"
 msgid "Value (HSV) (l)"
-msgstr "Waarde (HSV)"
+msgstr "Waarde (HSV) (v)"
 
 #: ../app/operations/operations-enums.c:210
 msgctxt "layer-mode"
 msgid "Divide (legacy)"
-msgstr ""
+msgstr "Delen (verouderd)"
 
 #. Translators: this is an abbreviated version of "Divide (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:213
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Divide"
 msgctxt "layer-mode"
 msgid "Divide (l)"
-msgstr "Delen"
+msgstr "Delen (v)"
 
 #: ../app/operations/operations-enums.c:214
 msgctxt "layer-mode"
 msgid "Dodge (legacy)"
-msgstr ""
+msgstr "Lichter maken (verouderd)"
 
 #. Translators: this is an abbreviated version of "Dodge (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:217
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Dodge"
 msgctxt "layer-mode"
 msgid "Dodge (l)"
-msgstr "Doordrukken"
+msgstr "Lichter maken (v)"
 
 #: ../app/operations/operations-enums.c:218
 msgctxt "layer-mode"
 msgid "Burn (legacy)"
-msgstr ""
+msgstr "Donkerder maken (verouderd)"
 
 #. Translators: this is an abbreviated version of "Burn (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:221
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Burn"
 msgctxt "layer-mode"
 msgid "Burn (l)"
-msgstr "Tegenhouden"
+msgstr "Donkerder maken (v)"
 
 #: ../app/operations/operations-enums.c:222
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Hard light"
 msgctxt "layer-mode"
 msgid "Hard light (legacy)"
-msgstr "Hard licht"
+msgstr "Hard licht (verouderd)"
 
 #. Translators: this is an abbreviated version of "Hard light (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:225
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Hard light"
 msgctxt "layer-mode"
 msgid "Hard light (l)"
-msgstr "Hard licht"
+msgstr "Hard licht (v)"
 
 #: ../app/operations/operations-enums.c:226
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Soft light"
 msgctxt "layer-mode"
 msgid "Soft light (legacy)"
-msgstr "Zacht licht"
+msgstr "Zacht licht (verouderd)"
 
 #. Translators: this is an abbreviated version of "Soft light (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:229
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Soft light"
 msgctxt "layer-mode"
 msgid "Soft light (l)"
-msgstr "Zacht licht"
+msgstr "Zacht licht (v)"
 
 # What does 'grain' refer to?
 #: ../app/operations/operations-enums.c:230
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Grain extract"
 msgctxt "layer-mode"
 msgid "Grain extract (legacy)"
-msgstr "Korrel weghalen"
+msgstr "Korrel weghalen (verouderd)"
 
 # What does 'grain' refer to?
 #. Translators: this is an abbreviated version of "Grain extract (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:233
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Grain extract"
 msgctxt "layer-mode"
 msgid "Grain extract (l)"
-msgstr "Korrel weghalen"
+msgstr "Korrel weghalen (v)"
 
 # What does 'grain' refer to?
 #: ../app/operations/operations-enums.c:234
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Grain merge"
 msgctxt "layer-mode"
 msgid "Grain merge (legacy)"
-msgstr "Korrel toevoegen"
+msgstr "Korrel toevoegen (verouderd)"
 
 # What does 'grain' refer to?
 #. Translators: this is an abbreviated version of "Grain merge (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:237
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Grain merge"
 msgctxt "layer-mode"
 msgid "Grain merge (l)"
-msgstr "Korrel toevoegen"
+msgstr "Korrel toevoegen (v)"
 
 # What does this mean?
 #: ../app/operations/operations-enums.c:238
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Color erase"
 msgctxt "layer-mode"
 msgid "Color erase (legacy)"
-msgstr "Kleur wissen"
+msgstr "Kleur wissen (verouderd)"
 
 # What does this mean?
 #. Translators: this is an abbreviated version of "Color erase (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:241
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Color erase"
 msgctxt "layer-mode"
 msgid "Color erase (l)"
-msgstr "Kleur wissen"
+msgstr "Kleur wissen (v)"
 
 #: ../app/operations/operations-enums.c:242
 #, fuzzy
@@ -20298,12 +19989,9 @@ msgid "Hue (LCH)"
 msgstr "Tint (LCH)"
 
 #: ../app/operations/operations-enums.c:244
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Color (LCH)"
 msgctxt "layer-mode"
 msgid "Chroma (LCH)"
-msgstr "Kleur (LCH)"
+msgstr "Chroma (LCH)"
 
 #: ../app/operations/operations-enums.c:245
 #, fuzzy
@@ -20410,12 +20098,9 @@ msgid "Saturation (HSV)"
 msgstr "Verzadiging (HSV)"
 
 #: ../app/operations/operations-enums.c:258
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Color (HSV)"
 msgctxt "layer-mode"
 msgid "Color (HSL)"
-msgstr "Kleur (HSV)"
+msgstr "Kleur (HSL)"
 
 #: ../app/operations/operations-enums.c:259
 #, fuzzy
@@ -20434,20 +20119,14 @@ msgid "Divide"
 msgstr "Delen"
 
 #: ../app/operations/operations-enums.c:261
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Dodge"
 msgctxt "layer-mode"
 msgid "Dodge"
-msgstr "Doordrukken"
+msgstr "Lichter maken"
 
 #: ../app/operations/operations-enums.c:262
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Burn"
 msgctxt "layer-mode"
 msgid "Burn"
-msgstr "Tegenhouden"
+msgstr "Donkerder maken"
 
 #: ../app/operations/operations-enums.c:263
 #, fuzzy
@@ -20484,89 +20163,63 @@ msgid "Grain merge"
 msgstr "Korrel toevoegen"
 
 #: ../app/operations/operations-enums.c:267
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Hard light"
 msgctxt "layer-mode"
 msgid "Vivid light"
-msgstr "Hard licht"
+msgstr "Levendig licht"
 
 #: ../app/operations/operations-enums.c:268
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Hard light"
 msgctxt "layer-mode"
 msgid "Pin light"
-msgstr "Hard licht"
+msgstr "Pinlicht"
 
 #: ../app/operations/operations-enums.c:269
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Hard light"
 msgctxt "layer-mode"
 msgid "Linear light"
-msgstr "Hard licht"
+msgstr "Lineair licht"
 
 #: ../app/operations/operations-enums.c:270
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Hard light"
 msgctxt "layer-mode"
 msgid "Hard mix"
-msgstr "Hard licht"
+msgstr "Harde mix"
 
 #: ../app/operations/operations-enums.c:271
-#, fuzzy
-#| msgid "Extensions"
 msgctxt "layer-mode"
 msgid "Exclusion"
-msgstr "Extensies"
+msgstr "Uitsluiting"
 
 #: ../app/operations/operations-enums.c:272
-#, fuzzy
-#| msgctxt "gradient-editor-blending"
-#| msgid "_Linear"
 msgctxt "layer-mode"
 msgid "Linear burn"
-msgstr "_Lineair"
+msgstr "Lineair doordrukken"
 
 #: ../app/operations/operations-enums.c:273
 msgctxt "layer-mode"
 msgid "Luma/Luminance darken only"
-msgstr ""
+msgstr "Luma/Helderheid donkerder"
 
 #. Translators: this is an abbreviated version of "Luma/Luminance darken only".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:276
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Darken only"
 msgctxt "layer-mode"
 msgid "Luma darken only"
-msgstr "Enkel donkerder maken"
+msgstr "Enkel Luma donkerder"
 
 #: ../app/operations/operations-enums.c:277
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Lighten only"
 msgctxt "layer-mode"
 msgid "Luma/Luminance lighten only"
-msgstr "Enkel lichter maken"
+msgstr "Enkel Luma/Helderheid lichter"
 
 #. Translators: this is an abbreviated version of "Luma/Luminance lighten only".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:280
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Lighten only"
 msgctxt "layer-mode"
 msgid "Luma lighten only"
-msgstr "Enkel lichter maken"
+msgstr "Enkel Luma lichter maken"
 
 #: ../app/operations/operations-enums.c:281
 msgctxt "layer-mode"
 msgid "Luminance"
-msgstr ""
+msgstr "Helderheid"
 
 # What does this mean?
 #: ../app/operations/operations-enums.c:282
@@ -20586,11 +20239,9 @@ msgid "Erase"
 msgstr "Gummen"
 
 #: ../app/operations/operations-enums.c:284
-#, fuzzy
-#| msgid "_Merge"
 msgctxt "layer-mode"
 msgid "Merge"
-msgstr "_Samenvoegen"
+msgstr "Samenvoegen"
 
 # label van de knop
 #: ../app/operations/operations-enums.c:285
@@ -20603,7 +20254,7 @@ msgstr "Splitsen"
 #: ../app/operations/operations-enums.c:286
 msgctxt "layer-mode"
 msgid "Pass through"
-msgstr ""
+msgstr "Doorlaten"
 
 #: ../app/operations/operations-enums.c:287
 #, fuzzy
@@ -20614,38 +20265,29 @@ msgid "Replace"
 msgstr "Vervangen"
 
 #: ../app/operations/operations-enums.c:288
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Anti erase"
 msgctxt "layer-mode"
 msgid "Anti erase"
-msgstr "Anti-gummen"
+msgstr "Anti-gum"
 
 #: ../app/operations/operations-enums.c:316
-#, fuzzy
-#| msgid "Default Grid"
 msgctxt "layer-mode-group"
 msgid "Default"
-msgstr "Standaard raster"
+msgstr "Standaard"
 
 #: ../app/operations/operations-enums.c:317
 msgctxt "layer-mode-group"
 msgid "Legacy"
-msgstr ""
+msgstr "Verouderd"
 
 #: ../app/operations/gimpbrightnesscontrastconfig.c:82
 #: ../app/operations/gimpbrightnesscontrastconfig.c:83
-#, fuzzy
-#| msgid "_Brightness:"
 msgid "Brightness"
-msgstr "He_lderheid:"
+msgstr "Helderheid"
 
 #: ../app/operations/gimpbrightnesscontrastconfig.c:88
 #: ../app/operations/gimpbrightnesscontrastconfig.c:89
-#, fuzzy
-#| msgid "Con_trast:"
 msgid "Contrast"
-msgstr "_Contrast:"
+msgstr "Contrast"
 
 # 24/05/08: of "mate"
 #: ../app/operations/gimpcolorbalanceconfig.c:96
@@ -20657,7 +20299,7 @@ msgstr "Bereik"
 #: ../app/operations/gimpcolorbalanceconfig.c:97
 #: ../app/operations/gimphuesaturationconfig.c:95
 msgid "The affected range"
-msgstr "De betreffende reeks"
+msgstr "Het betreffende bereik"
 
 #: ../app/operations/gimpcolorbalanceconfig.c:103
 #: ../app/operations/gimpcolorbalanceconfig.c:104
@@ -20792,7 +20434,7 @@ msgstr "Ontleedfout"
 
 #: ../app/operations/gimplevelsconfig.c:952
 msgid "Writing levels file failed: "
-msgstr "Schrijven van bestand met niveaus mislukte:"
+msgstr "Schrijven van Niveaus-bestand mislukte:"
 
 #: ../app/operations/gimpoperationbrightnesscontrast.c:65
 #: ../app/tools/gimpbrightnesscontrasttool.c:98
