@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=Internationalisation\n"
 "POT-Creation-Date: 2018-05-08 15:19+0000\n"
-"PO-Revision-Date: 2018-05-17 15:34+0200\n"
+"PO-Revision-Date: 2018-05-18 12:09+0200\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -960,12 +960,9 @@ msgid "Paste the selected buffer as a new layer"
 msgstr "De geselecteerde buffer plakken als een nieuwe laag"
 
 #: ../app/actions/buffers-actions.c:92
-#, fuzzy
-#| msgctxt "buffers-action"
-#| msgid "Paste Buffer as New _Layer"
 msgctxt "buffers-action"
 msgid "Paste Buffer as New Layer in Place"
-msgstr "Buffer plakken als _Nieuwe laag"
+msgstr "Buffer plakken in nieuwe laag op zelfde plek"
 
 #: ../app/actions/buffers-actions.c:94
 #, fuzzy
@@ -3083,7 +3080,7 @@ msgstr "Het dialoogvenster Histogram openen"
 #: ../app/actions/dialogs-actions.c:101
 msgctxt "dialogs-action"
 msgid "_Selection Editor"
-msgstr "Editor _Selecties"
+msgstr "_Selectiebewerker"
 
 #: ../app/actions/dialogs-actions.c:102
 msgctxt "dialogs-action"
@@ -3622,19 +3619,17 @@ msgstr "Dialoogvenster Afbeelding openen"
 #: ../app/actions/documents-actions.c:64
 msgctxt "documents-action"
 msgid "Copy Image _Location"
-msgstr "Afbeeldingslocatie _kopiëren"
+msgstr "Afbeeldings_locatie kopiëren"
 
 #: ../app/actions/documents-actions.c:65
 msgctxt "documents-action"
 msgid "Copy image location to clipboard"
-msgstr "Kopieer de locatie van de afbeelding naar het klembord"
+msgstr "Kopieer afbeeldingslocatie naar klembord"
 
 #: ../app/actions/documents-actions.c:70
-#, fuzzy
-#| msgid "Module Manager"
 msgctxt "documents-action"
 msgid "Show in _File Manager"
-msgstr "Modulebeheer"
+msgstr "Toon in bestandsbeheerd"
 
 #: ../app/actions/documents-actions.c:71
 #, fuzzy
@@ -3962,11 +3957,9 @@ msgid "Copy dynamics file location to clipboard"
 msgstr "Locatie van gedragingenbestand kopiëren naar het klembord"
 
 #: ../app/actions/dynamics-actions.c:65
-#, fuzzy
-#| msgid "Module Manager"
 msgctxt "dynamics-action"
 msgid "Show in _File Manager"
-msgstr "Modulebeheer"
+msgstr "Toon in bestandsbeheer"
 
 #: ../app/actions/dynamics-actions.c:66
 #, fuzzy
@@ -4148,7 +4141,7 @@ msgstr "Een nieuwe afbeelding aanmaken met de inhoud van het klembord"
 #: ../app/actions/edit-actions.c:136
 msgctxt "edit-action"
 msgid "_New Image"
-msgstr "Nieuwe a_fbeelding"
+msgstr "_Nieuwe afbeelding"
 
 #: ../app/actions/edit-actions.c:142
 msgctxt "edit-action"
@@ -4213,28 +4206,19 @@ msgid "Paste the content of the clipboard"
 msgstr "De inhoud van het klembord plakken"
 
 #: ../app/actions/edit-actions.c:182
-#, fuzzy
-#| msgctxt "edit-action"
-#| msgid "Paste _Into"
 msgctxt "edit-action"
 msgid "Paste In Place"
-msgstr "Plakken _in"
+msgstr "Plak kopie op zelfde plek als origineel"
 
 #: ../app/actions/edit-actions.c:184
-#, fuzzy
-#| msgctxt "edit-action"
-#| msgid "Paste the content of the clipboard into the current selection"
 msgctxt "edit-action"
 msgid "Paste the content of the clipboard at its original position"
-msgstr "De inhoud van het klembord in de huidige selectie plakken"
+msgstr "De inhoud van het klembord op oorspronkelijke positie plakken"
 
 #: ../app/actions/edit-actions.c:189
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Path to Selection"
 msgctxt "edit-action"
 msgid "Paste _Into Selection"
-msgstr "Pad naar selectie"
+msgstr "Plak in selectie"
 
 #: ../app/actions/edit-actions.c:191
 msgctxt "edit-action"
@@ -4242,12 +4226,9 @@ msgid "Paste the content of the clipboard into the current selection"
 msgstr "De inhoud van het klembord in de huidige selectie plakken"
 
 #: ../app/actions/edit-actions.c:196
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Path to Selection"
 msgctxt "edit-action"
 msgid "Paste Into Selection In Place"
-msgstr "Pad naar selectie"
+msgstr "Plak op zelfde positie als origineel"
 
 #: ../app/actions/edit-actions.c:198
 #, fuzzy
@@ -4270,11 +4251,9 @@ msgid "Create a new layer from the content of the clipboard"
 msgstr "Een nieuwe laag aanmaken met de inhoud van het klembord"
 
 #: ../app/actions/edit-actions.c:210
-#, fuzzy
-#| msgid "New Layer"
 msgctxt "edit-action"
 msgid "New Layer In _Place"
-msgstr "Nieuwe laag"
+msgstr "Nieuwe laag op zelfde plek"
 
 #: ../app/actions/edit-actions.c:212
 #, fuzzy
@@ -4623,12 +4602,9 @@ msgid "Close all opened images"
 msgstr "Alle geopende afbeeldingen sluiten"
 
 #: ../app/actions/file-actions.c:112
-#, fuzzy
-#| msgctxt "documents-action"
-#| msgid "Copy Image _Location"
 msgctxt "file-action"
 msgid "Copy _Image Location"
-msgstr "Afbeeldingslocatie _kopiëren"
+msgstr "Afbeeldingslocatie kop_iëren"
 
 #: ../app/actions/file-actions.c:113
 #, fuzzy
@@ -4639,11 +4615,9 @@ msgid "Copy image file location to clipboard"
 msgstr "Kopieer de locatie van de afbeelding naar het klembord"
 
 #: ../app/actions/file-actions.c:118
-#, fuzzy
-#| msgid "Module Manager"
 msgctxt "file-action"
 msgid "Show in _File Manager"
-msgstr "Modulebeheer"
+msgstr "Toon in bestandsbeheer"
 
 #: ../app/actions/file-actions.c:119
 msgctxt "file-action"
@@ -6162,11 +6136,9 @@ msgid "Copy gradient file location to clipboard"
 msgstr "Locatie van het kleurverloopbestand kopiëren naar klembord"
 
 #: ../app/actions/gradients-actions.c:66
-#, fuzzy
-#| msgid "Module Manager"
 msgctxt "gradients-action"
 msgid "Show in _File Manager"
-msgstr "Modulebeheer"
+msgstr "Toon in bestandsbeheer"
 
 #: ../app/actions/gradients-actions.c:67
 #, fuzzy
@@ -6637,15 +6609,12 @@ msgstr "Afbeelding naar 16 bit floating point omzetten"
 #: ../app/actions/image-actions.c:250
 msgctxt "image-convert-action"
 msgid "Perceptual gamma (sRGB)"
-msgstr ""
+msgstr "Perceptueel gamma (sRGB)"
 
 #: ../app/actions/image-actions.c:252
-#, fuzzy
-#| msgctxt "image-convert-action"
-#| msgid "Convert the image to grayscale"
 msgctxt "image-convert-action"
 msgid "Convert the image to perceptual (sRGB) gamma"
-msgstr "Afbeelding naar grijswaarden omzetten"
+msgstr "Afbeelding omzetten naar perceptueel (sRGB) gamma"
 
 #: ../app/actions/image-actions.c:256
 #, fuzzy
@@ -7391,11 +7360,9 @@ msgid "Layer Blend Space: RGB (linear)"
 msgstr ""
 
 #: ../app/actions/layers-actions.c:353 ../app/actions/layers-actions.c:374
-#, fuzzy
-#| msgid "Percentile:"
 msgctxt "layers-action"
 msgid "RGB (perceptual)"
-msgstr "Percentiel:"
+msgstr "RGB (perceptueel)"
 
 #: ../app/actions/layers-actions.c:354
 #, fuzzy
@@ -7927,11 +7894,9 @@ msgid "Copy MyPaint brush file location to clipboard"
 msgstr "Locatie van penseelbestand kopiëren naar het klembord"
 
 #: ../app/actions/mypaint-brushes-actions.c:65
-#, fuzzy
-#| msgid "Module Manager"
 msgctxt "mypaint-brushes-action"
 msgid "Show in _File Manager"
-msgstr "Modulebeheer"
+msgstr "Toon in bestandsbeheer"
 
 #: ../app/actions/mypaint-brushes-actions.c:66
 #, fuzzy
@@ -8362,7 +8327,7 @@ msgstr "Kleur samengesteld uit alle zichtbare lagen gebruiken"
 #: ../app/actions/select-actions.c:44
 msgctxt "select-action"
 msgid "Selection Editor Menu"
-msgstr "Menu editor Selecties"
+msgstr "Menu selectiebewerker"
 
 #: ../app/actions/select-actions.c:47
 msgctxt "select-action"
@@ -8462,19 +8427,14 @@ msgid "Replace the selection by its border"
 msgstr "De selectie vervangen door de rand ervan"
 
 #: ../app/actions/select-actions.c:105
-#, fuzzy
-#| msgid "Remove Controller"
 msgctxt "select-action"
 msgid "Re_move Holes"
-msgstr "Controller verwijderen"
+msgstr "Gaten verwijderen"
 
 #: ../app/actions/select-actions.c:106
-#, fuzzy
-#| msgctxt "select-action"
-#| msgid "Remove fuzziness from the selection"
 msgctxt "select-action"
 msgid "Remove holes from the selection"
-msgstr "Zachte randen van selectie verwijderen"
+msgstr "Gaten uit de selectie verwijderen"
 
 #: ../app/actions/select-actions.c:111
 msgctxt "select-action"
@@ -8487,12 +8447,9 @@ msgid "Save the selection to a channel"
 msgstr "De selectie opslaan in een kanaal"
 
 #: ../app/actions/select-actions.c:117
-#, fuzzy
-#| msgctxt "view-action"
-#| msgid "Display the selection outline"
 msgctxt "select-action"
 msgid "_Fill Selection Outline..."
-msgstr "Selectie-omtrek tonen"
+msgstr "Selectie vullen"
 
 #: ../app/actions/select-actions.c:118
 #, fuzzy
@@ -8503,12 +8460,9 @@ msgid "Fill the selection outline"
 msgstr "Selectie-omtrek tonen"
 
 #: ../app/actions/select-actions.c:123
-#, fuzzy
-#| msgctxt "view-action"
-#| msgid "Display the selection outline"
 msgctxt "select-action"
 msgid "_Fill Selection Outline"
-msgstr "Selectie-omtrek tonen"
+msgstr "Selectie vullen"
 
 #: ../app/actions/select-actions.c:124
 #, fuzzy
@@ -8593,11 +8547,8 @@ msgid "When bordering, act as if selected areas continued outside the image."
 msgstr ""
 
 #: ../app/actions/select-commands.c:423
-#, fuzzy
-#| msgctxt "view-action"
-#| msgid "Display the selection outline"
 msgid "Fill Selection Outline"
-msgstr "Selectie-omtrek tonen"
+msgstr "Selectie vullen"
 
 #: ../app/actions/select-commands.c:452
 msgid "Stroke Selection"
@@ -9686,12 +9637,9 @@ msgid "Lower this path to the bottom"
 msgstr "Het pad onderaan zetten"
 
 #: ../app/actions/vectors-actions.c:119
-#, fuzzy
-#| msgctxt "vectors-action"
-#| msgid "_New Path..."
 msgctxt "vectors-action"
 msgid "Fill Path..."
-msgstr "_Nieuw pad…"
+msgstr "Vul pad..."
 
 #: ../app/actions/vectors-actions.c:120
 #, fuzzy
@@ -9702,11 +9650,9 @@ msgid "Fill the path"
 msgstr "Lijn tekenen langs pad"
 
 #: ../app/actions/vectors-actions.c:125
-#, fuzzy
-#| msgid "Flip Path"
 msgctxt "vectors-action"
 msgid "Fill Path"
-msgstr "Pad spiegelen"
+msgstr "Pad vullen"
 
 #: ../app/actions/vectors-actions.c:126
 #, fuzzy
@@ -10074,10 +10020,8 @@ msgstr "Nieuw pad aanmaken…"
 
 #: ../app/actions/vectors-commands.c:425 ../app/tools/gimpvectoroptions.c:202
 #: ../app/tools/gimpvectortool.c:740
-#, fuzzy
-#| msgid "Flip Path"
 msgid "Fill Path"
-msgstr "Pad spiegelen"
+msgstr "Pad vullen"
 
 #: ../app/actions/vectors-commands.c:455 ../app/tools/gimpvectoroptions.c:210
 #: ../app/tools/gimpvectortool.c:812
@@ -10096,11 +10040,9 @@ msgid "_Zoom"
 msgstr "_Zoomen"
 
 #: ../app/actions/view-actions.c:72
-#, fuzzy
-#| msgid "_Rotate"
 msgctxt "view-action"
 msgid "_Flip & Rotate"
-msgstr "_Draaien"
+msgstr "Spiegelen en draaien"
 
 #: ../app/actions/view-actions.c:73
 msgctxt "view-action"
@@ -10117,11 +10059,9 @@ msgstr "_Kleurbeheer"
 #  absolute colorimetric
 # 03/02/08: bij Adobeprogramma's is dit de "renderintentie"
 #: ../app/actions/view-actions.c:79
-#, fuzzy
-#| msgid "_Display rendering intent:"
 msgctxt "view-action"
 msgid "Display _Rendering Intent"
-msgstr "R_enderintentie beeldscherm:"
+msgstr "Renderintentie beeldscherm"
 
 # Tooltip: sets how colors are converted from workspace to the print
 # simulation device.
@@ -10179,12 +10119,9 @@ msgid "Adjust the zoom ratio so that the entire window is used"
 msgstr "Het zoomniveau aanpassen zodat het volledige venster gebruikt wordt"
 
 #: ../app/actions/view-actions.c:113
-#, fuzzy
-#| msgctxt "image-action"
-#| msgid "_Crop to Selection"
 msgctxt "view-action"
 msgid "Zoom to _Selection"
-msgstr "_Bijsnijden tot selectie"
+msgstr "Zoom tot _selectie"
 
 #: ../app/actions/view-actions.c:114
 #, fuzzy
@@ -10205,12 +10142,9 @@ msgid "Restore the previous zoom level"
 msgstr "Het vorige zoomniveau herstellen"
 
 #: ../app/actions/view-actions.c:125
-#, fuzzy
-#| msgctxt "view-zoom-action"
-#| msgid "Set a custom zoom factor"
 msgctxt "view-action"
 msgid "Othe_r rotation angle..."
-msgstr "Een aangepast zoomniveau instellen"
+msgstr "Andere rotatiehoek..."
 
 #: ../app/actions/view-actions.c:126
 #, fuzzy
@@ -10314,12 +10248,9 @@ msgid "Use color management for this view"
 msgstr "Kleurbeheer gebruiken voor deze weergave"
 
 #: ../app/actions/view-actions.c:185
-#, fuzzy
-#| msgctxt "context-action"
-#| msgid "_Colors"
 msgctxt "view-action"
 msgid "_Proof Colors"
-msgstr "_Kleuren"
+msgstr "Kleur_proef"
 
 #: ../app/actions/view-actions.c:186
 msgctxt "view-action"
@@ -10689,36 +10620,27 @@ msgstr "Afbeelding verticaal spiegelen"
 #: ../app/actions/view-actions.c:482
 msgctxt "view-action"
 msgid "_Reset Flip & Rotate"
-msgstr "Spiegelen & draaien terugzetten"
+msgstr "Spiegelen en d_raaien terugzetten"
 
 #: ../app/actions/view-actions.c:484
 msgctxt "view-action"
 msgid "Reset flipping to unflipped and the angle of rotation to 0°"
-msgstr ""
+msgstr "Maak spiegelen ongedaan en zet rotatiehoek op 0°"
 
 #: ../app/actions/view-actions.c:492
-#, fuzzy
-#| msgctxt "drawable-action"
-#| msgid "Rotate 90° _clockwise"
 msgctxt "view-action"
 msgid "Rotate 15° _clockwise"
-msgstr "90° met de _klok mee draaien"
+msgstr "15° met de klok mee draaien"
 
 #: ../app/actions/view-actions.c:493
-#, fuzzy
-#| msgctxt "image-action"
-#| msgid "Rotate the image 90 degrees to the right"
 msgctxt "view-action"
 msgid "Rotate the view 15 degrees to the right"
-msgstr "De afbeelding 90° naar rechts draaien"
+msgstr "De afbeelding 15° naar rechts draaien"
 
 #: ../app/actions/view-actions.c:498
-#, fuzzy
-#| msgctxt "drawable-action"
-#| msgid "Rotate 90° _clockwise"
 msgctxt "view-action"
 msgid "Rotate 90° _clockwise"
-msgstr "90° met de _klok mee draaien"
+msgstr "90° met de klok mee draaien"
 
 #: ../app/actions/view-actions.c:499
 #, fuzzy
@@ -10729,12 +10651,9 @@ msgid "Rotate the view 90 degrees to the right"
 msgstr "De afbeelding 90° naar rechts draaien"
 
 #: ../app/actions/view-actions.c:504
-#, fuzzy
-#| msgctxt "drawable-action"
-#| msgid "Rotate _180°"
 msgctxt "view-action"
 msgid "Rotate _180°"
-msgstr "_180° draaien"
+msgstr "Roteer _180°"
 
 #: ../app/actions/view-actions.c:505
 #, fuzzy
@@ -10745,12 +10664,9 @@ msgid "Turn the view upside-down"
 msgstr "De afbeelding ondersteboven draaien"
 
 #: ../app/actions/view-actions.c:510
-#, fuzzy
-#| msgctxt "drawable-action"
-#| msgid "Rotate 90° counter-clock_wise"
 msgctxt "view-action"
 msgid "Rotate 90° counter-clock_wise"
-msgstr "90° _tegen de klok in draaien"
+msgstr "90° tegen de klok in draaien"
 
 #: ../app/actions/view-actions.c:511
 #, fuzzy
@@ -10761,57 +10677,42 @@ msgid "Rotate the view 90 degrees to the left"
 msgstr "De afbeelding 90 graden naar links draaien"
 
 #: ../app/actions/view-actions.c:516
-#, fuzzy
-#| msgctxt "drawable-action"
-#| msgid "Rotate 90° counter-clock_wise"
 msgctxt "view-action"
 msgid "Rotate 15° counter-clock_wise"
-msgstr "90° _tegen de klok in draaien"
+msgstr "15° tegen de klok in draaien"
 
 #: ../app/actions/view-actions.c:517
-#, fuzzy
-#| msgctxt "image-action"
-#| msgid "Rotate the image 90 degrees to the left"
 msgctxt "view-action"
 msgid "Rotate the view 15 degrees to the left"
-msgstr "De afbeelding 90 graden naar links draaien"
+msgstr "De afbeelding 15 graden naar links draaien"
 
 #: ../app/actions/view-actions.c:525 ../app/actions/view-actions.c:552
-#, fuzzy
-#| msgid "Percentile:"
 msgctxt "view-action"
 msgid "_Perceptual"
-msgstr "Percentiel:"
+msgstr "_Perceptueel"
 
 # tooltip: sets how colors are managed for your display
 # opties: gevoelsmatig, relative colorimetric, Verzadiging,
 #  absolute colorimetric
 # 03/02/08: bij Adobeprogramma's is dit de "renderintentie"
 #: ../app/actions/view-actions.c:526
-#, fuzzy
-#| msgid "_Display rendering intent:"
 msgctxt "view-action"
 msgid "Display rendering intent is perceptual"
-msgstr "R_enderintentie beeldscherm:"
+msgstr "Renderintentie beeldscherm: perceptueel"
 
 #: ../app/actions/view-actions.c:531 ../app/actions/view-actions.c:558
-#, fuzzy
-#| msgctxt "palette-editor-action"
-#| msgid "_Delete Color"
 msgctxt "view-action"
 msgid "_Relative Colorimetric"
-msgstr "Kleur verwij_deren"
+msgstr "_Relatief colorimetrisch"
 
 # tooltip: sets how colors are managed for your display
 # opties: gevoelsmatig, relative colorimetric, Verzadiging,
 #  absolute colorimetric
 # 03/02/08: bij Adobeprogramma's is dit de "renderintentie"
 #: ../app/actions/view-actions.c:532
-#, fuzzy
-#| msgid "_Display rendering intent:"
 msgctxt "view-action"
 msgid "Display rendering intent is relative colorimetric"
-msgstr "R_enderintentie beeldscherm:"
+msgstr "Renderintentie beeldscherm: relatief colorimetrisch"
 
 #: ../app/actions/view-actions.c:537 ../app/actions/view-actions.c:564
 #, fuzzy
@@ -10825,11 +10726,9 @@ msgstr "Ver_zadiging:"
 #  absolute colorimetric
 # 03/02/08: bij Adobeprogramma's is dit de "renderintentie"
 #: ../app/actions/view-actions.c:538
-#, fuzzy
-#| msgid "_Display rendering intent:"
 msgctxt "view-action"
 msgid "Display rendering intent is saturation"
-msgstr "R_enderintentie beeldscherm:"
+msgstr "Renderintentie beeldscherm: verzadiging"
 
 #: ../app/actions/view-actions.c:543 ../app/actions/view-actions.c:570
 msgctxt "view-action"
@@ -10841,31 +10740,25 @@ msgstr ""
 #  absolute colorimetric
 # 03/02/08: bij Adobeprogramma's is dit de "renderintentie"
 #: ../app/actions/view-actions.c:544
-#, fuzzy
-#| msgid "_Display rendering intent:"
 msgctxt "view-action"
 msgid "Display rendering intent is absolute colorimetric"
-msgstr "R_enderintentie beeldscherm:"
+msgstr "Renderintentie beeldscherm: absoluut colorimetrisch"
 
 # Tooltip: sets how colors are converted from workspace to the print
 # simulation device.
 # afdrukvoorbeeld/softproof/
 #: ../app/actions/view-actions.c:553
-#, fuzzy
-#| msgid "_Softproof rendering intent:"
 msgctxt "view-action"
 msgid "Soft-proofing rendering intent is perceptual"
-msgstr "So_ftproof renderintentie:"
+msgstr "Softproofinterpretatie: perceptueel"
 
 # Tooltip: sets how colors are converted from workspace to the print
 # simulation device.
 # afdrukvoorbeeld/softproof/
 #: ../app/actions/view-actions.c:559
-#, fuzzy
-#| msgid "_Softproof rendering intent:"
 msgctxt "view-action"
 msgid "Soft-proofing rendering intent is relative colorimetric"
-msgstr "So_ftproof renderintentie:"
+msgstr "So_ftproof renderintentie: relatief colorimetrisch"
 
 # Tooltip: sets how colors are converted from workspace to the print
 # simulation device.
@@ -11075,7 +10968,7 @@ msgstr "(V) "
 #: ../app/actions/view-actions.c:1145
 #, c-format
 msgid "_Flip %s& Rotate (%d°)"
-msgstr "%s spiegelen & draaien (%d°)"
+msgstr "Spiegelen %s & draaien (%d°)"
 
 #: ../app/actions/view-commands.c:1005
 msgid "Set Canvas Padding Color"
@@ -15220,12 +15113,9 @@ msgid "Shrink Selection"
 msgstr "Selectie verkleinen"
 
 #: ../app/core/gimpselection.c:196
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Remove item"
 msgctxt "undo-type"
 msgid "Remove Holes"
-msgstr "Item verwijderen"
+msgstr "Gaten verwijderen"
 
 #: ../app/core/gimpselection.c:304
 #, fuzzy
@@ -15876,10 +15766,8 @@ msgstr ""
 # 03/02/08: bij Adobeprogramma's is dit de "renderintentie"
 #: ../app/dialogs/color-profile-dialog.c:290
 #: ../app/dialogs/color-profile-import-dialog.c:160
-#, fuzzy
-#| msgid "_Display rendering intent:"
 msgid "_Rendering Intent:"
-msgstr "R_enderintentie beeldscherm:"
+msgstr "_Renderintentie beeldscherm:"
 
 #: ../app/dialogs/color-profile-dialog.c:306
 #: ../app/dialogs/color-profile-import-dialog.c:176
@@ -16099,7 +15987,7 @@ msgstr "Selectie"
 
 #: ../app/dialogs/dialogs.c:390
 msgid "Selection Editor"
-msgstr "Editor Selecties"
+msgstr "Selectiebewerker"
 
 #: ../app/dialogs/dialogs.c:394
 msgid "Symmetry Painting"
@@ -19181,7 +19069,7 @@ msgstr "%s om stappen te beperken"
 #: ../app/display/gimptoolgyroscope.c:713
 #: ../app/display/gimptooltransformgrid.c:1782
 msgid "Click-Drag to rotate"
-msgstr "Klik en sleep om te roteren"
+msgstr "Klik en sleep om te draaien"
 
 #: ../app/display/gimptoolgyroscope.c:717 ../app/display/gimptoolline.c:1490
 #: ../app/tools/gimppainttool.c:582
@@ -19196,7 +19084,7 @@ msgstr "Klik en sleep om de rest van de afbeelding te zien"
 #: ../app/display/gimptoolgyroscope.c:728
 #, c-format
 msgid "%s to rotate"
-msgstr "%s om te roteren"
+msgstr "%s om te draaien"
 
 #: ../app/display/gimptoolgyroscope.c:729
 #, c-format
@@ -19215,7 +19103,7 @@ msgstr "Klik en sleep om te verplaatsen"
 
 #: ../app/display/gimptoolhandlegrid.c:840
 msgid "Click-Drag to rotate and scale"
-msgstr "Klik en sleep om te roteren en te schalen"
+msgstr "Klik en sleep om te draaien en te schalen"
 
 #: ../app/display/gimptoolhandlegrid.c:843
 msgid "Click-Drag to shear and scale"
@@ -22162,11 +22050,11 @@ msgstr "Kies dichtstbijzijnde volledig ondoorzichtige kleur"
 
 #: ../app/propgui/gimppropgui-convolution-matrix.c:202
 msgid "Rotate matrix 90° counter-clockwise"
-msgstr "Roteer matrix 90° tegen de klok in"
+msgstr "Draai matrix 90° tegen de klok in"
 
 #: ../app/propgui/gimppropgui-convolution-matrix.c:208
 msgid "Rotate matrix 90° clockwise"
-msgstr "Roteer matrix 90° met de klok mee"
+msgstr "Draai matrix 90° met de klok mee"
 
 #: ../app/propgui/gimppropgui-convolution-matrix.c:214
 msgid "Flip matrix horizontally"
@@ -23337,7 +23225,7 @@ msgstr ""
 # spiegelen/omkeren
 #: ../app/tools/gimpfliptool.c:109 ../app/tools/gimpfliptool.c:133
 msgid "_Flip"
-msgstr "_Spiegelen"
+msgstr "Spiegelen"
 
 #: ../app/tools/gimpfliptool.c:298
 msgctxt "undo-type"
@@ -24413,11 +24301,11 @@ msgstr "Draaien: een laag, selectie of pad draaien"
 
 #: ../app/tools/gimprotatetool.c:97
 msgid "_Rotate"
-msgstr "_Draaien"
+msgstr "Draaien"
 
 #: ../app/tools/gimprotatetool.c:118
 msgid "R_otate"
-msgstr "_Draaien"
+msgstr "Draaien"
 
 #: ../app/tools/gimprotatetool.c:193
 msgid "_Angle:"
@@ -25246,7 +25134,7 @@ msgstr "Draai met de klok mee"
 #: ../app/tools/tools-enums.c:190
 msgctxt "warp-behavior"
 msgid "Swirl counter-clockwise"
-msgstr "Draai tint tegen de klok in"
+msgstr "Draai tegen de klok in"
 
 #: ../app/tools/tools-enums.c:191
 msgctxt "warp-behavior"
