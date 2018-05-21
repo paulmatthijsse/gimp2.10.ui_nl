@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=Internationalisation\n"
 "POT-Creation-Date: 2018-05-08 15:19+0000\n"
-"PO-Revision-Date: 2018-05-19 09:49+0200\n"
+"PO-Revision-Date: 2018-05-21 11:12+0200\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -26974,24 +26974,23 @@ msgstr ""
 
 #: ../app/widgets/gimpcriticaldialog.c:265
 msgid "Unknown Microsoft Windows error."
-msgstr ""
+msgstr "Onbekende Microsoft Windows-fout."
 
 #: ../app/widgets/gimpcriticaldialog.c:268
-#, fuzzy, c-format
-#| msgid "Failed to import paths from '%s': %s"
+#, c-format
 msgid "Failed to open '%s': %s"
-msgstr "Kon paden niet importeren uit ‘%s’: %s"
+msgstr "Kon '%s': %s niet openen"
 
 #: ../app/widgets/gimpcriticaldialog.c:409
 #, c-format
 msgid "GIMP crashed with a fatal error: %s"
-msgstr ""
+msgstr "GIMP crashte met een fatale fout: %s"
 
 #. First error. Let's just display it.
 #: ../app/widgets/gimpcriticaldialog.c:416
 #, c-format
 msgid "GIMP encountered an error: %s"
-msgstr ""
+msgstr "GIMP ondervond een fout: %s"
 
 #. Let's not display all errors. They will be in the bug report
 #. * part anyway.
@@ -26999,131 +26998,114 @@ msgstr ""
 #: ../app/widgets/gimpcriticaldialog.c:424
 #, c-format
 msgid "GIMP encountered several critical errors!"
-msgstr ""
+msgstr "GIMP ondervond meerdere kritieke fouten!"
 
 #: ../app/widgets/gimpcriticaldialog.c:476
 msgid "_Restart GIMP"
-msgstr ""
+msgstr "He_rstart GIMP"
 
 #: ../app/widgets/gimpdashboard.c:346 ../app/widgets/gimpdashboard.c:398
 msgctxt "dashboard-variable"
 msgid "Occupied"
-msgstr ""
+msgstr "Bezet"
 
 #: ../app/widgets/gimpdashboard.c:347
-#, fuzzy
-#| msgid "Tile cache _size:"
 msgid "Tile cache occupied size"
-msgstr "Grootte van de _tegelcache:"
+msgstr "Gebruikt cache-geheugen"
 
 #: ../app/widgets/gimpdashboard.c:356
 msgctxt "dashboard-variable"
 msgid "Maximum"
-msgstr ""
+msgstr "Maximum"
 
 #: ../app/widgets/gimpdashboard.c:357
 msgid "Maximal tile cache occupied size"
-msgstr ""
+msgstr "Maximaal gebruikt cache-geheugen"
 
 #: ../app/widgets/gimpdashboard.c:366 ../app/widgets/gimpdashboard.c:418
 msgctxt "dashboard-variable"
 msgid "Limit"
-msgstr ""
+msgstr "Limiet"
 
 #: ../app/widgets/gimpdashboard.c:367
-#, fuzzy
-#| msgid "Tile cache _size:"
 msgid "Tile cache size limit"
-msgstr "Grootte van de _tegelcache:"
+msgstr "Limiet cache-geheugen"
 
 #: ../app/widgets/gimpdashboard.c:375
-#, fuzzy
 msgctxt "dashboard-variable"
 msgid "Compression"
-msgstr "Afbeeldingseigenschappen"
+msgstr "Compressie"
 
 #: ../app/widgets/gimpdashboard.c:376
 msgid "Tile cache compression ratio"
-msgstr ""
+msgstr "Compressieratio cache-geheugen"
 
 #: ../app/widgets/gimpdashboard.c:385
 msgctxt "dashboard-variable"
 msgid "Hit/Miss"
-msgstr ""
+msgstr "Geraakt/gemist"
 
 #: ../app/widgets/gimpdashboard.c:386
-#, fuzzy
-#| msgid "Tile cache _size:"
 msgid "Tile cache hit/miss ratio"
-msgstr "Grootte van de _tegelcache:"
+msgstr "Ratio geraakt/gemist"
 
 #: ../app/widgets/gimpdashboard.c:399
-#, fuzzy
-#| msgid "Tile cache _size:"
 msgid "Swap file occupied size"
-msgstr "Grootte van de _tegelcache:"
+msgstr "Gebruikt wisselgeheugen"
 
 #: ../app/widgets/gimpdashboard.c:408
-#, fuzzy
-#| msgid "Size"
 msgctxt "dashboard-variable"
 msgid "Size"
 msgstr "Grootte"
 
 #: ../app/widgets/gimpdashboard.c:409
-#, fuzzy
-#| msgid "Show image size"
 msgid "Swap file size"
-msgstr "Afbeeldingsgrootte tonen"
+msgstr "Omvang wisselgeheugen"
 
 #: ../app/widgets/gimpdashboard.c:419
 msgid "Swap file size limit"
-msgstr ""
+msgstr "Maximale grootte wisselgeheugen"
 
 #: ../app/widgets/gimpdashboard.c:426
 msgctxt "dashboard-variable"
 msgid "Busy"
-msgstr ""
+msgstr "Druk"
 
+# Vind string niet terug in dashboard
+# pm
 #: ../app/widgets/gimpdashboard.c:427
 msgid "Whether there is work queued for the swap file"
 msgstr ""
 
 #: ../app/widgets/gimpdashboard.c:440
-#, fuzzy
-#| msgctxt "message-severity"
-#| msgid "Message"
 msgctxt "dashboard-variable"
 msgid "Usage"
-msgstr "Bericht"
+msgstr "Gebruik"
 
 #: ../app/widgets/gimpdashboard.c:441
 msgid "Total CPU usage"
-msgstr ""
+msgstr "Totaal processorgebruik"
 
 #: ../app/widgets/gimpdashboard.c:449 ../app/widgets/gimpdashboard.c:459
-#, fuzzy
-#| msgctxt "align-reference-type"
-#| msgid "Active path"
 msgctxt "dashboard-variable"
 msgid "Active"
-msgstr "Actief pad"
+msgstr "Actief"
 
 #: ../app/widgets/gimpdashboard.c:450
-#, fuzzy
-#| msgid "Set layer or path as active"
 msgid "Whether the CPU is active"
-msgstr "Laag of pad als actief instellen"
+msgstr "Of de processor actief is"
 
 #: ../app/widgets/gimpdashboard.c:460
 msgid "Total amount of time the CPU has been active"
-msgstr ""
+msgstr "Totale tijd dat processor actief was"
 
 #: ../app/widgets/gimpdashboard.c:473
 msgctxt "dashboard-variable"
 msgid "Mipmapped"
 msgstr ""
 
+# Vind string niet terug in interface, wel in broncode
+# pm
 #: ../app/widgets/gimpdashboard.c:474
 msgid "Total size of processed mipmapped data"
 msgstr ""
@@ -27131,57 +27113,53 @@ msgstr ""
 #: ../app/widgets/gimpdashboard.c:486
 msgctxt "dashboard-group"
 msgid "Cache"
-msgstr ""
+msgstr "Cache-geheugen"
 
 #: ../app/widgets/gimpdashboard.c:487
 msgid "In-memory tile cache"
-msgstr ""
+msgstr "Cache-geheugen"
 
 #: ../app/widgets/gimpdashboard.c:523
 msgctxt "dashboard-group"
 msgid "Swap"
-msgstr ""
+msgstr "Wisselgeheugen"
 
 #: ../app/widgets/gimpdashboard.c:524
 msgid "On-disk tile swap"
-msgstr ""
+msgstr "Wisselgeheugen"
 
 #: ../app/widgets/gimpdashboard.c:553
 msgctxt "dashboard-group"
 msgid "CPU"
-msgstr ""
+msgstr "Processor"
 
 #: ../app/widgets/gimpdashboard.c:554
 msgid "CPU usage"
-msgstr ""
+msgstr "Processorgebruik"
 
 #: ../app/widgets/gimpdashboard.c:583
 msgctxt "dashboard-group"
 msgid "Misc"
-msgstr ""
+msgstr "Diversen"
 
 #: ../app/widgets/gimpdashboard.c:584
-#, fuzzy
-#| msgid "Discard Text Information"
 msgid "Miscellaneous information"
-msgstr "Tekstinformatie wegwerpen"
+msgstr "Diverse informatie"
 
 #: ../app/widgets/gimpdashboard.c:744
-#, fuzzy
-#| msgid "Select All"
 msgid "Select fields"
-msgstr "Alles selecteren"
+msgstr "Selecteer velden"
 
 #. Tranlators: "N/A" is an abbreviation for "not available"
 #: ../app/widgets/gimpdashboard.c:2323
 msgctxt "dashboard-value"
 msgid "N/A"
-msgstr ""
+msgstr "nvt."
 
 #: ../app/widgets/gimpdashboard.c:2332
 msgctxt "dashboard-value"
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: ../app/widgets/gimpdashboard.c:2333
 #, fuzzy
@@ -27213,16 +27191,13 @@ msgid ""
 "You are about to delete this device's stored settings.\n"
 "The next time this device is plugged, default settings will be used."
 msgstr ""
-"Weet u zeker dat u de instellingen die voor dit apparaat zijn opgeslagen "
-"wilt verwijderen.\n"
-"De volgende keer dat u het apparaat aansluit, worden de "
-"standaardinstellingen gebruikt."
+"U staat op het punt de instellingen van dit apparaat te verwijderen.\n"
+"De volgende keer dat u het apparaat aansluit worden de standaardinstellingen "
+"gebruikt."
 
 #: ../app/widgets/gimpdeviceinfo.c:163
-#, fuzzy
-#| msgid "Pressure"
 msgid "Pressure curve"
-msgstr "Druk"
+msgstr "Drukcurve"
 
 #: ../app/widgets/gimpdeviceinfoeditor.c:141
 #: ../app/widgets/gimpdynamicseditor.c:161
@@ -27244,10 +27219,8 @@ msgstr "Helling Y"
 #.
 #: ../app/widgets/gimpdeviceinfoeditor.c:148
 #: ../app/widgets/gimpdynamicseditor.c:165
-#, fuzzy
-#| msgid "Rotating"
 msgid "Wheel/Rotation"
-msgstr "Draaien"
+msgstr "Wiel/Rotatie"
 
 #. the axes
 #. The axes of an input device
@@ -27306,16 +27279,16 @@ msgstr "Bestand bestaat"
 
 #: ../app/widgets/gimpdnd-xds.c:229
 msgid "_Replace"
-msgstr "_Vervangen"
+msgstr "Vervangen"
 
 #: ../app/widgets/gimpdnd-xds.c:239
 #, c-format
 msgid "A file named '%s' already exists."
-msgstr "Een bestand genaamd ‘%s’ bestaat al."
+msgstr "Een bestand genaamd '%s' bestaat al."
 
 #: ../app/widgets/gimpdnd-xds.c:243
 msgid "Do you want to replace it with the image you are saving?"
-msgstr "Wilt u het vervangen door de afbeelding die u aan het opslaan bent?"
+msgstr "Wilt u de bestaande afbeelding vervangen?"
 
 #. String used to separate dockables, e.g. "Tool Options, Layers"
 #: ../app/widgets/gimpdock.h:34
@@ -27349,25 +27322,19 @@ msgid "Auto"
 msgstr "Automatisch"
 
 #: ../app/widgets/gimpdockwindow.c:398
-#, fuzzy
-#| msgid ""
-#| "When enabled the dialog automatically follows the image you are working "
-#| "on."
 msgid ""
 "When enabled, the dialog automatically follows the image you are working on."
 msgstr ""
 "Als dit is ingeschakeld, volgt het dialoogvenster automatisch de afbeelding "
-"die waar u mee bezig bent."
+"waar u aan werkt."
 
 #: ../app/widgets/gimpdrawabletreeview.c:121
 msgid "Lock pixels"
 msgstr "Beeldpunten vergrendelen"
 
 #: ../app/widgets/gimpdrawabletreeview.c:123
-#, fuzzy
-#| msgid "Reposition channel"
 msgid "Lock position and size"
-msgstr "Kanaal herpositioneren"
+msgstr "Positie en afmeting vergrendelen"
 
 #: ../app/widgets/gimpdynamicseditor.c:162
 #: ../app/widgets/gimpdynamicsoutputeditor.c:71
@@ -27395,7 +27362,7 @@ msgstr "Pictogram:"
 
 #: ../app/widgets/gimpdynamicsoutputeditor.c:74
 msgid "Wheel / Rotation"
-msgstr ""
+msgstr "Wiel/Rotatie"
 
 #: ../app/widgets/gimperrordialog.c:169
 msgid "Too many error messages!"
@@ -27495,7 +27462,7 @@ msgstr "HSV (%0.1f, %0.1f, %0.1f)"
 #: ../app/widgets/gimpgradienteditor.c:964
 #, c-format
 msgid "Luminance: %0.1f    Opacity: %0.1f"
-msgstr "Luminan.: %0.3f    Dekking: %0.1f"
+msgstr "Luminantie: %0.1f    Dekking: %0.1f"
 
 #: ../app/widgets/gimpgradienteditor.c:996
 #, c-format
@@ -27551,7 +27518,7 @@ msgstr "Afstand: %0.4f"
 
 #: ../app/widgets/gimpgrideditor.c:147
 msgid "Line _style:"
-msgstr "_Lijnstijl:"
+msgstr "Lijn_stijl:"
 
 #: ../app/widgets/gimpgrideditor.c:151
 msgid "Change grid foreground color"
@@ -27559,7 +27526,7 @@ msgstr "Voorgrondkleur raster wijzigen"
 
 #: ../app/widgets/gimpgrideditor.c:158
 msgid "_Foreground color:"
-msgstr "_Voorgrondkleur:"
+msgstr "Voorgrondkleur"
 
 #: ../app/widgets/gimpgrideditor.c:162
 msgid "Change grid background color"
@@ -27567,7 +27534,7 @@ msgstr "Achtergrondkleur raster wijzigen"
 
 #: ../app/widgets/gimpgrideditor.c:169
 msgid "_Background color:"
-msgstr "Achter_grondkleur:"
+msgstr "Achtergrondkleur"
 
 #: ../app/widgets/gimphelp.c:371
 msgid "Help browser is missing"
@@ -27594,15 +27561,9 @@ msgid "Could not start the GIMP help browser plug-in."
 msgstr "Kon de hulpbrowser plug-in van GIMP niet starten."
 
 #: ../app/widgets/gimphelp.c:422
-#, fuzzy
-#| msgid ""
-#| "The GIMP help browser plug-in appears to be missing from your "
-#| "installation. You may instead use the web browser for reading the help "
-#| "pages."
 msgid "You may instead use the web browser for reading the help pages."
 msgstr ""
-"De plug-in voor de GIMP-hulpbrowser is schijnbaar niet geïnstalleerd. U kunt "
-"in plaats daarvan de webbrowser gebruiken om de hulppagina's te lezen."
+"U kunt in plaats daarvan de webbrowser gebruiken om de hulppagina's te lezen."
 
 #  Web Browser
 #: ../app/widgets/gimphelp.c:448
@@ -27614,48 +27575,35 @@ msgid "GIMP user manual is missing"
 msgstr "De GIMP-gebruikershandleiding ontbreekt"
 
 #: ../app/widgets/gimphelp.c:809
-#, fuzzy
-#| msgid "The GIMP user manual is not installed on your computer."
 msgid "The GIMP user manual is not installed in your language."
-msgstr "De GIMP-gebruikershandleiding is niet geïnstalleerd op uw computer."
+msgstr "De GIMP gebruikershandleiding in uw taal is niet geïnstalleerd."
 
 #: ../app/widgets/gimphelp.c:820
-#, fuzzy
-#| msgid "System Language"
 msgid "Read Selected _Language"
-msgstr "Systeemtaal"
+msgstr "_Lees geselecteerde taal"
 
 #: ../app/widgets/gimphelp.c:824
-#, fuzzy
-#| msgid "Available Filters"
 msgid "Available manuals..."
-msgstr "Beschikbare filters"
+msgstr "Beschikbare handleidingen..."
 
 #: ../app/widgets/gimphelp.c:836
-#, fuzzy
-#| msgid ""
-#| "You may either install the additional help package or change your "
-#| "preferences to use the online version."
 msgid ""
 "You may either select a manual in another language or read the online "
 "version."
 msgstr ""
-"U kunt ofwel het extra hulppakket installeren ofwel uw voorkeuren veranderen "
-"om de online-versie te gebruiken."
+"U kunt een handleiding in een andere taal kiezen of de online versie lezen."
 
 #: ../app/widgets/gimphelp.c:842
 msgid ""
 "You may either install the additional help package or change your "
 "preferences to use the online version."
 msgstr ""
-"U kunt ofwel het extra hulppakket installeren ofwel uw voorkeuren veranderen "
-"om de online-versie te gebruiken."
+"U kunt het extra hulppakket installeren of aangeven dat u de online-versie "
+"wilt gebruiken."
 
 #: ../app/widgets/gimphelp.c:847
-#, fuzzy
-#| msgid "_Read Online"
 msgid "Read _Online"
-msgstr "Online _lezen"
+msgstr "_Online lezen"
 
 #: ../app/widgets/gimphistogrameditor.c:128
 msgid "Mean:"
@@ -27682,64 +27630,48 @@ msgid "Percentile:"
 msgstr "Percentiel:"
 
 #: ../app/widgets/gimphistogrameditor.c:160
-#, fuzzy
-#| msgid "Histogram Scale"
 msgid "Histogram channel"
-msgstr "Histogramschaal"
+msgstr "Histogramkanaal"
 
 #: ../app/widgets/gimphistogrameditor.c:171
 msgid "Show values in linear space"
-msgstr ""
+msgstr "Toon waarden in lineaire ruimte"
 
 #: ../app/widgets/gimphistogrameditor.c:172
 msgid "Show values in perceptual space"
-msgstr ""
+msgstr "Toon waarden in perceptuele ruimte"
 
 #: ../app/widgets/gimpiconpicker.c:245
 msgid "From File..."
-msgstr ""
+msgstr "Vanuit bestand..."
 
 #: ../app/widgets/gimpiconpicker.c:254
-#, fuzzy
-#| msgctxt "edit-action"
-#| msgid "_Copy Named..."
 msgid "From Named Icons..."
-msgstr "Benoemde buffer _kopiëren…"
+msgstr "Van pictogramnamen..."
 
 #: ../app/widgets/gimpiconpicker.c:263
-#, fuzzy
-#| msgctxt "documents-action"
-#| msgid "Copy image location to clipboard"
 msgid "Copy Icon to Clipboard"
-msgstr "Kopieer de locatie van de afbeelding naar het klembord"
+msgstr "Kopieer pictogram naar klembord"
 
 #: ../app/widgets/gimpiconpicker.c:272
-#, fuzzy
-#| msgctxt "edit-action"
-#| msgid "Paste the content of the clipboard"
 msgid "Paste Icon from Clipboard"
-msgstr "De inhoud van het klembord plakken"
+msgstr "Plak pictogram vanuit klembord"
 
 #: ../app/widgets/gimpiconpicker.c:484
 msgid "Load Icon Image"
-msgstr ""
+msgstr "Laad pictogram"
 
 #: ../app/widgets/gimpiconsizescale.c:126
-#, fuzzy
-#| msgid "The horizontal image resolution."
 msgid "Guess icon size from resolution"
-msgstr "De horizontale afbeeldingsresolutie."
+msgstr "Raad pictogramgrootte aan de hand van resolutie"
 
 #: ../app/widgets/gimpiconsizescale.c:127
 msgid "Use icon size from the theme"
-msgstr ""
+msgstr "Gebruik pictogramgrootte van het thema"
 
 #: ../app/widgets/gimpiconsizescale.c:128
-#, fuzzy
-#| msgctxt "canvas-padding-mode"
-#| msgid "Custom color"
 msgid "Custom icon size"
-msgstr "Aangepaste kleur"
+msgstr "Aangepaste pictogramgrootte"
 
 # format/formaat
 #. Button
@@ -27752,8 +27684,8 @@ msgid ""
 "Replace the current image comment with the default comment set in "
 "Edit→Preferences→Default Image."
 msgstr ""
-"Vervang de opmerking in de afbeelding door de standaardopmerking ingesteld "
-"in Bewerken→ Voorkeuren→ Standaardafbeelding."
+"Vervang huidig afbeeldingscommentaar door het standaard commentaar zoals "
+"ingesteld in Bewerken→ Voorkeuren→ Standaardafbeelding."
 
 #: ../app/widgets/gimpimagepropview.c:110
 msgid "Size in pixels:"
@@ -27772,9 +27704,8 @@ msgid "Color space:"
 msgstr "Kleurruimte:"
 
 #: ../app/widgets/gimpimagepropview.c:122
-#, fuzzy
 msgid "Precision:"
-msgstr "Versie:"
+msgstr "Precisie:"
 
 #: ../app/widgets/gimpimagepropview.c:127
 msgid "File Name:"
@@ -27834,18 +27765,15 @@ msgstr "kleuren"
 # Dokbaar/aanlegbaar/aankoppelbaar
 #: ../app/widgets/gimpitemtreeview.c:757
 msgid "Lock:"
-msgstr "Koppelen:"
+msgstr "Vergrendelen:"
 
 #: ../app/widgets/gimplanguagestore-parser.c:253
 msgid "System Language"
 msgstr "Systeemtaal"
 
 #: ../app/widgets/gimplayermodebox.c:158
-#, fuzzy
-#| msgctxt "windows-action"
-#| msgid "Switch to the previous image"
 msgid "Switch to another group of modes"
-msgstr "Wisselen naar vorige afbeelding"
+msgstr "Kies andere modusgroep"
 
 #: ../app/widgets/gimplayertreeview.c:319
 msgid "Lock alpha channel"
@@ -27865,7 +27793,7 @@ msgstr "Automatisch opgemerkt"
 
 #: ../app/widgets/gimpoverlaydialog.c:229
 msgid "Detach dialog from canvas"
-msgstr ""
+msgstr "Koppel dialoogvenster los van het canvas"
 
 #: ../app/widgets/gimppaletteeditor.c:243
 #: ../app/widgets/gimppaletteeditor.c:720
@@ -27882,14 +27810,10 @@ msgstr "U kunt hier dokbare dialoogvensters neerzetten"
 
 #: ../app/widgets/gimppickablepopup.c:206
 #: ../app/widgets/gimppickablepopup.c:423
-#, fuzzy
-#| msgid "Select an operation from the list above"
 msgid "Select an image in the left pane"
-msgstr "Een handeling uit bovenstaande lijst selecteren"
+msgstr "Kies een afbeelding in het linkerpaneel"
 
 #: ../app/widgets/gimppluginview.c:149
-#, fuzzy
-#| msgid "Plug-In"
 msgid "Plug-In"
 msgstr "Plug-in"
 
@@ -27898,14 +27822,14 @@ msgid "Progress"
 msgstr "Voortgang"
 
 #: ../app/widgets/gimpsamplepointeditor.c:158
-#, fuzzy
-#| msgctxt "view-action"
-#| msgid "Display the image's color sample points"
 msgid ""
 "This image\n"
 "has no\n"
 "sample points"
-msgstr "De kleurenmonsterpunten van de afbeelding tonen"
+msgstr ""
+"Deze afbeelding\n"
+"heeft geen\n"
+"monsterpunten"
 
 #: ../app/widgets/gimpsavedialog.c:151
 msgid "All XCF images"
@@ -27917,20 +27841,24 @@ msgid ""
 "The image uses features from %s, disabling compression won't make the XCF "
 "file readable by older GIMP versions."
 msgstr ""
+"De afbeelding gebruikt mogelijkheden van %s, compressie uitschakelen leidt "
+"ertoe dat het XCF-bestand niet door oudere GIMP-versies gelezen kan worden. "
 
 #: ../app/widgets/gimpsavedialog.c:266
 #, c-format
 msgid ""
 "Keep compression disabled to make the XCF file readable by %s and later."
 msgstr ""
+"Laat compressie uitgeschakeld om het XCF-bestand leesbaar te houden voor %s "
+"en later. "
 
 #: ../app/widgets/gimpsavedialog.c:276
 msgid "Metadata won't be visible in GIMP older than version 2.10."
-msgstr ""
+msgstr "Metadata zijn niet zichtbaar in GIMP-versies ouder dan 2.10."
 
 #: ../app/widgets/gimpsavedialog.c:329
 msgid "Save this XCF file with better but slower compression"
-msgstr ""
+msgstr "Bewaar dit XCF-bestand met betere (maar tragere) compressie "
 
 #: ../app/widgets/gimpselectiondata.c:250
 #, c-format
@@ -27939,7 +27867,7 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"De bestandsnaam '%s' kon niet in een geldige URI worden veranderd:\n"
+"De bestandsnaam '%s' kon niet naar een geldige URI worden geconverteerd:\n"
 "\n"
 "%s"
 
@@ -27948,82 +27876,58 @@ msgid "Invalid UTF-8"
 msgstr "Ongeldige UTF-8"
 
 #: ../app/widgets/gimpsettingsbox.c:304
-#, fuzzy
-#| msgid "Pick a setting from the list"
 msgid "Pick a preset from the list"
-msgstr "Kies een instelling uit de lijst"
+msgstr "Kies een voorinstelling uit de lijst"
 
 #: ../app/widgets/gimpsettingsbox.c:328
-#, fuzzy
-#| msgid "Save the tool options when GIMP exits."
 msgid "Save the current settings as named preset"
-msgstr "De gereedschapsopties opslaan wanneer GIMP wordt afgesloten."
+msgstr "Bewaar huidige instellingen als benoemde voorinstelling"
 
 #: ../app/widgets/gimpsettingsbox.c:346
-#, fuzzy
-#| msgid "Manage Saved Settings"
 msgid "Manage presets"
-msgstr "Opgeslagen instellingen beheren"
+msgstr "Beheer voorinstellingen"
 
 # lezen/laden
 #: ../app/widgets/gimpsettingsbox.c:360
-#, fuzzy
-#| msgid "_Import Settings from File..."
 msgid "_Import Current Settings from File..."
-msgstr "Instellingen _importeren uit bestand…"
+msgstr "_Instellingen importeren uit bestand..."
 
 #: ../app/widgets/gimpsettingsbox.c:366
-#, fuzzy
-#| msgid "_Export Settings to File..."
 msgid "_Export Current Settings to File..."
-msgstr "Instellingen _exporteren naar bestand…"
+msgstr "Huidig_e instellingen exporteren naar bestand..."
 
 #: ../app/widgets/gimpsettingsbox.c:373
-#, fuzzy
-#| msgid "Manage Saved Settings"
 msgid "_Manage Saved Presets..."
-msgstr "Opgeslagen instellingen beheren"
+msgstr "Opgeslagen voorinstellingen beheren"
 
 #: ../app/widgets/gimpsettingsbox.c:613
-#, fuzzy
-#| msgid "Saved Settings"
 msgid "Save Settings as Named Preset"
-msgstr "Opgeslagen instellingen"
+msgstr "Bewaar instellingen als benoemde voorinstelling"
 
 #: ../app/widgets/gimpsettingsbox.c:616
-#, fuzzy
-#| msgid "Enter a name for the settings"
 msgid "Enter a name for the preset"
-msgstr "Voer een naam in voor de instellingen"
+msgstr "Geef een naam aan de voorinstelling"
 
 #: ../app/widgets/gimpsettingsbox.c:617
 msgid "Saved Settings"
 msgstr "Opgeslagen instellingen"
 
 #: ../app/widgets/gimpsettingsbox.c:658
-#, fuzzy
-#| msgid "Manage Saved Settings"
 msgid "Manage Saved Presets"
-msgstr "Opgeslagen instellingen beheren"
+msgstr "Opgeslagen voorinstellingen beheren"
 
 # lezen/laden
 #: ../app/widgets/gimpsettingseditor.c:195
-#, fuzzy
-#| msgid "Import settings from a file"
 msgid "Import presets from a file"
-msgstr "De instellingen importeren uit een bestand"
+msgstr "Voorinstellingen importeren uit bestand"
 
 #: ../app/widgets/gimpsettingseditor.c:204
-#, fuzzy
-#| msgid "Export the selected settings to a file"
 msgid "Export the selected presets to a file"
-msgstr "De instellingen exporteren naar een bestand"
+msgstr "Exporteer de voorinstellingen naar een bestand"
 
 #: ../app/widgets/gimpsettingseditor.c:213
-#, fuzzy
-#| msgid "Delete the selected settings"
 msgid "Delete the selected preset"
-msgstr "De geselecteerde instellingen verwijderen"
+msgstr "De gekozen voorinstelling verwijderen"
 
 #: ../app/widgets/gimpsizebox.c:458
 #, c-format
@@ -28041,19 +27945,19 @@ msgstr "Lijnbreedte:"
 
 #: ../app/widgets/gimpstrokeeditor.c:141
 msgid "_Line Style"
-msgstr "L_ijnstijl"
+msgstr "_Lijnstijl"
 
 #: ../app/widgets/gimpstrokeeditor.c:160
 msgid "_Cap style:"
-msgstr "H_oekstijl:"
+msgstr "Hoekstijl:"
 
 #: ../app/widgets/gimpstrokeeditor.c:166
 msgid "_Join style:"
-msgstr "_Verbindingsstijl:"
+msgstr "Verbindingsstijl:"
 
 #: ../app/widgets/gimpstrokeeditor.c:171
 msgid "_Miter limit:"
-msgstr "Verste_klimiet:"
+msgstr "Verstekli_miet:"
 
 #: ../app/widgets/gimpstrokeeditor.c:178
 msgid "Dash pattern:"
@@ -28061,7 +27965,7 @@ msgstr "Streepjespatroon:"
 
 #: ../app/widgets/gimpstrokeeditor.c:241
 msgid "Dash _preset:"
-msgstr "_Streepopties:"
+msgstr "Stree_popties:"
 
 #: ../app/widgets/gimptagentry.c:46
 msgid "filter"
@@ -28086,44 +27990,35 @@ msgstr "%p"
 
 #: ../app/widgets/gimptemplateeditor.c:294
 msgid "_Advanced Options"
-msgstr "_Geavanceerde opties"
+msgstr "Geavanceerde opties"
 
 #: ../app/widgets/gimptemplateeditor.c:407
 msgid "Color _space:"
-msgstr "_Kleurruimte:"
+msgstr "Kleurruimte:"
 
 #: ../app/widgets/gimptemplateeditor.c:415
 msgid "_Precision:"
 msgstr "_Precisie:"
 
 #: ../app/widgets/gimptemplateeditor.c:427
-#, fuzzy
-#| msgid "Gamma"
 msgid "_Gamma:"
-msgstr "Gamma"
+msgstr "_Gamma:"
 
 #: ../app/widgets/gimptemplateeditor.c:432
-#, fuzzy
-#| msgctxt "file-action"
-#| msgid "Save this image"
 msgid "Color _manage this image"
-msgstr "Deze afbeelding opslaan"
+msgstr "Schakel kleurbeheer voor deze afbeelding in"
 
 #: ../app/widgets/gimptemplateeditor.c:441
-#, fuzzy
-#| msgid "Color Profile"
 msgid "Choose A Color Profile"
-msgstr "Kleurprofiel"
+msgstr "Kies kleurprofiel"
 
 #: ../app/widgets/gimptemplateeditor.c:445
-#, fuzzy
-#| msgid "Color _profile:"
 msgid "Co_lor profile:"
-msgstr "Kleur_profiel:"
+msgstr "K_leurprofiel:"
 
 #: ../app/widgets/gimptemplateeditor.c:462
 msgid "Comme_nt:"
-msgstr "Op_merking:"
+msgstr "Opmerki_ng:"
 
 #: ../app/widgets/gimptemplateeditor.c:577
 msgid "_Name:"
@@ -28131,7 +28026,7 @@ msgstr "_Naam:"
 
 #: ../app/widgets/gimptemplateeditor.c:583
 msgid "_Icon:"
-msgstr "_Pictogram:"
+msgstr "P_ictogram:"
 
 #: ../app/widgets/gimptemplateeditor.c:802
 #, c-format
@@ -28154,11 +28049,9 @@ msgid "Outermost element in text must be <markup> not <%s>"
 msgstr " Het buitenste element in de tekst moet <markup> zijn en niet <%s>"
 
 #: ../app/widgets/gimptextbuffer.c:1711
-#, fuzzy, c-format
-#| msgid "Fatal parse error in pattern file '%s': File appears truncated."
+#, c-format
 msgid "Input file '%s' appears truncated: %s"
-msgstr ""
-"Fatale leesfout in penseelbestand '%s': bestand lijkt te zijn ingekort."
+msgstr "Bestand '%s' lijkt kapot: %s"
 
 #: ../app/widgets/gimptextbuffer.c:1729
 #, c-format
@@ -28166,20 +28059,13 @@ msgid "Invalid UTF-8 data in file '%s'."
 msgstr "Ongeldige UTF-8-gegevens in bestand ‘%s’."
 
 #: ../app/widgets/gimptextbuffer.c:1778
-#, fuzzy, c-format
-#| msgid ""
-#| "Reverting to '%s' failed:\n"
-#| "\n"
-#| "%s"
+#, c-format
 msgid "Writing text file '%s' failed: %s"
-msgstr ""
-"Terughalen uit '%s' mislukte.\n"
-"\n"
-"%s"
+msgstr "Wegschrijven tekstbestand '%s' mislukt: %s"
 
 #: ../app/widgets/gimptexteditor.c:220
 msgid "_Use selected font"
-msgstr "_Geselecteerde lettertype gebruiken"
+msgstr "Geselecteerd lettertype gebr_uiken"
 
 #: ../app/widgets/gimptextstyleeditor.c:207
 #: ../app/widgets/gimptextstyleeditor.c:1298
@@ -28197,7 +28083,7 @@ msgstr "Stijl van geselecteerde tekst wissen"
 #: ../app/widgets/gimptextstyleeditor.c:248
 #: ../app/widgets/gimptextstyleeditor.c:258
 msgid "Change color of selected text"
-msgstr " Kleur van de geselecteerde tekst wijzigen"
+msgstr "Kleur van de geselecteerde tekst wijzigen"
 
 #: ../app/widgets/gimptextstyleeditor.c:274
 msgid "Change kerning of selected text"
@@ -28226,7 +28112,7 @@ msgstr "Doorhalen"
 #: ../app/widgets/gimptextstyleeditor.c:1290
 #, c-format
 msgid "Font \"%s\" unavailable on this system"
-msgstr ""
+msgstr "Lettertype \"%s\" niet beschikbaar"
 
 #: ../app/widgets/gimpthumbbox.c:324
 #, c-format
