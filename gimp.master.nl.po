@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=Internationalisation\n"
 "POT-Creation-Date: 2018-05-08 15:19+0000\n"
-"PO-Revision-Date: 2018-05-21 12:22+0200\n"
+"PO-Revision-Date: 2018-05-21 15:21+0200\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -117,7 +117,7 @@ msgid ""
 "color-managed"
 msgstr ""
 "Kleurmanagement is nu een kerneigenschap, de meeste widgets en  voorbeelden "
-"zijn met kleurmanagement."
+"zijn met kleurmanagement"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:11
 msgid ""
@@ -154,7 +154,7 @@ msgid ""
 "MyPaint brushes…"
 msgstr ""
 "Verbeteringen voor digitaal schilderen: canvas draaien en  omslaan, "
-"symmetrisch schilderen, MyPaint penselen ..."
+"symmetrisch schilderen, MyPaint penselen..."
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:17
 msgid "Metadata viewing and editing for Exif, XMP, IPTC, and DICOM"
@@ -172,7 +172,7 @@ msgstr "Nieuwe thema's voor GIMP: Licht, Grijs, Donker en Systeem"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:20
 msgid "And much, much more…"
-msgstr "En nog veel meer ..."
+msgstr "En nog veel meer..."
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:21
 msgid ""
@@ -4208,7 +4208,7 @@ msgstr "_Wissen"
 #: ../app/actions/edit-actions.c:168
 msgctxt "edit-action"
 msgid "Clear the selected pixels"
-msgstr "Geselecteerde pixels wissen"
+msgstr "Selectie wissen"
 
 #: ../app/actions/edit-actions.c:176
 msgctxt "edit-action"
@@ -8429,7 +8429,7 @@ msgstr "_Niets"
 #: ../app/actions/select-actions.c:57
 msgctxt "select-action"
 msgid "Dismiss the selection"
-msgstr "De selectie annuleren"
+msgstr "Maak selectie ongedaan"
 
 #: ../app/actions/select-actions.c:62
 msgctxt "select-action"
@@ -10237,7 +10237,7 @@ msgstr "Een overzichtsvenster tonen voor deze afbeelding"
 #: ../app/actions/view-actions.c:137
 msgctxt "view-action"
 msgid "Display _Filters..."
-msgstr "_Weergavefilters…"
+msgstr "_Weergavefilters..."
 
 #: ../app/actions/view-actions.c:138
 msgctxt "view-action"
@@ -10258,21 +10258,17 @@ msgstr "Kleurbeheer terugzetten op wat in de voorkeuren staat ingesteld"
 # simulation device.
 # afdrukvoorbeeld/softproof/
 #: ../app/actions/view-actions.c:150
-#, fuzzy
-#| msgid "_Softproof rendering intent:"
 msgctxt "view-action"
 msgid "Soft-_Proofing Profile..."
-msgstr "So_ftproof renderintentie:"
+msgstr "Profiel afdrukvoorbeeld..."
 
 # Tooltip: sets how colors are converted from workspace to the print
 # simulation device.
 # afdrukvoorbeeld/softproof/
 #: ../app/actions/view-actions.c:151
-#, fuzzy
-#| msgid "_Softproof rendering intent:"
 msgctxt "view-action"
 msgid "Set the soft-proofing profile"
-msgstr "So_ftproof renderintentie:"
+msgstr "Afdruksimulatieprofiel instellen"
 
 # Shrink wrap is the phenomenon of fitting the image window to the image dimensions
 # 01/03/08: "venster" toegevoegd voor alle duidelijkheid
@@ -10289,7 +10285,7 @@ msgstr "Het venster verkleinen tot de afmetingen van de afbeelding"
 #: ../app/actions/view-actions.c:162
 msgctxt "view-action"
 msgid "_Open Display..."
-msgstr "Scherm _openen…"
+msgstr "Scherm _openen..."
 
 #: ../app/actions/view-actions.c:163
 msgctxt "view-action"
@@ -10310,7 +10306,7 @@ msgstr "Eén pixel op het scherm stelt één pixel in de afbeelding voor"
 #: ../app/actions/view-actions.c:178
 msgctxt "view-action"
 msgid "_Color-Manage this View"
-msgstr "_Kleurbeheer voor deze weergave"
+msgstr "_Kleurbeheer voor deze weergave activeren"
 
 #: ../app/actions/view-actions.c:179
 msgctxt "view-action"
@@ -10320,34 +10316,32 @@ msgstr "Kleurbeheer gebruiken voor deze weergave"
 #: ../app/actions/view-actions.c:185
 msgctxt "view-action"
 msgid "_Proof Colors"
-msgstr "Kleur_proef"
+msgstr "Afdrukvoorbeeld"
 
 #: ../app/actions/view-actions.c:186
 msgctxt "view-action"
 msgid "Use this view for soft-proofing"
-msgstr ""
+msgstr "Gebruik deze "
 
 #: ../app/actions/view-actions.c:192 ../app/actions/view-actions.c:199
 msgctxt "view-action"
 msgid "_Black Point Compensation"
-msgstr ""
+msgstr "Zwartpuntcompensatie"
 
 #: ../app/actions/view-actions.c:193
 msgctxt "view-action"
 msgid "Use black point compensation for image display"
-msgstr ""
+msgstr "Gebruik zwartpuntcompensatie voor afbeelding"
 
 #: ../app/actions/view-actions.c:200
 msgctxt "view-action"
 msgid "Use black point compensation for soft-proofing"
-msgstr ""
+msgstr "Gebruik zwartpuntcompensatie voor afdruksimulatie"
 
 #: ../app/actions/view-actions.c:206
-#, fuzzy
-#| msgid "Mark out of gamut colors"
 msgctxt "view-action"
 msgid "_Mark Out Of Gamut Colors"
-msgstr "Kleuren buiten het gamut markeren"
+msgstr "Kleuren buiten het gamut _markeren"
 
 #: ../app/actions/view-actions.c:207
 msgctxt "view-action"
@@ -10355,6 +10349,8 @@ msgid ""
 "When soft-proofing, mark colors which cannot be represented in the target "
 "color space"
 msgstr ""
+"Markeer tijdens afdruksimulatie de kleuren die niet in de gewenste "
+"kleurruimte kunnen worden weergegeven  "
 
 #: ../app/actions/view-actions.c:214
 msgctxt "view-action"
@@ -10494,7 +10490,7 @@ msgstr "_Volledig scherm"
 #: ../app/actions/view-actions.c:306
 msgctxt "view-action"
 msgid "Toggle fullscreen view"
-msgstr "Weergave op volledig scherm in/uitschakelen"
+msgstr "Volledig scherm in/uitschakelen"
 
 #: ../app/actions/view-actions.c:315
 #, fuzzy
@@ -10785,11 +10781,9 @@ msgid "Display rendering intent is relative colorimetric"
 msgstr "Renderintentie beeldscherm: relatief colorimetrisch"
 
 #: ../app/actions/view-actions.c:537 ../app/actions/view-actions.c:564
-#, fuzzy
-#| msgid "_Saturation:"
 msgctxt "view-action"
 msgid "_Saturation"
-msgstr "Ver_zadiging:"
+msgstr "Verzadiging"
 
 # tooltip: sets how colors are managed for your display
 # opties: gevoelsmatig, relative colorimetric, Verzadiging,
@@ -26604,35 +26598,40 @@ msgstr "Toetsenbordacties"
 msgid "Ready"
 msgstr "Voltooid"
 
+# Vertaling 'controllers'?
+# Apparaten, apparatuur?
+# Apparaten gekozen...
+# (Zie Voorkeuren - Invoerapparaten - Invoercontrollers).
+# pm
 #: ../app/widgets/gimpcontrollerlist.c:183
 msgid "Available Controllers"
-msgstr "Beschikbare controllers"
+msgstr "Beschikbare apparaten"
 
 #: ../app/widgets/gimpcontrollerlist.c:280
 msgid "Active Controllers"
-msgstr "Actieve controllers"
+msgstr "Actieve apparaten"
 
 #: ../app/widgets/gimpcontrollerlist.c:296
 msgid "Configure the selected controller"
-msgstr "Geselecteerde controller configureren"
+msgstr "Geselecteerd apparaat configureren"
 
 #: ../app/widgets/gimpcontrollerlist.c:304
 msgid "Move the selected controller up"
-msgstr "Geselecteerde controller naar boven verplaatsen"
+msgstr "Geselecteerd apparaat naar boven verplaatsen"
 
 #: ../app/widgets/gimpcontrollerlist.c:312
 msgid "Move the selected controller down"
-msgstr "Geselecteerde controller naar beneden verplaatsen"
+msgstr "Geselecteerd apparaat naar beneden verplaatsen"
 
 #: ../app/widgets/gimpcontrollerlist.c:425
 #, c-format
 msgid "Add '%s' to the list of active controllers"
-msgstr "‘%s’ toevoegen aan de lijst van actieve controllers"
+msgstr "'%s' toevoegen aan de lijst van actieve apparaten"
 
 #: ../app/widgets/gimpcontrollerlist.c:476
 #, c-format
 msgid "Remove '%s' from the list of active controllers"
-msgstr "‘%s’ verwijderen van de lijst van actieve controllers"
+msgstr "'%s' weghalen uit lijst met actieve apparaten"
 
 #: ../app/widgets/gimpcontrollerlist.c:510
 msgid ""
@@ -26684,7 +26683,7 @@ msgstr "Controller verwijderen"
 #: ../app/widgets/gimpcontrollerlist.c:577
 #, c-format
 msgid "Remove Controller '%s'?"
-msgstr "Controller ‘%s’ verwijderen?"
+msgstr "Controller '%s' verwijderen?"
 
 #: ../app/widgets/gimpcontrollerlist.c:581
 msgid ""
@@ -26825,46 +26824,40 @@ msgid "Mouse Wheel Events"
 msgstr "Muiswielacties"
 
 #: ../app/widgets/gimpcriticaldialog.c:54
-#, fuzzy
-#| msgctxt "brushes-action"
-#| msgid "Copy Brush _Location"
 msgid "Copy Bug Information"
-msgstr "Penseellocatie _kopiëren"
+msgstr "Kopieer de bug-informatie"
 
 #: ../app/widgets/gimpcriticaldialog.c:55
 msgid "Open Bug Tracker"
-msgstr ""
+msgstr "Open de bug-melder"
 
 #: ../app/widgets/gimpcriticaldialog.c:132
 #: ../app/widgets/gimpcriticaldialog.c:443
 msgid ""
 "To help us improve GIMP, you can report the bug with these simple steps:"
 msgstr ""
+"Om ons te helpen GIMP te verbeteren, kunt u de bug rapporteren met deze "
+"eenvoudige stappen:"
 
 #: ../app/widgets/gimpcriticaldialog.c:134
 #: ../app/widgets/gimpcriticaldialog.c:445
-#, fuzzy
-#| msgid "Copy the selected region to the clipboard"
 msgid "Copy the bug information to the clipboard by clicking: "
-msgstr "Geselecteerd gebied naar het klembord kopiëren"
+msgstr "Kopieer de bug-informatie naar het klembord door hier te klikken:"
 
 #: ../app/widgets/gimpcriticaldialog.c:136
 #: ../app/widgets/gimpcriticaldialog.c:447
 msgid "Open our bug tracker in the browser by clicking: "
-msgstr ""
+msgstr "Open onze bug-melder in de browser door hier te klikken: "
 
 #: ../app/widgets/gimpcriticaldialog.c:138
 #: ../app/widgets/gimpcriticaldialog.c:449
 msgid "Create a login if you don't have one yet."
-msgstr ""
+msgstr "Creëer een login als u er nog geen heeft."
 
 #: ../app/widgets/gimpcriticaldialog.c:139
 #: ../app/widgets/gimpcriticaldialog.c:450
-#, fuzzy
-#| msgctxt "edit-action"
-#| msgid "Paste the content of a named buffer"
 msgid "Paste the clipboard text in a new bug report."
-msgstr "De inhoud van een benoemde buffer plakken"
+msgstr "Plak de inhoud van het klembord in een nieuw bug-rapport. "
 
 #: ../app/widgets/gimpcriticaldialog.c:140
 #: ../app/widgets/gimpcriticaldialog.c:451
@@ -26872,75 +26865,79 @@ msgid ""
 "Add relevant information in English in the bug report explaining what you "
 "were doing when this error occurred."
 msgstr ""
+"Geef relevante informatie (in het Engels) in het bug-rapport wat u aan het "
+"doen was toen deze fout optrad. "
 
 #: ../app/widgets/gimpcriticaldialog.c:142
 msgid ""
 "This error may have left GIMP in an inconsistent state. It is advised to "
 "save your work and restart GIMP."
 msgstr ""
+"Deze fout kan de interne staat van GIMP overhoop hebben gehaald. U wordt "
+"aangeraden uw werk te bewaren en GIMP opnieuw te starten. "
 
 #: ../app/widgets/gimpcriticaldialog.c:153
 msgid ""
 "You can also close the dialog directly but reporting bugs is the best way to "
 "make your software awesome."
 msgstr ""
+"U kunt het dialoogvenster direct sluiten, maar door bugs te rapporteren "
+"helpt u mee deze software te verbeteren.  "
 
 #: ../app/widgets/gimpcriticaldialog.c:226
 msgid "The operating system is out of memory or resources."
-msgstr ""
+msgstr "Het besturingssysteem heeft onvoldoende geheugen of bronnen."
 
 #: ../app/widgets/gimpcriticaldialog.c:229
 msgid "The specified file was not found."
-msgstr ""
+msgstr "Het opgegeven bestand is niet gevonden. "
 
 #: ../app/widgets/gimpcriticaldialog.c:232
-#, fuzzy
-#| msgid "The active path is locked."
 msgid "The specified path was not found."
-msgstr "Het actieve pad is vergrendeld"
+msgstr "Het opgegeven pad werd niet gevonden."
 
 #: ../app/widgets/gimpcriticaldialog.c:235
 msgid ""
 "The .exe file is invalid (non-Microsoft Win32 .exe or error in .exe image)."
 msgstr ""
+"Het .exe-bestand is ongeldig (non-Microsoft Win32 .exe of fout in .exe-"
+"bestand)."
 
 #: ../app/widgets/gimpcriticaldialog.c:238
 msgid "The operating system denied access to the specified file."
-msgstr ""
+msgstr "Het besturingssysteem weigerde toegang tot gevraagd bestand."
 
 #: ../app/widgets/gimpcriticaldialog.c:241
 msgid "The file name association is incomplete or invalid."
-msgstr ""
+msgstr "Bestandsnaamassociatie is onvolledig of ongeldig"
 
 #: ../app/widgets/gimpcriticaldialog.c:244
 msgid "DDE transaction busy"
-msgstr ""
+msgstr "DDE-transactie bezig"
 
 #: ../app/widgets/gimpcriticaldialog.c:247
-#, fuzzy
-#| msgid "User installation failed!"
 msgid "The DDE transaction failed."
-msgstr "Gebruikersinstallatie mislukt!"
+msgstr "DDE-transactie mislukt."
 
 #: ../app/widgets/gimpcriticaldialog.c:250
 msgid "The DDE transaction timed out."
-msgstr ""
+msgstr "Time-out DDE-transactie."
 
 #: ../app/widgets/gimpcriticaldialog.c:253
 msgid "The specified DLL was not found."
-msgstr ""
+msgstr "De opgegeven DDL is niet gevonden. "
 
 #: ../app/widgets/gimpcriticaldialog.c:256
 msgid "There is no application associated with the given file name extension."
-msgstr ""
+msgstr "Er is geen applicatie aan deze bestandsextensie gekoppeld."
 
 #: ../app/widgets/gimpcriticaldialog.c:259
 msgid "There was not enough memory to complete the operation."
-msgstr ""
+msgstr "Onvoldoende geheugen om de bewerking te voltooien."
 
 #: ../app/widgets/gimpcriticaldialog.c:262
 msgid "A sharing violation occurred."
-msgstr ""
+msgstr "Fout tijdens het delen"
 
 #: ../app/widgets/gimpcriticaldialog.c:265
 msgid "Unknown Microsoft Windows error."
