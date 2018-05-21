@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=Internationalisation\n"
 "POT-Creation-Date: 2018-05-08 15:19+0000\n"
-"PO-Revision-Date: 2018-05-21 11:12+0200\n"
+"PO-Revision-Date: 2018-05-21 12:22+0200\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -3115,12 +3115,12 @@ msgstr "Het dialoogvenster Navigatie openen"
 #: ../app/actions/dialogs-actions.c:113
 msgctxt "dialogs-action"
 msgid "Undo _History"
-msgstr "Be_werkingsgeschiedenis"
+msgstr "Geschiedenis"
 
 #: ../app/actions/dialogs-actions.c:114
 msgctxt "dialogs-action"
 msgid "Open the undo history dialog"
-msgstr "Het dialoogvenster Bewerkingsgeschiedenis openen"
+msgstr "Het geschiedenisvenster openen"
 
 #: ../app/actions/dialogs-actions.c:119
 msgctxt "dialogs-action"
@@ -3669,12 +3669,12 @@ msgstr "Geselecteerde item verwijderen"
 #: ../app/actions/documents-actions.c:82
 msgctxt "documents-action"
 msgid "_Clear History"
-msgstr "Bewerkingsgeschiedenis _wissen"
+msgstr "Geschiedenis wissen"
 
 #: ../app/actions/documents-actions.c:83
 msgctxt "documents-action"
 msgid "Clear the entire document history"
-msgstr "De gehele bewerkingsgeschiedenis wissen"
+msgstr "De hele geschiedenis wissen"
 
 #: ../app/actions/documents-actions.c:88
 msgctxt "documents-action"
@@ -3710,7 +3710,7 @@ msgstr ""
 # overzicht ongedaan maken wissen/documentgeschiedenis
 #: ../app/actions/documents-commands.c:223
 msgid "Clear Document History"
-msgstr "Bewerkingsgeschiedenis wissen"
+msgstr "Geschiedenis wissen"
 
 #: ../app/actions/documents-commands.c:230 ../app/actions/edit-commands.c:161
 #: ../app/actions/error-console-commands.c:96
@@ -4046,7 +4046,7 @@ msgstr "_Buffers"
 #: ../app/actions/edit-actions.c:70
 msgctxt "edit-action"
 msgid "Undo History Menu"
-msgstr "Menu bewerkingsgeschiedenis"
+msgstr "Menu geschiedenis"
 
 #: ../app/actions/edit-actions.c:74
 msgctxt "edit-action"
@@ -4095,12 +4095,12 @@ msgstr ""
 #: ../app/actions/edit-actions.c:99
 msgctxt "edit-action"
 msgid "_Clear Undo History"
-msgstr "Bewerkingsges_chiedenis wissen"
+msgstr "Geschiedenis wissen"
 
 #: ../app/actions/edit-actions.c:100
 msgctxt "edit-action"
 msgid "Remove all operations from the undo history"
-msgstr "Alle items van de bewerkingsgeschiedenis wissen"
+msgstr "Alle geschiedenis wissen"
 
 #: ../app/actions/edit-actions.c:105
 msgctxt "edit-action"
@@ -4110,7 +4110,7 @@ msgstr "_Uitvloeien…"
 #: ../app/actions/edit-actions.c:107
 msgctxt "edit-action"
 msgid "Modify paint mode and opacity of the last pixel manipulation"
-msgstr "De tekenmodus en dekking van de laatste beeldpuntbewerking aanpassen"
+msgstr "Tekenmodus en dekking van de laatste bewerking aanpassen"
 
 #: ../app/actions/edit-actions.c:112
 msgctxt "edit-action"
@@ -4120,7 +4120,7 @@ msgstr "K_nippen"
 #: ../app/actions/edit-actions.c:113
 msgctxt "edit-action"
 msgid "Move the selected pixels to the clipboard"
-msgstr "Geselecteerde beeldpunten naar het klembord verplaatsen"
+msgstr "Geselecteerde pixels naar het klembord verplaatsen"
 
 #: ../app/actions/edit-actions.c:118
 msgctxt "edit-action"
@@ -4130,7 +4130,7 @@ msgstr "_Kopiëren"
 #: ../app/actions/edit-actions.c:119
 msgctxt "edit-action"
 msgid "Copy the selected pixels to the clipboard"
-msgstr "Geselecteerde beeldpunten naar het klembord kopiëren"
+msgstr "Geselecteerde pixels naar het klembord kopiëren"
 
 #. GIMP_ICON_COPY_VISIBLE,
 #: ../app/actions/edit-actions.c:124
@@ -4166,7 +4166,7 @@ msgstr "Benoemde buffer k_nippen…"
 #: ../app/actions/edit-actions.c:143
 msgctxt "edit-action"
 msgid "Move the selected pixels to a named buffer"
-msgstr "Geselecteerde beeldpunten naar een benoemde buffer verplaatsen"
+msgstr "Geselecteerde pixels naar een benoemde buffer verplaatsen"
 
 #: ../app/actions/edit-actions.c:148
 msgctxt "edit-action"
@@ -4176,7 +4176,7 @@ msgstr "Benoemde buffer _kopiëren…"
 #: ../app/actions/edit-actions.c:149
 msgctxt "edit-action"
 msgid "Copy the selected pixels to a named buffer"
-msgstr "Geselecteerde beeldpunten naar een benoemde buffer kopiëren"
+msgstr "Geselecteerde pixels naar een benoemde buffer kopiëren"
 
 #. GIMP_ICON_COPY_VISIBLE,
 #: ../app/actions/edit-actions.c:154
@@ -4208,7 +4208,7 @@ msgstr "_Wissen"
 #: ../app/actions/edit-actions.c:168
 msgctxt "edit-action"
 msgid "Clear the selected pixels"
-msgstr "De geselecteerde beeldpunten wissen"
+msgstr "Geselecteerde pixels wissen"
 
 #: ../app/actions/edit-actions.c:176
 msgctxt "edit-action"
@@ -4246,14 +4246,13 @@ msgid "Paste Into Selection In Place"
 msgstr "Plak op zelfde positie als origineel"
 
 #: ../app/actions/edit-actions.c:198
-#, fuzzy
-#| msgctxt "edit-action"
-#| msgid "Paste the content of the clipboard into the current selection"
 msgctxt "edit-action"
 msgid ""
 "Paste the content of the clipboard into the current selection at its "
 "original position"
-msgstr "De inhoud van het klembord in de huidige selectie plakken"
+msgstr ""
+"De inhoud van het klembord in de huidige selectie op oorspronkelijke positie "
+"plakken"
 
 #: ../app/actions/edit-actions.c:204
 msgctxt "edit-action"
@@ -4339,18 +4338,18 @@ msgstr "_Uitvloeien…"
 
 #: ../app/actions/edit-commands.c:153
 msgid "Clear Undo History"
-msgstr "Bewerkingsgeschiedenis wissen"
+msgstr "Geschiedenis wissen"
 
 #: ../app/actions/edit-commands.c:180
 msgid "Really clear image's undo history?"
-msgstr "De bewerkingsgeschiedenis voor deze afbeelding echt wissen?"
+msgstr "De geschiedenis van deze afbeelding echt wissen?"
 
 #: ../app/actions/edit-commands.c:193
 #, c-format
 msgid "Clearing the undo history of this image will gain %s of memory."
 msgstr ""
-"Het wissen van de bewerkingsgeschiedenis voor deze afbeelding zal %s "
-"geheugen vrijmaken."
+"Het wissen van de geschiedenis voor deze afbeelding zal %s geheugen "
+"vrijmaken."
 
 #: ../app/actions/edit-commands.c:249
 #, fuzzy
@@ -4584,7 +4583,7 @@ msgstr "_Locatie openen…"
 #: ../app/actions/file-actions.c:89
 msgctxt "file-action"
 msgid "Open an image file from a specified location"
-msgstr "Een afbeeldingsbestand van een bepaalde locatie openen"
+msgstr "Een afbeelding op een bepaalde locatie openen"
 
 #: ../app/actions/file-actions.c:94
 msgctxt "file-action"
@@ -4599,12 +4598,12 @@ msgstr "Een nieuwe sjabloon maken van deze afbeelding"
 #: ../app/actions/file-actions.c:100
 msgctxt "file-action"
 msgid "Re_vert"
-msgstr "_Terughalen"
+msgstr "Terughalen"
 
 #: ../app/actions/file-actions.c:101
 msgctxt "file-action"
 msgid "Reload the image file from disk"
-msgstr "Het afbeeldingsbestand opnieuw van schijf laden"
+msgstr "De afbeelding opnieuw van schijf laden"
 
 #: ../app/actions/file-actions.c:106
 msgctxt "file-action"
@@ -4622,12 +4621,9 @@ msgid "Copy _Image Location"
 msgstr "Afbeeldingslocatie kop_iëren"
 
 #: ../app/actions/file-actions.c:113
-#, fuzzy
-#| msgctxt "documents-action"
-#| msgid "Copy image location to clipboard"
 msgctxt "file-action"
 msgid "Copy image file location to clipboard"
-msgstr "Kopieer de locatie van de afbeelding naar het klembord"
+msgstr "Kopieer afbeeldingslocatie naar het klembord"
 
 #: ../app/actions/file-actions.c:118
 msgctxt "file-action"
@@ -4637,7 +4633,7 @@ msgstr "Toon in bestandsbeheer"
 #: ../app/actions/file-actions.c:119
 msgctxt "file-action"
 msgid "Show image file location in the file manager"
-msgstr ""
+msgstr "Toon bestandslocatie in bestandsbeheer"
 
 #: ../app/actions/file-actions.c:124
 msgctxt "file-action"
@@ -4694,20 +4690,14 @@ msgid "Save this image and close its window"
 msgstr "Deze afbeelding opslaan en het venster sluiten"
 
 #: ../app/actions/file-actions.c:159 ../app/actions/file-actions.c:333
-#, fuzzy
-#| msgctxt "file-action"
-#| msgid "Export As..."
 msgctxt "file-action"
 msgid "Export..."
-msgstr "Exporteren als…"
+msgstr "Exporteren..."
 
 #: ../app/actions/file-actions.c:160
-#, fuzzy
-#| msgctxt "file-action"
-#| msgid "Export the image again"
 msgctxt "file-action"
 msgid "Export the image"
-msgstr "Afbeelding opnieuw exporteren"
+msgstr "Afbeelding exporteren"
 
 #: ../app/actions/file-actions.c:165
 msgctxt "file-action"
@@ -4717,9 +4707,7 @@ msgstr "_Overschrijven"
 #: ../app/actions/file-actions.c:166
 msgctxt "file-action"
 msgid "Export the image back to the imported file in the import format"
-msgstr ""
-"De afbeelding exporteren naar het geïmporteerde bestand in het geïmporteerde "
-"formaat"
+msgstr "Exporteer afbeelding naar zelfde formaat"
 
 #: ../app/actions/file-actions.c:171
 msgctxt "file-action"
@@ -4729,15 +4717,13 @@ msgstr "Exporteren als…"
 #: ../app/actions/file-actions.c:172
 msgctxt "file-action"
 msgid "Export the image to various file formats such as PNG or JPEG"
-msgstr "De afbeelding naar verschillende formaten zoals PNG of JPEG exporteren"
+msgstr ""
+"De afbeelding naar verschillende bestandsformaten zoals png of jpg exporteren"
 
 #: ../app/actions/file-actions.c:314
-#, fuzzy
-#| msgctxt "file-action"
-#| msgid "_Save"
 msgctxt "file-action"
 msgid "_Save..."
-msgstr "Op_slaan"
+msgstr "Op_slaan..."
 
 #: ../app/actions/file-actions.c:319
 #, c-format
@@ -4756,7 +4742,7 @@ msgstr "Afbeelding openen"
 
 #: ../app/actions/file-commands.c:139
 msgid "Open Image as Layers"
-msgstr "Afbeelding openen als lagen"
+msgstr "Afbeelding openen als laag"
 
 #: ../app/actions/file-commands.c:277
 msgid "No changes need to be saved"
@@ -4799,7 +4785,7 @@ msgstr "Terughalen"
 #: ../app/actions/file-commands.c:435
 #, c-format
 msgid "Revert '%s' to '%s'?"
-msgstr "‘%s’ terughalen naar ‘%s’?"
+msgstr "'%s' terughalen naar '%s'?"
 
 #  terugdraaien/terugzetten/herstellen
 #: ../app/actions/file-commands.c:440
@@ -4821,7 +4807,7 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"Terughalen uit '%s' mislukte.\n"
+"Teruggaan naar '%s' mislukte.\n"
 "\n"
 "%s"
 
@@ -8542,12 +8528,9 @@ msgid "_Fill Selection Outline..."
 msgstr "Selectie vullen"
 
 #: ../app/actions/select-actions.c:118
-#, fuzzy
-#| msgctxt "view-action"
-#| msgid "Display the selection outline"
 msgctxt "select-action"
 msgid "Fill the selection outline"
-msgstr "Selectie-omtrek tonen"
+msgstr "Selectie-omtrek vullen"
 
 #: ../app/actions/select-actions.c:123
 msgctxt "select-action"
@@ -9732,12 +9715,9 @@ msgid "Fill Path..."
 msgstr "Vul pad..."
 
 #: ../app/actions/vectors-actions.c:120
-#, fuzzy
-#| msgctxt "vectors-action"
-#| msgid "Paint along the path"
 msgctxt "vectors-action"
 msgid "Fill the path"
-msgstr "Lijn tekenen langs pad"
+msgstr "Pad vullen"
 
 #: ../app/actions/vectors-actions.c:125
 msgctxt "vectors-action"
@@ -10186,7 +10166,7 @@ msgstr "Weergave _sluiten"
 #: ../app/actions/view-actions.c:96
 msgctxt "view-action"
 msgid "Close the active image view"
-msgstr "De actieve afbeeldingsweergave sluiten"
+msgstr "De actieve afbeelding sluiten"
 
 #: ../app/actions/view-actions.c:101
 msgctxt "view-action"
@@ -10304,7 +10284,7 @@ msgstr "Venster naar afbeeldings_grootte"
 #: ../app/actions/view-actions.c:157
 msgctxt "view-action"
 msgid "Reduce the image window to the size of the image display"
-msgstr "Het venster verkleinen tot de afmetingen van de afbeeldingsweergave"
+msgstr "Het venster verkleinen tot de afmetingen van de afbeelding"
 
 #: ../app/actions/view-actions.c:162
 msgctxt "view-action"
@@ -10325,7 +10305,7 @@ msgstr "_Punt voor punt"
 #: ../app/actions/view-actions.c:172
 msgctxt "view-action"
 msgid "A pixel on the screen represents an image pixel"
-msgstr "Eén beeldpunt op het scherm stelt één beeldpunt in de afbeelding voor"
+msgstr "Eén pixel op het scherm stelt één pixel in de afbeelding voor"
 
 #: ../app/actions/view-actions.c:178
 msgctxt "view-action"
@@ -10514,7 +10494,7 @@ msgstr "_Volledig scherm"
 #: ../app/actions/view-actions.c:306
 msgctxt "view-action"
 msgid "Toggle fullscreen view"
-msgstr "Weergave op volledig scherm inschakelen"
+msgstr "Weergave op volledig scherm in/uitschakelen"
 
 #: ../app/actions/view-actions.c:315
 #, fuzzy
@@ -10710,7 +10690,7 @@ msgstr "Afbeelding verticaal spiegelen"
 #: ../app/actions/view-actions.c:482
 msgctxt "view-action"
 msgid "_Reset Flip & Rotate"
-msgstr "Spiegelen en d_raaien terugzetten"
+msgstr "Spiegelen en draaien ongedaan maken"
 
 #: ../app/actions/view-actions.c:484
 msgctxt "view-action"
@@ -11028,7 +11008,7 @@ msgstr "_Zoomniveau terughalen (%d%%)"
 
 #: ../app/actions/view-actions.c:911
 msgid "Re_vert Zoom"
-msgstr "Zoomniveau_terughalen"
+msgstr "Zoomniveau herstellen"
 
 #: ../app/actions/view-actions.c:1098
 #, c-format
@@ -11055,10 +11035,12 @@ msgstr "(H) "
 msgid "(V) "
 msgstr "(V) "
 
+# Is menutekst, begrijp niet wat die %s en %d hier doen
+# pm
 #: ../app/actions/view-actions.c:1145
 #, c-format
 msgid "_Flip %s& Rotate (%d°)"
-msgstr "Spiegelen %s & draaien (%d°)"
+msgstr "Spiegelen en draaien"
 
 #: ../app/actions/view-commands.c:1005
 msgid "Set Canvas Padding Color"
@@ -11557,11 +11539,8 @@ msgid "Sets the browser used by the help system."
 msgstr "De browser die door het hulpsysteem wordt gebruikt."
 
 #: ../app/config/gimprc-blurbs.h:179
-#, fuzzy
-#| msgid "How many recently opened image filenames to keep on the File menu."
 msgid "How many recent settings to keep around in filter tools."
-msgstr ""
-"Aantal onlangs geopende afbeeldingsbestanden te tonen in het menu Bestand."
+msgstr "Aantal onlangs geopende afbeeldingen tonen in het menu Bestand."
 
 #: ../app/config/gimprc-blurbs.h:182
 msgid "Default to the last used settings in filter tools."
@@ -11635,8 +11614,7 @@ msgstr "Bepaalt de taal voor de gebruikersinterface"
 
 #: ../app/config/gimprc-blurbs.h:234
 msgid "How many recently opened image filenames to keep on the File menu."
-msgstr ""
-"Aantal onlangs geopende afbeeldingsbestanden te tonen in het menu Bestand."
+msgstr "Aantal onlangs geopende afbeeldingen tonen in het menu Bestand."
 
 #: ../app/config/gimprc-blurbs.h:237
 msgid ""
@@ -12372,7 +12350,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:646
 msgid "Sets the size of the previews in the Undo History."
-msgstr "De grootte van de voorbeelden in de bewerkingsgeschiedenis."
+msgstr "Voorbeeldgrootte in geschiedenislijst."
 
 #: ../app/config/gimprc-blurbs.h:649
 msgid "When enabled, pressing F1 will open the help browser."
@@ -13356,11 +13334,8 @@ msgstr "Gedragingen"
 # wissen/leegmaken
 #. initialize the color history
 #: ../app/core/gimp-data-factories.c:347 ../app/core/gimp-palettes.c:60
-#, fuzzy
-#| msgctxt "documents-action"
-#| msgid "_Clear History"
 msgid "Color History"
-msgstr "Bewerkingsgeschiedenis _wissen"
+msgstr "Kleurgeschiedenis"
 
 #. update tag cache
 #: ../app/core/gimp-data-factories.c:359
@@ -14432,10 +14407,9 @@ msgstr ""
 
 # terugdraaien/terugzetten
 #: ../app/core/gimpimage-color-profile.c:397
-#, fuzzy, c-format
-#| msgid "Revert '%s' to '%s'?"
+#, c-format
 msgid "Converting from '%s' to '%s'"
-msgstr "‘%s’ terughalen naar ‘%s’?"
+msgstr "Omzetten van '%s' naar '%s'"
 
 #: ../app/core/gimpimage-color-profile.c:402
 #, fuzzy
@@ -16089,7 +16063,7 @@ msgstr "Ongedaan maken"
 
 #: ../app/dialogs/dialogs.c:398
 msgid "Undo History"
-msgstr "Bewerkingsgeschiedenis"
+msgstr "Geschiedenis wissen"
 
 #: ../app/dialogs/dialogs.c:408
 msgid "Navigation"
@@ -16697,7 +16671,7 @@ msgstr "Samengevoegd _monsteren"
 
 #: ../app/dialogs/palette-import-dialog.c:249
 msgid "_Selected Pixels only"
-msgstr "Enkel ge_selecteerde beeldpunten"
+msgstr "Alleen ge_selecteerde pixels"
 
 #: ../app/dialogs/palette-import-dialog.c:261
 msgid "Palette _file"
@@ -17961,10 +17935,8 @@ msgid "Maximum History Size:"
 msgstr "Ma_ximale grootte voor nieuwe afbeelding:"
 
 #: ../app/dialogs/preferences-dialog.c:2525
-#, fuzzy
-#| msgid "Clear Undo History"
 msgid "Clear Action History"
-msgstr "Bewerkingsgeschiedenis wissen"
+msgstr "Geschiedenis wissen"
 
 #: ../app/dialogs/preferences-dialog.c:2540
 #: ../app/dialogs/preferences-dialog.c:2541
@@ -18924,12 +18896,12 @@ msgstr "Snelmasker aan/uit"
 
 #: ../app/display/gimpdisplayshell.c:722
 msgid "Navigate the image display"
-msgstr "Navigeren in de afbeeldingsweergave"
+msgstr "Navigeren door de afbeelding"
 
 #: ../app/display/gimpdisplayshell.c:792 ../app/display/gimpdisplayshell.c:1448
 #: ../app/widgets/gimptoolbox.c:251
 msgid "Drop image files here to open them"
-msgstr "Sleep hier afbeeldingsbestanden om ze te openen"
+msgstr "Sleep hier afbeeldingen naar toe om ze te openen"
 
 #: ../app/display/gimpdisplayshell-callbacks.c:565
 #, c-format
@@ -19321,10 +19293,8 @@ msgid "Click-Drag to move or remove the slider"
 msgstr "Klik en sleep om het hoekpunt van het segment te verplaatsen"
 
 #: ../app/display/gimptoolline.c:1521
-#, fuzzy
-#| msgid "Click-Drag to move the selected pixels"
 msgid "Click-Drag to move the slider"
-msgstr "Klik en sleep om de geselecteerde beeldpunten te verplaatsen"
+msgstr "Klik en sleep om de schuif te verplaatsen"
 
 #: ../app/display/gimptoolline.c:1532
 #, fuzzy
@@ -27099,6 +27069,8 @@ msgstr "Of de processor actief is"
 msgid "Total amount of time the CPU has been active"
 msgstr "Totale tijd dat processor actief was"
 
+# Vind string niet terug in interface, wel in broncode
+# pm
 #: ../app/widgets/gimpdashboard.c:473
 msgctxt "dashboard-variable"
 msgid "Mipmapped"
@@ -27162,8 +27134,6 @@ msgid "Yes"
 msgstr "Ja"
 
 #: ../app/widgets/gimpdashboard.c:2333
-#, fuzzy
-#| msgid "None"
 msgctxt "dashboard-value"
 msgid "No"
 msgstr "Geen"
@@ -27399,9 +27369,6 @@ msgid "All export images"
 msgstr "Alle exportafbeeldingen"
 
 #: ../app/widgets/gimpfiledialog.c:350
-#, fuzzy
-#| msgctxt "help-action"
-#| msgid "_Help"
 msgid "_Help"
 msgstr "_Hulp"
 
