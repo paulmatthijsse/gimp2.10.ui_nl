@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=Internationalisation\n"
 "POT-Creation-Date: 2018-05-08 15:19+0000\n"
-"PO-Revision-Date: 2018-05-22 11:19+0200\n"
+"PO-Revision-Date: 2018-05-22 12:25+0200\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -135,7 +135,7 @@ msgstr ""
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:13
 msgid "Most tools improved, several new transformation tools"
 msgstr ""
-"Meeste gereedschappen verbeterd, diverse nieuwe transformatie gereedschappen"
+"Meeste gereedschappen verbeterd, diverse nieuwe transformatiegereedschappen"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:14
 msgid ""
@@ -5137,11 +5137,9 @@ msgid "_Extract Component..."
 msgstr ""
 
 #: ../app/actions/filters-actions.c:257
-#, fuzzy
-#| msgid "Transformation Matrix"
 msgctxt "filters-action"
 msgid "_Convolution Matrix..."
-msgstr "Transformatiematrix"
+msgstr "Convolutiematrix"
 
 #: ../app/actions/filters-actions.c:262
 msgctxt "filters-action"
@@ -5509,11 +5507,9 @@ msgid "_Posterize..."
 msgstr "_Posterkleuren…"
 
 #: ../app/actions/filters-actions.c:552
-#, fuzzy
-#| msgid "_Cage Transform"
 msgctxt "filters-action"
 msgid "_Recursive Transform..."
-msgstr "_Transformeren"
+msgstr "Omgekee_rde transformatie..."
 
 #: ../app/actions/filters-actions.c:557
 msgctxt "filters-action"
@@ -6523,7 +6519,7 @@ msgstr "Het raster voor deze afbeelding instellen"
 #: ../app/actions/image-actions.c:172
 msgctxt "image-action"
 msgid "Image Pr_operties"
-msgstr "Afbeeldings_eigenschappen"
+msgstr "Afbeeldingsinf_o"
 
 #: ../app/actions/image-actions.c:173
 msgctxt "image-action"
@@ -9051,7 +9047,7 @@ msgstr "T_ekenen"
 #: ../app/actions/tools-actions.c:49
 msgctxt "tools-action"
 msgid "_Transform Tools"
-msgstr "_Transformatie"
+msgstr "_Transformeren"
 
 # kleur/kleuren
 #: ../app/actions/tools-actions.c:50
@@ -11816,7 +11812,7 @@ msgstr "Het dialoogvenster Muisaanwijzerinformatie openen"
 
 #: ../app/config/gimprc-blurbs.h:409
 msgid "Enable the Handle Transform tool."
-msgstr ""
+msgstr "Activeer het Hendeltransformatiegereedschap"
 
 #: ../app/config/gimprc-blurbs.h:412
 msgid "Enable symmetry on painting."
@@ -12907,15 +12903,12 @@ msgstr "Wijzigen laaggrootte hervatten"
 #: ../app/core/core-enums.c:932
 msgctxt "undo-type"
 msgid "Start transforming group layer"
-msgstr ""
+msgstr "Begin vervorming laaggroep"
 
 #: ../app/core/core-enums.c:933
-#, fuzzy
-#| msgctxt "layers-action"
-#| msgid "Add transparency information to the layer"
 msgctxt "undo-type"
 msgid "End transforming group layer"
-msgstr "Transparantie-informatie aan de laag toevoegen"
+msgstr "Einde vervorming laaggroep"
 
 #: ../app/core/core-enums.c:934
 msgctxt "undo-type"
@@ -15218,10 +15211,8 @@ msgid "Number of points"
 msgstr "Aantal lijnen"
 
 #: ../app/core/gimpsymmetry-mandala.c:152 ../app/core/gimpsymmetry-mirror.c:154
-#, fuzzy
-#| msgid "Cage transform"
 msgid "Disable brush transform"
-msgstr "Transformeren"
+msgstr "Schakel penseelvervorming uit"
 
 #: ../app/core/gimpsymmetry-mandala.c:153
 msgid "Disable brush rotation"
@@ -16619,10 +16610,8 @@ msgid "The selected source contains no colors."
 msgstr "De geselecteerde bron bevat geen kleuren"
 
 #: ../app/dialogs/palette-import-dialog.c:466
-#, fuzzy
-#| msgid "There is no path to transform."
 msgid "There is no palette to import."
-msgstr "Er is geen pad om te transformeren."
+msgstr "Er is geen palet om te importeren."
 
 #: ../app/dialogs/preferences-dialog.c:280
 msgid "Reset All Preferences"
@@ -18683,12 +18672,9 @@ msgid "Size"
 msgstr "Grootte"
 
 #: ../app/display/display-enums.c:409
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Transform"
 msgctxt "transform-handle-mode"
 msgid "Add / Transform"
-msgstr "Transformeren"
+msgstr "Toevoegen/transformeren"
 
 #: ../app/display/display-enums.c:410
 #, fuzzy
@@ -19580,17 +19566,16 @@ msgstr "geïndexeerd"
 #: ../app/gegl/gimp-gegl-enums.c:24
 msgctxt "cage-mode"
 msgid "Create or adjust the cage"
-msgstr "Transformatiegebied maken of aanpassen"
+msgstr "Kooitransformatiegebied maken of aanpassen"
 
 #: ../app/gegl/gimp-gegl-enums.c:25
-#, fuzzy
-#| msgctxt "cage-mode"
-#| msgid "Deform the cage to deform the image"
 msgctxt "cage-mode"
 msgid ""
 "Deform the cage\n"
 "to deform the image"
-msgstr "Het transformatiegebied vervormen om de afbeelding te vervormen"
+msgstr ""
+"Vervorm de kooi\n"
+"om de afbeelding te vervormen"
 
 #: ../app/operations/operations-enums.c:25
 #, fuzzy
@@ -20578,16 +20563,15 @@ msgstr "Helderheid en contrast aanpassen"
 
 #: ../app/operations/gimpoperationcagecoefcalc.c:69
 msgid "Compute a set of coefficient buffer for the GIMP cage tool"
-msgstr ""
-"Een set van coëfficiëntenbuffer berekenen voor het gereedschap Transformeren"
+msgstr "Bereken de coëfficiëntenbuffer voor het gereedschap Kooitransformatie"
 
 #: ../app/operations/gimpoperationcagetransform.c:105
 msgid ""
 "Convert a set of coefficient buffer to a coordinate buffer for the GIMP cage "
 "tool"
 msgstr ""
-"Een set van coëfficiëntenbuffer omzetten naar een coördinatenbuffer voor het "
-"gereedschap Transformeren van GIMP"
+"Converteer een coëfficiëntenbuffer naar een coördinatenbuffer voor het "
+"gereedschap Kooitransformatie"
 
 #: ../app/operations/gimpoperationcagetransform.c:131
 msgid "Fill with plain color"
@@ -20596,7 +20580,7 @@ msgstr "Vullen met egale kleur"
 #: ../app/operations/gimpoperationcagetransform.c:132
 msgid "Fill the original position of the cage with a plain color"
 msgstr ""
-"Vul de oorspronkelijke positie van het transformatiegebied met een effen "
+"Vul de oorspronkelijke positie van het kooitransformatiegebied met een effen "
 "kleur"
 
 #: ../app/operations/gimpoperationcolorbalance.c:65
@@ -21688,17 +21672,12 @@ msgid "Interpolation"
 msgstr "Interpolatie:"
 
 #: ../app/pdb/gimppdbcontext.c:172
-#, fuzzy
-#| msgid "Transformation"
 msgid "Transform direction"
-msgstr "Transformatie"
+msgstr "Transformatie: richting"
 
 #: ../app/pdb/gimppdbcontext.c:180
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Transform Items"
 msgid "Transform resize"
-msgstr "Objecten transformeren"
+msgstr "Transformatie: herschaal"
 
 #: ../app/pdb/gimppdbcontext.c:195
 #, fuzzy
@@ -21895,11 +21874,9 @@ msgid "Array 'channels' has only %d members, must have 5"
 msgstr ""
 
 #: ../app/pdb/plug-in-compat-cmds.c:1110
-#, fuzzy
-#| msgid "Transformation Matrix"
 msgctxt "undo-type"
 msgid "Convolution Matrix"
-msgstr "Transformatiematrix"
+msgstr "Convolutiematrix"
 
 #: ../app/pdb/plug-in-compat-cmds.c:1172
 msgctxt "undo-type"
@@ -22587,16 +22564,12 @@ msgid "R_eset Color"
 msgstr "_Kleur resetten"
 
 #: ../app/propgui/gimppropgui-panorama-projection.c:125
-#, fuzzy
-#| msgid "Transformation"
 msgid "Panorama Projection: "
-msgstr "Transformatie"
+msgstr "Panoramaprojectie:"
 
 #: ../app/propgui/gimppropgui-recursive-transform.c:125
-#, fuzzy
-#| msgid "Transform:"
 msgid "Recursive Transform: "
-msgstr "Transformeren:"
+msgstr "Omgekeerde transformatie:"
 
 #: ../app/propgui/gimppropgui-shadows-highlights.c:62
 msgid "Shadows"
@@ -23119,39 +23092,36 @@ msgid "Select by Color"
 msgstr "Selecteren op kleur"
 
 #: ../app/tools/gimpcageoptions.c:77
-#, fuzzy
-#| msgid "Fill the original position of the cage with a plain color"
 msgid ""
 "Fill the original position\n"
 "of the cage with a color"
 msgstr ""
-"Vul de oorspronkelijke positie van het transformatiegebied met een effen "
-"kleur"
+"Vul de oorspronkelijke positie\n"
+"van de kooi met een kleur"
 
 #: ../app/tools/gimpcagetool.c:158 ../app/tools/gimpcagetool.c:1223
 msgid "Cage Transform"
-msgstr "Transformeren"
+msgstr "Kooitransformatie"
 
 #: ../app/tools/gimpcagetool.c:159
 msgid "Cage Transform: Deform a selection with a cage"
-msgstr ""
-"Transformeren: vervormt een selectie met behulp van een transformatiegebied"
+msgstr "Kooitransformatie: vervorm een selectie met behulp van een kooi"
 
 #: ../app/tools/gimpcagetool.c:160
 msgid "_Cage Transform"
-msgstr "_Transformeren"
+msgstr "_Kooitransformatie"
 
 #: ../app/tools/gimpcagetool.c:732 ../app/tools/gimpwarptool.c:329
 msgid "Press ENTER to commit the transform"
-msgstr "Druk op ENTER om de transformatie toe te passen"
+msgstr "Druk op Enter om de transformatie toe te passen"
 
 #: ../app/tools/gimpcagetool.c:1133
 msgid "Computing Cage Coefficients"
-msgstr "Transformatiecoëfficiënten berekenen"
+msgstr "Kooicoëfficiënten berekenen"
 
 #: ../app/tools/gimpcagetool.c:1266
 msgid "Cage transform"
-msgstr "Transformeren"
+msgstr "Kooitransformatie"
 
 #: ../app/tools/gimpclonetool.c:63
 msgid "Clone Tool: Selectively copy from an image or pattern, using a brush"
@@ -23531,10 +23501,8 @@ msgid "The selection is empty."
 msgstr "Selectieranden verzachten met"
 
 #: ../app/tools/gimpeditselectiontool.c:1122 ../app/tools/gimpmovetool.c:262
-#, fuzzy
-#| msgid "There is no path to transform."
 msgid "There is no path to move."
-msgstr "Er is geen pad om te transformeren."
+msgstr "Er is geen pad om te verplaatsen."
 
 #: ../app/tools/gimpeditselectiontool.c:1126 ../app/tools/gimpmovetool.c:266
 #: ../app/tools/gimptransformtool.c:1484
@@ -23544,10 +23512,8 @@ msgid "The active path's position is locked."
 msgstr "Het actieve pad is vergrendeld"
 
 #: ../app/tools/gimpeditselectiontool.c:1137 ../app/tools/gimpmovetool.c:299
-#, fuzzy
-#| msgid "There is no layer to transform."
 msgid "There is no layer to move."
-msgstr "Er is geen laag om te transformeren."
+msgstr "Er is geen laag om te verplaatsen."
 
 #: ../app/tools/gimpeditselectiontool.c:1145
 #: ../app/tools/gimpeditselectiontool.c:1171
@@ -23962,10 +23928,8 @@ msgid "Transform Matrix"
 msgstr "Transformatiematrix"
 
 #: ../app/tools/gimpgenerictransformtool.c:114
-#, fuzzy
-#| msgid "Cage transform"
 msgid "Invalid transform"
-msgstr "Transformeren"
+msgstr "Ongeldige transformatie"
 
 #: ../app/tools/gimpgradientoptions.c:102
 #: ../app/tools/gimpgradientoptions.c:314
@@ -24201,52 +24165,36 @@ msgstr ""
 
 #: ../app/tools/gimphandletransformoptions.c:167
 msgid "Add handles and transform the image"
-msgstr ""
+msgstr "Voeg hendels toe en vervorm de afbeelding"
 
 #: ../app/tools/gimphandletransformoptions.c:172
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Transform Channel"
 msgid "Move transform handles"
-msgstr "Kanaal transformeren"
+msgstr "Verplaats transformeerhendels"
 
 #: ../app/tools/gimphandletransformoptions.c:177
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Remove Parasite from Image"
 msgid "Remove transform handles"
-msgstr "Parasiet uit afbeelding verwijderen"
+msgstr "Verwijder transformeerhendels"
 
 #: ../app/tools/gimphandletransformtool.c:115
-#, fuzzy
-#| msgid "Cage Transform"
 msgid "Handle Transform"
-msgstr "Transformeren"
+msgstr "Hendeltransformatie"
 
 #: ../app/tools/gimphandletransformtool.c:116
-#, fuzzy
-#| msgid "Shear Tool: Shear the layer, selection or path"
 msgid "Handle Transform Tool: Deform the layer, selection or path with handles"
-msgstr "Hellen: een laag, selectie of pad hellen"
+msgstr "Hendeltransformatie: een laag, selectie of pad vervormen met hendels"
 
 #: ../app/tools/gimphandletransformtool.c:118
-#, fuzzy
-#| msgid "_Cage Transform"
 msgid "_Handle Transform"
-msgstr "_Transformeren"
+msgstr "_Hendeltransformatie"
 
 #: ../app/tools/gimphandletransformtool.c:146
-#, fuzzy
-#| msgid "Transformation"
 msgid "Handle transformation"
-msgstr "Transformatie"
+msgstr "Hendeltransformatie"
 
 #: ../app/tools/gimphandletransformtool.c:310
-#, fuzzy
-#| msgid "Cage transform"
 msgctxt "undo-type"
 msgid "Handle transform"
-msgstr "Transformeren"
+msgstr "Hendeltransformatie"
 
 #: ../app/tools/gimphealtool.c:54
 msgid "Healing Tool: Heal image irregularities"
@@ -25361,7 +25309,7 @@ msgstr "Afbeeldingsvoorbeeld tonen"
 
 #: ../app/tools/gimptransformoptions.c:141
 msgid "Show a preview of the transformed image"
-msgstr "Een voorbeeld tonen van de getransformeerde afbeelding"
+msgstr "Toon voorbeeld van de getransformeerde afbeelding"
 
 #: ../app/tools/gimptransformoptions.c:147
 msgid "Image opacity"
@@ -25514,15 +25462,12 @@ msgstr ""
 "De opgegeven bestandsextensie komt niet overeen met het gekozen bestandstype."
 
 #: ../app/tools/gimptransformtool.c:514 ../app/tools/gimptransformtool.c:526
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Transform Items"
 msgid "Transform Step"
-msgstr "Objecten transformeren"
+msgstr "Transformeerstap"
 
 #: ../app/tools/gimptransformtool.c:996
 msgid "The current transform is invalid"
-msgstr ""
+msgstr "Deze vervorming is ongeldig"
 
 #: ../app/tools/gimptransformtool.c:1444
 msgid "There is no layer to transform."
@@ -25535,10 +25480,8 @@ msgid "The active layer's position and size are locked."
 msgstr "De beeldpunten van de actieve laag zijn vergrendeld."
 
 #: ../app/tools/gimptransformtool.c:1464
-#, fuzzy
-#| msgid "There is no selection to stroke."
 msgid "There is no selection to transform."
-msgstr "Er is geen selectie om te belijnen."
+msgstr "Er is geen selectie om te transformeren."
 
 #: ../app/tools/gimptransformtool.c:1477
 msgid "There is no path to transform."
@@ -25555,35 +25498,26 @@ msgid "The active path has no strokes."
 msgstr "Het actieve pad is vergrendeld"
 
 #: ../app/tools/gimpunifiedtransformtool.c:87
-#, fuzzy
-#| msgid "Cage Transform"
 msgid "Unified Transform"
-msgstr "Transformeren"
+msgstr "Geïntegreerd transformeren"
 
 #: ../app/tools/gimpunifiedtransformtool.c:88
-#, fuzzy
-#| msgid "Shear Tool: Shear the layer, selection or path"
 msgid "Unified Transform Tool: Transform the layer, selection or path"
-msgstr "Hellen: een laag, selectie of pad hellen"
+msgstr ""
+"Geïntegreerd transformeergereedschap: een laag, selectie of pad vervormen"
 
 #: ../app/tools/gimpunifiedtransformtool.c:90
-#, fuzzy
-#| msgid "_Cage Transform"
 msgid "_Unified Transform"
-msgstr "_Transformeren"
+msgstr "Geïntegreerd transformeren"
 
 #: ../app/tools/gimpunifiedtransformtool.c:115
-#, fuzzy
-#| msgid "Cage transform"
 msgid "Unified transform"
-msgstr "Transformeren"
+msgstr "Geïntegreerd transformeren"
 
 #: ../app/tools/gimpunifiedtransformtool.c:190
-#, fuzzy
-#| msgid "Cage Transform"
 msgctxt "undo-type"
 msgid "Unified Transform"
-msgstr "Transformeren"
+msgstr "Geïntegreerde transformatie"
 
 #: ../app/tools/gimpvectoroptions.c:181
 #, c-format
@@ -25734,24 +25668,20 @@ msgid "Create Animation"
 msgstr "Ani_matie"
 
 #: ../app/tools/gimpwarptool.c:155
-#, fuzzy
-#| msgid "Cage Transform"
 msgid "Warp Transform"
-msgstr "Transformeren"
+msgstr "Draaitransformatie"
 
 #: ../app/tools/gimpwarptool.c:156
 msgid "Warp Transform: Deform with different tools"
-msgstr ""
+msgstr "Draaitransformatie: vervorm met diverse gereedschappen"
 
 #: ../app/tools/gimpwarptool.c:157
-#, fuzzy
-#| msgid "_Cage Transform"
 msgid "_Warp Transform"
-msgstr "_Transformeren"
+msgstr "Draaitransformatie"
 
 #: ../app/tools/gimpwarptool.c:484 ../app/tools/gimpwarptool.c:496
 msgid "Warp Tool Stroke"
-msgstr ""
+msgstr "Verdraaigereedschap - streek"
 
 #: ../app/tools/gimpwarptool.c:618
 #, fuzzy
@@ -25766,10 +25696,8 @@ msgid "No stroke events selected."
 msgstr "Geen filter geselecteerd"
 
 #: ../app/tools/gimpwarptool.c:863
-#, fuzzy
-#| msgid "Cage transform"
 msgid "Warp transform"
-msgstr "Transformeren"
+msgstr "Draaitransformatie"
 
 #: ../app/tools/gimpwarptool.c:1076
 msgid "Please add some warp strokes first."
@@ -26062,10 +25990,8 @@ msgid "Conflicting Shortcuts"
 msgstr "Conflicterende sneltoetsen"
 
 #: ../app/widgets/gimpactionview.c:670
-#, fuzzy
-#| msgid "_Reassign shortcut"
 msgid "_Reassign Shortcut"
-msgstr "_Sneltoetsen opnieuw toewijzen"
+msgstr "_Sneltoets opnieuw toewijzen"
 
 #: ../app/widgets/gimpactionview.c:686
 #, c-format
@@ -26084,19 +26010,19 @@ msgid "Invalid shortcut."
 msgstr "Ongeldige sneltoets."
 
 #: ../app/widgets/gimpactionview.c:792 ../app/widgets/gimpactionview.c:896
-#, fuzzy
-#| msgid "Path cannot be lowered more."
 msgid "F1 cannot be remapped."
-msgstr "Pad kan niet verder naar beneden"
+msgstr "F1 kan niet aan iets anders worden toegewezen."
 
 #: ../app/widgets/gimpactionview.c:800
 #, c-format
 msgid "Alt+%d is used to switch to display %d and cannot be remapped."
 msgstr ""
+"Alt+%d wordt gebruikt om te schakelen naar beeldscherm %d en kan niet aan "
+"iets anders worden toegewezen. "
 
 #: ../app/widgets/gimpactionview.c:904
 msgid "Removing shortcut failed."
-msgstr "Verwijderen sneltoets is mislukt."
+msgstr "Verwijderen sneltoets mislukte."
 
 #: ../app/widgets/gimpbrusheditor.c:140
 msgid "Shape:"
@@ -26123,7 +26049,7 @@ msgstr "Klembord"
 
 #: ../app/widgets/gimpcolordialog.c:156
 msgid "Add the current color to the color history"
-msgstr "Voeg de huidige kleur toe aan de kleurgeschiedenis"
+msgstr "Voeg huidige kleur toe aan de kleurgeschiedenis"
 
 #: ../app/widgets/gimpcolordisplayeditor.c:165
 msgid "Available Filters"
@@ -26144,12 +26070,12 @@ msgstr "Geselecteerd filter terugzetten op standaardwaarden"
 #: ../app/widgets/gimpcolordisplayeditor.c:527
 #, c-format
 msgid "Add '%s' to the list of active filters"
-msgstr "‘%s’ toevoegen aan de lijst van actieve filters"
+msgstr "Voeg '%s' toe aan de lijst van actieve filters"
 
 #: ../app/widgets/gimpcolordisplayeditor.c:564
 #, c-format
 msgid "Remove '%s' from the list of active filters"
-msgstr "‘%s’ verwijderen uit de lijst van actieve filters"
+msgstr "Verwijder '%s' uit de lijst van actieve filters"
 
 #: ../app/widgets/gimpcolordisplayeditor.c:605
 msgid "No filter selected"
@@ -26160,38 +26086,32 @@ msgid ""
 "Hexadecimal color notation as used in HTML and CSS.  This entry also accepts "
 "CSS color names."
 msgstr ""
-"Hexadecimale kleurnotatie zoals bij HTML en CSS. CSS kleurennamen worden ook "
+"Hexadecimale kleurnotatie zoals bij HTML en CSS. CSS kleurnamen worden ook "
 "aanvaard."
 
 #. TRANSLATORS: X for the X coordinate.
 #: ../app/widgets/gimpcolorframe.c:201
-#, fuzzy
-#| msgid "_X:"
 msgctxt "Coordinates"
 msgid "X:"
-msgstr "_X:"
+msgstr "X:"
 
 #. TRANSLATORS: Y for the Y coordinate.
 #: ../app/widgets/gimpcolorframe.c:215
-#, fuzzy
-#| msgid "_Y:"
 msgctxt "Coordinates"
 msgid "Y:"
-msgstr "_Y:"
+msgstr "Y:"
 
 #. TRANSLATORS: n/a for Not Available.
 #: ../app/widgets/gimpcolorframe.c:674 ../app/widgets/gimpcolorframe.c:676
-#, fuzzy
-#| msgid "n/a"
 msgctxt "Coordinates"
 msgid "n/a"
-msgstr "n.v.t."
+msgstr "nvt."
 
 #. TRANSLATORS: V for Value (grayscale)
 #: ../app/widgets/gimpcolorframe.c:749
 msgctxt "Grayscale"
 msgid "V:"
-msgstr ""
+msgstr "V:"
 
 #. TRANSLATORS: A for Alpha (color transparency)
 #: ../app/widgets/gimpcolorframe.c:753 ../app/widgets/gimpcolorframe.c:766
@@ -26200,134 +26120,120 @@ msgstr ""
 #: ../app/widgets/gimpcolorframe.c:938
 msgctxt "Alpha channel"
 msgid "A:"
-msgstr ""
+msgstr "A:"
 
 #. TRANSLATORS: R for Red (RGB)
 #: ../app/widgets/gimpcolorframe.c:758 ../app/widgets/gimpcolorframe.c:794
-#, fuzzy
-#| msgid "Red:"
 msgctxt "RGB"
 msgid "R:"
-msgstr "Rood:"
+msgstr "R:"
 
 #. TRANSLATORS: G for Green (RGB)
 #: ../app/widgets/gimpcolorframe.c:760 ../app/widgets/gimpcolorframe.c:796
 msgctxt "RGB"
 msgid "G:"
-msgstr ""
+msgstr "G:"
 
 #. TRANSLATORS: B for Blue (RGB)
 #: ../app/widgets/gimpcolorframe.c:762 ../app/widgets/gimpcolorframe.c:798
-#, fuzzy
-#| msgid "Box:"
 msgctxt "RGB"
 msgid "B:"
-msgstr "Vak:"
+msgstr "B:"
 
 #. TRANSLATORS: Index of the color in the palette.
 #: ../app/widgets/gimpcolorframe.c:771
-#, fuzzy
-#| msgid "Index:"
 msgctxt "Indexed color"
 msgid "Index:"
 msgstr "Index:"
 
 #. TRANSLATORS: Hex for Hexadecimal (representation of a color)
 #: ../app/widgets/gimpcolorframe.c:805
-#, fuzzy
-#| msgid "Hex:"
 msgctxt "Color representation"
 msgid "Hex:"
 msgstr "Hex:"
 
 #. TRANSLATORS: H for Hue (HSV color space)
 #: ../app/widgets/gimpcolorframe.c:836
-#, fuzzy
-#| msgid "H"
 msgctxt "HSV color space"
 msgid "H:"
-msgstr "H"
+msgstr "H:"
 
 #. TRANSLATORS: S for Saturation (HSV color space)
 #: ../app/widgets/gimpcolorframe.c:838
 msgctxt "HSV color space"
 msgid "S:"
-msgstr ""
+msgstr "S:"
 
 #. TRANSLATORS: V for Value (HSV color space)
 #: ../app/widgets/gimpcolorframe.c:840
 msgctxt "HSV color space"
 msgid "V:"
-msgstr ""
+msgstr "V:"
 
 #. TRANSLATORS: L for Lightness (LCH color space)
 #: ../app/widgets/gimpcolorframe.c:864
 msgctxt "LCH color space"
 msgid "L*:"
-msgstr ""
+msgstr "L*:"
 
 #. TRANSLATORS: C for Chroma (LCH color space)
 #: ../app/widgets/gimpcolorframe.c:866
 msgctxt "LCH color space"
 msgid "C*:"
-msgstr ""
+msgstr "C*:"
 
 #. TRANSLATORS: H for Hue angle (LCH color space)
 #: ../app/widgets/gimpcolorframe.c:868
 msgctxt "LCH color space"
 msgid "h°:"
-msgstr ""
+msgstr "h*:"
 
 #. TRANSLATORS: L* for Lightness (Lab color space)
 #: ../app/widgets/gimpcolorframe.c:896
 msgctxt "Lab color space"
 msgid "L*:"
-msgstr ""
+msgstr "L*:"
 
 #. TRANSLATORS: a* color channel in Lab color space
 #: ../app/widgets/gimpcolorframe.c:898
 msgctxt "Lab color space"
 msgid "a*:"
-msgstr ""
+msgstr "a*:"
 
 #. TRANSLATORS: b* color channel in Lab color space
 #: ../app/widgets/gimpcolorframe.c:900
 msgctxt "Lab color space"
 msgid "b*:"
-msgstr ""
+msgstr "b*:"
 
 #. TRANSLATORS: C for Cyan (CMYK)
 #: ../app/widgets/gimpcolorframe.c:928
 msgctxt "CMYK"
 msgid "C:"
-msgstr ""
+msgstr "C:"
 
 #. TRANSLATORS: M for Magenta (CMYK)
 #: ../app/widgets/gimpcolorframe.c:930
 msgctxt "CMYK"
 msgid "M:"
-msgstr ""
+msgstr "M:"
 
 #. TRANSLATORS: Y for Yellow (CMYK)
 #: ../app/widgets/gimpcolorframe.c:932
-#, fuzzy
-#| msgid "_Y:"
 msgctxt "CMYK"
 msgid "Y:"
-msgstr "_Y:"
+msgstr "Y:"
 
 #. TRANSLATORS: K for Key/black (CMYK)
 #: ../app/widgets/gimpcolorframe.c:934
 msgctxt "CMYK"
 msgid "K:"
-msgstr ""
+msgstr "K:"
 
 #: ../app/widgets/gimpcolorframe.c:996
-#, fuzzy
-#| msgid "n/a"
 msgctxt "Color value"
 msgid "n/a"
-msgstr "n.v.t."
+msgstr "nvt."
 
 #: ../app/widgets/gimpcolormapeditor.c:203
 msgid "Color index:"
@@ -26351,11 +26257,11 @@ msgstr "Grotere voorbeelden"
 
 #: ../app/widgets/gimpcontrollereditor.c:199
 msgid "_Dump events from this controller"
-msgstr "_Acties van deze controller dumpen"
+msgstr "_Acties van dit apparaat bijhouden"
 
 #: ../app/widgets/gimpcontrollereditor.c:204
 msgid "_Enable this controller"
-msgstr "_Deze controller inschakelen"
+msgstr "Dit apparaat inschak_elen"
 
 #: ../app/widgets/gimpcontrollereditor.c:225
 msgid "Name:"
@@ -26413,7 +26319,7 @@ msgstr "Selecteer actie bij controllergebeurtenis"
 
 #: ../app/widgets/gimpcontrollerinfo.c:112
 msgid "Enabled"
-msgstr ""
+msgstr "Ingeschakeld"
 
 #: ../app/widgets/gimpcontrollerinfo.c:119
 #, fuzzy
@@ -26507,12 +26413,12 @@ msgstr "Geselecteerd apparaat naar beneden verplaatsen"
 #: ../app/widgets/gimpcontrollerlist.c:425
 #, c-format
 msgid "Add '%s' to the list of active controllers"
-msgstr "'%s' toevoegen aan de lijst van actieve apparaten"
+msgstr "'%s' toevoegen aan lijst met actieve apparaten"
 
 #: ../app/widgets/gimpcontrollerlist.c:476
 #, c-format
 msgid "Remove '%s' from the list of active controllers"
-msgstr "'%s' weghalen uit lijst met actieve apparaten"
+msgstr "'%s' verwijderen uit lijst met actieve apparaten"
 
 #: ../app/widgets/gimpcontrollerlist.c:510
 msgid ""
@@ -26520,10 +26426,9 @@ msgid ""
 "\n"
 "You already have a keyboard controller in your list of active controllers."
 msgstr ""
-"Er kan slechts één actieve toetsenbordcontroller zijn.\n"
+"Er kan slechts één toetsenbord actief zijn.\n"
 "\n"
-"U hebt reeds een toetsenbordcontroller in uw lijst van actieve "
-"invoerapparaten."
+"De lijst met actieve invoerapparaten bevat reeds een toetsenbord. "
 
 #: ../app/widgets/gimpcontrollerlist.c:521
 msgid ""
@@ -26531,9 +26436,9 @@ msgid ""
 "\n"
 "You already have a wheel controller in your list of active controllers."
 msgstr ""
-"Er kan slechts één actieve wielcontroller zijn.\n"
+"Er kan slechts één muiswiel actief zijn.\n"
 "\n"
-"U hebt reeds een wielcontroller in uw lijst van actieve controllers."
+"De lijst met actieve invoerapparaten bevat reeds een actief muiswiel. "
 
 #: ../app/widgets/gimpcontrollerlist.c:532
 msgid ""
@@ -26541,30 +26446,26 @@ msgid ""
 "\n"
 "You already have a mouse controller in your list of active controllers."
 msgstr ""
-"Er kan slechts één actieve muiscontroller zijn.\n"
+"Er kan slechts één actieve muis zijn.\n"
 "\n"
-"U hebt reeds een muiscontroller in uw lijst van actieve controllers."
+"De lijst met actieve invoerapparaten bevat reeds een muis."
 
 #: ../app/widgets/gimpcontrollerlist.c:558
 msgid "Remove Controller?"
-msgstr "Controller verwijderen?"
+msgstr "Apparaat verwijderen?"
 
 #: ../app/widgets/gimpcontrollerlist.c:563
-#, fuzzy
-#| msgid "Disable Controller"
 msgid "_Disable Controller"
-msgstr "Controller uitschakelen"
+msgstr "Apparaat uitschakelen"
 
 #: ../app/widgets/gimpcontrollerlist.c:565
-#, fuzzy
-#| msgid "Remove Controller"
 msgid "_Remove Controller"
-msgstr "Controller verwijderen"
+msgstr "Apparaat verwijderen"
 
 #: ../app/widgets/gimpcontrollerlist.c:577
 #, c-format
 msgid "Remove Controller '%s'?"
-msgstr "Controller '%s' verwijderen?"
+msgstr "Apparaat '%s' verwijderen?"
 
 #: ../app/widgets/gimpcontrollerlist.c:581
 msgid ""
@@ -26574,15 +26475,15 @@ msgid ""
 "Selecting \"Disable Controller\" will disable the controller without "
 "removing it."
 msgstr ""
-"Als u deze controller verwijdert uit de lijst van actieve invoerapparaten, "
-"zullen alle acties verwijderd worden die u ingesteld hebt.\n"
+"Als u dit apparaat verwijdert uit de lijst van actieve invoerapparaten, "
+"zullen alle acties worden verwijderd die u heeft ingesteld.\n"
 "\n"
-"Als u \"Controller uitschakelen\" selecteert, zal de controller "
-"uitgeschakeld worden zonder deze te verwijderen."
+"Als u \"Apparaat uitschakelen\" selecteert, zal het apparaat worden "
+"uitgeschakeld maar niet verwijderd."
 
 #: ../app/widgets/gimpcontrollerlist.c:633
 msgid "Configure Input Controller"
-msgstr "Invoercontroller configureren"
+msgstr "Invoerapparaat configureren"
 
 # Path end style
 #: ../app/widgets/gimpcontrollermouse.c:70
