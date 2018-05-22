@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=Internationalisation\n"
 "POT-Creation-Date: 2018-05-08 15:19+0000\n"
-"PO-Revision-Date: 2018-05-21 15:21+0200\n"
+"PO-Revision-Date: 2018-05-22 11:19+0200\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -82,7 +82,7 @@ msgid ""
 "Microsoft Windows and OS X."
 msgstr ""
 "GIMP is uitbreidbaar. Het is ontworpen om te worden aangevuld met plug-ins "
-"en extensies, zodat het bijna alle taken aankan. Met de geavanceerd "
+"en uitbreidingen, zodat het bijna alle taken aankan. Met de geavanceerd "
 "scripting interface kunt u voor alles, van de eenvoudigste taak tot de meest "
 "ingewikkelde beeldbewerkingsprocedures, gemakkelijk een script maken. GIMP "
 "is beschikbaar voor Linux, Microsoft Windows en OS X."
@@ -116,8 +116,8 @@ msgid ""
 "Color management is a core feature now, most widgets and preview areas are "
 "color-managed"
 msgstr ""
-"Kleurmanagement is nu een kerneigenschap, de meeste widgets en  voorbeelden "
-"zijn met kleurmanagement"
+"Kleurmanagement is nu standaard, de meeste filters en  voorbeeldweergaven "
+"zijn kleurbeheerd"
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:11
 msgid ""
@@ -3873,12 +3873,9 @@ msgid "Flip _Horizontally"
 msgstr "_Horizontaal spiegelen"
 
 #: ../app/actions/drawable-actions.c:99
-#, fuzzy
-#| msgctxt "image-action"
-#| msgid "Flip image horizontally"
 msgctxt "drawable-action"
 msgid "Flip drawable horizontally"
-msgstr "Afbeelding horizontaal spiegelen"
+msgstr "Laag horizontaal spiegelen"
 
 #: ../app/actions/drawable-actions.c:104
 msgctxt "drawable-action"
@@ -3886,12 +3883,9 @@ msgid "Flip _Vertically"
 msgstr "_Verticaal spiegelen"
 
 #: ../app/actions/drawable-actions.c:105
-#, fuzzy
-#| msgctxt "image-action"
-#| msgid "Flip image vertically"
 msgctxt "drawable-action"
 msgid "Flip drawable vertically"
-msgstr "Afbeelding verticaal spiegelen"
+msgstr "Laag verticaal spiegelen"
 
 #: ../app/actions/drawable-actions.c:113
 msgctxt "drawable-action"
@@ -3899,12 +3893,9 @@ msgid "Rotate 90° _clockwise"
 msgstr "90° met de _klok mee draaien"
 
 #: ../app/actions/drawable-actions.c:114
-#, fuzzy
-#| msgctxt "drawable-action"
-#| msgid "Rotate 90 degrees to the right"
 msgctxt "drawable-action"
 msgid "Rotate drawable 90 degrees to the right"
-msgstr "90 graden naar rechts draaien"
+msgstr "Laag 90 graden naar rechts draaien"
 
 #: ../app/actions/drawable-actions.c:119
 msgctxt "drawable-action"
@@ -3912,12 +3903,9 @@ msgid "Rotate _180°"
 msgstr "_180° draaien"
 
 #: ../app/actions/drawable-actions.c:120
-#, fuzzy
-#| msgctxt "drawable-action"
-#| msgid "Turn upside-down"
 msgctxt "drawable-action"
 msgid "Turn drawable upside-down"
-msgstr "Ondersteboven keren"
+msgstr "Laag ondersteboven keren"
 
 #: ../app/actions/drawable-actions.c:125
 msgctxt "drawable-action"
@@ -3925,12 +3913,9 @@ msgid "Rotate 90° counter-clock_wise"
 msgstr "90° _tegen de klok in draaien"
 
 #: ../app/actions/drawable-actions.c:126
-#, fuzzy
-#| msgctxt "drawable-action"
-#| msgid "Rotate 90 degrees to the left"
 msgctxt "drawable-action"
 msgid "Rotate drawable 90 degrees to the left"
-msgstr "90 graden naar links draaien"
+msgstr "Laag 90 graden naar links draaien"
 
 #: ../app/actions/drawable-commands.c:89
 msgid "White Balance operates only on RGB color layers."
@@ -4707,7 +4692,7 @@ msgstr "_Overschrijven"
 #: ../app/actions/file-actions.c:166
 msgctxt "file-action"
 msgid "Export the image back to the imported file in the import format"
-msgstr "Exporteer afbeelding naar zelfde formaat"
+msgstr "Overschrijf de afbeelding"
 
 #: ../app/actions/file-actions.c:171
 msgctxt "file-action"
@@ -4723,7 +4708,7 @@ msgstr ""
 #: ../app/actions/file-actions.c:314
 msgctxt "file-action"
 msgid "_Save..."
-msgstr "Op_slaan..."
+msgstr "Op_slaan (XCF)..."
 
 #: ../app/actions/file-actions.c:319
 #, c-format
@@ -5077,12 +5062,9 @@ msgid "_Bump Map..."
 msgstr ""
 
 #: ../app/actions/filters-actions.c:197
-#, fuzzy
-#| msgctxt "filters-action"
-#| msgid "Color to _Alpha..."
 msgctxt "filters-action"
 msgid "_Color to Gray..."
-msgstr "Kleur naar alfa…"
+msgstr "Kleur naar grijswaarden..."
 
 #: ../app/actions/filters-actions.c:202
 msgctxt "filters-action"
@@ -5147,7 +5129,7 @@ msgstr "Kleur_temperatuur…"
 #: ../app/actions/filters-actions.c:247
 msgctxt "filters-action"
 msgid "Color to _Alpha..."
-msgstr "Kleur naar alfa…"
+msgstr "Kleur naar _alfa..."
 
 #: ../app/actions/filters-actions.c:252
 msgctxt "filters-action"
@@ -5434,12 +5416,9 @@ msgid "_Hurl..."
 msgstr ""
 
 #: ../app/actions/filters-actions.c:477
-#, fuzzy
-#| msgctxt "image-action"
-#| msgid "_Print Size..."
 msgctxt "filters-action"
 msgid "_Perlin Noise..."
-msgstr "A_fdrukgrootte…"
+msgstr ""
 
 #: ../app/actions/filters-actions.c:482
 #, fuzzy
@@ -5571,12 +5550,9 @@ msgid "Sat_uration..."
 msgstr "Verzadiging"
 
 #: ../app/actions/filters-actions.c:582
-#, fuzzy
-#| msgctxt "patterns-action"
-#| msgid "_Edit Pattern..."
 msgctxt "filters-action"
 msgid "_Semi-Flatten..."
-msgstr "Patroon be_werken…"
+msgstr "_Semi-vlak maken..."
 
 #: ../app/actions/filters-actions.c:587
 msgctxt "filters-action"
@@ -6308,19 +6284,14 @@ msgid "_Mode"
 msgstr "_Modus"
 
 #: ../app/actions/image-actions.c:60
-#, fuzzy
-#| msgctxt "image-action"
-#| msgid "_Precision"
 msgctxt "image-action"
 msgid "Pr_ecision"
-msgstr "_Precisie"
+msgstr "Bitdiepte"
 
 #: ../app/actions/image-actions.c:62
-#, fuzzy
-#| msgid "Color Management"
 msgctxt "image-action"
 msgid "Color Ma_nagement"
-msgstr "Kleurbeheer"
+msgstr "_Kleurbeheer"
 
 #: ../app/actions/image-actions.c:63
 msgctxt "image-action"
@@ -6398,11 +6369,9 @@ msgid "Create a duplicate of this image"
 msgstr "Deze afbeelding dupliceren"
 
 #: ../app/actions/image-actions.c:88
-#, fuzzy
-#| msgid "Color Profile"
 msgctxt "image-action"
 msgid "_Assign Color Profile..."
-msgstr "Kleurprofiel"
+msgstr "Kleurprofiel toewijzen..."
 
 #: ../app/actions/image-actions.c:89
 #, fuzzy
@@ -6412,11 +6381,9 @@ msgid "Set a color profile on the image"
 msgstr "Kan geen kleurprofiel toepassen op een grijswaardenafbeelding (%s)"
 
 #: ../app/actions/image-actions.c:94
-#, fuzzy
-#| msgid "Select Monitor Color Profile"
 msgctxt "image-action"
 msgid "_Convert to Color Profile..."
-msgstr "Kleurprofiel beeldscherm selecteren"
+msgstr "Naar kleurprofiel _converteren..."
 
 #: ../app/actions/image-actions.c:95
 #, fuzzy
@@ -6426,11 +6393,9 @@ msgid "Apply a color profile to the image"
 msgstr "Kan geen kleurprofiel toepassen op een grijswaardenafbeelding (%s)"
 
 #: ../app/actions/image-actions.c:100
-#, fuzzy
-#| msgid "Color Profile"
 msgctxt "image-action"
 msgid "_Discard Color Profile"
-msgstr "Kleurprofiel"
+msgstr "Kleurprofiel weggooien"
 
 #: ../app/actions/image-actions.c:101
 #, fuzzy
@@ -6441,12 +6406,9 @@ msgid "Remove the image's color profile"
 msgstr "De kleurenmonsterpunten van de afbeelding tonen"
 
 #: ../app/actions/image-actions.c:106
-#, fuzzy
-#| msgctxt "error-console-action"
-#| msgid "_Save Error Log to File..."
 msgctxt "image-action"
 msgid "_Save Color Profile to File..."
-msgstr "_Foutenlog in bestand opslaan…"
+msgstr "_Sla kleurprofiel op in bestand..."
 
 #: ../app/actions/image-actions.c:107
 #, fuzzy
@@ -6489,12 +6451,12 @@ msgstr "De afbeeldingsgrootte wijzigen tot de randen van de selectie"
 #: ../app/actions/image-actions.c:130
 msgctxt "image-action"
 msgid "_Print Size..."
-msgstr "A_fdrukgrootte…"
+msgstr "Afdrukgrootte..."
 
 #: ../app/actions/image-actions.c:131
 msgctxt "image-action"
 msgid "Adjust the print resolution"
-msgstr "De afdrukresolutie aanpassen"
+msgstr "De afdrukgrootte aanpassen"
 
 #: ../app/actions/image-actions.c:136
 msgctxt "image-action"
@@ -6504,7 +6466,7 @@ msgstr "Afbeelding _schalen…"
 #: ../app/actions/image-actions.c:137
 msgctxt "image-action"
 msgid "Change the size of the image content"
-msgstr "De afmetingen van de afbeeldingsinhoud aanpassen"
+msgstr "De afmetingen van de afbeelding aanpassen"
 
 #: ../app/actions/image-actions.c:142
 msgctxt "image-action"
@@ -6514,22 +6476,19 @@ msgstr "_Bijsnijden tot selectie"
 #: ../app/actions/image-actions.c:143
 msgctxt "image-action"
 msgid "Crop the image to the extents of the selection"
-msgstr "De afbeelding bijsnijden tot de randen van de selectie"
+msgstr "De afbeelding bijsnijden tot de selectie"
 
 #: ../app/actions/image-actions.c:148
 msgctxt "image-action"
 msgid "Crop to C_ontent"
-msgstr ""
+msgstr "Bijsnijden tot beeldinhoud"
 
 #: ../app/actions/image-actions.c:149
-#, fuzzy
-#| msgctxt "image-action"
-#| msgid "Crop the image to the extents of the selection"
 msgctxt "image-action"
 msgid ""
 "Crop the image to the extents of its content (remove empty borders from the "
 "image)"
-msgstr "De afbeelding bijsnijden tot de randen van de selectie"
+msgstr "De afbeelding bijsnijden tot de beeldinhoud (verwijder lege gebieden)"
 
 #: ../app/actions/image-actions.c:154
 msgctxt "image-action"
@@ -6572,11 +6531,9 @@ msgid "Display information about this image"
 msgstr "Informatie over deze afbeelding tonen"
 
 #: ../app/actions/image-actions.c:181
-#, fuzzy
-#| msgid "Color Management"
 msgctxt "image-action"
 msgid "_Enable Color Management"
-msgstr "Kleurbeheer"
+msgstr "Kl_eurbeheer inschakelen"
 
 #: ../app/actions/image-actions.c:182
 msgctxt "image-action"
@@ -6585,6 +6542,9 @@ msgid ""
 "to assigning a built-in sRGB color profile. Better leave color management "
 "enabled."
 msgstr ""
+"Of de afbeelding kleurbeheerd is. Kleurbeheer uitschakelen staat gelijk aan "
+"het kiezen van een ingebouwd sRGB-profiel. Aangeraden wordt om kleurbeheer "
+"ingeschakeld te laten. "
 
 #: ../app/actions/image-actions.c:193 ../app/actions/image-actions.c:444
 msgctxt "image-convert-action"
@@ -6619,68 +6579,62 @@ msgstr "Afbeelding naar geïndexeerde kleuren omzetten"
 #: ../app/actions/image-actions.c:211
 msgctxt "image-convert-action"
 msgid "8 bit integer"
-msgstr "8 bit integer"
+msgstr "8-bit integer"
 
 #: ../app/actions/image-actions.c:213
 msgctxt "image-convert-action"
 msgid "Convert the image to 8 bit integer"
-msgstr "Afbeelding naar 8 bit integer omzetten"
+msgstr "Afbeelding naar 8-bit integer converteren"
 
 #: ../app/actions/image-actions.c:217
 msgctxt "image-convert-action"
 msgid "16 bit integer"
-msgstr "16 bit integer"
+msgstr "16-bit integer"
 
 #: ../app/actions/image-actions.c:219
 msgctxt "image-convert-action"
 msgid "Convert the image to 16 bit integer"
-msgstr "Afbeelding naar 16 bit integer omzetten"
+msgstr "Afbeelding naar 16-bit integer converteren"
 
 #: ../app/actions/image-actions.c:223
 msgctxt "image-convert-action"
 msgid "32 bit integer"
-msgstr "32 bit integer"
+msgstr "32-bit integer"
 
 #: ../app/actions/image-actions.c:225
 msgctxt "image-convert-action"
 msgid "Convert the image to 32 bit integer"
-msgstr "Afbeelding naar 32 bit integer omzetten"
+msgstr "Afbeelding naar 32-bit integer converteren"
 
 #: ../app/actions/image-actions.c:229
 msgctxt "image-convert-action"
 msgid "16 bit floating point"
-msgstr "16 bit floating point"
+msgstr "16-bit drijvendekomma"
 
 #: ../app/actions/image-actions.c:231
 msgctxt "image-convert-action"
 msgid "Convert the image to 16 bit floating point"
-msgstr "Afbeelding naar 16 bit floating point omzetten"
+msgstr "Afbeelding naar 16-bit drijvendekomma-precisie converteren"
 
 #: ../app/actions/image-actions.c:235
 msgctxt "image-convert-action"
 msgid "32 bit floating point"
-msgstr "32 bit floating point"
+msgstr "32-bit drijvendekomma-precisie"
 
 #: ../app/actions/image-actions.c:237
 msgctxt "image-convert-action"
 msgid "Convert the image to 32 bit floating point"
-msgstr "Afbeelding naar 32 bit floating point omzetten"
+msgstr "Afbeelding naar 32-bit drijvendekomma-precisie converteren"
 
 #: ../app/actions/image-actions.c:241
-#, fuzzy
-#| msgctxt "image-convert-action"
-#| msgid "16 bit floating point"
 msgctxt "image-convert-action"
 msgid "64 bit floating point"
-msgstr "16 bit floating point"
+msgstr "64 bit floating point"
 
 #: ../app/actions/image-actions.c:243
-#, fuzzy
-#| msgctxt "image-convert-action"
-#| msgid "Convert the image to 16 bit floating point"
 msgctxt "image-convert-action"
 msgid "Convert the image to 64 bit floating point"
-msgstr "Afbeelding naar 16 bit floating point omzetten"
+msgstr "Afbeelding naar 64 bit floating point omzetten"
 
 #: ../app/actions/image-actions.c:250
 msgctxt "image-convert-action"
@@ -6693,20 +6647,14 @@ msgid "Convert the image to perceptual (sRGB) gamma"
 msgstr "Afbeelding omzetten naar perceptueel (sRGB) gamma"
 
 #: ../app/actions/image-actions.c:256
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Hard light"
 msgctxt "image-convert-action"
 msgid "Linear light"
-msgstr "Hard licht"
+msgstr "Lineair licht"
 
 #: ../app/actions/image-actions.c:258
-#, fuzzy
-#| msgctxt "image-convert-action"
-#| msgid "Convert the image to indexed colors"
 msgctxt "image-convert-action"
 msgid "Convert the image to linear light"
-msgstr "Afbeelding naar geïndexeerde kleuren omzetten"
+msgstr "Afbeelding naar lineair licht converteren"
 
 #: ../app/actions/image-actions.c:265
 msgctxt "image-action"
@@ -6862,10 +6810,8 @@ msgid "Converting image to %s"
 msgstr "Afbeelding naar RGB omzetten"
 
 #: ../app/actions/image-commands.c:1248
-#, fuzzy
-#| msgid "Color Profile"
 msgid "Assign color profile"
-msgstr "Kleurprofiel"
+msgstr "Kleurprofiel toewijzen"
 
 #: ../app/actions/image-commands.c:1294
 #, fuzzy, c-format
@@ -7087,12 +7033,9 @@ msgid "Create a new layer from what is visible in this image"
 msgstr "Een nieuwe laag maken van wat zichtbaar is in deze afbeelding"
 
 #: ../app/actions/layers-actions.c:126
-#, fuzzy
-#| msgctxt "layers-action"
-#| msgid "New Layer _Group..."
 msgctxt "layers-action"
 msgid "New Layer _Group"
-msgstr "Nieuwe _laaggroep…"
+msgstr "Nieuwe laa_ggroep..."
 
 #: ../app/actions/layers-actions.c:127
 msgctxt "layers-action"
@@ -7270,7 +7213,7 @@ msgstr "Laag s_chalen…"
 #: ../app/actions/layers-actions.c:230
 msgctxt "layers-action"
 msgid "Change the size of the layer content"
-msgstr "De afmetingen van de inhoud van de laag aanpassen"
+msgstr "De afmetingen van de laag aanpassen"
 
 #: ../app/actions/layers-actions.c:235
 msgctxt "layers-action"
@@ -7280,22 +7223,19 @@ msgstr "_Bijsnijden tot selectie"
 #: ../app/actions/layers-actions.c:236
 msgctxt "layers-action"
 msgid "Crop the layer to the extents of the selection"
-msgstr "De laag bijsnijden tot de randen van de selectie"
+msgstr "Laag bijsnijden tot de beeldinhoud"
 
 #: ../app/actions/layers-actions.c:241
 msgctxt "layers-action"
 msgid "Crop to C_ontent"
-msgstr ""
+msgstr "Bijsnijden tot beeldinhoud"
 
 #: ../app/actions/layers-actions.c:242
-#, fuzzy
-#| msgctxt "layers-action"
-#| msgid "Crop the layer to the extents of the selection"
 msgctxt "layers-action"
 msgid ""
 "Crop the layer to the extents of its content (remove empty borders from the "
 "layer)"
-msgstr "De laag bijsnijden tot de randen van de selectie"
+msgstr "Laag bijsnijden tot de beeldinhoud (verwijder lege delen van de laag)"
 
 #: ../app/actions/layers-actions.c:247 ../app/actions/layers-actions.c:257
 msgctxt "layers-action"
@@ -7306,7 +7246,7 @@ msgstr "Laagmasker _toevoegen…"
 msgctxt "layers-action"
 msgid "Add a mask that allows non-destructive editing of transparency"
 msgstr ""
-"Een masker voor niet-destructieve bewerking van transparantie toevoegen"
+"Een masker toevoegen voor niet-destructieve bewerking van transparantie"
 
 #: ../app/actions/layers-actions.c:264
 #, fuzzy
@@ -7356,7 +7296,7 @@ msgstr "Op het laagmasker werken"
 #: ../app/actions/layers-actions.c:293
 msgctxt "layers-action"
 msgid "S_how Layer Mask"
-msgstr "_Laagmasker tonen"
+msgstr "Laagmasker tonen"
 
 #: ../app/actions/layers-actions.c:299
 msgctxt "layers-action"
@@ -8527,6 +8467,8 @@ msgctxt "select-action"
 msgid "_Fill Selection Outline..."
 msgstr "Selectie vullen"
 
+# Bug? Deze opdracht vult de selectie met een kleur of patroon, niet de omtrek ervan
+# pm
 #: ../app/actions/select-actions.c:118
 msgctxt "select-action"
 msgid "Fill the selection outline"
@@ -10137,11 +10079,9 @@ msgstr "Renderintentie beeldscherm"
 # simulation device.
 # afdrukvoorbeeld/softproof/
 #: ../app/actions/view-actions.c:82
-#, fuzzy
-#| msgid "_Softproof rendering intent:"
 msgctxt "view-action"
 msgid "Soft-Proofing Re_ndering Intent"
-msgstr "So_ftproof renderintentie:"
+msgstr "Renderintentie afdrukvoorbeeld"
 
 #: ../app/actions/view-actions.c:85
 msgctxt "view-action"
@@ -10247,12 +10187,12 @@ msgstr "Filters instellen die toegepast worden op deze weergave"
 #: ../app/actions/view-actions.c:143
 msgctxt "view-action"
 msgid "As in _Preferences"
-msgstr "Als in _voorkeuren"
+msgstr "Terug naar standaardinstellingen"
 
 #: ../app/actions/view-actions.c:145
 msgctxt "view-action"
 msgid "Reset color management to what's configured in preferences"
-msgstr "Kleurbeheer terugzetten op wat in de voorkeuren staat ingesteld"
+msgstr "Kleurbeheer terugzetten op wat in Voorkeuren staat ingesteld"
 
 # Tooltip: sets how colors are converted from workspace to the print
 # simulation device.
@@ -10268,7 +10208,7 @@ msgstr "Profiel afdrukvoorbeeld..."
 #: ../app/actions/view-actions.c:151
 msgctxt "view-action"
 msgid "Set the soft-proofing profile"
-msgstr "Afdruksimulatieprofiel instellen"
+msgstr "Profiel afdrukvoorbeeld instellen"
 
 # Shrink wrap is the phenomenon of fitting the image window to the image dimensions
 # 01/03/08: "venster" toegevoegd voor alle duidelijkheid
@@ -10321,7 +10261,9 @@ msgstr "Afdrukvoorbeeld"
 #: ../app/actions/view-actions.c:186
 msgctxt "view-action"
 msgid "Use this view for soft-proofing"
-msgstr "Gebruik deze "
+msgstr ""
+"Activeer deze optie om op het beeldscherm een afdruk te simuleren (soft "
+"proofing)"
 
 #: ../app/actions/view-actions.c:192 ../app/actions/view-actions.c:199
 msgctxt "view-action"
@@ -10331,12 +10273,12 @@ msgstr "Zwartpuntcompensatie"
 #: ../app/actions/view-actions.c:193
 msgctxt "view-action"
 msgid "Use black point compensation for image display"
-msgstr "Gebruik zwartpuntcompensatie voor afbeelding"
+msgstr "Gebruik zwartpuntcompensatie voor deze afbeelding"
 
 #: ../app/actions/view-actions.c:200
 msgctxt "view-action"
 msgid "Use black point compensation for soft-proofing"
-msgstr "Gebruik zwartpuntcompensatie voor afdruksimulatie"
+msgstr "Gebruik zwartpuntcompensatie voor afdrukvoorbeeld"
 
 #: ../app/actions/view-actions.c:206
 msgctxt "view-action"
@@ -10349,8 +10291,8 @@ msgid ""
 "When soft-proofing, mark colors which cannot be represented in the target "
 "color space"
 msgstr ""
-"Markeer tijdens afdruksimulatie de kleuren die niet in de gewenste "
-"kleurruimte kunnen worden weergegeven  "
+"Markeer tijdens een afdrukvoorbeeld (soft-proofing) de kleuren die niet in "
+"de gewenste doelkleurruimte kunnen worden weergegeven  "
 
 #: ../app/actions/view-actions.c:214
 msgctxt "view-action"
@@ -10797,7 +10739,7 @@ msgstr "Renderintentie beeldscherm: verzadiging"
 #: ../app/actions/view-actions.c:543 ../app/actions/view-actions.c:570
 msgctxt "view-action"
 msgid "_Absolute Colorimetric"
-msgstr ""
+msgstr "Absoluut colorimetrisch"
 
 # tooltip: sets how colors are managed for your display
 # opties: gevoelsmatig, relative colorimetric, Verzadiging,
@@ -10814,7 +10756,7 @@ msgstr "Renderintentie beeldscherm: absoluut colorimetrisch"
 #: ../app/actions/view-actions.c:553
 msgctxt "view-action"
 msgid "Soft-proofing rendering intent is perceptual"
-msgstr "Softproofinterpretatie: perceptueel"
+msgstr "Renderintentie afdrukvoorbeeld: perceptueel"
 
 # Tooltip: sets how colors are converted from workspace to the print
 # simulation device.
@@ -10822,27 +10764,23 @@ msgstr "Softproofinterpretatie: perceptueel"
 #: ../app/actions/view-actions.c:559
 msgctxt "view-action"
 msgid "Soft-proofing rendering intent is relative colorimetric"
-msgstr "So_ftproof renderintentie: relatief colorimetrisch"
+msgstr "Renderintentie afdrukvoorbeeld: relatief colorimetrisch"
 
 # Tooltip: sets how colors are converted from workspace to the print
 # simulation device.
 # afdrukvoorbeeld/softproof/
 #: ../app/actions/view-actions.c:565
-#, fuzzy
-#| msgid "_Softproof rendering intent:"
 msgctxt "view-action"
 msgid "Soft-proofing rendering intent is saturation"
-msgstr "So_ftproof renderintentie:"
+msgstr "Renderintentie afdrukvoorbeeld: verzadiging"
 
 # Tooltip: sets how colors are converted from workspace to the print
 # simulation device.
 # afdrukvoorbeeld/softproof/
 #: ../app/actions/view-actions.c:571
-#, fuzzy
-#| msgid "_Softproof rendering intent:"
 msgctxt "view-action"
 msgid "Soft-proofing rendering intent is absolute colorimetric"
-msgstr "So_ftproof renderintentie:"
+msgstr "Renderintentie afdrukvoorbeeld: absoluut colorimetrisch"
 
 #: ../app/actions/view-actions.c:579
 msgctxt "view-padding-color"
@@ -10878,12 +10816,9 @@ msgstr "Donkere vakjes gebruiken"
 
 # eigen/aangepaste
 #: ../app/actions/view-actions.c:597
-#, fuzzy
-#| msgctxt "view-padding-color"
-#| msgid "Select _Custom Color..."
 msgctxt "view-padding-color"
 msgid "_Custom Color..."
-msgstr "_Aangepaste kleur selecteren…"
+msgstr "Aangepaste kleur sele_cteren..."
 
 #: ../app/actions/view-actions.c:598
 msgctxt "view-padding-color"
@@ -10893,12 +10828,12 @@ msgstr "Een willekeurige kleur gebruiken"
 #: ../app/actions/view-actions.c:603
 msgctxt "view-padding-color"
 msgid "As in _Preferences"
-msgstr "Als in _voorkeuren"
+msgstr "Terugzetten"
 
 #: ../app/actions/view-actions.c:605
 msgctxt "view-padding-color"
 msgid "Reset padding color to what's configured in preferences"
-msgstr "Opvullingskleur terugzetten op wat in de voorkeuren staat ingesteld"
+msgstr "Opvulkleur terugzetten op wat in Voorkeuren staat ingesteld"
 
 #: ../app/actions/view-actions.c:613
 msgctxt "view-action"
@@ -10998,7 +10933,7 @@ msgstr "Omlaag schuiven"
 #: ../app/actions/view-actions.c:903
 #, c-format
 msgid "Re_vert Zoom (%d%%)"
-msgstr "_Zoomniveau terughalen (%d%%)"
+msgstr "_Vorig zoomniveau (%d%%)"
 
 #: ../app/actions/view-actions.c:911
 msgid "Re_vert Zoom"
@@ -11034,7 +10969,7 @@ msgstr "(V) "
 #: ../app/actions/view-actions.c:1145
 #, c-format
 msgid "_Flip %s& Rotate (%d°)"
-msgstr "Spiegelen en draaien"
+msgstr "Spiegelen %s en draaien (%d°)"
 
 #: ../app/actions/view-commands.c:1005
 msgid "Set Canvas Padding Color"
@@ -11432,8 +11367,8 @@ msgid ""
 "Sets the canvas padding color used if the padding mode is set to custom "
 "color."
 msgstr ""
-"Stelt de opvulkleur van het canvas in als de opvulstand is ingesteld op "
-"eigen kleur."
+"Stelt de opvulkleur van het canvas in wanneer de opvulmodus is ingesteld op "
+"aangepaste kleur."
 
 #: ../app/config/gimprc-blurbs.h:37
 msgid "Specifies how the area around the image should be drawn."
@@ -11952,32 +11887,24 @@ msgstr ""
 "gebruikers."
 
 #: ../app/config/gimprc-blurbs.h:467
-#, fuzzy
-#| msgid "Sets the size of the thumbnail shown in the Open dialog."
 msgid ""
 "Sets the default rendering intent for the 'Convert to Color Profile' dialog."
 msgstr ""
-"Stelt de grootte van de miniaturen in die getoond worden in het "
-"dialoogvenster Openen."
+"Stelt de standaard renderintentie in voor het dialoogvenster 'Converteer "
+"naar kleurprofiel'."
 
 #: ../app/config/gimprc-blurbs.h:470
-#, fuzzy
-#| msgid "Sets the size of the thumbnail shown in the Open dialog."
 msgid ""
 "Sets the default 'Black Point Compensation' state for the 'Convert to Color "
 "Profile' dialog."
 msgstr ""
-"Stelt de grootte van de miniaturen in die getoond worden in het "
-"dialoogvenster Openen."
+"Stelt de standaard zwartpuntcompensatie in voor het dialoogvenster "
+"'Converteer naar kleurprofiel'. "
 
 #: ../app/config/gimprc-blurbs.h:474
-#, fuzzy
-#| msgid "Sets the size of the thumbnail shown in the Open dialog."
 msgid ""
 "Sets the default layer dithering method for the 'Convert Precision' dialog."
 msgstr ""
-"Stelt de grootte van de miniaturen in die getoond worden in het "
-"dialoogvenster Openen."
 
 #: ../app/config/gimprc-blurbs.h:477
 #, fuzzy
@@ -12864,10 +12791,9 @@ msgid "Image type"
 msgstr "Afbeeldingstype"
 
 #: ../app/core/core-enums.c:903
-#, fuzzy
 msgctxt "undo-type"
 msgid "Image precision"
-msgstr "Afbeeldingseigenschappen"
+msgstr "Bitdiepte afbeelding"
 
 #: ../app/core/core-enums.c:904
 msgctxt "undo-type"
@@ -13284,7 +13210,7 @@ msgstr "Interne procedures"
 #. initialize  the global parasite table
 #: ../app/core/gimp.c:793
 msgid "Looking for data files"
-msgstr "Gegevensbestanden worden gezocht…"
+msgstr "Opzoeken databestanden"
 
 #: ../app/core/gimp.c:793
 msgid "Parasites"
@@ -14454,72 +14380,54 @@ msgid "Converting to indexed colors (stage 3)"
 msgstr "Naar geïndexeerde kleuren omzetten (stap 3)…"
 
 #: ../app/core/gimpimage-convert-precision.c:76
-#, fuzzy
 msgctxt "undo-type"
 msgid "Convert Image to 8 bit linear integer"
-msgstr "Afbeelding naar Geïndexeerd omzetten"
+msgstr "Afbeelding naar 8-bit lineair integer converteren"
 
 #: ../app/core/gimpimage-convert-precision.c:79
-#, fuzzy
 msgctxt "undo-type"
 msgid "Convert Image to 8 bit gamma integer"
-msgstr "Afbeelding naar Geïndexeerd omzetten"
+msgstr "Afbeelding naar 8-bit integer converteren"
 
 #: ../app/core/gimpimage-convert-precision.c:82
-#, fuzzy
 msgctxt "undo-type"
 msgid "Convert Image to 16 bit linear integer"
-msgstr "Afbeelding naar Geïndexeerd omzetten"
+msgstr "Afbeelding naar 16-bit integer converteren"
 
 #: ../app/core/gimpimage-convert-precision.c:85
-#, fuzzy
 msgctxt "undo-type"
 msgid "Convert Image to 16 bit gamma integer"
-msgstr "Afbeelding naar Geïndexeerd omzetten"
+msgstr "Afbeelding naar 16-bit integer converteren"
 
 #: ../app/core/gimpimage-convert-precision.c:88
-#, fuzzy
 msgctxt "undo-type"
 msgid "Convert Image to 32 bit linear integer"
-msgstr "Afbeelding naar Geïndexeerd omzetten"
+msgstr "Afbeelding naar 32-bit integer converteren"
 
 #: ../app/core/gimpimage-convert-precision.c:91
-#, fuzzy
 msgctxt "undo-type"
 msgid "Convert Image to 32 bit gamma integer"
-msgstr "Afbeelding naar Geïndexeerd omzetten"
+msgstr "Afbeelding naar 32-bit integer converteren"
 
 #: ../app/core/gimpimage-convert-precision.c:94
-#, fuzzy
-#| msgctxt "image-convert-action"
-#| msgid "Convert the image to 16 bit floating point"
 msgctxt "undo-type"
 msgid "Convert Image to 16 bit linear floating point"
-msgstr "Afbeelding naar 16 bit floating point omzetten"
+msgstr "Afbeelding naar 16-bit drijvendekomma-precisie converteren"
 
 #: ../app/core/gimpimage-convert-precision.c:97
-#, fuzzy
-#| msgctxt "image-convert-action"
-#| msgid "Convert the image to 16 bit floating point"
 msgctxt "undo-type"
 msgid "Convert Image to 16 bit gamma floating point"
-msgstr "Afbeelding naar 16 bit floating point omzetten"
+msgstr "Afbeelding naar 16-bit drijvendekomma-precisie converteren"
 
 #: ../app/core/gimpimage-convert-precision.c:100
-#, fuzzy
-#| msgctxt "image-convert-action"
-#| msgid "Convert the image to 32 bit floating point"
 msgctxt "undo-type"
 msgid "Convert Image to 32 bit linear floating point"
-msgstr "Afbeelding naar 32 bit floating point omzetten"
+msgstr "Afbeelding naar 32-bit drijvendekomma-precisie converteren"
 
 #: ../app/core/gimpimage-convert-precision.c:103
-#, fuzzy
-#| msgctxt "image-convert-action"
-#| msgid "Convert the image to 32 bit floating point"
 msgctxt "undo-type"
 msgid "Convert Image to 32 bit gamma floating point"
-msgstr "Afbeelding naar 32 bit floating point omzetten"
+msgstr "Afbeelding naar 32-bit drijvendekomma-precisie converteren"
 
 #: ../app/core/gimpimage-convert-precision.c:106
 #, fuzzy
@@ -15351,11 +15259,8 @@ msgid "Central Symmetry"
 msgstr ""
 
 #: ../app/core/gimpsymmetry-mirror.c:147
-#, fuzzy
-#| msgctxt "image-convert-action"
-#| msgid "Convert the image to 16 bit floating point"
 msgid "Invert the initial stroke through a point"
-msgstr "Afbeelding naar 16 bit floating point omzetten"
+msgstr "Afbeelding naar floating point omzetten"
 
 #: ../app/core/gimpsymmetry-mirror.c:155
 #, fuzzy
@@ -15484,9 +15389,8 @@ msgid "Image type"
 msgstr "Afbeeldingstype"
 
 #: ../app/core/gimptemplate.c:189 ../app/core/gimptemplate.c:196
-#, fuzzy
 msgid "Precision"
-msgstr "Versie:"
+msgstr "Bitdiepte"
 
 #. gamma
 #: ../app/core/gimptemplate.c:205 ../app/dialogs/convert-precision-dialog.c:195
@@ -15506,6 +15410,9 @@ msgid ""
 "Whether the image is color managed. Disabling color management is equivalent "
 "to choosing a built-in sRGB profile. Better leave color management enabled."
 msgstr ""
+"Of kleurbeheer voor deze afbeelding wordt ingeschakeld. Kleurbeheer "
+"uitschakelen staat gelijk aan het kiezen van een ingebouwd sRGB-profiel. "
+"Aangeraden wordt om kleurbeheer ingeschakeld te laten. "
 
 #: ../app/core/gimptemplate.c:223
 #, fuzzy
@@ -15825,7 +15732,7 @@ msgstr ""
 #: ../app/dialogs/color-profile-dialog.c:290
 #: ../app/dialogs/color-profile-import-dialog.c:160
 msgid "_Rendering Intent:"
-msgstr "_Renderintentie beeldscherm:"
+msgstr "_Renderintentie:"
 
 #: ../app/dialogs/color-profile-dialog.c:306
 #: ../app/dialogs/color-profile-import-dialog.c:176
@@ -15948,9 +15855,8 @@ msgid "Convert Image to %s"
 msgstr "Afbeelding naar RGB omzetten"
 
 #: ../app/dialogs/convert-precision-dialog.c:157
-#, fuzzy
 msgid "Precision Conversion"
-msgstr "Versie:"
+msgstr "Bitdiepteconversie"
 
 #: ../app/dialogs/convert-precision-dialog.c:204
 #: ../app/widgets/gimptemplateeditor.c:425
@@ -16151,7 +16057,7 @@ msgstr "Ga naar het dialoogvenster Exporteren"
 
 #: ../app/dialogs/file-save-dialog.c:632 ../app/dialogs/file-save-dialog.c:709
 msgid "Extension Mismatch"
-msgstr "Extensies komen niet overeen"
+msgstr "Uitbreidingen komen niet overeen"
 
 #: ../app/dialogs/file-save-dialog.c:693
 msgid ""
@@ -16266,7 +16172,7 @@ msgstr ""
 #: ../app/dialogs/image-properties-dialog.c:60
 #: ../app/dialogs/image-properties-dialog.c:63
 msgid "Image Properties"
-msgstr "Afbeeldingseigenschappen"
+msgstr "Afbeeldingsinfo"
 
 #: ../app/dialogs/image-properties-dialog.c:68
 #: ../app/dialogs/input-devices-dialog.c:62
@@ -16959,10 +16865,8 @@ msgid "Color Management"
 msgstr "Kleurbeheer"
 
 #: ../app/dialogs/preferences-dialog.c:1272
-#, fuzzy
-#| msgid "Color Management"
 msgid "Reset Color Management"
-msgstr "Kleurbeheer"
+msgstr "Kleurbeheer herstellen"
 
 #: ../app/dialogs/preferences-dialog.c:1295
 msgid "Image display _mode:"
@@ -16993,10 +16897,8 @@ msgstr "Beeldschermprofiel _van het systeem proberen te gebruiken"
 #  absolute colorimetric
 # 03/02/08: bij Adobeprogramma's is dit de "renderintentie"
 #: ../app/dialogs/preferences-dialog.c:1324
-#, fuzzy
-#| msgid "_Display rendering intent:"
 msgid "_Rendering intent:"
-msgstr "R_enderintentie beeldscherm:"
+msgstr "_Renderintentie:"
 
 #: ../app/dialogs/preferences-dialog.c:1329
 msgid "Use _black point compensation"
@@ -17044,10 +16946,8 @@ msgstr "So_ftproof renderintentie:"
 #  absolute colorimetric
 # 03/02/08: bij Adobeprogramma's is dit de "renderintentie"
 #: ../app/dialogs/preferences-dialog.c:1360
-#, fuzzy
-#| msgid "_Display rendering intent:"
 msgid "Re_ndering intent:"
-msgstr "R_enderintentie beeldscherm:"
+msgstr "Re_nderintentie:"
 
 #: ../app/dialogs/preferences-dialog.c:1365
 msgid "Use black _point compensation"
@@ -17142,11 +17042,8 @@ msgid "Import Policies"
 msgstr "Paden importeren"
 
 #: ../app/dialogs/preferences-dialog.c:1469
-#, fuzzy
-#| msgctxt "image-convert-action"
-#| msgid "Convert the image to 16 bit floating point"
 msgid "Promote imported images to _floating point precision"
-msgstr "Afbeelding naar 16 bit floating point omzetten"
+msgstr "Afbeelding naar 16-bit drijvendekomma-precisie omzetten"
 
 #: ../app/dialogs/preferences-dialog.c:1475
 #, fuzzy
@@ -17489,20 +17386,16 @@ msgstr "Selecteer een map voor tijdelijke bestanden"
 
 #. Convert to Color Profile Dialog
 #: ../app/dialogs/preferences-dialog.c:2109
-#, fuzzy
-#| msgid "Select CMYK Color Profile"
 msgid "Convert to Color Profile Dialog"
-msgstr "CMYK kleurprofiel selecteren"
+msgstr "Dialoogvenster 'Converteer naar kleurprofiel'"
 
 # tooltip: sets how colors are managed for your display
 # opties: gevoelsmatig, relative colorimetric, Verzadiging,
 #  absolute colorimetric
 # 03/02/08: bij Adobeprogramma's is dit de "renderintentie"
 #: ../app/dialogs/preferences-dialog.c:2114
-#, fuzzy
-#| msgid "_Display rendering intent:"
 msgid "Rendering intent:"
-msgstr "R_enderintentie beeldscherm:"
+msgstr "Renderintentie:"
 
 #: ../app/dialogs/preferences-dialog.c:2118
 #, fuzzy
@@ -17512,9 +17405,8 @@ msgstr "Klik om de selectie af te maken"
 
 #. Convert Precision Dialog
 #: ../app/dialogs/preferences-dialog.c:2122
-#, fuzzy
 msgid "Precision Conversion Dialog"
-msgstr "Versie:"
+msgstr "Bitdiepteconversie"
 
 #: ../app/dialogs/preferences-dialog.c:2129
 #, fuzzy
@@ -19477,16 +19369,14 @@ msgid "Click-Drag to move segment vertex"
 msgstr "Klik en sleep om het hoekpunt van het segment te verplaatsen"
 
 #: ../app/display/gimptoolpolygon.c:875
-#, fuzzy
-#| msgid "Return commits, Escape cancels, Backspace removes last segment"
 msgid "Return commits, Escape cancels, Backspace re-opens shape"
 msgstr ""
-"Return past toe, escape annuleert, backspace verwijdert het laatste segment"
+"Return past toe, Esc annuleert, backspace verwijdert het laatste segment"
 
 #: ../app/display/gimptoolpolygon.c:879
 msgid "Return commits, Escape cancels, Backspace removes last segment"
 msgstr ""
-"Return past toe, escape annuleert, backspace verwijdert het laatste segment"
+"Return past toe, Esc annuleert, backspace verwijdert het laatste segment"
 
 #: ../app/display/gimptoolpolygon.c:883
 msgid "Click-Drag adds a free segment, Click adds a polygonal segment"
@@ -20383,11 +20273,9 @@ msgid "Hard mix"
 msgstr "Hard licht"
 
 #: ../app/operations/operations-enums.c:271
-#, fuzzy
-#| msgid "Extensions"
 msgctxt "layer-mode"
 msgid "Exclusion"
-msgstr "Extensies"
+msgstr "Uitsluiting"
 
 #: ../app/operations/operations-enums.c:272
 #, fuzzy
@@ -20776,7 +20664,7 @@ msgstr "Posterkleuren_niveaus:"
 
 #: ../app/operations/gimpoperationsemiflatten.c:84
 msgid "Replace partial transparency with a color"
-msgstr ""
+msgstr "Vervang transparante delen door een kleur"
 
 #: ../app/operations/gimpoperationthreshold.c:84
 #: ../app/tools/gimpthresholdtool.c:88
@@ -20803,6 +20691,8 @@ msgid ""
 "Make transparency all-or-nothing, by thresholding the alpha channel to a "
 "value"
 msgstr ""
+"Maak transparantie alles-of-niets, door een drempelwaarde aan het alfakanaal "
+"toe te kennen"
 
 #. TRANSLATORS: there is no need to translate this in GIMP. This uses
 #. * "gtk20" domain as a special trick to determine language direction,
@@ -20814,9 +20704,8 @@ msgid "default:LTR"
 msgstr "default:LTR"
 
 #: ../app/gui/gui.c:326
-#, fuzzy
 msgid "Image Recovery"
-msgstr "Afbeeldingseigenschappen"
+msgstr "Beeldherstel"
 
 #: ../app/gui/gui.c:328
 #, fuzzy
@@ -21066,10 +20955,8 @@ msgid "Brush Force"
 msgstr "Penseelmappen"
 
 #: ../app/paint/gimppaintoptions.c:235
-#, fuzzy
-#| msgid "Print Size"
 msgid "Link Size"
-msgstr "Afdrukgrootte"
+msgstr ""
 
 #: ../app/paint/gimppaintoptions.c:236
 #, fuzzy
@@ -22211,7 +22098,7 @@ msgstr "_Gaussische vervaging…"
 #: ../app/pdb/plug-in-compat-cmds.c:3632
 msgctxt "undo-type"
 msgid "Semi-Flatten"
-msgstr ""
+msgstr "Semi-vlak maken"
 
 #: ../app/pdb/plug-in-compat-cmds.c:3675
 msgctxt "undo-type"
@@ -22445,7 +22332,7 @@ msgstr "Plug-ins worden geïnitialiseerd…"
 
 #: ../app/plug-in/gimppluginmanager-restore.c:555
 msgid "Starting Extensions"
-msgstr "Extensies worden opgestart…"
+msgstr "Uitbreidingen worden gestart"
 
 #: ../app/plug-in/gimppluginprocedure.c:1172
 #, c-format
@@ -23558,11 +23445,8 @@ msgid "R_eset Channel"
 msgstr "Kanaal _resetten"
 
 #: ../app/tools/gimpcurvestool.c:452
-#, fuzzy
-#| msgctxt "image-convert-action"
-#| msgid "Convert the image to indexed colors"
 msgid "Adjust curves in linear light"
-msgstr "Afbeelding naar geïndexeerde kleuren omzetten"
+msgstr "Curves aanpassen in lineair licht"
 
 #: ../app/tools/gimpcurvestool.c:453
 #, fuzzy
@@ -24511,11 +24395,8 @@ msgid "Pick white point for the selected channel"
 msgstr "Klik en sleep om de geselecteerde beeldpunten te verplaatsen"
 
 #: ../app/tools/gimplevelstool.c:395
-#, fuzzy
-#| msgctxt "image-convert-action"
-#| msgid "Convert the image to indexed colors"
 msgid "Adjust levels in linear light"
-msgstr "Afbeelding naar geïndexeerde kleuren omzetten"
+msgstr "Niveaus aanpassen in lineair licht"
 
 #: ../app/tools/gimplevelstool.c:396
 #, fuzzy
@@ -27388,7 +27269,7 @@ msgstr "Bestandstype"
 
 #: ../app/widgets/gimpfileprocview.c:196
 msgid "Extensions"
-msgstr "Extensies"
+msgstr "Uitbreidingen"
 
 #: ../app/widgets/gimpfilleditor.c:124
 msgid "Fill Color"
@@ -27669,7 +27550,7 @@ msgstr "Kleurruimte:"
 
 #: ../app/widgets/gimpimagepropview.c:122
 msgid "Precision:"
-msgstr "Precisie:"
+msgstr "Bitdiepte:"
 
 #: ../app/widgets/gimpimagepropview.c:127
 msgid "File Name:"
@@ -27962,7 +27843,7 @@ msgstr "Kleurruimte:"
 
 #: ../app/widgets/gimptemplateeditor.c:415
 msgid "_Precision:"
-msgstr "_Precisie:"
+msgstr "Bitdiepte:"
 
 #: ../app/widgets/gimptemplateeditor.c:427
 msgid "_Gamma:"
