@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=Internationalisation\n"
 "POT-Creation-Date: 2018-05-08 15:19+0000\n"
-"PO-Revision-Date: 2018-05-22 12:25+0200\n"
+"PO-Revision-Date: 2018-05-22 15:42+0200\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -892,7 +892,7 @@ msgstr "Penseel verwijderen"
 #: ../app/actions/brushes-actions.c:83
 msgctxt "brushes-action"
 msgid "_Refresh Brushes"
-msgstr "_Penselen vernieuwen"
+msgstr "Penselen ve_rnieuwen"
 
 #: ../app/actions/brushes-actions.c:84
 msgctxt "brushes-action"
@@ -3919,7 +3919,7 @@ msgstr "Laag 90 graden naar links draaien"
 
 #: ../app/actions/drawable-commands.c:89
 msgid "White Balance operates only on RGB color layers."
-msgstr "Witbalans werkt enkel op RGB-kleurenlagen."
+msgstr "Witbalans werkt enkel op RGB-kleurlagen."
 
 #: ../app/actions/dynamics-actions.c:43
 msgctxt "dynamics-action"
@@ -3962,12 +3962,9 @@ msgid "Show in _File Manager"
 msgstr "Toon in bestandsbeheer"
 
 #: ../app/actions/dynamics-actions.c:66
-#, fuzzy
-#| msgctxt "dynamics-action"
-#| msgid "Copy dynamics file location to clipboard"
 msgctxt "dynamics-action"
 msgid "Show dynamics file location in the file manager"
-msgstr "Locatie van gedragingenbestand kopiëren naar het klembord"
+msgstr "Toon locatie van gedragingenbestand in bestandsbeheer"
 
 #: ../app/actions/dynamics-actions.c:71
 msgctxt "dynamics-action"
@@ -3982,7 +3979,7 @@ msgstr "Deze gedragingen verwijderen"
 #: ../app/actions/dynamics-actions.c:77
 msgctxt "dynamics-action"
 msgid "_Refresh Dynamics"
-msgstr "Gedragingen _vernieuwen"
+msgstr "Ged_ragingen vernieuwen"
 
 #: ../app/actions/dynamics-actions.c:78
 msgctxt "dynamics-action"
@@ -6219,7 +6216,7 @@ msgstr "Dit kleurverloop verwijderen"
 #: ../app/actions/gradients-actions.c:84
 msgctxt "gradients-action"
 msgid "_Refresh Gradients"
-msgstr "Kleurverlopen ve_rnieuwen"
+msgstr "Kleu_rverlopen vernieuwen"
 
 #: ../app/actions/gradients-actions.c:85
 msgctxt "gradients-action"
@@ -7935,20 +7932,14 @@ msgid "Delete this MyPaint brush"
 msgstr "Penseel verwijderen"
 
 #: ../app/actions/mypaint-brushes-actions.c:77
-#, fuzzy
-#| msgctxt "brushes-action"
-#| msgid "_Refresh Brushes"
 msgctxt "mypaint-brushes-action"
 msgid "_Refresh MyPaint Brushes"
-msgstr "_Penselen vernieuwen"
+msgstr "MyPaint-penselen ve_rnieuwen"
 
 #: ../app/actions/mypaint-brushes-actions.c:78
-#, fuzzy
-#| msgctxt "brushes-action"
-#| msgid "Refresh brushes"
 msgctxt "mypaint-brushes-action"
 msgid "Refresh MyPaint brushes"
-msgstr "Penselen vernieuwen"
+msgstr "MyPaint-penselen vernieuwen"
 
 #: ../app/actions/mypaint-brushes-actions.c:86
 #, fuzzy
@@ -8118,7 +8109,7 @@ msgstr "Palet verwijderen"
 #: ../app/actions/palettes-actions.c:90
 msgctxt "palettes-action"
 msgid "_Refresh Palettes"
-msgstr "Paletten _vernieuwen"
+msgstr "Paletten ve_rnieuwen"
 
 #: ../app/actions/palettes-actions.c:91
 msgctxt "palettes-action"
@@ -8223,7 +8214,7 @@ msgstr "Patroon verwijderen…"
 #: ../app/actions/patterns-actions.c:83
 msgctxt "patterns-action"
 msgid "_Refresh Patterns"
-msgstr "Patronen _vernieuwen"
+msgstr "Pat_ronen vernieuwen"
 
 #: ../app/actions/patterns-actions.c:84
 msgctxt "patterns-action"
@@ -8265,10 +8256,8 @@ msgstr "Alle filters resetten"
 #: ../app/tools/gimpfiltertool.c:322 ../app/tools/gimptransformtool.c:1214
 #: ../app/widgets/gimpcolordialog.c:109
 #: ../app/widgets/gimpcolordisplayeditor.c:331
-#, fuzzy
-#| msgid "_Reset Curve"
 msgid "_Reset"
-msgstr "Curve _resetten"
+msgstr "Terug naar standaardwaarden"
 
 #: ../app/actions/plug-in-commands.c:195
 msgid "Do you really want to reset all filters to default values?"
@@ -9003,7 +8992,7 @@ msgstr "Deze gereedschapsopties verwijderen"
 #: ../app/actions/tool-presets-actions.c:93
 msgctxt "tool-presets-action"
 msgid "_Refresh Tool Presets"
-msgstr "Gereedschapsopties _vernieuwen"
+msgstr "Gereedschapsopties vernieuwen"
 
 #: ../app/actions/tool-presets-actions.c:94
 msgctxt "tool-presets-action"
@@ -11554,8 +11543,8 @@ msgid ""
 "GIMP will warn the user if an attempt is made to create an image that would "
 "take more memory than the size specified here."
 msgstr ""
-"GIMP waarschuwt een gebruiker als een poging wordt gedaan een afbeelding aan "
-"te maken die meer geheugen vereist dan de opgegeven hoeveelheid."
+"GIMP geeft een waarschuwing wanneer een afbeelding wordt aangemaakt die meer "
+"geheugen vereist dan de hier ingestelde hoeveelheid."
 
 #: ../app/config/gimprc-blurbs.h:251
 msgid ""
@@ -11594,11 +11583,8 @@ msgstr ""
 "het afbeeldingsvenster)."
 
 #: ../app/config/gimprc-blurbs.h:274
-#, fuzzy
-#| msgid "Sets how many processors GIMP should try to use simultaneously."
 msgid "Sets how many threads GIMP should use for operations that support it."
-msgstr ""
-"Stelt in hoeveel processoren GIMP tegelijkertijd moet proberen te gebruiken."
+msgstr "Stelt in hoeveel threads tegelijkertijd gebruikt moeten worden. "
 
 #: ../app/config/gimprc-blurbs.h:296
 msgid ""
@@ -12195,7 +12181,7 @@ msgid ""
 "being previewed is smaller than the size set here."
 msgstr ""
 "De miniatuur in het dialoogvenster Openen zal automatisch worden vernieuwd "
-"als het bekeken bestand kleiner is dan hier is ingesteld."
+"als het voorbeeld kleiner is dan hier is ingesteld."
 
 #: ../app/config/gimprc-blurbs.h:609
 msgid ""
@@ -12204,11 +12190,11 @@ msgid ""
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
 msgstr ""
-"Als de hoeveelheid beeldpuntgegevens deze limiet overschrijdt, zal GIMP "
-"tegels naar de schijf wegschrijven. Dit is een stuk trager, maar maakt het "
+"Als de hoeveelheid pixels deze limiet overschrijdt, zal GIMP delen van de "
+"afbeelding naar schijf wegschrijven. Dit is een stuk trager, maar maakt het "
 "mogelijk om met afbeeldingen te werken die anders niet in het geheugen "
-"zouden passen. Als u veel RAM hebt, kunt u dit op een hogere waarde "
-"instellen."
+"zouden passen. Op een pc met veel RAM kan hier een hogere waarde worden "
+"ingesteld."
 
 #: ../app/config/gimprc-blurbs.h:615
 msgid "Show the current foreground and background colors in the toolbox."
@@ -12231,9 +12217,7 @@ msgstr "De manier waarop transparantie in afbeeldingen wordt getoond."
 
 #: ../app/config/gimprc-blurbs.h:630
 msgid "Sets the size of the checkerboard used to display transparency."
-msgstr ""
-"De grootte van de vakken die worden getoond om transparantie mee aan te "
-"geven."
+msgstr "De grootte van de vakken om een transparantie mee aan te duiden. "
 
 # bug: twee keer een negatief: not saved, not changed
 # Beter: only save when it has been changed
@@ -12244,16 +12228,16 @@ msgid ""
 "When enabled, GIMP will not save an image if it has not been changed since "
 "it was opened."
 msgstr ""
-"Als dit is ingeschakeld, zal GIMP een afbeelding enkel dan opslaan wanneer "
-"deze is gewijzigd sinds hij werd geopend."
+"Als dit is ingeschakeld, zal GIMP een afbeelding enkel opslaan als deze is "
+"gewijzigd sinds hij werd geopend."
 
 #: ../app/config/gimprc-blurbs.h:637
 msgid ""
 "Sets the minimal number of operations that can be undone. More undo levels "
 "are kept available until the undo-size limit is reached."
 msgstr ""
-"Het minimaal aantal bewerkingen dat ongedaan kan worden. Meer bewerkingen "
-"zijn mogelijk tot de geheugenlimiet is bereikt."
+"Het minimaal aantal bewerkingen dat ongedaan gemaakt kan worden. Meer "
+"bewerkingen zijn mogelijk tot de geheugenlimiet is bereikt."
 
 #: ../app/config/gimprc-blurbs.h:641
 msgid ""
@@ -12276,10 +12260,9 @@ msgstr ""
 "hulpbrowser gestart."
 
 #: ../app/config/gimprc-blurbs.h:652
-#, fuzzy
-#| msgid "When enabled, menus can be torn off."
 msgid "When enabled, uses OpenCL for some operations."
-msgstr "Als dit is ingeschakeld, kunnen menu's afgescheurd worden."
+msgstr ""
+"Indien ingeschakeld kunnen sommige handelingen versneld worden met OpenCL"
 
 #: ../app/config/gimprc-deserialize.c:136 ../app/core/gimp-modules.c:131
 #: ../app/core/gimp-units.c:278 ../app/gui/session.c:293
@@ -12563,22 +12546,22 @@ msgstr "Groot (256×256)"
 #: ../app/core/core-enums.c:671
 msgctxt "debug-policy"
 msgid "Debug warnings, critical errors and crashes"
-msgstr ""
+msgstr "Rapporteer waarschuwingen, kritieke fouten en crashes"
 
 #: ../app/core/core-enums.c:672
 msgctxt "debug-policy"
 msgid "Debug critical errors and crashes"
-msgstr ""
+msgstr "Rapporteer kritieke fouten en crashes"
 
 #: ../app/core/core-enums.c:673
 msgctxt "debug-policy"
 msgid "Debug crashes only"
-msgstr ""
+msgstr "Alleen crashes melden"
 
 #: ../app/core/core-enums.c:674
 msgctxt "debug-policy"
 msgid "Never debug GIMP"
-msgstr ""
+msgstr "Nooit softwarefouten in GIMP melden"
 
 #: ../app/core/core-enums.c:863
 msgctxt "undo-type"
@@ -13089,12 +13072,9 @@ msgid "Keep embedded profile"
 msgstr "Ingebed profiel behouden"
 
 #: ../app/core/core-enums.c:1117
-#, fuzzy
-#| msgctxt "image-convert-action"
-#| msgid "Convert the image to the RGB colorspace"
 msgctxt "color-profile-policy"
 msgid "Convert to preferred RGB color profile"
-msgstr "Afbeelding naar RGB-kleurenruimte omzetten"
+msgstr "Naar preferent RGB-kleurprofiel converteren"
 
 #: ../app/core/core-enums.c:1154
 msgctxt "dynamics-output-type"
@@ -16434,11 +16414,8 @@ msgid "Module Manager"
 msgstr "Modulebeheer"
 
 #: ../app/dialogs/module-dialog.c:133
-#, fuzzy
-#| msgctxt "brushes-action"
-#| msgid "_Refresh Brushes"
 msgid "_Refresh"
-msgstr "_Penselen vernieuwen"
+msgstr "Vernieuwen"
 
 #: ../app/dialogs/module-dialog.c:153
 msgid "You will have to restart GIMP for the changes to take effect."
@@ -16759,11 +16736,11 @@ msgstr "Voorkeuren"
 #: ../app/dialogs/preferences-dialog.c:1130
 #: ../app/dialogs/preferences-dialog.c:1131
 msgid "System Resources"
-msgstr ""
+msgstr "Systeembronnen"
 
 #: ../app/dialogs/preferences-dialog.c:1138
 msgid "Resource Consumption"
-msgstr "Bronverbruik"
+msgstr "Systeembelasting"
 
 #: ../app/dialogs/preferences-dialog.c:1148
 msgid "Minimal number of _undo levels:"
@@ -16771,11 +16748,11 @@ msgstr "_Minimum aantal opgeslagen bewerkingen:"
 
 #: ../app/dialogs/preferences-dialog.c:1151
 msgid "Maximum undo _memory:"
-msgstr "Maximum _geheugen om bewerkingen op te slaan:"
+msgstr "_Maximum geheugen om bewerkingen op te slaan:"
 
 #: ../app/dialogs/preferences-dialog.c:1154
 msgid "Tile cache _size:"
-msgstr "Grootte van de _tegelcache:"
+msgstr "Grootte van het cache-geheugen:"
 
 #: ../app/dialogs/preferences-dialog.c:1157
 msgid "Maximum _new image size:"
@@ -16783,19 +16760,17 @@ msgstr "Ma_ximale grootte voor nieuwe afbeelding:"
 
 # processors/processoren
 #: ../app/dialogs/preferences-dialog.c:1162
-#, fuzzy
-#| msgid "Number of _processors to use:"
 msgid "Number of _threads to use:"
-msgstr "Aantal te gebruiken _processors:"
+msgstr "Aantal te gebruiken _threads:"
 
 #. Hardware Acceleration
 #: ../app/dialogs/preferences-dialog.c:1167
 msgid "Hardware Acceleration"
-msgstr ""
+msgstr "Hardwareversnelling"
 
 #: ../app/dialogs/preferences-dialog.c:1171
 msgid "Use OpenCL"
-msgstr ""
+msgstr "Gebruik OpenCL"
 
 #. Image Thumbnails
 #: ../app/dialogs/preferences-dialog.c:1175
@@ -16808,7 +16783,7 @@ msgstr "Grootte _van miniaturen:"
 
 #: ../app/dialogs/preferences-dialog.c:1184
 msgid "Maximum _filesize for thumbnailing:"
-msgstr "Maximale _bestandsgrootte voor miniaturen:"
+msgstr "Maximale omvang miniatuurbestanden:"
 
 #: ../app/dialogs/preferences-dialog.c:1194
 msgid "Keep record of used files in the Recent Documents list"
@@ -16818,10 +16793,8 @@ msgstr ""
 #. TODO: icon needed.
 #: ../app/dialogs/preferences-dialog.c:1209
 #: ../app/dialogs/preferences-dialog.c:1210
-#, fuzzy
-#| msgid "Debug"
 msgid "Debugging"
-msgstr "Debuggen"
+msgstr "Softwarefouten rapporteren"
 
 #: ../app/dialogs/preferences-dialog.c:1217
 msgid ""
@@ -16829,14 +16802,17 @@ msgid ""
 "bugs, and crashes can occur. If it happens, you can help us by reporting "
 "bugs."
 msgstr ""
+"We hopen dat u deze instellingen nooit nodig zult hebben, maar zoals alle "
+"software bevat ook GIMP fouten en crashes kunnen optreden. Wanneer dit "
+"gebeurt kunt u ons helpen door deze fouten te rapporteren. "
 
 #: ../app/dialogs/preferences-dialog.c:1226
 msgid "Bug Reporting"
-msgstr ""
+msgstr "Foutrapportages"
 
 #: ../app/dialogs/preferences-dialog.c:1233
 msgid "Debug _policy:"
-msgstr ""
+msgstr "Beleid:"
 
 #: ../app/dialogs/preferences-dialog.c:1245
 msgid "This feature requires \"gdb\" or \"lldb\" installed on your system."
@@ -16859,14 +16835,12 @@ msgstr "Kleurbeheer herstellen"
 
 #: ../app/dialogs/preferences-dialog.c:1295
 msgid "Image display _mode:"
-msgstr ""
+msgstr "Beeldschermmodus: "
 
 #. Color Managed Display
 #: ../app/dialogs/preferences-dialog.c:1299
-#, fuzzy
-#| msgid "Color Management"
 msgid "Color Managed Display"
-msgstr "Kleurbeheer"
+msgstr "Kleurbeheerd beeldscherm"
 
 #: ../app/dialogs/preferences-dialog.c:1308
 msgid "Select Monitor Color Profile"
@@ -16875,11 +16849,11 @@ msgstr "Kleurprofiel beeldscherm selecteren"
 # beeldbuis/beeldscherm/monitor
 #: ../app/dialogs/preferences-dialog.c:1309
 msgid "_Monitor profile:"
-msgstr "_Beeldschermprofiel:"
+msgstr "Beeldschermprofiel:"
 
 #: ../app/dialogs/preferences-dialog.c:1315
 msgid "_Try to use the system monitor profile"
-msgstr "Beeldschermprofiel _van het systeem proberen te gebruiken"
+msgstr "Beeldschermprofiel van het systeem proberen te gebruiken"
 
 # tooltip: sets how colors are managed for your display
 # opties: gevoelsmatig, relative colorimetric, Verzadiging,
@@ -16891,7 +16865,7 @@ msgstr "_Renderintentie:"
 
 #: ../app/dialogs/preferences-dialog.c:1329
 msgid "Use _black point compensation"
-msgstr ""
+msgstr "Gebruik zwartpuntcompensatie"
 
 #: ../app/dialogs/preferences-dialog.c:1337
 #: ../app/dialogs/preferences-dialog.c:1373 ../app/paint/gimpinkoptions.c:93
@@ -16901,34 +16875,27 @@ msgstr "Snelheid"
 #: ../app/dialogs/preferences-dialog.c:1338
 #: ../app/dialogs/preferences-dialog.c:1374
 msgid "Precision / Color Fidelity"
-msgstr ""
+msgstr "Precisie/kleurgetrouwheid"
 
 #: ../app/dialogs/preferences-dialog.c:1339
-#, fuzzy
-#| msgctxt "documents-action"
-#| msgid "Open image dialog"
 msgid "_Optimize image display for:"
-msgstr "Dialoogvenster Afbeelding openen"
+msgstr "_Optimaliseer beeldscherm voor:"
 
 #. Print Simulation (Soft-proofing)
 #: ../app/dialogs/preferences-dialog.c:1343
 msgid "Soft-Proofing"
-msgstr ""
+msgstr "Afdrukvoorbeeld"
 
 #: ../app/dialogs/preferences-dialog.c:1353
-#, fuzzy
-#| msgid "Select Printer Color Profile"
 msgid "Select Soft-Proofing Color Profile"
-msgstr "Printer kleurprofiel selecteren"
+msgstr "Selecteer kleurprofiel voor afdrukvoorbeeld"
 
 # Tooltip: sets how colors are converted from workspace to the print
 # simulation device.
 # afdrukvoorbeeld/softproof/
 #: ../app/dialogs/preferences-dialog.c:1354
-#, fuzzy
-#| msgid "_Softproof rendering intent:"
 msgid "_Soft-proofing profile:"
-msgstr "So_ftproof renderintentie:"
+msgstr "Profiel afdrukvoorbeeld:"
 
 # tooltip: sets how colors are managed for your display
 # opties: gevoelsmatig, relative colorimetric, Verzadiging,
@@ -16940,11 +16907,11 @@ msgstr "Re_nderintentie:"
 
 #: ../app/dialogs/preferences-dialog.c:1365
 msgid "Use black _point compensation"
-msgstr ""
+msgstr "Gebruik zwartpuntcompensatie"
 
 #: ../app/dialogs/preferences-dialog.c:1375
 msgid "O_ptimize soft-proofing for:"
-msgstr ""
+msgstr "Optimaliseer afdrukvoorbeeld voor:"
 
 #: ../app/dialogs/preferences-dialog.c:1384
 msgid "Mark out of gamut colors"
@@ -16956,33 +16923,24 @@ msgstr "Selecteer waarschuwingskleur"
 
 #. Preferred profiles
 #: ../app/dialogs/preferences-dialog.c:1400
-#, fuzzy
-#| msgid "Preferences"
 msgid "Preferred Profiles"
-msgstr "Voorkeuren"
+msgstr "Voorkeurprofielen"
 
 #: ../app/dialogs/preferences-dialog.c:1409
-#, fuzzy
-#| msgid "Select RGB Color Profile"
 msgid "Select Preferred RGB Color Profile"
-msgstr "RGB kleurprofiel selecteren"
+msgstr "Preferent RGB-kleurprofiel selecteren"
 
 #: ../app/dialogs/preferences-dialog.c:1410
 msgid "_RGB profile:"
-msgstr "RGB-_profiel:"
+msgstr "_RGB-profiel:"
 
 #: ../app/dialogs/preferences-dialog.c:1417
-#, fuzzy
-#| msgid "Select Printer Color Profile"
 msgid "Select Preferred Grayscale Color Profile"
-msgstr "Printer kleurprofiel selecteren"
+msgstr "Selecteer voorkeursprofiel voor grijswaarden"
 
 #: ../app/dialogs/preferences-dialog.c:1418
-#, fuzzy
-#| msgctxt "image-convert-action"
-#| msgid "_Grayscale"
 msgid "_Grayscale profile:"
-msgstr "_Grijswaarden"
+msgstr "_Grijswaardenprofiel"
 
 #: ../app/dialogs/preferences-dialog.c:1425
 msgid "Select CMYK Color Profile"
@@ -17021,62 +16979,51 @@ msgstr "Geavanceerde opties"
 #: ../app/dialogs/preferences-dialog.c:1458
 #: ../app/dialogs/preferences-dialog.c:1459
 msgid "Image Import & Export"
-msgstr ""
+msgstr "Afbeeldingen importeren en exporteren"
 
 #. Import Policies
 #: ../app/dialogs/preferences-dialog.c:1465
-#, fuzzy
-#| msgid "Import Paths"
 msgid "Import Policies"
-msgstr "Paden importeren"
+msgstr "Importbeleid"
 
 #: ../app/dialogs/preferences-dialog.c:1469
 msgid "Promote imported images to _floating point precision"
 msgstr "Afbeelding naar 16-bit drijvendekomma-precisie omzetten"
 
 #: ../app/dialogs/preferences-dialog.c:1475
-#, fuzzy
-#| msgctxt "image-convert-action"
-#| msgid "Convert the image to 16 bit floating point"
 msgid "Dither images when promoting to floating point"
-msgstr "Afbeelding naar 16 bit floating point omzetten"
+msgstr ""
+"Raster afbeeldingen tijdens conversie naar 16-bit drijvendekomma-precisie"
 
 #: ../app/dialogs/preferences-dialog.c:1480
-#, fuzzy
-#| msgctxt "layers-action"
-#| msgid "Add the layer's alpha channel to the current selection"
 msgid "Add an alpha channel to imported images"
-msgstr "Het alfakanaal van de laag toevoegen aan de huidige selectie"
+msgstr "Voeg een alfakanaal toe aan geïmporteerde afbeeldingen"
 
 #: ../app/dialogs/preferences-dialog.c:1485
 #: ../app/dialogs/preferences-dialog.c:2095
-#, fuzzy
-#| msgid "Color Profile"
 msgid "Color profile policy:"
-msgstr "Kleurprofiel"
+msgstr "Beleid kleurprofielen: "
 
 #. Export Policies
 #: ../app/dialogs/preferences-dialog.c:1489
-#, fuzzy
-#| msgid "Import Paths"
 msgid "Export Policies"
-msgstr "Paden importeren"
+msgstr "Exportbeleid"
 
 #: ../app/dialogs/preferences-dialog.c:1493
 msgid "Export Exif metadata by default when available"
-msgstr ""
+msgstr "Exporteer altijd Exif-gegevens, indien beschikbaar"
 
 #: ../app/dialogs/preferences-dialog.c:1496
 msgid "Export XMP metadata by default when available"
-msgstr ""
+msgstr "Exporteer altijd XMP-data, indien beschikbaar"
 
 #: ../app/dialogs/preferences-dialog.c:1499
 msgid "Export IPTC metadata by default when available"
-msgstr ""
+msgstr "Exporteer altijd IPTC-data, indien beschikbaar"
 
 #: ../app/dialogs/preferences-dialog.c:1502
 msgid "Metadata can contain sensitive information."
-msgstr ""
+msgstr "Metadata kunnen privacy-gevoelige informatie bevatten."
 
 #. Raw Image Importer
 #: ../app/dialogs/preferences-dialog.c:1507
@@ -17233,10 +17180,8 @@ msgid "_Default layer & channel preview size:"
 msgstr "Standaard_grootte voorbeeld lagen en kanalen:"
 
 #: ../app/dialogs/preferences-dialog.c:1748
-#, fuzzy
-#| msgid "Na_vigation preview size:"
 msgid "_Undo preview size:"
-msgstr "Grootte _navigatievoorbeeld:"
+msgstr "Herstel voorbeeldgrootte:"
 
 #: ../app/dialogs/preferences-dialog.c:1751
 msgid "Na_vigation preview size:"
@@ -17311,7 +17256,7 @@ msgstr "Weergave"
 
 #: ../app/dialogs/preferences-dialog.c:2036
 msgid "Show GIMP _logo (drag-and-drop target)"
-msgstr ""
+msgstr "Toon GIMP-logo (sleep foto's hier naar toe om ze te openen)"
 
 #: ../app/dialogs/preferences-dialog.c:2040
 msgid "Show _foreground & background color"
@@ -17334,44 +17279,30 @@ msgstr "Gereedschapsinstellingen"
 
 #: ../app/dialogs/preferences-dialog.c:2072
 #: ../app/dialogs/preferences-dialog.c:2073
-#, fuzzy
-#| msgctxt "dockable-action"
-#| msgid "Dialogs Menu"
 msgid "Dialog Defaults"
-msgstr "Menu Vensters"
+msgstr "Standaardinstellingen dialoogvensters"
 
 #: ../app/dialogs/preferences-dialog.c:2082
-#, fuzzy
-#| msgctxt "dockable-action"
-#| msgid "Dialogs Menu"
 msgid "Reset Dialog Defaults"
-msgstr "Menu Vensters"
+msgstr "Standaardinstellingen dialoogvensters terugzetten"
 
 #. Color profile import dialog
 #: ../app/dialogs/preferences-dialog.c:2090
-#, fuzzy
-#| msgid "Color Profile"
 msgid "Color Profile Import Dialog"
-msgstr "Kleurprofiel"
+msgstr "Dialoogvenster Importeer kleurprofiel"
 
 #. All color profile chooser dialogs
 #: ../app/dialogs/preferences-dialog.c:2099
-#, fuzzy
-#| msgid "Color Profile"
 msgid "Color Profile File Dialogs"
-msgstr "Kleurprofiel"
+msgstr "Dialoogvenster kleurprofielen"
 
 #: ../app/dialogs/preferences-dialog.c:2104
-#, fuzzy
-#| msgid "Temporary folder:"
 msgid "Profile folder:"
-msgstr "Tijdelijke map:"
+msgstr "Profielmap:"
 
 #: ../app/dialogs/preferences-dialog.c:2105
-#, fuzzy
-#| msgid "Select Folder for Temporary Files"
 msgid "Select Default Folder for Color Profiles"
-msgstr "Selecteer een map voor tijdelijke bestanden"
+msgstr "Kies standaardmap voor kleurprofielen"
 
 #. Convert to Color Profile Dialog
 #: ../app/dialogs/preferences-dialog.c:2109
@@ -17387,21 +17318,17 @@ msgid "Rendering intent:"
 msgstr "Renderintentie:"
 
 #: ../app/dialogs/preferences-dialog.c:2118
-#, fuzzy
-#| msgid "Click to complete selection"
 msgid "Black point compensation"
-msgstr "Klik om de selectie af te maken"
+msgstr "Zwartpuntcompensatie"
 
 #. Convert Precision Dialog
 #: ../app/dialogs/preferences-dialog.c:2122
 msgid "Precision Conversion Dialog"
-msgstr "Bitdiepteconversie"
+msgstr "Dialoogvenster bitdiepteconversie"
 
 #: ../app/dialogs/preferences-dialog.c:2129
-#, fuzzy
-#| msgid "Drop layers"
 msgid "Dither layers:"
-msgstr "Lagen slepen"
+msgstr "Lagen rasteren"
 
 #: ../app/dialogs/preferences-dialog.c:2134
 #, fuzzy
@@ -19590,11 +19517,9 @@ msgid "RGB (linear)"
 msgstr ""
 
 #: ../app/operations/operations-enums.c:27
-#, fuzzy
-#| msgid "Percentile:"
 msgctxt "layer-color-space"
 msgid "RGB (perceptual)"
-msgstr "Percentiel:"
+msgstr "RGB (perceptueel)"
 
 #: ../app/operations/operations-enums.c:28
 msgctxt "layer-color-space"
@@ -22403,7 +22328,7 @@ msgstr "Blauw"
 
 #: ../app/propgui/gimppropgui-color-balance.c:134
 msgid "R_eset Range"
-msgstr "_Bereik resetten"
+msgstr "B_ereik herstellen"
 
 # What is the translation for 'Luminosity'?
 #: ../app/propgui/gimppropgui-color-balance.c:144
@@ -22436,11 +22361,11 @@ msgstr "Omgaan met grijs"
 
 #: ../app/propgui/gimppropgui-color-to-alpha.c:109
 msgid "Pick farthest full-transparency color"
-msgstr ""
+msgstr "Kies verste volledig transparante kleur"
 
 #: ../app/propgui/gimppropgui-color-to-alpha.c:131
 msgid "Pick nearest full-opacity color"
-msgstr ""
+msgstr "Kies dichtstbijzijnde volledig ondoorzichtige kleur"
 
 #: ../app/propgui/gimppropgui-convolution-matrix.c:202
 #, fuzzy
@@ -22457,18 +22382,12 @@ msgid "Rotate matrix 90° clockwise"
 msgstr "Draai matrix 90° met de klok mee"
 
 #: ../app/propgui/gimppropgui-convolution-matrix.c:214
-#, fuzzy
-#| msgctxt "image-action"
-#| msgid "Flip image horizontally"
 msgid "Flip matrix horizontally"
-msgstr "Afbeelding horizontaal spiegelen"
+msgstr "Matrix horizontaal spiegelen"
 
 #: ../app/propgui/gimppropgui-convolution-matrix.c:220
-#, fuzzy
-#| msgctxt "image-action"
-#| msgid "Flip image vertically"
 msgid "Flip matrix vertically"
-msgstr "Afbeelding verticaal spiegelen"
+msgstr "Matrix verticaal spiegelen"
 
 #: ../app/propgui/gimppropgui-diffraction-patterns.c:68
 msgid "Frequencies"
@@ -22488,9 +22407,8 @@ msgid "Other Options"
 msgstr "Andere opties"
 
 #: ../app/propgui/gimppropgui-generic.c:185
-#, fuzzy
 msgid "Pick coordinates from the image"
-msgstr "Kleur uit kleurverloop gebruiken"
+msgstr "Kies coördinaten uit de afbeelding"
 
 # de schuif die alles bedient/hoofdschuif
 #: ../app/propgui/gimppropgui-hue-saturation.c:134
@@ -22532,36 +22450,28 @@ msgstr "Selecteer primaire kleur om aan te passen"
 
 # Overheen leggen/overlapping
 #: ../app/propgui/gimppropgui-hue-saturation.c:236
-#, fuzzy
-#| msgid "_Overlap:"
 msgid "_Overlap"
-msgstr "Overlap_ping:"
+msgstr "_Overlapping"
 
 #: ../app/propgui/gimppropgui-hue-saturation.c:241
 msgid "Adjust Selected Color"
 msgstr "Geselecteerde kleur aanpassen"
 
 #: ../app/propgui/gimppropgui-hue-saturation.c:251
-#, fuzzy
-#| msgid "_Hue:"
 msgid "_Hue"
-msgstr "_Tint:"
+msgstr "Tint"
 
 #: ../app/propgui/gimppropgui-hue-saturation.c:258
-#, fuzzy
-#| msgid "_Lightness:"
 msgid "_Lightness"
-msgstr "_Lichtheid:"
+msgstr "_Lichtheid"
 
 #: ../app/propgui/gimppropgui-hue-saturation.c:265
-#, fuzzy
-#| msgid "_Saturation:"
 msgid "_Saturation"
-msgstr "Ver_zadiging:"
+msgstr "Verzadiging"
 
 #: ../app/propgui/gimppropgui-hue-saturation.c:274
 msgid "R_eset Color"
-msgstr "_Kleur resetten"
+msgstr "Kl_eur herstellen"
 
 #: ../app/propgui/gimppropgui-panorama-projection.c:125
 msgid "Panorama Projection: "
@@ -22573,59 +22483,55 @@ msgstr "Omgekeerde transformatie:"
 
 #: ../app/propgui/gimppropgui-shadows-highlights.c:62
 msgid "Shadows"
-msgstr ""
+msgstr "Schaduwen"
 
 #: ../app/propgui/gimppropgui-shadows-highlights.c:80
-#, fuzzy
-#| msgid "Highlight"
 msgid "Highlights"
-msgstr "Oplichten"
+msgstr "Hoge lichten"
 
 #: ../app/propgui/gimppropgui-shadows-highlights.c:98
-#, fuzzy
-#| msgid "Comment"
 msgid "Common"
-msgstr "Opmerking"
+msgstr "Algemeen"
 
 #: ../app/propgui/gimppropgui-spiral.c:220
 msgid "Spiral: "
-msgstr ""
+msgstr "Spiraal:"
 
 #: ../app/propgui/gimppropgui-supernova.c:125
 msgid "Supernova: "
-msgstr ""
+msgstr "Supernova:"
 
 #: ../app/propgui/gimppropgui-utils.c:71
 msgid "1,700 K – Match flame"
-msgstr ""
+msgstr "1700 K - Licht van een lucifer"
 
 #: ../app/propgui/gimppropgui-utils.c:72
 msgid "1,850 K – Candle flame, sunset/sunrise"
-msgstr ""
+msgstr "1850 K - Kaarslicht, zonsopkomst/-ondergang"
 
 #: ../app/propgui/gimppropgui-utils.c:73
 msgid "2,700 K - Soft (or warm) LED lamps"
-msgstr ""
+msgstr "2700 K - Zachte (of warme) LED-lampen"
 
 #: ../app/propgui/gimppropgui-utils.c:74
 msgid "3,000 K – Soft (or warm) white compact fluorescent lamps"
-msgstr ""
+msgstr "3000 K - Zacht neonlicht"
 
 #: ../app/propgui/gimppropgui-utils.c:75
 msgid "3,200 K – Studio lamps, photofloods, etc."
-msgstr ""
+msgstr "Studiolampen, etc."
 
 #: ../app/propgui/gimppropgui-utils.c:76
 msgid "3,300 K – Incandescent lamps"
-msgstr ""
+msgstr "Gloeilampen"
 
 #: ../app/propgui/gimppropgui-utils.c:77
 msgid "3,350 K – Studio \"CP\" light"
-msgstr ""
+msgstr "3350 K - Studiolicht"
 
 #: ../app/propgui/gimppropgui-utils.c:78
 msgid "4,000 K - Cold (daylight) LED lamps"
-msgstr ""
+msgstr "4000 K - Koud daglicht"
 
 #: ../app/propgui/gimppropgui-utils.c:79
 msgid "4,100 K – Moonlight"
@@ -22637,7 +22543,7 @@ msgstr "5,000 K – D50"
 
 #: ../app/propgui/gimppropgui-utils.c:81
 msgid "5,000 K – Cool white/daylight compact fluorescent lamps"
-msgstr ""
+msgstr "5000 K - Koel daglicht"
 
 #: ../app/propgui/gimppropgui-utils.c:82
 msgid "5,000 K – Horizon daylight"
@@ -22653,7 +22559,7 @@ msgstr "5,500 K – Verticaal daglicht, elektronische flits"
 
 #: ../app/propgui/gimppropgui-utils.c:85
 msgid "6,200 K – Xenon short-arc lamp"
-msgstr ""
+msgstr "6200 K - Xenonlamp"
 
 #: ../app/propgui/gimppropgui-utils.c:86
 msgid "6,500 K – D65"
@@ -22661,7 +22567,7 @@ msgstr "6,500 K – D65"
 
 #: ../app/propgui/gimppropgui-utils.c:87
 msgid "6,500 K – Daylight, overcast"
-msgstr ""
+msgstr "6500K - Daglicht, bewolkt"
 
 #: ../app/propgui/gimppropgui-utils.c:88
 msgid "7,500 K – D75"
@@ -22673,7 +22579,7 @@ msgstr "9,300 K"
 
 #: ../app/propgui/gimppropgui-utils.c:104
 msgid "Choose from a list of common color temperatures"
-msgstr ""
+msgstr "Kies uit een lijst met gangbare kleurtemperaturen"
 
 #: ../app/propgui/gimppropgui-utils.c:155
 #, fuzzy
@@ -22682,9 +22588,8 @@ msgid "New Seed"
 msgstr "Nieuw palet"
 
 #: ../app/propgui/gimppropgui.c:376
-#, fuzzy
 msgid "Pick color from the image"
-msgstr "Kleur uit kleurverloop gebruiken"
+msgstr "Kies kleur uit de afbeelding"
 
 #: ../app/propgui/gimppropgui.c:520
 msgid "This operation has no editable properties"
