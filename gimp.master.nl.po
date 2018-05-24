@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=Internationalisation\n"
 "POT-Creation-Date: 2018-05-08 15:19+0000\n"
-"PO-Revision-Date: 2018-05-23 16:57+0200\n"
+"PO-Revision-Date: 2018-05-24 18:07+0200\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -154,7 +154,7 @@ msgid ""
 "MyPaint brushes…"
 msgstr ""
 "Verbeteringen voor digitaal schilderen: canvas draaien en  omslaan, "
-"symmetrisch schilderen, MyPaint penselen..."
+"symmetrisch schilderen, MyPaint-penselen..."
 
 #: ../desktop/org.gimp.GIMP.appdata.xml.in.in.h:17
 msgid "Metadata viewing and editing for Exif, XMP, IPTC, and DICOM"
@@ -3100,7 +3100,7 @@ msgstr "_Selectiebewerker"
 #: ../app/actions/dialogs-actions.c:102
 msgctxt "dialogs-action"
 msgid "Open the selection editor"
-msgstr "De editor voor selecties openen"
+msgstr "De selectiebewerker openen"
 
 #: ../app/actions/dialogs-actions.c:107
 msgctxt "dialogs-action"
@@ -3193,19 +3193,14 @@ msgid "Open the paint dynamics editor"
 msgstr "De editor voor tekengedragingen openen"
 
 #: ../app/actions/dialogs-actions.c:161
-#, fuzzy
-#| msgid "_Paintbrush"
 msgctxt "dialogs-action"
 msgid "_MyPaint Brushes"
-msgstr "_Penseel"
+msgstr "_MyPaint-penselen"
 
 #: ../app/actions/dialogs-actions.c:162
-#, fuzzy
-#| msgctxt "dialogs-action"
-#| msgid "Open the brushes dialog"
 msgctxt "dialogs-action"
 msgid "Open the mypaint brushes dialog"
-msgstr "Het dialoogvenster Penselen openen"
+msgstr "Het dialoogvenster MyPaint-penselen openen"
 
 #: ../app/actions/dialogs-actions.c:167
 msgctxt "dialogs-action"
@@ -3323,7 +3318,7 @@ msgstr "Het dialoogvenster Sjablonen openen"
 #: ../app/actions/dialogs-actions.c:233
 msgctxt "dialogs-action"
 msgid "Error Co_nsole"
-msgstr "_Foutenconsole"
+msgstr "Foutco_nsole"
 
 #: ../app/actions/dialogs-actions.c:234
 msgctxt "dialogs-action"
@@ -3411,7 +3406,7 @@ msgstr "I_nfo"
 #: ../app/actions/dialogs-actions.c:293
 msgctxt "dialogs-action"
 msgid "_Search and Run a Command"
-msgstr ""
+msgstr "Zoek een opdracht en voer deze uit"
 
 #: ../app/actions/dialogs-actions.c:294
 msgctxt "dialogs-action"
@@ -4100,7 +4095,7 @@ msgstr "K_nippen"
 #: ../app/actions/edit-actions.c:113
 msgctxt "edit-action"
 msgid "Move the selected pixels to the clipboard"
-msgstr "Geselecteerde pixels naar het klembord verplaatsen"
+msgstr "Selectie naar het klembord verplaatsen"
 
 #: ../app/actions/edit-actions.c:118
 msgctxt "edit-action"
@@ -4110,7 +4105,7 @@ msgstr "_Kopiëren"
 #: ../app/actions/edit-actions.c:119
 msgctxt "edit-action"
 msgid "Copy the selected pixels to the clipboard"
-msgstr "Geselecteerde pixels naar het klembord kopiëren"
+msgstr "Selectie naar het klembord kopiëren"
 
 #. GIMP_ICON_COPY_VISIBLE,
 #: ../app/actions/edit-actions.c:124
@@ -4146,7 +4141,7 @@ msgstr "Benoemde buffer k_nippen…"
 #: ../app/actions/edit-actions.c:143
 msgctxt "edit-action"
 msgid "Move the selected pixels to a named buffer"
-msgstr "Geselecteerde pixels naar een benoemde buffer verplaatsen"
+msgstr "Selectie naar een benoemde buffer verplaatsen"
 
 #: ../app/actions/edit-actions.c:148
 msgctxt "edit-action"
@@ -4156,7 +4151,7 @@ msgstr "Benoemde buffer _kopiëren…"
 #: ../app/actions/edit-actions.c:149
 msgctxt "edit-action"
 msgid "Copy the selected pixels to a named buffer"
-msgstr "Geselecteerde pixels naar een benoemde buffer kopiëren"
+msgstr "Selectie naar een benoemde buffer kopiëren"
 
 #. GIMP_ICON_COPY_VISIBLE,
 #: ../app/actions/edit-actions.c:154
@@ -4250,14 +4245,13 @@ msgid "New Layer In _Place"
 msgstr "Nieuwe laag op zelfde plek"
 
 #: ../app/actions/edit-actions.c:212
-#, fuzzy
-#| msgctxt "edit-action"
-#| msgid "Create a new layer from the content of the clipboard"
 msgctxt "edit-action"
 msgid ""
 "Create a new layer from the content of the clipboard and place it at its "
 "original position"
-msgstr "Een nieuwe laag aanmaken met de inhoud van het klembord"
+msgstr ""
+"Een nieuwe laag aanmaken met de inhoud van het klembord en plaats deze op de "
+"oorspronkelijke positie"
 
 #: ../app/actions/edit-actions.c:221
 msgctxt "edit-action"
@@ -4836,7 +4830,7 @@ msgstr "_Licht en schaduw"
 #: ../app/actions/filters-actions.c:76
 msgctxt "filters-action"
 msgid "_Distorts"
-msgstr "Vervormingen"
+msgstr "Vervormen"
 
 #: ../app/actions/filters-actions.c:78
 msgctxt "filters-action"
@@ -4846,7 +4840,7 @@ msgstr "_Artistiek"
 #: ../app/actions/filters-actions.c:80
 msgctxt "filters-action"
 msgid "_Decor"
-msgstr "_Decoratie"
+msgstr "_Decoreren"
 
 #: ../app/actions/filters-actions.c:82
 msgctxt "filters-action"
@@ -4892,7 +4886,7 @@ msgstr "We_b"
 #: ../app/actions/filters-actions.c:98
 msgctxt "filters-action"
 msgid "An_imation"
-msgstr "Ani_matie"
+msgstr "Ani_meren"
 
 #: ../app/actions/filters-actions.c:104
 msgctxt "filters-action"
@@ -7396,12 +7390,9 @@ msgid "Orange"
 msgstr "Bereik"
 
 #: ../app/actions/layers-actions.c:441
-#, fuzzy
-#| msgctxt "view-zoom-action"
-#| msgid "Set a custom zoom factor"
 msgctxt "layers-action"
 msgid "Layer Color Tag: Set to Orange"
-msgstr "Een aangepast zoomniveau instellen"
+msgstr ""
 
 #: ../app/actions/layers-actions.c:446
 msgctxt "layers-action"
@@ -7722,12 +7713,9 @@ msgstr ""
 "inhoud."
 
 #: ../app/actions/mypaint-brushes-actions.c:43
-#, fuzzy
-#| msgctxt "brushes-action"
-#| msgid "Brushes Menu"
 msgctxt "mypaint-brushes-action"
 msgid "MyPaint Brushes Menu"
-msgstr "Menu Penselen"
+msgstr "Menu MyPaint-penselen"
 
 #: ../app/actions/mypaint-brushes-actions.c:47
 #, fuzzy
@@ -8109,7 +8097,7 @@ msgstr "Patroon bewerken…"
 #: ../app/actions/plug-in-actions.c:82
 msgctxt "plug-in-action"
 msgid "Reset all _Filters"
-msgstr "All_e filters resetten"
+msgstr "All_e filters terugzetten"
 
 #: ../app/actions/plug-in-actions.c:83
 msgctxt "plug-in-action"
@@ -8118,7 +8106,7 @@ msgstr "Alle plug-ins terugzetten op standaardinstellingen"
 
 #: ../app/actions/plug-in-commands.c:175
 msgid "Reset all Filters"
-msgstr "Alle filters resetten"
+msgstr "Alle filters terugzetten"
 
 #: ../app/actions/plug-in-commands.c:181
 #: ../app/actions/tool-options-commands.c:196 ../app/dialogs/fill-dialog.c:114
@@ -8260,7 +8248,7 @@ msgstr "Selectieranden _verzachten…"
 #: ../app/actions/select-actions.c:76
 msgctxt "select-action"
 msgid "Blur the selection border so that it fades out smoothly"
-msgstr "De selectierand vervagen zodat die geleidelijk uitvloeit"
+msgstr "De selectierand vervagen zodat deze geleidelijk uitvloeit"
 
 #: ../app/actions/select-actions.c:81
 msgctxt "select-action"
@@ -8332,7 +8320,7 @@ msgstr "Selectie vullen"
 #: ../app/actions/select-actions.c:118
 msgctxt "select-action"
 msgid "Fill the selection outline"
-msgstr "Selectie-omtrek vullen"
+msgstr "Selectie vullen"
 
 #: ../app/actions/select-actions.c:123
 msgctxt "select-action"
@@ -8340,9 +8328,6 @@ msgid "_Fill Selection Outline"
 msgstr "Selectie vullen"
 
 #: ../app/actions/select-actions.c:124
-#, fuzzy
-#| msgctxt "select-action"
-#| msgid "Stroke the selection with last used values"
 msgctxt "select-action"
 msgid "Fill the selection outline with last used values"
 msgstr "Selectie belijnen met laatst gebruikte waarden"
@@ -9671,12 +9656,9 @@ msgid "Orange"
 msgstr "Bereik"
 
 #: ../app/actions/vectors-actions.c:218
-#, fuzzy
-#| msgctxt "view-zoom-action"
-#| msgid "Set a custom zoom factor"
 msgctxt "vectors-action"
 msgid "Path Color Tag: Set to Orange"
-msgstr "Een aangepast zoomniveau instellen"
+msgstr ""
 
 #: ../app/actions/vectors-actions.c:223
 msgctxt "vectors-action"
@@ -9884,11 +9866,8 @@ msgid "New Path"
 msgstr "Nieuw pad"
 
 #: ../app/actions/vectors-commands.c:206
-#, fuzzy
-#| msgctxt "vectors-action"
-#| msgid "Create a new path..."
 msgid "Create a New Path"
-msgstr "Nieuw pad aanmaken…"
+msgstr "Nieuw pad aanmaken"
 
 #: ../app/actions/vectors-commands.c:425 ../app/tools/gimpvectoroptions.c:202
 #: ../app/tools/gimpvectortool.c:740
@@ -9961,7 +9940,7 @@ msgstr "Een nieuwe weergave voor deze afbeelding aanmaken"
 #: ../app/actions/view-actions.c:95
 msgctxt "view-action"
 msgid "_Close View"
-msgstr "Weergave _sluiten"
+msgstr "Afbeelding sluiten"
 
 #: ../app/actions/view-actions.c:96
 msgctxt "view-action"
@@ -9994,17 +9973,14 @@ msgid "Zoom to _Selection"
 msgstr "Zoom tot _selectie"
 
 #: ../app/actions/view-actions.c:114
-#, fuzzy
-#| msgctxt "view-action"
-#| msgid "Adjust the zoom ratio so that the entire window is used"
 msgctxt "view-action"
 msgid "Adjust the zoom ratio so that the selection fills the window"
-msgstr "Het zoomniveau aanpassen zodat het volledige venster gebruikt wordt"
+msgstr "Het zoomniveau aanpassen zodat de selectie het venster vult"
 
 #: ../app/actions/view-actions.c:119
 msgctxt "view-action"
 msgid "Re_vert Zoom"
-msgstr "Zoomniveau _terughalen"
+msgstr "Zoomniveau herstellen"
 
 #: ../app/actions/view-actions.c:120
 msgctxt "view-action"
@@ -10017,12 +9993,9 @@ msgid "Othe_r rotation angle..."
 msgstr "Andere rotatiehoek..."
 
 #: ../app/actions/view-actions.c:126
-#, fuzzy
-#| msgctxt "view-zoom-action"
-#| msgid "Set a custom zoom factor"
 msgctxt "view-action"
 msgid "Set a custom rotation angle"
-msgstr "Een aangepast zoomniveau instellen"
+msgstr "Een aangepast draaihoek instellen"
 
 #: ../app/actions/view-actions.c:131
 msgctxt "view-action"
@@ -10032,7 +10005,7 @@ msgstr "Nav_igatievenster"
 #: ../app/actions/view-actions.c:132
 msgctxt "view-action"
 msgid "Show an overview window for this image"
-msgstr "Een overzichtsvenster tonen voor deze afbeelding"
+msgstr "Open het Navigatievenster voor deze afbeelding"
 
 #: ../app/actions/view-actions.c:137
 msgctxt "view-action"
@@ -10192,7 +10165,7 @@ msgstr "_Raster tonen"
 #: ../app/actions/view-actions.c:236
 msgctxt "view-action"
 msgid "Display the image's grid"
-msgstr "Het afbeeldingsraster tonen"
+msgstr "Toon raster over afbeelding"
 
 #: ../app/actions/view-actions.c:242
 msgctxt "view-action"
@@ -10295,12 +10268,9 @@ msgid "Toggle fullscreen view"
 msgstr "Volledig scherm in/uitschakelen"
 
 #: ../app/actions/view-actions.c:315
-#, fuzzy
-#| msgctxt "view-zoom-action"
-#| msgid "Set a custom zoom factor"
 msgctxt "view-action"
 msgid "Set zoom factor"
-msgstr "Een aangepast zoomniveau instellen"
+msgstr "Stel zoomniveau in"
 
 #: ../app/actions/view-actions.c:320
 msgctxt "view-action"
@@ -10447,12 +10417,9 @@ msgid "Zoom 1:16"
 msgstr "Zoom 1:16"
 
 #: ../app/actions/view-actions.c:451
-#, fuzzy
-#| msgctxt "view-zoom-action"
-#| msgid "Othe_r..."
 msgctxt "view-zoom-action"
 msgid "Othe_r zoom factor..."
-msgstr "_Anders…"
+msgstr "Andere zoomfactor..."
 
 #: ../app/actions/view-actions.c:452
 msgctxt "view-zoom-action"
@@ -10797,7 +10764,7 @@ msgstr "_Vorig zoomniveau (%d%%)"
 
 #: ../app/actions/view-actions.c:911
 msgid "Re_vert Zoom"
-msgstr "Zoomniveau herstellen"
+msgstr "Terug naar vorig zoomniveau"
 
 #: ../app/actions/view-actions.c:1098
 #, c-format
@@ -10923,7 +10890,7 @@ msgstr ""
 #: ../app/actions/windows-actions.c:130
 msgctxt "windows-action"
 msgid "Single-Window Mode"
-msgstr "Modus Enkel venster"
+msgstr "Enkelvenstermodus"
 
 #: ../app/actions/windows-actions.c:131
 msgctxt "windows-action"
@@ -11644,7 +11611,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:400
 msgid "Use GIMP in a single-window mode."
-msgstr "GIMP gebruiken in modus Enkel venster"
+msgstr "GIMP gebruiken in Enkelvenstermodus"
 
 #: ../app/config/gimprc-blurbs.h:403
 msgid "Hide docks and other windows, leaving only image windows."
@@ -12196,7 +12163,7 @@ msgstr "Alfa"
 #: ../app/core/core-enums.c:270
 msgctxt "histogram-channel"
 msgid "Luminance"
-msgstr ""
+msgstr "Helderheid"
 
 #: ../app/core/core-enums.c:271
 msgctxt "histogram-channel"
@@ -12995,12 +12962,9 @@ msgid "Jitter"
 msgstr "Jitter"
 
 #: ../app/core/core-enums.c:1192
-#, fuzzy
-#| msgctxt "dialogs-action"
-#| msgid "Open the selection editor"
 msgctxt "filter-region"
 msgid "Use the selection as input"
-msgstr "De editor voor selecties openen"
+msgstr "Gebruik de selectie als bron"
 
 #: ../app/core/core-enums.c:1193
 #, fuzzy
@@ -13586,10 +13550,8 @@ msgid "Flood Channel"
 msgstr "Kanaal spiegelen"
 
 #: ../app/core/gimpchannel.c:842
-#, fuzzy
-#| msgid "Cannot stroke empty channel."
 msgid "Cannot fill empty channel."
-msgstr "Kan geen lijn tekenen om leeg kanaal."
+msgstr "Kan geen leeg kanaal vullen."
 
 #: ../app/core/gimpchannel.c:878
 msgid "Cannot stroke empty channel."
@@ -13647,10 +13609,8 @@ msgstr "Tekengedragingen"
 
 #: ../app/core/gimpcontext.c:718 ../app/core/gimpcontext.c:719
 #: ../app/tools/gimpmybrushtool.c:73
-#, fuzzy
-#| msgid "Paintbrush"
 msgid "MyPaint Brush"
-msgstr "Penseel"
+msgstr "MyPaint-penseel"
 
 #: ../app/core/gimpcontext.c:725 ../app/core/gimpcontext.c:726
 msgid "Pattern"
@@ -13669,8 +13629,6 @@ msgid "Palette"
 msgstr "Palet"
 
 #: ../app/core/gimpcontext.c:746 ../app/core/gimpcontext.c:747
-#, fuzzy
-#| msgid "Tool Presets"
 msgid "Tool Preset"
 msgstr "Gereedschapsopties"
 
@@ -13804,15 +13762,13 @@ msgid "Render Stroke"
 msgstr "Belijning renderen"
 
 #: ../app/core/gimpdrawable-gradient.c:136 ../app/tools/gimpgradienttool.c:1037
-#, fuzzy
-#| msgid "Gradient"
 msgctxt "undo-type"
 msgid "Gradient"
 msgstr "Kleurverlopen"
 
 #: ../app/core/gimpdrawable-gradient.c:224
 msgid "Calculating distance map"
-msgstr ""
+msgstr "Berekenen afstandskaart"
 
 #: ../app/core/gimpdrawable-levels.c:72
 #: ../app/tools/gimpforegroundselectoptions.c:116
@@ -13855,17 +13811,14 @@ msgid "Output type"
 msgstr "Uitvoertype"
 
 #: ../app/core/gimpfilloptions.c:103
-#, fuzzy
-#| msgctxt "dockable-action"
-#| msgid "_Tab Style"
 msgid "Style"
-msgstr "_Tabstijl"
+msgstr "Stijl"
 
 #: ../app/core/gimpfilloptions.c:111 ../app/pdb/gimppdbcontext.c:100
 #: ../app/tools/gimpbucketfilloptions.c:132
 #: ../app/tools/gimpselectionoptions.c:80 ../app/tools/gimptextoptions.c:134
 msgid "Antialiasing"
-msgstr "Anti-aliasing"
+msgstr "Randverzachting"
 
 #: ../app/core/gimpfilloptions.c:303
 msgctxt "undo-type"
@@ -13893,17 +13846,14 @@ msgid "Fill with Pattern"
 msgstr "Met patroon vullen"
 
 #: ../app/core/gimpfilloptions.c:401
-#, fuzzy
-#| msgid "Fill with plain color"
 msgctxt "undo-type"
 msgid "Fill with Solid Color"
 msgstr "Vullen met egale kleur"
 
 #: ../app/core/gimpgradient-load.c:72
-#, fuzzy, c-format
-#| msgid "not a GIMP Curves file"
+#, c-format
 msgid "Not a GIMP gradient file."
-msgstr "Geen GIMP-curvesbestand"
+msgstr "Geen GIMP-kleurverloopbestand."
 
 #: ../app/core/gimpgradient-load.c:95
 #, c-format
@@ -13913,34 +13863,29 @@ msgstr "Ongeldige UTF-8-tekenreeks in kleurverloopbestand ‘%s’."
 #: ../app/core/gimpgradient-load.c:121
 #, c-format
 msgid "File is corrupt."
-msgstr ""
+msgstr "Bestand is corrupt."
 
 #: ../app/core/gimpgradient-load.c:189 ../app/core/gimpgradient-load.c:199
 #: ../app/core/gimpgradient-load.c:211 ../app/core/gimpgradient-load.c:221
 #: ../app/core/gimpgradient-load.c:229 ../app/core/gimpgradient-load.c:237
 #, c-format
 msgid "Corrupt segment %d."
-msgstr ""
+msgstr "Corrupt segment %d."
 
 #: ../app/core/gimpgradient-load.c:248 ../app/core/gimpgradient-load.c:258
-#, fuzzy, c-format
-#| msgid "Gradient file '%s' is corrupt: Segments do not span the range 0-1."
+#, c-format
 msgid "Segments do not span the range 0-1."
-msgstr ""
-"Kleurverloopbestand '%s' is beschadigd: segmenten omvatten niet het bereik "
-"0-1."
+msgstr "Segmenten liggen niet in het bereik van 0-1."
 
 #: ../app/core/gimpgradient-load.c:273
-#, fuzzy, c-format
-#| msgid "Invalid empty gradient name"
+#, c-format
 msgid "In line %d of gradient file: "
-msgstr "Ongeldige lege kleurverloopnaam"
+msgstr "In regel %d van kleurverloopbestand:"
 
 #: ../app/core/gimpgradient-load.c:349
-#, fuzzy, c-format
-#| msgid "No linear gradients found in '%s'"
+#, c-format
 msgid "No linear gradients found."
-msgstr "Geen lineaire kleurverlopen gevonden in ‘%s’"
+msgstr "Geen lineaire kleurverlopen gevonden."
 
 #: ../app/core/gimpgradient-save.c:211
 #, c-format
@@ -15609,10 +15554,8 @@ msgstr "Kleurbenadering van _transparantie inschakelen"
 # gebruiken/inschakelen
 #: ../app/dialogs/convert-indexed-dialog.c:275
 #: ../app/dialogs/preferences-dialog.c:2168
-#, fuzzy
-#| msgid "Enable dithering of _transparency"
 msgid "Enable dithering of text layers"
-msgstr "Kleurbenadering van _transparantie inschakelen"
+msgstr "Kleurbenadering van tekstlagen inschakelen"
 
 #: ../app/dialogs/convert-indexed-dialog.c:286
 #: ../app/dialogs/convert-precision-dialog.c:276
@@ -16760,7 +16703,7 @@ msgstr "Gedrag bij openen bestanden:"
 #: ../app/dialogs/preferences-dialog.c:1440
 #: ../app/dialogs/preferences-dialog.c:2172
 msgid "Filter Dialogs"
-msgstr "Filterdialoog"
+msgstr "* Filters"
 
 #: ../app/dialogs/preferences-dialog.c:1444
 #: ../app/dialogs/preferences-dialog.c:2184
@@ -17064,17 +17007,17 @@ msgstr "Standaardinstellingen dialoogvensters"
 
 #: ../app/dialogs/preferences-dialog.c:2082
 msgid "Reset Dialog Defaults"
-msgstr "Standaardinstellingen dialoogvensters terugzetten"
+msgstr "Instellingen dialoogvensters terugzetten"
 
 #. Color profile import dialog
 #: ../app/dialogs/preferences-dialog.c:2090
 msgid "Color Profile Import Dialog"
-msgstr "Dialoogvenster Importeer kleurprofiel"
+msgstr "* Importeer kleurprofiel"
 
 #. All color profile chooser dialogs
 #: ../app/dialogs/preferences-dialog.c:2099
 msgid "Color Profile File Dialogs"
-msgstr "Dialoogvenster kleurprofielen"
+msgstr "* Kleurprofielbestanden"
 
 #: ../app/dialogs/preferences-dialog.c:2104
 msgid "Profile folder:"
@@ -17087,7 +17030,7 @@ msgstr "Kies standaardmap voor kleurprofielen"
 #. Convert to Color Profile Dialog
 #: ../app/dialogs/preferences-dialog.c:2109
 msgid "Convert to Color Profile Dialog"
-msgstr "Dialoogvenster 'Converteer naar kleurprofiel'"
+msgstr "* Converteer naar kleurprofiel"
 
 # tooltip: sets how colors are managed for your display
 # opties: gevoelsmatig, relative colorimetric, Verzadiging,
@@ -17104,7 +17047,7 @@ msgstr "Zwartpuntcompensatie"
 #. Convert Precision Dialog
 #: ../app/dialogs/preferences-dialog.c:2122
 msgid "Precision Conversion Dialog"
-msgstr "Dialoogvenster bitdiepteconversie"
+msgstr "* Bitdiepteconversie"
 
 #: ../app/dialogs/preferences-dialog.c:2129
 msgid "Dither layers:"
@@ -17120,171 +17063,118 @@ msgstr "Kanalen/maskers rasteren:"
 
 #. Convert Indexed Dialog
 #: ../app/dialogs/preferences-dialog.c:2143
-#, fuzzy
-#| msgid "Indexed Color Conversion"
 msgid "Indexed Conversion Dialog"
 msgstr "Geïndexeerde kleuromzetting"
 
 #: ../app/dialogs/preferences-dialog.c:2148
-#, fuzzy
-#| msgid "Colormap"
 msgid "Colormap:"
-msgstr "Kleurenkaart"
+msgstr "Kleurenkaart:"
 
 #: ../app/dialogs/preferences-dialog.c:2151
-#, fuzzy
-#| msgid "_Maximum number of colors:"
 msgid "Maximum number of colors:"
-msgstr "_Maximum aantal kleuren:"
+msgstr "Maximum aantal kleuren:"
 
 #: ../app/dialogs/preferences-dialog.c:2155
-#, fuzzy
-#| msgid "_Remove unused colors from colormap"
 msgid "Remove unused and duplicate colors from colormap"
-msgstr "Ongebruikte _kleuren uit kleurenkaart verwijderen"
+msgstr "Ongebruikte kleuren uit kleurenkaart verwijderen"
 
 #: ../app/dialogs/preferences-dialog.c:2161
-#, fuzzy
-#| msgid "Color _dithering:"
 msgid "Color dithering:"
-msgstr "Kle_urbenadering:"
+msgstr "Kleurbenadering:"
 
 # gebruiken/inschakelen
 #: ../app/dialogs/preferences-dialog.c:2165
-#, fuzzy
-#| msgid "Enable dithering of _transparency"
 msgid "Enable dithering of transparency"
-msgstr "Kleurbenadering van _transparantie inschakelen"
+msgstr "Kleurbenadering van transparantie inschakelen"
 
 #: ../app/dialogs/preferences-dialog.c:2177
-#, fuzzy
-#| msgid "Delete Device Settings"
 msgid "Keep recent settings:"
-msgstr "Apparaatinstellingen verwijderen"
+msgstr "Bewaar recente instellingen:"
 
 #: ../app/dialogs/preferences-dialog.c:2181
-#, fuzzy
-#| msgid "Delete the selected settings"
 msgid "Default to the last used settings"
-msgstr "De geselecteerde instellingen verwijderen"
+msgstr "Herlaad laatst gebruikte instellingen"
 
 #. Canvas Size Dialog
 #: ../app/dialogs/preferences-dialog.c:2188
-#, fuzzy
-#| msgid "Canvas Size"
 msgid "Canvas Size Dialog"
-msgstr "Canvasgrootte"
+msgstr "* Canvasgrootte"
 
 # opvullen
 #: ../app/dialogs/preferences-dialog.c:2193
 #: ../app/dialogs/preferences-dialog.c:2222
-#, fuzzy
-#| msgid "_Fill with:"
 msgid "Fill with:"
-msgstr "_Vullen met:"
+msgstr "Vullen met:"
 
 #: ../app/dialogs/preferences-dialog.c:2196
-#, fuzzy
-#| msgid "Resize _layers:"
 msgid "Resize layers:"
-msgstr "Grootte _lagen wijzigen:"
+msgstr "Laaggrootte wijzigen:"
 
 #: ../app/dialogs/preferences-dialog.c:2200
-#, fuzzy
-#| msgid "Resize Text Layer"
 msgid "Resize text layers"
-msgstr "Grootte tekstlaag wijzigen"
+msgstr "Grootte tekstlaag wijzigen:"
 
 #. New Layer Dialog
 #: ../app/dialogs/preferences-dialog.c:2204
-#, fuzzy
-#| msgid "New Layer"
 msgid "New Layer Dialog"
-msgstr "Nieuwe laag"
+msgstr "* Nieuwe laag"
 
 # Laagnaam/naam laag
 #: ../app/dialogs/preferences-dialog.c:2209
-#, fuzzy
-#| msgid "Layer _name:"
 msgid "Layer name:"
-msgstr "Laag_naam:"
+msgstr "Laagnaam:"
 
 #: ../app/dialogs/preferences-dialog.c:2213
-#, fuzzy
-#| msgid "File Type:"
 msgid "Fill type:"
-msgstr "Bestandstype:"
+msgstr "Vultype:"
 
 #. Layer Boundary Size Dialog
 #: ../app/dialogs/preferences-dialog.c:2217
-#, fuzzy
-#| msgid "Set Layer Boundary Size"
 msgid "Layer Boundary Size Dialog"
-msgstr "Laaggrensgrootte instellen"
+msgstr "* Laaggrensgrootte instellen"
 
 #. Add Layer Mask Dialog
 #: ../app/dialogs/preferences-dialog.c:2226
-#, fuzzy
-#| msgid "Add Layer Mask"
 msgid "Add Layer Mask Dialog"
-msgstr "Laagmasker toevoegen"
+msgstr "* Laagmasker toevoegen"
 
 #: ../app/dialogs/preferences-dialog.c:2231
-#, fuzzy
-#| msgid "Layer Fill Type"
 msgid "Layer mask type:"
-msgstr "Vultype laag"
+msgstr "Soort laagmasker:"
 
 #: ../app/dialogs/preferences-dialog.c:2235
-#, fuzzy
-#| msgid "In_vert mask"
 msgid "Invert mask"
-msgstr "Masker in_verteren"
+msgstr "Masker inverteren"
 
 #. Merge Layers Dialog
 #: ../app/dialogs/preferences-dialog.c:2239
-#, fuzzy
-#| msgid "New Layer"
 msgid "Merge Layers Dialog"
-msgstr "Nieuwe laag"
+msgstr "* Lagen samenvoegen"
 
 #: ../app/dialogs/preferences-dialog.c:2246
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Merge layers"
 msgid "Merged layer size:"
-msgstr "Lagen samenvoegen"
+msgstr "Grootte samengevoegde laag:"
 
 #: ../app/dialogs/preferences-dialog.c:2250
-#, fuzzy
-#| msgid "Merge within active _group only"
 msgid "Merge within active group only"
-msgstr "Alleen binnen actieve _groep samenvoegen"
+msgstr "Alleen binnen actieve groep samenvoegen"
 
 #: ../app/dialogs/preferences-dialog.c:2253
-#, fuzzy
-#| msgid "_Discard invisible layers"
 msgid "Discard invisible layers"
-msgstr "_Onzichtbare lagen verwerpen"
+msgstr "Onzichtbare lagen verwijderen"
 
 #. New Channel Dialog
 #: ../app/dialogs/preferences-dialog.c:2257
-#, fuzzy
-#| msgid "New Channel Color"
 msgid "New Channel Dialog"
-msgstr "Nieuwe kanaalkleur"
+msgstr "* Nieuw kanaal"
 
 #: ../app/dialogs/preferences-dialog.c:2262
-#, fuzzy
-#| msgid "Channel _name:"
 msgid "Channel name:"
-msgstr "Kanaal_naam:"
+msgstr "Naam:"
 
 #: ../app/dialogs/preferences-dialog.c:2266
-#, fuzzy
-#| msgid "Color space:"
 msgid "Color and opacity:"
-msgstr "Kleurruimte:"
+msgstr "Kleur en doorzichtigheid:"
 
 #: ../app/dialogs/preferences-dialog.c:2267
 #, fuzzy
@@ -17295,28 +17185,22 @@ msgstr "Naam, kleur en dekking van het kanaal bewerken"
 
 #. New Path Dialog
 #: ../app/dialogs/preferences-dialog.c:2272
-#, fuzzy
-#| msgid "New Path Options"
 msgid "New Path Dialog"
-msgstr "Opties nieuw pad"
+msgstr "* Nieuw pad"
 
 #  The name entry hbox, label and entry
 #: ../app/dialogs/preferences-dialog.c:2277
 msgid "Path name:"
-msgstr "Padnaam:"
+msgstr "Naam:"
 
 #. Export Path Dialog
 #: ../app/dialogs/preferences-dialog.c:2281
-#, fuzzy
-#| msgid "New Path Options"
 msgid "Export Paths Dialog"
-msgstr "Opties nieuw pad"
+msgstr "* Paden exporteren"
 
 #: ../app/dialogs/preferences-dialog.c:2286
-#, fuzzy
-#| msgid "Temporary folder:"
 msgid "Export folder:"
-msgstr "Tijdelijke map:"
+msgstr "Doelmap:"
 
 #: ../app/dialogs/preferences-dialog.c:2287
 #, fuzzy
@@ -17325,23 +17209,17 @@ msgid "Select Default Folder for Exporting Paths"
 msgstr "Selecteer een map voor tijdelijke bestanden"
 
 #: ../app/dialogs/preferences-dialog.c:2291
-#, fuzzy
-#| msgid "Export the active path"
 msgid "Export the active path only"
-msgstr "Actieve pad exporteren"
+msgstr "Alleen het actieve pad exporteren"
 
 #. Import Path Dialog
 #: ../app/dialogs/preferences-dialog.c:2295
-#, fuzzy
-#| msgid "Import Paths"
 msgid "Import Paths Dialog"
-msgstr "Paden importeren"
+msgstr "* Paden importeren"
 
 #: ../app/dialogs/preferences-dialog.c:2300
-#, fuzzy
-#| msgid "Temporary folder:"
 msgid "Import folder:"
-msgstr "Tijdelijke map:"
+msgstr "Map:"
 
 #: ../app/dialogs/preferences-dialog.c:2301
 #, fuzzy
@@ -17350,87 +17228,70 @@ msgid "Select Default Folder for Importing Paths"
 msgstr "Selecteer een map voor tijdelijke bestanden"
 
 #: ../app/dialogs/preferences-dialog.c:2305
-#, fuzzy
-#| msgid "_Merge imported paths"
 msgid "Merge imported paths"
-msgstr "_Geïmporteerde paden samenvoegen"
+msgstr "Geïmporteerde paden samenvoegen"
 
 #: ../app/dialogs/preferences-dialog.c:2308
-#, fuzzy
-#| msgid "_Merge imported paths"
 msgid "Scale imported paths"
-msgstr "_Geïmporteerde paden samenvoegen"
+msgstr "Geïmporteerde paden schalen"
 
 #. Feather Selection Dialog
 #: ../app/dialogs/preferences-dialog.c:2312
-#, fuzzy
-#| msgid "Feather Selection"
 msgid "Feather Selection Dialog"
-msgstr "Selectieranden verzachten"
+msgstr "* Keuze verzachting (veerselectie)"
 
 # zachte/vage/onscherpe randen
 #: ../app/dialogs/preferences-dialog.c:2317
-#, fuzzy
-#| msgid "Feather edges"
 msgid "Feather radius:"
-msgstr "Randen verzachten"
+msgstr "Radius verzachting:"
 
 #. Grow Selection Dialog
 #: ../app/dialogs/preferences-dialog.c:2321
-#, fuzzy
-#| msgid "Grow Selection"
 msgid "Grow Selection Dialog"
-msgstr "Selectie vergroten"
+msgstr "* Selectie vergroten"
 
 #: ../app/dialogs/preferences-dialog.c:2326
 msgid "Grow radius:"
-msgstr ""
+msgstr "Hoeveelheid:"
 
 #. Shrink Selection Dialog
 #: ../app/dialogs/preferences-dialog.c:2330
-#, fuzzy
-#| msgid "Shrink Selection"
 msgid "Shrink Selection Dialog"
-msgstr "Selectie krimpen"
+msgstr "* Selectie krimpen"
 
 # Shrink wrap is the phenomenon of fitting the image window to the image dimensions
 # 01/03/08: "venster" toegevoegd voor alle duidelijkheid
 #: ../app/dialogs/preferences-dialog.c:2335
-#, fuzzy
-#| msgctxt "view-action"
-#| msgid "Shrink _Wrap"
 msgid "Shrink radius:"
-msgstr "Venster naar afbeeldings_grootte"
+msgstr "Hoeveelheid:"
 
 #: ../app/dialogs/preferences-dialog.c:2339
 #: ../app/dialogs/preferences-dialog.c:2356
-#, fuzzy
-#| msgid "Select a single contiguous area"
 msgid "Selected areas continue outside the image"
-msgstr "Eén aaneengesloten gebied selecteren"
+msgstr "Geselecteerde gebieden mogen buiten beeld vallen"
 
 #. Border Selection Dialog
 #: ../app/dialogs/preferences-dialog.c:2343
 msgid "Border Selection Dialog"
-msgstr "Dialoogvenster Randselectie"
+msgstr "* Randselectie"
 
 #: ../app/dialogs/preferences-dialog.c:2348
 msgid "Border radius:"
-msgstr "Straal van rand:"
+msgstr "Straal: "
 
 #: ../app/dialogs/preferences-dialog.c:2352
 msgid "Border style:"
-msgstr "Randstijl:"
+msgstr "Stijl:"
 
 #. Fill Options Dialog
 #: ../app/dialogs/preferences-dialog.c:2360
 msgid "Fill Selection Outline & Fill Path Dialogs"
-msgstr "Dialoogvenster Vul selectieomtrek en Vul paden"
+msgstr "* Vul selectieomtrek en Vul paden"
 
 #. Stroke Options Dialog
 #: ../app/dialogs/preferences-dialog.c:2369
 msgid "Stroke Selection & Stroke Path Dialogs"
-msgstr "Dialoogvenster omlijning en pad"
+msgstr "* Omlijning en pad"
 
 #: ../app/dialogs/preferences-dialog.c:2392
 #: ../app/dialogs/preferences-dialog.c:2393
@@ -17733,7 +17594,7 @@ msgstr "Kleven"
 
 #: ../app/dialogs/preferences-dialog.c:2952
 msgid "Default Behavior in Normal Mode"
-msgstr "Standaardgedrag met normaal scherm"
+msgstr "Standaardgedrag voor modus Normaal"
 
 #: ../app/dialogs/preferences-dialog.c:2956
 msgid "Default Behavior in Fullscreen Mode"
@@ -18571,7 +18432,7 @@ msgstr "graden"
 # zoomniveau/zoomverhouding
 #: ../app/display/gimpdisplayshell-scale-dialog.c:115
 msgid "Zoom Ratio"
-msgstr "Zoomverhouding"
+msgstr "Zoom"
 
 #: ../app/display/gimpdisplayshell-scale-dialog.c:117
 msgid "Select Zoom Ratio"
@@ -19170,19 +19031,16 @@ msgstr "Doorsnede"
 #: ../app/operations/operations-enums.c:153
 msgctxt "layer-mode"
 msgid "Normal (legacy)"
-msgstr "Normaal (v)"
+msgstr "Normaal (verouderd)"
 
 #. Translators: this is an abbreviated version of "Normal (legacy)".
 #. Keep it short.
 #: ../app/operations/operations-enums.c:156
 msgctxt "layer-mode"
 msgid "Normal (l)"
-msgstr "Normaal (l)"
+msgstr "Normaal (v)"
 
 #: ../app/operations/operations-enums.c:157
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Dissolve"
 msgctxt "layer-mode"
 msgid "Dissolve"
 msgstr "Oplossen"
@@ -19334,7 +19192,7 @@ msgstr "Kleur (HSL) (v)"
 #: ../app/operations/operations-enums.c:206
 msgctxt "layer-mode"
 msgid "Value (HSV) (legacy)"
-msgstr "Waarde (HSV) (v)"
+msgstr "Waarde (HSV) (verouderd)"
 
 #. Translators: this is an abbreviated version of "Value (HSV) (legacy)".
 #. Keep it short.
@@ -24264,7 +24122,7 @@ msgstr "Transformatie is bezig"
 #: ../app/tools/gimptransformtool.c:259
 #, c-format
 msgid "The selection does not intersect with the layer."
-msgstr "De selectie overlapt niet met de laag. "
+msgstr "De selectie overlapt niet met de laag."
 
 #: ../app/tools/gimptransformtool.c:514 ../app/tools/gimptransformtool.c:526
 msgid "Transform Step"
@@ -24292,7 +24150,7 @@ msgstr "Er is geen pad om te transformeren."
 
 #: ../app/tools/gimptransformtool.c:1482
 msgid "The active path's strokes are locked."
-msgstr "De lijnen van het actieve pad zijn vergrendeld"
+msgstr "De lijnen van het actieve pad zijn vergrendeld."
 
 #: ../app/tools/gimptransformtool.c:1486
 msgid "The active path has no strokes."
@@ -25913,7 +25771,7 @@ msgstr "Opvulkleur"
 
 #: ../app/widgets/gimpfilleditor.c:143
 msgid "_Antialiasing"
-msgstr "_Anti-aliasing"
+msgstr "R_andverzachting"
 
 #: ../app/widgets/gimpgradienteditor.c:756
 #, c-format
