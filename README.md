@@ -1,7 +1,7 @@
 # gimp2.10.ui_nl
 Vertaling interface Gimp 2.10 naar 'ut Nederlands
 
-Gimp-vertaling stand van zaken do 24 mei 2018, 18h
+Gimp-vertaling stand van zaken <b>do 24 mei 2018, 18h</b>
 
 1. menu's
 
