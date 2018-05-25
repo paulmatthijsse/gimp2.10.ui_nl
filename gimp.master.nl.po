@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=Internationalisation\n"
 "POT-Creation-Date: 2018-05-08 15:19+0000\n"
-"PO-Revision-Date: 2018-05-24 18:07+0200\n"
+"PO-Revision-Date: 2018-05-25 14:52+0200\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -654,12 +654,12 @@ msgstr "Te tekenen"
 
 #: ../app/actions/actions.c:153 ../app/dialogs/dialogs.c:338
 msgid "Paint Dynamics"
-msgstr "Tekengedragingen"
+msgstr "Penseelgedrag"
 
 #: ../app/actions/actions.c:156 ../app/dialogs/dialogs.c:424
 #: ../app/widgets/gimpdynamicseditor.c:97
 msgid "Paint Dynamics Editor"
-msgstr "Editor schildergedragingen"
+msgstr "Penseelgedragbewerker"
 
 #: ../app/actions/actions.c:159
 msgid "Edit"
@@ -3175,22 +3175,22 @@ msgstr "De editor voor penselen openen"
 #: ../app/actions/dialogs-actions.c:149
 msgctxt "dialogs-action"
 msgid "Paint Dynamics"
-msgstr "Tekengedragingen"
+msgstr "Penseelgedrag"
 
 #: ../app/actions/dialogs-actions.c:150
 msgctxt "dialogs-action"
 msgid "Open paint dynamics dialog"
-msgstr "Het dialoogvenster Tekengedragingen openen"
+msgstr "Het dialoogvenster Penseelgedrag openen"
 
 #: ../app/actions/dialogs-actions.c:155
 msgctxt "dialogs-action"
 msgid "Paint Dynamics Editor"
-msgstr "Editor Tekengedragingen"
+msgstr "Penseelgedragbewerker"
 
 #: ../app/actions/dialogs-actions.c:156
 msgctxt "dialogs-action"
 msgid "Open the paint dynamics editor"
-msgstr "De editor voor tekengedragingen openen"
+msgstr "Bewerk het penseelgedrag"
 
 #: ../app/actions/dialogs-actions.c:161
 msgctxt "dialogs-action"
@@ -3917,37 +3917,37 @@ msgstr "Witbalans werkt enkel op RGB-kleurlagen."
 #: ../app/actions/dynamics-actions.c:43
 msgctxt "dynamics-action"
 msgid "Paint Dynamics Menu"
-msgstr "Menu Tekengedragingen"
+msgstr "Menu Penseelgedrag"
 
 #: ../app/actions/dynamics-actions.c:47
 msgctxt "dynamics-action"
 msgid "_New Dynamics"
-msgstr "_Nieuwe tekengedragingen"
+msgstr "_Nieuw penseelgedrag"
 
 #: ../app/actions/dynamics-actions.c:48
 msgctxt "dynamics-action"
 msgid "Create a new dynamics"
-msgstr "Nieuwe tekengedragingen aanmaken"
+msgstr "Nieuw penseelgedrag aanmaken"
 
 #: ../app/actions/dynamics-actions.c:53
 msgctxt "dynamics-action"
 msgid "D_uplicate Dynamics"
-msgstr "Gedragingen d_upliceren"
+msgstr "Penseelgedrag d_upliceren"
 
 #: ../app/actions/dynamics-actions.c:54
 msgctxt "dynamics-action"
 msgid "Duplicate this dynamics"
-msgstr "Deze gedragingen dupliceren"
+msgstr "Dit penseelgedrag dupliceren"
 
 #: ../app/actions/dynamics-actions.c:59
 msgctxt "dynamics-action"
 msgid "Copy Dynamics _Location"
-msgstr "_Locatie gedragingen kopiëren"
+msgstr "_Locatie penseelgedrag kopiëren"
 
 #: ../app/actions/dynamics-actions.c:60
 msgctxt "dynamics-action"
 msgid "Copy dynamics file location to clipboard"
-msgstr "Locatie van gedragingenbestand kopiëren naar het klembord"
+msgstr "Locatie van penseelgedragbestand kopiëren naar klembord"
 
 #: ../app/actions/dynamics-actions.c:65
 msgctxt "dynamics-action"
@@ -3957,50 +3957,47 @@ msgstr "Toon in bestandsbeheer"
 #: ../app/actions/dynamics-actions.c:66
 msgctxt "dynamics-action"
 msgid "Show dynamics file location in the file manager"
-msgstr "Toon locatie van gedragingenbestand in bestandsbeheer"
+msgstr "Toon locatie van penseelgedragbestand in bestandsbeheer"
 
 #: ../app/actions/dynamics-actions.c:71
 msgctxt "dynamics-action"
 msgid "_Delete Dynamics"
-msgstr "Gedragingen ver_wijderen"
+msgstr "Penseelge_drag verwijderen"
 
 #: ../app/actions/dynamics-actions.c:72
 msgctxt "dynamics-action"
 msgid "Delete this dynamics"
-msgstr "Deze gedragingen verwijderen"
+msgstr "Dit penseelgedrag verwijderen"
 
 #: ../app/actions/dynamics-actions.c:77
 msgctxt "dynamics-action"
 msgid "_Refresh Dynamics"
-msgstr "Ged_ragingen vernieuwen"
+msgstr "Penseelged_rag vernieuwen"
 
 #: ../app/actions/dynamics-actions.c:78
 msgctxt "dynamics-action"
 msgid "Refresh dynamics"
-msgstr "Gedragingen vernieuwen"
+msgstr "Penseelgedrag vernieuwen"
 
 #: ../app/actions/dynamics-actions.c:86
 msgctxt "dynamics-action"
 msgid "_Edit Dynamics..."
-msgstr "Gedragingen _bewerken…"
+msgstr "P_enseelgedrag bewerken..."
 
 #: ../app/actions/dynamics-actions.c:87
-#, fuzzy
-#| msgctxt "dynamics-action"
-#| msgid "Edit dynamics"
 msgctxt "dynamics-action"
 msgid "Edit this dynamics"
-msgstr "Gedragingen bewerken"
+msgstr "Dit penseelgedrag bewerken"
 
 #: ../app/actions/dynamics-editor-actions.c:43
 msgctxt "dynamics-editor-action"
 msgid "Paint Dynamics Editor Menu"
-msgstr "Menu editor Tekengedragingen"
+msgstr "Menu penseelgedragbewerker"
 
 #: ../app/actions/dynamics-editor-actions.c:51
 msgctxt "dynamics-editor-action"
 msgid "Edit Active Dynamics"
-msgstr "Actieve tekengedragingen bewerken"
+msgstr "Actief penseelgedrag bewerken"
 
 #  <Image>/Edit
 #: ../app/actions/edit-actions.c:65
@@ -11175,7 +11172,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:23 ../app/config/gimprc-blurbs.h:28
 msgid "Sets the dynamics search path."
-msgstr "Zoekpad voor tekengedragingen instellen."
+msgstr "Zoekpad voor penseelgedrag instellen."
 
 #: ../app/config/gimprc-blurbs.h:33
 msgid ""
@@ -11264,7 +11261,8 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:148
 msgid "When enabled, the selected dynamics will be used for all tools."
 msgstr ""
-"Als dit is ingeschakeld, gebruiken alle gereedschappen dezelfde gedragingen."
+"Als dit is ingeschakeld, gebruiken alle gereedschappen hetzelfde "
+"penseelgedrag."
 
 #: ../app/config/gimprc-blurbs.h:154
 msgid "When enabled, the selected gradient will be used for all tools."
@@ -12939,7 +12937,7 @@ msgstr "Kracht"
 #: ../app/core/core-enums.c:1160
 msgctxt "dynamics-output-type"
 msgid "Aspect ratio"
-msgstr "Verhouding"
+msgstr "Helling"
 
 #: ../app/core/core-enums.c:1161
 msgctxt "dynamics-output-type"
@@ -13048,7 +13046,7 @@ msgstr "Verwijderen van ‘%s’ mislukt: %s"
 #: ../app/dialogs/preferences-dialog.c:3097
 #: ../app/tools/gimppaintoptions-gui.c:226
 msgid "Dynamics"
-msgstr "Gedragingen"
+msgstr "Gedrag"
 
 # Documentgeschiedenis/overzicht 'ongedaan maken'
 # wissen/leegmaken
@@ -13365,7 +13363,7 @@ msgstr "Hardheid van penseel"
 
 #: ../app/core/gimpbrushgenerated.c:165 ../app/paint/gimppaintoptions.c:201
 msgid "Brush Aspect Ratio"
-msgstr "Verhouding van penseel"
+msgstr "Helling van penseel"
 
 #: ../app/core/gimpbrushgenerated.c:172 ../app/paint/gimppaintoptions.c:208
 msgid "Brush Angle"
@@ -13605,7 +13603,7 @@ msgstr "Penseel"
 
 #: ../app/core/gimpcontext.c:712
 msgid "Paint dynamics"
-msgstr "Tekengedragingen"
+msgstr "Tekengedrag"
 
 #: ../app/core/gimpcontext.c:718 ../app/core/gimpcontext.c:719
 #: ../app/tools/gimpmybrushtool.c:73
@@ -13774,7 +13772,7 @@ msgstr "Berekenen afstandskaart"
 #: ../app/tools/gimpforegroundselectoptions.c:116
 #: ../app/tools/gimplevelstool.c:132
 msgid "Levels"
-msgstr "Aantal kleuren"
+msgstr "Kleurniveaus"
 
 #  push an undo
 #: ../app/core/gimpdrawable-offset.c:249
@@ -13818,7 +13816,7 @@ msgstr "Stijl"
 #: ../app/tools/gimpbucketfilloptions.c:132
 #: ../app/tools/gimpselectionoptions.c:80 ../app/tools/gimptextoptions.c:134
 msgid "Antialiasing"
-msgstr "Randverzachting"
+msgstr "Randen glad maken"
 
 #: ../app/core/gimpfilloptions.c:303
 msgctxt "undo-type"
@@ -14951,10 +14949,8 @@ msgid "Dash offset"
 msgstr "Streep, stip"
 
 #: ../app/core/gimpstrokeoptions.c:224
-#, fuzzy
-#| msgid "_Emulate brush dynamics"
 msgid "Emulate brush dynamics"
-msgstr "Penseelgedragingen _nabootsen"
+msgstr "Penseelgedraging nabootsen"
 
 #. no undo (or redo) steps available
 #: ../app/core/gimpsymmetry.c:134 ../app/widgets/gimpimagepropview.c:399
@@ -15115,10 +15111,8 @@ msgid "Max strokes Y"
 msgstr "Lijnen ver_grendelen"
 
 #: ../app/core/gimpsymmetry-tiling.c:153
-#, fuzzy
-#| msgid "_Maximum number of colors:"
 msgid "Maximum number of strokes on the Y axis"
-msgstr "_Maximum aantal kleuren:"
+msgstr ""
 
 #: ../app/core/gimptagcache.c:442
 #, fuzzy, c-format
@@ -15226,7 +15220,7 @@ msgstr "Opgeslagen penseel toepassen"
 
 #: ../app/core/gimptoolpreset.c:161
 msgid "Apply stored dynamics"
-msgstr "Opgeslagen gedragingen toepassen"
+msgstr "Opgeslagen penseelgedrag toepassen"
 
 #: ../app/core/gimptoolpreset.c:168
 #, fuzzy
@@ -15335,6 +15329,7 @@ msgstr "Bezoek de website van GIMP"
 #: ../app/dialogs/about-dialog.c:130
 msgid "translator-credits"
 msgstr ""
+"Paul Matthijsse & Just Vecht (2018)\n"
 "Justin van Steijn (2016)\n"
 "André Schutten\n"
 "Filip Vervloesem\n"
@@ -15344,7 +15339,7 @@ msgstr ""
 "Gert de Wit (2000)\n"
 "Wing Tung Leung (1998)\n"
 "\n"
-"Kijk voor meer info op http://nl.gnome.org/"
+"Kijk voor meer info op http://nl.gnome.org"
 
 #: ../app/dialogs/about-dialog.c:529
 msgid "GIMP is brought to you by"
@@ -15691,7 +15686,7 @@ msgstr "Navigatie"
 
 #: ../app/dialogs/dialogs.c:408
 msgid "Display Navigation"
-msgstr "Weergavenavigatie"
+msgstr "Navigatie"
 
 #: ../app/dialogs/dialogs.c:414
 msgid "FG/BG"
@@ -16713,7 +16708,7 @@ msgstr "Toon geavanceerde kleuropties"
 #: ../app/dialogs/preferences-dialog.c:1458
 #: ../app/dialogs/preferences-dialog.c:1459
 msgid "Image Import & Export"
-msgstr "Afbeeldingen importeren en exporteren"
+msgstr "Importeren/exporteren"
 
 #. Import Policies
 #: ../app/dialogs/preferences-dialog.c:1465
@@ -16842,7 +16837,7 @@ msgstr "Pe_nseel"
 
 #: ../app/dialogs/preferences-dialog.c:1625
 msgid "_Dynamics"
-msgstr "_Gedragingen"
+msgstr "Ge_drag"
 
 #: ../app/dialogs/preferences-dialog.c:1628
 msgid "_Pattern"
@@ -17675,11 +17670,11 @@ msgstr "Penseelmappen selecteren"
 
 #: ../app/dialogs/preferences-dialog.c:3097
 msgid "Dynamics Folders"
-msgstr "Mappen voor gedragingen"
+msgstr "Mappen voor penseelgedrag"
 
 #: ../app/dialogs/preferences-dialog.c:3099
 msgid "Select Dynamics Folders"
-msgstr "Mappen voor gedragingen selecteren"
+msgstr "Mappen voor penseelgedrag selecteren"
 
 #: ../app/dialogs/preferences-dialog.c:3101
 msgid "Pattern Folders"
@@ -17990,7 +17985,7 @@ msgstr "Tekengereedschap:"
 
 #: ../app/dialogs/stroke-dialog.c:252
 msgid "_Emulate brush dynamics"
-msgstr "Penseelgedragingen _nabootsen"
+msgstr "P_enseelgedraging nabootsen"
 
 #: ../app/dialogs/tips-dialog.c:99
 msgid "The GIMP tips file is empty!"
@@ -18197,7 +18192,7 @@ msgstr "Verplaatsen"
 #: ../app/display/gimpcursorview.c:793 ../app/display/gimpcursorview.c:794
 #: ../app/display/gimpcursorview.c:795 ../app/display/gimpcursorview.c:796
 msgid "n/a"
-msgstr "n.v.t."
+msgstr "nvt."
 
 #: ../app/display/gimpcursorview.c:228 ../app/display/gimpcursorview.c:253
 #: ../app/display/gimpcursorview.c:278
@@ -18219,7 +18214,7 @@ msgstr "Eenheden"
 #. Selection Bounding Box
 #: ../app/display/gimpcursorview.c:265
 msgid "Selection Bounding Box"
-msgstr "Omvattende box van selectie"
+msgstr "Selectie"
 
 #. Width
 #: ../app/display/gimpcursorview.c:301
@@ -18436,11 +18431,11 @@ msgstr "Zoom"
 
 #: ../app/display/gimpdisplayshell-scale-dialog.c:117
 msgid "Select Zoom Ratio"
-msgstr "Zoomverhouding selecteren"
+msgstr "Kies zoomratio"
 
 #: ../app/display/gimpdisplayshell-scale-dialog.c:162
 msgid "Zoom ratio:"
-msgstr "Zoomverhouding:"
+msgstr "Zoomratio:"
 
 # zoomen
 #: ../app/display/gimpdisplayshell-scale-dialog.c:189
@@ -19852,7 +19847,7 @@ msgstr "Enkel beweging"
 
 #: ../app/paint/gimpairbrushoptions.c:85
 msgid "Flow"
-msgstr "Stroom"
+msgstr "Sterkte"
 
 #: ../app/paint/gimpbrushcore.c:378
 msgid "No brushes available for use with this tool."
@@ -19860,7 +19855,7 @@ msgstr "Geen penselen beschikbaar voor dit gereedschap."
 
 #: ../app/paint/gimpbrushcore.c:385
 msgid "No paint dynamics available for use with this tool."
-msgstr "Er zijn geen tekengedragingen beschikbaar voor dit gereedschap."
+msgstr "Er zijn geen tekenopties beschikbaar voor dit gereedschap."
 
 #: ../app/paint/gimpclone.c:87 ../app/tools/gimpclonetool.c:62
 msgid "Clone"
@@ -19946,7 +19941,7 @@ msgstr "Vorm"
 
 #: ../app/paint/gimpinkoptions.c:113 ../app/widgets/gimpbrusheditor.c:189
 msgid "Aspect ratio"
-msgstr "Verhouding"
+msgstr "Aspectratio"
 
 #: ../app/paint/gimpinkoptions.c:114
 msgid "Ink Blob Aspect Ratio"
@@ -20005,7 +20000,7 @@ msgstr "Penseelgrootte"
 
 #: ../app/paint/gimppaintoptions.c:200
 msgid "Aspect Ratio"
-msgstr "Verhouding"
+msgstr "Richting"
 
 #: ../app/paint/gimppaintoptions.c:214 ../app/tools/gimpwarpoptions.c:112
 #: ../app/widgets/gimpbrusheditor.c:211
@@ -20088,7 +20083,7 @@ msgstr "Vervaging van huidige penseel negeren"
 
 #: ../app/paint/gimppaintoptions.c:292
 msgid "Apply Jitter"
-msgstr "Bibbereffect toepassen"
+msgstr "Spikkeleffect"
 
 #: ../app/paint/gimppaintoptions.c:293
 msgid "Scatter brush as you paint"
@@ -20105,7 +20100,7 @@ msgstr "Afstand spikkeling"
 
 #: ../app/paint/gimppaintoptions.c:305
 msgid "Dynamics Options"
-msgstr "Gedragingsopties"
+msgstr "Opties"
 
 #: ../app/paint/gimppaintoptions.c:312
 msgid "Fade length"
@@ -20148,7 +20143,7 @@ msgstr ""
 
 #: ../app/paint/gimppaintoptions.c:406
 msgid "Smooth stroke"
-msgstr "Lijnen vloeiend maken"
+msgstr "Vloeiende lijnen"
 
 #: ../app/paint/gimppaintoptions.c:407
 msgid "Paint smoother strokes"
@@ -20191,7 +20186,7 @@ msgstr "De smeerkracht"
 #: ../app/paint/gimpsmudgeoptions.c:77
 msgctxt "smudge-tool"
 msgid "Flow"
-msgstr "Stroom"
+msgstr ""
 
 #: ../app/paint/gimpsmudgeoptions.c:78
 msgid "The amount of brush color to blend"
@@ -20403,22 +20398,22 @@ msgstr "Penseel ‘%s’ is geen aangemaakt penseel"
 
 #: ../app/pdb/gimppdb-utils.c:146
 msgid "Invalid empty paint dynamics name"
-msgstr "Ongeldige lege naam tekengedragingen"
+msgstr "Ongeldige lege naam tekenoptie"
 
 #: ../app/pdb/gimppdb-utils.c:155
 #, c-format
 msgid "Paint dynamics '%s' not found"
-msgstr "Tekengedragingen '%s' zijn niet gevonden"
+msgstr "Tekenopties '%s' niet gevonden"
 
 #: ../app/pdb/gimppdb-utils.c:161
 #, c-format
 msgid "Paint dynamics '%s' is not editable"
-msgstr "Tekengedragingen '%s' zijn niet bewerkbaar"
+msgstr "Tekenopties '%s' niet bewerkbaar"
 
 #: ../app/pdb/gimppdb-utils.c:168
 #, c-format
 msgid "Paint dynamics '%s' is not renamable"
-msgstr "Tekengedragingen '%s' zijn niet hernoembaar"
+msgstr "Tekenopties '%s' niet hernoembaar"
 
 #: ../app/pdb/gimppdb-utils.c:189
 msgid "Invalid empty MyPaint brush name"
@@ -21891,7 +21886,7 @@ msgid ""
 "threshold). Disable antialiasing to fill the entire area uniformly."
 msgstr ""
 "Baseer vulling op kleurverschil van de gekozen pixel (zie drempelwaarde). "
-"Vink antialiasing uit om het hele gebied uniform te vullen. "
+"Vink deze optie uit om het hele gebied uniform te vullen. "
 
 #: ../app/tools/gimpbucketfilloptions.c:142
 #: ../app/tools/gimpgradientoptions.c:129
@@ -23332,7 +23327,7 @@ msgstr "Penseel terugzetten op oorspronkelijke grootte"
 
 #: ../app/tools/gimppaintoptions-gui.c:182
 msgid "Reset aspect ratio to brush's native aspect ratio"
-msgstr "Penseel terugzetten op oorspronkelijke hoogte-breedteverhouding"
+msgstr "Penseel terugzetten op oorspronkelijke aspectratio"
 
 #: ../app/tools/gimppaintoptions-gui.c:190
 msgid "Reset angle to brush's native angle"
@@ -23353,7 +23348,7 @@ msgstr "Terugzetten op standaardwaarden"
 
 #: ../app/tools/gimppaintoptions-gui.c:230
 msgid "Edit this dynamics"
-msgstr "Gedragingen bewerken"
+msgstr "Opties bewerken"
 
 #: ../app/tools/gimppaintoptions-gui.c:326
 msgid "Fade Options"
@@ -23483,9 +23478,7 @@ msgstr "Maateenheid selectiegrootte"
 
 #: ../app/tools/gimprectangleoptions.c:192
 msgid "Enable lock of aspect ratio, width, height or size"
-msgstr ""
-"Vergrendeling instellen van hoogte-breedteverhouding, breedte, hoogte of "
-"grootte"
+msgstr "Vergrendeling instellen van aspectratio, breedte, hoogte of grootte"
 
 #: ../app/tools/gimprectangleoptions.c:201
 msgid "Choose what has to be locked"
@@ -25771,7 +25764,7 @@ msgstr "Opvulkleur"
 
 #: ../app/widgets/gimpfilleditor.c:143
 msgid "_Antialiasing"
-msgstr "R_andverzachting"
+msgstr "Maak randen glad"
 
 #: ../app/widgets/gimpgradienteditor.c:756
 #, c-format
