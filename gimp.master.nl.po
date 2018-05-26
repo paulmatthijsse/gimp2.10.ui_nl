@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=Internationalisation\n"
 "POT-Creation-Date: 2018-05-08 15:19+0000\n"
-"PO-Revision-Date: 2018-05-25 14:52+0200\n"
+"PO-Revision-Date: 2018-05-26 12:32+0200\n"
 "Last-Translator: Paul Matthijsse <paul.matthijsse@wanadoo.fr>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -3406,12 +3406,12 @@ msgstr "I_nfo"
 #: ../app/actions/dialogs-actions.c:293
 msgctxt "dialogs-action"
 msgid "_Search and Run a Command"
-msgstr "Zoek een opdracht en voer deze uit"
+msgstr "Zoek een functie en voer deze uit"
 
 #: ../app/actions/dialogs-actions.c:294
 msgctxt "dialogs-action"
 msgid "Search commands by keyword, and run them"
-msgstr ""
+msgstr "Zoek een functie en voer deze uit"
 
 #: ../app/actions/dialogs-actions.c:357
 #: ../app/dialogs/preferences-dialog.c:2023
@@ -3642,12 +3642,9 @@ msgid "Show in _File Manager"
 msgstr "Toon in bestandsbeheerd"
 
 #: ../app/actions/documents-actions.c:71
-#, fuzzy
-#| msgctxt "documents-action"
-#| msgid "Copy image location to clipboard"
 msgctxt "documents-action"
 msgid "Show image location in the file manager"
-msgstr "Kopieer de locatie van de afbeelding naar het klembord"
+msgstr "Toon bestandslocatie in bestandsbeheer"
 
 #: ../app/actions/documents-actions.c:76
 msgctxt "documents-action"
@@ -3787,13 +3784,13 @@ msgstr ""
 #: ../app/actions/drawable-actions.c:45
 msgctxt "drawable-action"
 msgid "_Equalize"
-msgstr "Contrast v_ergroten"
+msgstr "Gelijkmaken"
 
 # verhogen/vergroten
 #: ../app/actions/drawable-actions.c:46
 msgctxt "drawable-action"
 msgid "Automatic contrast enhancement"
-msgstr "Automatisch contrast verhogen"
+msgstr "Automatisch contrast verbeteren"
 
 #: ../app/actions/drawable-actions.c:51
 msgctxt "drawable-action"
@@ -3888,7 +3885,7 @@ msgstr "90° met de _klok mee draaien"
 #: ../app/actions/drawable-actions.c:114
 msgctxt "drawable-action"
 msgid "Rotate drawable 90 degrees to the right"
-msgstr "Laag 90 graden naar rechts draaien"
+msgstr "Laag 90° naar rechts draaien"
 
 #: ../app/actions/drawable-actions.c:119
 msgctxt "drawable-action"
@@ -3898,7 +3895,7 @@ msgstr "_180° draaien"
 #: ../app/actions/drawable-actions.c:120
 msgctxt "drawable-action"
 msgid "Turn drawable upside-down"
-msgstr "Laag ondersteboven keren"
+msgstr "Laag 180° draaien"
 
 #: ../app/actions/drawable-actions.c:125
 msgctxt "drawable-action"
@@ -3908,7 +3905,7 @@ msgstr "90° _tegen de klok in draaien"
 #: ../app/actions/drawable-actions.c:126
 msgctxt "drawable-action"
 msgid "Rotate drawable 90 degrees to the left"
-msgstr "Laag 90 graden naar links draaien"
+msgstr "Laag 90° naar links draaien"
 
 #: ../app/actions/drawable-commands.c:89
 msgid "White Balance operates only on RGB color layers."
@@ -4971,12 +4968,9 @@ msgid "Ca_rtoon..."
 msgstr ""
 
 #: ../app/actions/filters-actions.c:207
-#, fuzzy
-#| msgctxt "channels-action"
-#| msgid "_New Channel..."
 msgctxt "filters-action"
 msgid "_Channel Mixer..."
-msgstr "_Nieuw kanaal…"
+msgstr "Kanalenmixer..."
 
 #: ../app/actions/filters-actions.c:212
 msgctxt "filters-action"
@@ -5026,7 +5020,7 @@ msgstr "Kleur naar _alfa..."
 #: ../app/actions/filters-actions.c:252
 msgctxt "filters-action"
 msgid "_Extract Component..."
-msgstr ""
+msgstr "Extraheer kleurcomponent..."
 
 #: ../app/actions/filters-actions.c:257
 msgctxt "filters-action"
@@ -5053,7 +5047,7 @@ msgstr "_Desatureren…"
 #: ../app/actions/filters-actions.c:277
 msgctxt "filters-action"
 msgid "_Desaturate..."
-msgstr "Omzetten naar grijs..."
+msgstr "Grijswaarden..."
 
 #: ../app/actions/filters-actions.c:282
 msgctxt "filters-action"
@@ -5230,17 +5224,14 @@ msgid "_Maze..."
 msgstr "_Uitvloeien…"
 
 #: ../app/actions/filters-actions.c:427
-#, fuzzy
-#| msgctxt "filters-action"
-#| msgid "_Gaussian Blur..."
 msgctxt "filters-action"
 msgid "_Median Blur..."
-msgstr "_Gaussische vervaging…"
+msgstr "Mediaanvervaging..."
 
 #: ../app/actions/filters-actions.c:432
 msgctxt "filters-action"
 msgid "_Mono Mixer..."
-msgstr "_Monochroom Mixer..."
+msgstr "_Monochrome mixer..."
 
 #: ../app/actions/filters-actions.c:437
 msgctxt "filters-action"
@@ -5377,11 +5368,9 @@ msgid "P_olar Coordinates..."
 msgstr "P_oolcoördinaten…"
 
 #: ../app/actions/filters-actions.c:547
-#, fuzzy
-#| msgid "_Posterize..."
 msgctxt "filters-action"
 msgid "_Posterize..."
-msgstr "_Posterkleuren…"
+msgstr "_Posterkleuren..."
 
 #: ../app/actions/filters-actions.c:552
 msgctxt "filters-action"
@@ -5429,7 +5418,7 @@ msgstr ""
 #: ../app/actions/filters-actions.c:592
 msgctxt "filters-action"
 msgid "S_hadows-Highlights..."
-msgstr "Sc_haduw-hoge lichten..."
+msgstr "Sc_haduwen/hoge lichten..."
 
 #: ../app/actions/filters-actions.c:597
 #, fuzzy
@@ -6114,7 +6103,7 @@ msgstr "‘%s’ opslaan als POV-Ray"
 #: ../app/actions/help-actions.c:38 ../app/actions/help-actions.c:41
 msgctxt "help-action"
 msgid "_Help"
-msgstr "_Hulp"
+msgstr "_Help"
 
 #: ../app/actions/help-actions.c:42
 msgctxt "help-action"
@@ -6169,7 +6158,7 @@ msgstr "_Hulplijnen"
 #: ../app/actions/image-actions.c:65
 msgctxt "image-action"
 msgid "Meta_data"
-msgstr ""
+msgstr "Metadata"
 
 #: ../app/actions/image-actions.c:67
 msgctxt "image-action"
@@ -6194,7 +6183,7 @@ msgstr "Plots"
 #: ../app/actions/image-actions.c:71
 msgctxt "image-action"
 msgid "_Tone Mapping"
-msgstr "Tint plots (HDR)"
+msgstr "Toonmappen (HDR)"
 
 # frame for Comment
 #: ../app/actions/image-actions.c:72
@@ -6205,7 +6194,7 @@ msgstr "_Componenten"
 #: ../app/actions/image-actions.c:73
 msgctxt "image-action"
 msgid "D_esaturate"
-msgstr "Omz_etten naar grijs"
+msgstr "Grijswaarden"
 
 #: ../app/actions/image-actions.c:76
 msgctxt "image-action"
@@ -6233,11 +6222,9 @@ msgid "_Assign Color Profile..."
 msgstr "Kleurprofiel toewijzen..."
 
 #: ../app/actions/image-actions.c:89
-#, fuzzy
-#| msgid "Can't apply color profile to grayscale image (%s)"
 msgctxt "image-action"
 msgid "Set a color profile on the image"
-msgstr "Kan geen kleurprofiel toepassen op een grijswaardenafbeelding (%s)"
+msgstr "Wijs kleurprofiel toe aan deze afbeelding"
 
 #: ../app/actions/image-actions.c:94
 msgctxt "image-action"
@@ -6245,11 +6232,9 @@ msgid "_Convert to Color Profile..."
 msgstr "Naar kleurprofiel _converteren..."
 
 #: ../app/actions/image-actions.c:95
-#, fuzzy
-#| msgid "Can't apply color profile to grayscale image (%s)"
 msgctxt "image-action"
 msgid "Apply a color profile to the image"
-msgstr "Kan geen kleurprofiel toepassen op een grijswaardenafbeelding (%s)"
+msgstr "Wijs kleurprofiel toe aan deze afbeelding"
 
 #: ../app/actions/image-actions.c:100
 msgctxt "image-action"
@@ -6257,12 +6242,9 @@ msgid "_Discard Color Profile"
 msgstr "Kleurprofiel weggooien"
 
 #: ../app/actions/image-actions.c:101
-#, fuzzy
-#| msgctxt "view-action"
-#| msgid "Display the image's color sample points"
 msgctxt "image-action"
 msgid "Remove the image's color profile"
-msgstr "De kleurenmonsterpunten van de afbeelding tonen"
+msgstr "Verwijder kleurprofiel van deze afbeelding"
 
 #: ../app/actions/image-actions.c:106
 msgctxt "image-action"
@@ -6270,12 +6252,9 @@ msgid "_Save Color Profile to File..."
 msgstr "_Sla kleurprofiel op in bestand..."
 
 #: ../app/actions/image-actions.c:107
-#, fuzzy
-#| msgctxt "view-action"
-#| msgid "Display the image's color sample points"
 msgctxt "image-action"
 msgid "Save the image's color profile to an ICC file"
-msgstr "De kleurenmonsterpunten van de afbeelding tonen"
+msgstr "Sla het kleurprofiel op in een ICC-bestand"
 
 #: ../app/actions/image-actions.c:112
 msgctxt "image-action"
@@ -6401,9 +6380,9 @@ msgid ""
 "to assigning a built-in sRGB color profile. Better leave color management "
 "enabled."
 msgstr ""
-"Of de afbeelding kleurbeheerd is. Kleurbeheer uitschakelen staat gelijk aan "
-"het kiezen van een ingebouwd sRGB-profiel. Aangeraden wordt om kleurbeheer "
-"ingeschakeld te laten. "
+"Wel of geen kleurbeheer voor deze afbeelding gebruiken. Kleurbeheer "
+"uitschakelen staat gelijk aan het kiezen van het ingebouwde sRGB-profiel. "
+"Aangeraden wordt om kleurbeheer ingeschakeld te laten. "
 
 #: ../app/actions/image-actions.c:193 ../app/actions/image-actions.c:444
 msgctxt "image-convert-action"
@@ -6553,7 +6532,7 @@ msgstr "_180° draaien"
 #: ../app/actions/image-actions.c:287
 msgctxt "image-action"
 msgid "Turn the image upside-down"
-msgstr "De afbeelding ondersteboven draaien"
+msgstr "De afbeelding 180° draaien"
 
 #: ../app/actions/image-actions.c:292
 msgctxt "image-action"
@@ -7082,7 +7061,7 @@ msgstr "_Bijsnijden tot selectie"
 #: ../app/actions/layers-actions.c:236
 msgctxt "layers-action"
 msgid "Crop the layer to the extents of the selection"
-msgstr "Laag bijsnijden tot de beeldinhoud"
+msgstr "Laag bijsnijden tot de selectie"
 
 #: ../app/actions/layers-actions.c:241
 msgctxt "layers-action"
@@ -8099,7 +8078,7 @@ msgstr "All_e filters terugzetten"
 #: ../app/actions/plug-in-actions.c:83
 msgctxt "plug-in-action"
 msgid "Reset all plug-ins to their default settings"
-msgstr "Alle plug-ins terugzetten op standaardinstellingen"
+msgstr "Alle filters terugzetten op standaardwaarden"
 
 #: ../app/actions/plug-in-commands.c:175
 msgid "Reset all Filters"
@@ -10488,12 +10467,9 @@ msgid "Rotate _180°"
 msgstr "Roteer _180°"
 
 #: ../app/actions/view-actions.c:505
-#, fuzzy
-#| msgctxt "image-action"
-#| msgid "Turn the image upside-down"
 msgctxt "view-action"
 msgid "Turn the view upside-down"
-msgstr "De afbeelding ondersteboven draaien"
+msgstr "De afbeelding 180° draaien"
 
 #: ../app/actions/view-actions.c:510
 msgctxt "view-action"
@@ -20259,7 +20235,7 @@ msgstr "Niveaus"
 #: ../app/pdb/color-cmds.c:247 ../app/pdb/drawable-color-cmds.c:680
 msgctxt "undo-type"
 msgid "Posterize"
-msgstr "Antal kleuren verminderen"
+msgstr "Posterkleuren"
 
 #: ../app/pdb/color-cmds.c:286 ../app/pdb/color-cmds.c:327
 #: ../app/pdb/drawable-color-cmds.c:325
@@ -21703,7 +21679,7 @@ msgstr ""
 
 #: ../app/tools/gimpairbrushtool.c:68
 msgid "Airbrush Tool: Paint using a brush, with variable pressure"
-msgstr "Verfspuit: met een penseel tekenen met variabele druk"
+msgstr "Verfspuit: breng kleur aan met variabele druk"
 
 #: ../app/tools/gimpairbrushtool.c:69
 msgid "_Airbrush"
@@ -22006,8 +21982,7 @@ msgstr "Kooitransformatie"
 
 #: ../app/tools/gimpclonetool.c:63
 msgid "Clone Tool: Selectively copy from an image or pattern, using a brush"
-msgstr ""
-"Klonen: met een penseel selectief kopiëren van een afbeelding of patroon"
+msgstr "Klonen: met een penseel een afbeelding of patroon selectief kopiëren"
 
 #: ../app/tools/gimpclonetool.c:64
 msgid "_Clone"
@@ -22976,11 +22951,11 @@ msgstr "Gevoeligheid"
 
 #: ../app/tools/gimpinktool.c:66
 msgid "Ink Tool: Calligraphy-style painting"
-msgstr "Inktpot: tekenen in kalligrafie-stijl"
+msgstr "Inktpot: tekenen in kalligrafiestijl"
 
 #: ../app/tools/gimpinktool.c:67
 msgid "In_k"
-msgstr "_Inktpot"
+msgstr "In_ktpot"
 
 #: ../app/tools/gimpiscissorsoptions.c:69
 msgid "Interactive boundary"
@@ -23394,7 +23369,7 @@ msgstr "Het alfakanaal van de actieve laag is vergrendeld."
 
 #: ../app/tools/gimppenciltool.c:52
 msgid "Pencil Tool: Hard edge painting using a brush"
-msgstr "Potlood: met harde randen tekenen met een penseel "
+msgstr "Potlood: met harde randen tekenen"
 
 #: ../app/tools/gimppenciltool.c:53
 msgid "Pe_ncil"
@@ -23668,7 +23643,7 @@ msgstr "Naadloze kloon: plak een afbeelding naadloos in een andere"
 
 #: ../app/tools/gimpseamlessclonetool.c:192
 msgid "_Seamless Clone"
-msgstr "_Naadloos klonen"
+msgstr "Naadloo_s klonen"
 
 #: ../app/tools/gimpseamlessclonetool.c:789
 msgid "Cloning the foreground object"
@@ -24191,7 +24166,7 @@ msgstr "Selectie uit pad"
 
 #: ../app/tools/gimpvectortool.c:164
 msgid "Paths Tool: Create and edit paths"
-msgstr "Pen: paden aanmaken en bewerken"
+msgstr "Padgereedschap: paden aanmaken en bewerken"
 
 #: ../app/tools/gimpvectortool.c:165
 msgid "Pat_hs"
